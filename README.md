@@ -6,11 +6,11 @@ RSS feeds in newest first order.
 
 ## tl;dr Available RSS Feeds <!-- omit in toc -->
 
-| Blog                                                                                      | Feed                                                                                                                                                 |
-| ----------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Anthropic Engineering](https://www.anthropic.com/engineering)                            | [feed_anthropic_engineering.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_engineering.xml)                     |
-| [Anthropic Research](https://www.anthropic.com/research)                                  | [feed_anthropic_research.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_research.xml)                           |
-| [Thinking Machines Lab](https://thinkingmachines.ai/blog/)                                | [feed_thinkingmachines.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_thinkingmachines.xml)                               |
+| Blog                                                           | Feed                                                                                                                              |
+| -------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| [Anthropic Engineering](https://www.anthropic.com/engineering) | [feed_anthropic_engineering.xml](https://raw.githubusercontent.com/himalalps/rss-feeds/main/feeds/feed_anthropic_engineering.xml) |
+| [Anthropic Research](https://www.anthropic.com/research)       | [feed_anthropic_research.xml](https://raw.githubusercontent.com/himalalps/rss-feeds/main/feeds/feed_anthropic_research.xml)       |
+| [Thinking Machines Lab](https://thinkingmachines.ai/blog/)     | [feed_thinkingmachines.xml](https://raw.githubusercontent.com/himalalps/rss-feeds/main/feeds/feed_thinkingmachines.xml)           |
 
 ## RSS Feed Generator
 

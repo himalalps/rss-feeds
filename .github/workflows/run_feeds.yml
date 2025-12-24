@@ -41,6 +41,7 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GH_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
 
           # Add feed XML files (cache files no longer used)
           git add feeds/*.xml
@@ -50,5 +51,5 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m 'Update RSS feed'
-            git push
+            git push "$remote_repo" main
           fi
