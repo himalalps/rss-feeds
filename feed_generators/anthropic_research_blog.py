@@ -17,10 +17,7 @@ logger = setup_logging(__name__)
 def extract_articles(script_content):
     """Extract article information from the Next.js script content."""
     articles = []
-
-    # Extract article data from the escaped JSON in the Next.js script
-    # Pattern matches: publishedOn, slug, title, and summary fields
-    pattern = r'\"publishedOn\":\"([^"]+?)\",\"slug\":\{[^}]*?\"current\":\"([^"]+?)\"'
+    pattern = r'\\"publishedOn\\":\\"([^"]+?)\\",\\"slug\\":\{[^}]*?\\"current\\":\\"([^"]+?)\\"'
     matches = re.findall(pattern, script_content)
 
     logger.info(f"Found {len(matches)} articles from JSON data")
@@ -32,7 +29,7 @@ def extract_articles(script_content):
 
             # Find the article object containing this slug to get title and summary
             # Search for the section containing this slug
-            slug_pos = script_content.find(f'"current":"{slug}"')
+            slug_pos = script_content.find(f'\\"current\\":\\"{slug}\\"')
             if slug_pos == -1:
                 continue
 
@@ -42,7 +39,7 @@ def extract_articles(script_content):
 
             # Extract title and summary (they appear AFTER the slug in the data)
             # Use negative lookbehind to handle escaped quotes correctly
-            title_match = re.search(r"\"title\":\"(.*?)(?<!\\)\"", search_section)
+            title_match = re.search(r'\\"title\\":\\"(.*?)(?<!\\)\\"', search_section)
             title = (
                 title_match.group(1) if title_match else slug.replace("-", " ").title()
             )
@@ -50,7 +47,9 @@ def extract_articles(script_content):
             title = re.sub(r"\\(.)", r"\1", title) if title else title
 
             # Extract summary/description
-            summary_match = re.search(r"\"summary\":\"(.*?)(?<!\\)\"", search_section)
+            summary_match = re.search(
+                r'\\"summary\\":\\"(.*?)(?<!\\)\\"', search_section
+            )
             description = summary_match.group(1) if summary_match else title
             # Unescape the description
             description = (
@@ -61,7 +60,7 @@ def extract_articles(script_content):
             date = parse_date(published_date)
 
             # Parse category
-            category_match = re.search(r"\"label\":\"(.*?)(?<!\\)\"", search_section)
+            category_match = re.search(r'\\"label\\":\\"(.*?)(?<!\\)\\"', search_section)
             category = category_match.group(1) if category_match else "Research"
 
             article = {
@@ -81,7 +80,7 @@ def extract_articles(script_content):
             continue
 
     logger.info(f"Successfully parsed {len(articles)} unique research articles")
-    articles.sort(key=lambda x: x["date"] or "", reverse=True)
+    # articles.sort(key=lambda x: x["date"] or "", reverse=True)
     return articles
 
 
