@@ -75,7 +75,6 @@ def extract_articles(script_content):
             continue
 
     logger.info(f"Successfully parsed {len(articles)} articles from JSON data")
-    articles.sort(key=lambda x: x["date"], reverse=True)
     return articles
 
 

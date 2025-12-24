@@ -101,7 +101,6 @@ def extract_articles(soup):
             continue
 
     logger.info(f"Successfully parsed {len(articles)} articles")
-    articles.sort(key=lambda x: x["pub_date"], reverse=True)
     return articles
 
 

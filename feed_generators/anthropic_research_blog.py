@@ -80,7 +80,6 @@ def extract_articles(script_content):
             continue
 
     logger.info(f"Successfully parsed {len(articles)} unique research articles")
-    # articles.sort(key=lambda x: x["date"] or "", reverse=True)
     return articles
 
 
