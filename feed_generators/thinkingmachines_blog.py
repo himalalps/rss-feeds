@@ -1,11 +1,8 @@
-import os
-
 from bs4 import BeautifulSoup
 from utils import (
     extract_title,
     fetch_content,
     generate_rss_feed,
-    get_project_root,
     parse_date,
     save_rss_feed,
     setup_logging,
@@ -126,34 +123,12 @@ def save_thinkingmachines_feed(feed_generator, feed_name="thinkingmachines"):
     return save_rss_feed(feed_generator, feed_config)
 
 
-def main(feed_name="thinkingmachines", html_file=None):
-    """Main entry point with local file support."""
+def main(feed_name="thinkingmachines"):
+    """Main entry point."""
     try:
-        # Check for local HTML file
-        if html_file and os.path.exists(html_file):
-            logger.info(f"Reading HTML from local file: {html_file}")
-            with open(html_file, "r", encoding="utf-8") as f:
-                html_content = f.read()
-        else:
-            # Check common locations for local HTML file
-            common_locations = [
-                "ThinkingMachines.html",
-                get_project_root() / "ThinkingMachines.html",
-            ]
-
-            local_file_found = False
-            for location in common_locations:
-                if os.path.exists(location):
-                    logger.info(f"Found local HTML file: {location}")
-                    with open(location, "r", encoding="utf-8") as f:
-                        html_content = f.read()
-                    local_file_found = True
-                    break
-
-            if not local_file_found:
-                # Fetch from website
-                logger.info("Fetching content from website")
-                html_content = fetch_content("https://thinkingmachines.ai/blog/")
+        # Fetch from website
+        logger.info("Fetching content from website")
+        html_content = fetch_content("https://thinkingmachines.ai/blog/")
 
         # Parse articles
         articles = parse_html(html_content)
@@ -173,7 +148,4 @@ def main(feed_name="thinkingmachines", html_file=None):
 
 
 if __name__ == "__main__":
-    import sys
-
-    html_file = sys.argv[1] if len(sys.argv) > 1 else None
-    main(html_file=html_file)
+    main()

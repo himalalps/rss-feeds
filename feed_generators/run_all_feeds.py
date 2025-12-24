@@ -22,7 +22,7 @@ def run_all_feeds():
     successful_scripts = []
 
     for filename in os.listdir(feed_generators_dir):
-        if filename.endswith(".py") and filename != os.path.basename(__file__):
+        if filename.endswith("blog.py") and filename != os.path.basename(__file__):
             if filename in skip_scripts:
                 logger.info(f"Skipping script: {filename}")
                 continue

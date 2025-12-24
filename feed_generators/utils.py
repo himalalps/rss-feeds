@@ -1,9 +1,10 @@
 import logging
-from datetime import datetime, timedelta
+from datetime import datetime
 from pathlib import Path
 
 import pytz
 import requests
+from feedgen.feed import FeedGenerator
 
 
 def setup_logging(name):
@@ -14,14 +15,9 @@ def setup_logging(name):
     return logging.getLogger(name)
 
 
-def get_project_root():
-    """Get the project root directory."""
-    return Path(__file__).parent.parent
-
-
 def ensure_feeds_directory():
     """Ensure the feeds directory exists."""
-    feeds_dir = get_project_root() / "feeds"
+    feeds_dir = Path(__file__).parent.parent / "feeds"
     feeds_dir.mkdir(exist_ok=True)
     return feeds_dir
 
@@ -43,10 +39,8 @@ def fetch_content(url, user_agent=None, timeout=10):
 
 
 def stable_fallback_date(identifier):
-    """Generate a stable date from a URL or title hash."""
-    hash_val = abs(hash(identifier)) % 730
-    epoch = datetime(2023, 1, 1, 0, 0, 0, tzinfo=pytz.UTC)
-    return epoch + timedelta(days=hash_val)
+    """Generate a fixed fallback date."""
+    return datetime(2023, 1, 1, 0, 0, 0, tzinfo=pytz.UTC)
 
 
 def parse_date(date_text):
@@ -98,8 +92,6 @@ def extract_date(card):
         ".PostDetail_post-timestamp__TBJ0Z",
         ".text-label",
     ]
-
-    logger = setup_logging(__name__)
 
     # Look for date in the card and its parents
     elements_to_check = [card]
@@ -180,7 +172,6 @@ def generate_rss_feed(articles, feed_config):
             - sort_reverse (optional): Whether to sort articles in reverse order (default: True)
             - date_field (optional): Field name for date (default: "date", falls back to "pub_date")
     """
-    from feedgen.feed import FeedGenerator
 
     logger = setup_logging(__name__)
 

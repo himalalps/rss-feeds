@@ -1,9 +1,11 @@
+import re
 from datetime import datetime
 
 import pytz
-import requests
 from bs4 import BeautifulSoup
 from utils import (
+    extract_date,
+    extract_title,
     fetch_content,
     generate_rss_feed,
     save_rss_feed,
@@ -42,7 +44,7 @@ def parse_engineering_html(html_content):
 
         # Extract article data from the escaped JSON in the Next.js script
         # Pattern matches: publishedOn, slug, title, and summary fields
-        import re
+        
 
         pattern = r'\\"publishedOn\\":\\"([^"]+?)\\",\\"slug\\":\{[^}]*?\\"current\\":\\"([^"]+?)\\"'
         matches = re.findall(pattern, script_content)
@@ -108,37 +110,12 @@ def parse_engineering_html(html_content):
                 continue
 
         logger.info(f"Successfully parsed {len(articles)} articles from JSON data")
+        articles.sort(key=lambda x: x["date"], reverse=True)
         return articles
 
     except Exception as e:
         logger.error(f"Error parsing HTML content: {str(e)}")
         raise
-
-
-def generate_engineering_feed(articles, feed_name="anthropic_engineering"):
-    """Generate RSS feed from engineering articles."""
-    feed_config = {
-        "title": "Anthropic Engineering Blog",
-        "description": "Latest engineering articles and insights from Anthropic's engineering team",
-        "link": "https://www.anthropic.com/engineering",
-        "language": "en",
-        "author": {"name": "Anthropic Engineering Team"},
-        "logo": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
-        "subtitle": "Inside the team building reliable AI systems",
-        "sort_reverse": False,
-        "date_field": "date",
-    }
-    return generate_rss_feed(articles, feed_config)
-
-
-def save_engineering_feed(feed_generator, feed_name="anthropic_engineering"):
-    """Save the RSS feed to a file in the feeds directory."""
-    feed_config = {
-        "feed_name": feed_name,
-        "filename_format": "feed_{feed_name}.xml",
-        "pretty": True,
-    }
-    return save_rss_feed(feed_generator, feed_config)
 
 
 def main(feed_name="anthropic_engineering"):
@@ -155,10 +132,25 @@ def main(feed_name="anthropic_engineering"):
             return False
 
         # Generate RSS feed
-        feed = generate_engineering_feed(articles, feed_name)
+        feed_config = {
+            "title": "Anthropic Engineering Blog",
+            "description": "Latest engineering articles and insights from Anthropic's engineering team",
+            "link": "https://www.anthropic.com/engineering",
+            "language": "en",
+            "author": {"name": "Anthropic Engineering Team"},
+            "logo": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
+            "subtitle": "Inside the team building reliable AI systems",
+            "sort_reverse": False,
+            "date_field": "date",
+        }
+        feed = generate_rss_feed(articles, feed_config)
 
-        # Save feed to file
-        output_file = save_engineering_feed(feed, feed_name)
+        # Save RSS feed
+        feed_config = {
+            "feed_name": feed_name,
+            "pretty": True,
+        }
+        save_rss_feed(feed, feed_config)
 
         logger.info(f"Successfully generated RSS feed with {len(articles)} articles")
         return True

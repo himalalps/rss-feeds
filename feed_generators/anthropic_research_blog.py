@@ -74,7 +74,7 @@ def parse_research_html(html_content):
                 }
 
                 # Validate article - research articles may not have dates
-                if validate_article(article, require_date=False):
+                if validate_article(article, require_date=True):
                     articles.append(article)
                 else:
                     logger.debug(f"Article failed validation: {full_url}")
@@ -84,37 +84,12 @@ def parse_research_html(html_content):
                 continue
 
         logger.info(f"Successfully parsed {len(articles)} unique research articles")
+        articles.sort(key=lambda x: x["date"] or "", reverse=True)
         return articles
 
     except Exception as e:
         logger.error(f"Error parsing HTML content: {str(e)}")
         raise
-
-
-def generate_research_feed(articles, feed_name="anthropic_research"):
-    """Generate RSS feed from research articles."""
-    feed_config = {
-        "title": "Anthropic Research",
-        "description": "Latest research papers and updates from Anthropic",
-        "link": "https://www.anthropic.com/research",
-        "language": "en",
-        "author": {"name": "Anthropic Research Team"},
-        "logo": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
-        "subtitle": "Latest research from Anthropic",
-        "sort_reverse": False,
-        "date_field": "date",
-    }
-    return generate_rss_feed(articles, feed_config)
-
-
-def save_research_feed(feed_generator, feed_name="anthropic_research"):
-    """Save the RSS feed to a file in the feeds directory."""
-    feed_config = {
-        "feed_name": feed_name,
-        "filename_format": "feed_{feed_name}.xml",
-        "pretty": True,
-    }
-    return save_rss_feed(feed_generator, feed_config)
 
 
 def main(feed_name="anthropic_research"):
@@ -130,11 +105,24 @@ def main(feed_name="anthropic_research"):
             logger.warning("No articles found. Please check the HTML structure.")
             return False
 
-        # Generate RSS feed
-        feed = generate_research_feed(articles, feed_name)
+        feed_config = {
+            "title": "Anthropic Research",
+            "description": "Latest research papers and updates from Anthropic",
+            "link": "https://www.anthropic.com/research",
+            "language": "en",
+            "author": {"name": "Anthropic Research Team"},
+            "logo": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
+            "subtitle": "Latest research from Anthropic",
+            "sort_reverse": False,
+            "date_field": "date",
+        }
+        feed = generate_rss_feed(articles, feed_config)
 
-        # Save feed to file
-        save_research_feed(feed, feed_name)
+        feed_config = {
+            "feed_name": feed_name,
+            "pretty": True,
+        }
+        save_rss_feed(feed, feed_config)
 
         logger.info(f"Successfully generated RSS feed with {len(articles)} articles")
         return True
