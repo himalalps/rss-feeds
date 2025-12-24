@@ -1,13 +1,10 @@
 import re
-from datetime import datetime
 
-import pytz
 from bs4 import BeautifulSoup
 from utils import (
-    extract_date,
-    extract_title,
     fetch_content,
     generate_rss_feed,
+    parse_date,
     save_rss_feed,
     setup_logging,
     validate_article,
@@ -44,7 +41,6 @@ def parse_engineering_html(html_content):
 
         # Extract article data from the escaped JSON in the Next.js script
         # Pattern matches: publishedOn, slug, title, and summary fields
-        
 
         pattern = r'\\"publishedOn\\":\\"([^"]+?)\\",\\"slug\\":\{[^}]*?\\"current\\":\\"([^"]+?)\\"'
         matches = re.findall(pattern, script_content)
@@ -90,8 +86,7 @@ def parse_engineering_html(html_content):
                 )
 
                 # Parse the date
-                date = datetime.strptime(published_date, "%Y-%m-%d")
-                date = date.replace(hour=0, minute=0, second=0, tzinfo=pytz.UTC)
+                date = parse_date(published_date)
 
                 article = {
                     "title": title,

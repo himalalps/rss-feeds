@@ -63,6 +63,8 @@ def parse_date(date_text):
         "%d %B %Y",  # "07 November 2025"
         "%b %d %Y",  # "Nov 07 2025"
         "%B %d %Y",  # "November 07 2025"
+        "%Y-%m-%dT%H:%M:%S.%fZ",  # "2025-11-07T15:30:00.000Z"
+        "%Y-%m-%dT%H:%M:%S%z",  # "2023-12-07T08:50:00-08:00"
     ]
 
     for date_format in date_formats:

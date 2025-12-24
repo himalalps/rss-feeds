@@ -1,9 +1,10 @@
+import re
+
 from bs4 import BeautifulSoup
 from utils import (
-    extract_date,
-    extract_title,
     fetch_content,
     generate_rss_feed,
+    parse_date,
     save_rss_feed,
     setup_logging,
     validate_article,
@@ -18,66 +19,94 @@ def parse_research_html(html_content):
     try:
         soup = BeautifulSoup(html_content, "html.parser")
         articles = []
-        seen_links = set()
+        
+        # Find the Next.js script tag containing article data
+        script_tag = None
+        for script in soup.find_all("script"):
+            if (
+                script.string
+                and "publishedOn" in script.string
+            ):
+                script_tag = script
+                break
 
-        # Look for research article links using flexible selector
-        research_links = soup.select("a[href*='/research/']")
-        logger.info(f"Found {len(research_links)} potential research article links")
+        if not script_tag:
+            logger.error(
+                "Could not find Next.js data script containing article information"
+            )
+            return []
 
-        for link in research_links:
+        script_content = script_tag.string
+        
+        # Extract article data from the escaped JSON in the Next.js script
+        # Pattern matches: publishedOn, slug, title, and summary fields
+
+        pattern = r'\\"publishedOn\\":\\"([^"]+?)\\",\\"slug\\":\{[^}]*?\\"current\\":\\"([^"]+?)\\"'
+        matches = re.findall(pattern, script_content)
+
+        logger.info(f"Found {len(matches)} articles from JSON data")
+
+        for published_date, slug in matches:
             try:
-                href = link.get("href", "")
-                if not href:
+                # Construct the full URL from the slug
+                link = f"https://www.anthropic.com/research/{slug}"
+
+                # Find the article object containing this slug to get title and summary
+                # Search for the section containing this slug
+                slug_pos = script_content.find(f'\\"current\\":\\"{slug}\\"')
+                if slug_pos == -1:
                     continue
 
-                # Skip the main research page
-                if href == "/research" or href.endswith("/research/"):
-                    continue
+                # Search forward from slug position to find the title and summary
+                # The structure is: ...publishedOn, slug, ...other fields..., summary, title}
+                search_section = script_content[slug_pos : slug_pos + 2000]
 
-                # Construct full URL
-                if href.startswith("https://"):
-                    full_url = href
-                elif href.startswith("/"):
-                    full_url = "https://www.anthropic.com" + href
-                else:
-                    continue
+                # Extract title and summary (they appear AFTER the slug in the data)
+                # Use negative lookbehind to handle escaped quotes correctly
+                title_match = re.search(
+                    r'\\"title\\":\\"(.*?)(?<!\\)\\"', search_section
+                )
+                title = (
+                    title_match.group(1)
+                    if title_match
+                    else slug.replace("-", " ").title()
+                )
+                # Unescape the title using re.sub to handle all escaped characters
+                title = re.sub(r"\\(.)", r"\1", title) if title else title
 
-                # Skip duplicates
-                if full_url in seen_links:
-                    continue
-                seen_links.add(full_url)
+                # Extract summary/description
+                summary_match = re.search(
+                    r'\\"summary\\":\\"(.*?)(?<!\\)\\"', search_section
+                )
+                description = summary_match.group(1) if summary_match else title
+                # Unescape the description
+                description = (
+                    re.sub(r"\\(.)", r"\1", description) if description else description
+                )
 
-                # Extract title
-                title = extract_title(link)
-                if not title:
-                    logger.debug(f"Could not extract title for link: {full_url}")
-                    continue
+                # Parse the date
+                date = parse_date(published_date)
 
-                # Extract date (can be None for research articles)
-                date = extract_date(link)
-                if date:
-                    logger.info(f"Found article: {title} - {date}")
-                else:
-                    logger.info(f"Found article (no date): {title}")
-
-                # Determine category from URL
-                category = "Research"
-                if "/news/" in href:
-                    category = "News"
+                # Parse category
+                category_match = re.search(
+                    r'\\"label\\":\\"(.*?)(?<!\\)\\"', search_section
+                )
+                category = category_match.group(1) if category_match else "Research"
 
                 article = {
                     "title": title,
-                    "link": full_url,
-                    "date": date,  # Can be None
+                    "link": link,
+                    "description": description if description else title,
+                    "date": date,
                     "category": category,
-                    "description": title,
                 }
+
 
                 # Validate article - research articles may not have dates
                 if validate_article(article, require_date=True):
                     articles.append(article)
                 else:
-                    logger.debug(f"Article failed validation: {full_url}")
+                    logger.debug(f"Article failed validation: {article}")
 
             except Exception as e:
                 logger.warning(f"Error parsing research link: {str(e)}")
