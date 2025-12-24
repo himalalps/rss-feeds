@@ -1,0 +1,54 @@
+name: Run Feeds
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Runs once per day
+  workflow_dispatch:
+
+jobs:
+  run-feeds:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11" # Use Python 3.11 to include distutils
+
+      - name: Install uv
+        run: |
+          curl -LsSf https://astral.sh/uv/install.sh | sh
+          echo "$HOME/.local/bin" >> $GITHUB_PATH
+
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y software-properties-common
+          sudo add-apt-repository universe
+          sudo apt-get update
+          sudo apt-get install -y python3-setuptools
+
+      - name: Install Python dependencies and run feed generators
+        run: |
+          set -e  # Fail the step on any error
+          uv sync
+          uv run feed_generators/run_all_feeds.py
+
+      - name: Commit and push feed
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
+          # Add feed XML files (cache files no longer used)
+          git add feeds/*.xml
+
+          # Check if there are any changes to commit
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m 'Update RSS feed'
+            git push
+          fi
