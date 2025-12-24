@@ -1,54 +1,18 @@
-import logging
 from datetime import datetime
-from pathlib import Path
 
 import pytz
 import requests
 from bs4 import BeautifulSoup
-from feedgen.feed import FeedGenerator
+from utils import (
+    fetch_content,
+    generate_rss_feed,
+    save_rss_feed,
+    setup_logging,
+    validate_article,
+)
 
 # Set up logging
-logging.basicConfig(
-    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
-)
-logger = logging.getLogger(__name__)
-
-
-def get_project_root():
-    """Get the project root directory."""
-    return Path(__file__).parent.parent
-
-
-def ensure_feeds_directory():
-    """Ensure the feeds directory exists."""
-    feeds_dir = get_project_root() / "feeds"
-    feeds_dir.mkdir(exist_ok=True)
-    return feeds_dir
-
-
-def fetch_engineering_content(url="https://www.anthropic.com/engineering"):
-    """Fetch engineering page content from Anthropic's website."""
-    try:
-        headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-        }
-        response = requests.get(url, headers=headers, timeout=10)
-        response.raise_for_status()
-        return response.text
-    except requests.RequestException as e:
-        logger.error(f"Error fetching engineering content: {str(e)}")
-        raise
-
-
-def validate_article(article):
-    """Validate article has required fields."""
-    if not article.get("title") or len(article["title"]) < 5:
-        return False
-    if not article.get("link") or not article["link"].startswith("http"):
-        return False
-    if not article.get("date"):
-        return False
-    return True
+logger = setup_logging(__name__)
 
 
 def parse_engineering_html(html_content):
@@ -151,71 +115,37 @@ def parse_engineering_html(html_content):
         raise
 
 
-def generate_rss_feed(articles, feed_name="anthropic_engineering"):
+def generate_engineering_feed(articles, feed_name="anthropic_engineering"):
     """Generate RSS feed from engineering articles."""
-    try:
-        fg = FeedGenerator()
-        fg.title("Anthropic Engineering Blog")
-        fg.description(
-            "Latest engineering articles and insights from Anthropic's engineering team"
-        )
-        fg.link(href="https://www.anthropic.com/engineering")
-        fg.language("en")
-
-        # Set feed metadata
-        fg.author({"name": "Anthropic Engineering Team"})
-        fg.logo("https://www.anthropic.com/images/icons/apple-touch-icon.png")
-        fg.subtitle("Inside the team building reliable AI systems")
-        fg.link(href="https://www.anthropic.com/engineering", rel="alternate")
-        # fg.link(
-        #     href=f"https://anthropic.com/engineering/feed_{feed_name}.xml", rel="self"
-        # )
-
-        # Sort articles by date (newest first)
-        articles.sort(key=lambda x: x["date"], reverse=False)
-
-        # Add entries
-        for article in articles:
-            fe = fg.add_entry()
-            fe.title(article["title"])
-            fe.description(article["description"])
-            fe.link(href=article["link"])
-            fe.published(article["date"])
-            fe.category(term=article["category"])
-            fe.id(article["link"])
-
-        logger.info("Successfully generated RSS feed")
-        return fg
-
-    except Exception as e:
-        logger.error(f"Error generating RSS feed: {str(e)}")
-        raise
+    feed_config = {
+        "title": "Anthropic Engineering Blog",
+        "description": "Latest engineering articles and insights from Anthropic's engineering team",
+        "link": "https://www.anthropic.com/engineering",
+        "language": "en",
+        "author": {"name": "Anthropic Engineering Team"},
+        "logo": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
+        "subtitle": "Inside the team building reliable AI systems",
+        "sort_reverse": False,
+        "date_field": "date",
+    }
+    return generate_rss_feed(articles, feed_config)
 
 
-def save_rss_feed(feed_generator, feed_name="anthropic_engineering"):
+def save_engineering_feed(feed_generator, feed_name="anthropic_engineering"):
     """Save the RSS feed to a file in the feeds directory."""
-    try:
-        # Ensure feeds directory exists and get its path
-        feeds_dir = ensure_feeds_directory()
-
-        # Create the output file path
-        output_filename = feeds_dir / f"feed_{feed_name}.xml"
-
-        # Save the feed
-        feed_generator.rss_file(str(output_filename), pretty=True)
-        logger.info(f"Successfully saved RSS feed to {output_filename}")
-        return output_filename
-
-    except Exception as e:
-        logger.error(f"Error saving RSS feed: {str(e)}")
-        raise
+    feed_config = {
+        "feed_name": feed_name,
+        "filename_format": "feed_{feed_name}.xml",
+        "pretty": True,
+    }
+    return save_rss_feed(feed_generator, feed_config)
 
 
 def main(feed_name="anthropic_engineering"):
     """Main function to generate RSS feed from Anthropic's engineering page."""
     try:
         # Fetch engineering content
-        html_content = fetch_engineering_content()
+        html_content = fetch_content("https://www.anthropic.com/engineering")
 
         # Parse articles from HTML
         articles = parse_engineering_html(html_content)
@@ -225,10 +155,10 @@ def main(feed_name="anthropic_engineering"):
             return False
 
         # Generate RSS feed
-        feed = generate_rss_feed(articles, feed_name)
+        feed = generate_engineering_feed(articles, feed_name)
 
         # Save feed to file
-        output_file = save_rss_feed(feed, feed_name)
+        output_file = save_engineering_feed(feed, feed_name)
 
         logger.info(f"Successfully generated RSS feed with {len(articles)} articles")
         return True

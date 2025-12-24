@@ -1,138 +1,16 @@
-import logging
-from datetime import datetime
-from pathlib import Path
-
-import pytz
-import requests
 from bs4 import BeautifulSoup
-from feedgen.feed import FeedGenerator
+from utils import (
+    extract_date,
+    extract_title,
+    fetch_content,
+    generate_rss_feed,
+    save_rss_feed,
+    setup_logging,
+    validate_article,
+)
 
 # Set up logging
-logging.basicConfig(
-    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
-)
-logger = logging.getLogger(__name__)
-
-
-def get_project_root():
-    """Get the project root directory."""
-    return Path(__file__).parent.parent
-
-
-def ensure_feeds_directory():
-    """Ensure the feeds directory exists."""
-    feeds_dir = get_project_root() / "feeds"
-    feeds_dir.mkdir(exist_ok=True)
-    return feeds_dir
-
-
-def fetch_research_content(url="https://www.anthropic.com/research"):
-    """Fetch the HTML content of the research page using requests."""
-    try:
-        logger.info(f"Fetching content from URL: {url}")
-
-        # Use the same user agent as Selenium was using
-        headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-        }
-
-        response = requests.get(url, headers=headers)
-        response.raise_for_status()  # Raise an exception for bad status codes
-
-        html_content = response.text
-        logger.info("Successfully fetched HTML content")
-        return html_content
-
-    except Exception as e:
-        logger.error(f"Error fetching content: {e}")
-        raise
-
-
-def extract_title(card):
-    """Extract title using multiple fallback selectors."""
-    selectors = [
-        "h3",
-        "h2",
-        "h1",
-        ".Card_headline__reaoT",
-        "h3[class*='headline']",
-        "h2[class*='headline']",
-        "h3[class*='title']",
-        "h2[class*='title']",
-    ]
-
-    for selector in selectors:
-        elem = card.select_one(selector)
-        if elem and elem.text.strip():
-            title = elem.text.strip()
-            # Clean up whitespace
-            title = " ".join(title.split())
-            if len(title) >= 5:
-                return title
-
-    # Try using link text as last resort
-    if hasattr(card, "text"):
-        text = card.text.strip()
-        text = " ".join(text.split())
-        if len(text) >= 5:
-            return text
-
-    return None
-
-
-def extract_date(card):
-    """Extract date using multiple fallback selectors and formats."""
-    selectors = [
-        "p.detail-m",  # Current format on listing page
-        ".detail-m",
-        "time",
-        "[class*='timestamp']",
-        "[class*='date']",
-        ".PostDetail_post-timestamp__TBJ0Z",
-        ".text-label",
-    ]
-
-    date_formats = [
-        "%b %d, %Y",
-        "%B %d, %Y",
-        "%Y-%m-%d",
-        "%m/%d/%Y",
-        "%d %b %Y",
-        "%d %B %Y",
-        "%b %d %Y",
-        "%B %d %Y",
-    ]
-
-    # Look for date in the card and its parents
-    elements_to_check = [card]
-    if hasattr(card, "parent") and card.parent:
-        elements_to_check.append(card.parent)
-        if card.parent.parent:
-            elements_to_check.append(card.parent.parent)
-
-    for element in elements_to_check:
-        for selector in selectors:
-            date_elem = element.select_one(selector)
-            if date_elem:
-                date_text = date_elem.text.strip()
-                for date_format in date_formats:
-                    try:
-                        date = datetime.strptime(date_text, date_format)
-                        return date.replace(tzinfo=pytz.UTC)
-                    except ValueError:
-                        continue
-
-    return None
-
-
-def validate_article(article):
-    """Validate that article has all required fields with reasonable values."""
-    if not article.get("title") or len(article["title"]) < 5:
-        return False
-    if not article.get("link") or not article["link"].startswith("http"):
-        return False
-    # Date can be None for research articles
-    return True
+logger = setup_logging(__name__)
 
 
 def parse_research_html(html_content):
@@ -195,8 +73,8 @@ def parse_research_html(html_content):
                     "description": title,
                 }
 
-                # Validate article
-                if validate_article(article):
+                # Validate article - research articles may not have dates
+                if validate_article(article, require_date=False):
                     articles.append(article)
                 else:
                     logger.debug(f"Article failed validation: {full_url}")
@@ -213,75 +91,37 @@ def parse_research_html(html_content):
         raise
 
 
-def generate_rss_feed(articles, feed_name="anthropic_research"):
+def generate_research_feed(articles, feed_name="anthropic_research"):
     """Generate RSS feed from research articles."""
-    try:
-        fg = FeedGenerator()
-        fg.title("Anthropic Research")
-        fg.description("Latest research papers and updates from Anthropic")
-        fg.link(href="https://www.anthropic.com/research")
-        fg.language("en")
-
-        # Set feed metadata
-        fg.author({"name": "Anthropic Research Team"})
-        fg.logo("https://www.anthropic.com/images/icons/apple-touch-icon.png")
-        fg.subtitle("Latest research from Anthropic")
-        fg.link(href="https://www.anthropic.com/research", rel="alternate")
-
-        # Sort articles by date (most recent first), but handle None dates
-        # Articles with dates come first, then articles without dates (preserve original order)
-        articles_with_date = [a for a in articles if a["date"] is not None]
-        articles_without_date = [a for a in articles if a["date"] is None]
-
-        articles_with_date.sort(key=lambda x: x["date"], reverse=False)
-        articles_sorted = articles_with_date
-
-        # Add entries
-        for article in articles_sorted:
-            fe = fg.add_entry()
-            fe.title(article["title"])
-            fe.description(article["description"])
-            fe.link(href=article["link"])
-
-            # Only set published date if we have a valid date
-            if article["date"]:
-                fe.published(article["date"])
-
-            fe.category(term=article["category"])
-            fe.id(article["link"])
-
-        logger.info("Successfully generated RSS feed")
-        return fg
-
-    except Exception as e:
-        logger.error(f"Error generating RSS feed: {str(e)}")
-        raise
+    feed_config = {
+        "title": "Anthropic Research",
+        "description": "Latest research papers and updates from Anthropic",
+        "link": "https://www.anthropic.com/research",
+        "language": "en",
+        "author": {"name": "Anthropic Research Team"},
+        "logo": "https://www.anthropic.com/images/icons/apple-touch-icon.png",
+        "subtitle": "Latest research from Anthropic",
+        "sort_reverse": False,
+        "date_field": "date",
+    }
+    return generate_rss_feed(articles, feed_config)
 
 
-def save_rss_feed(feed_generator, feed_name="anthropic_research"):
+def save_research_feed(feed_generator, feed_name="anthropic_research"):
     """Save the RSS feed to a file in the feeds directory."""
-    try:
-        # Ensure feeds directory exists and get its path
-        feeds_dir = ensure_feeds_directory()
-
-        # Create the output file path
-        output_filename = feeds_dir / f"feed_{feed_name}.xml"
-
-        # Save the feed
-        feed_generator.rss_file(str(output_filename), pretty=True)
-        logger.info(f"Successfully saved RSS feed to {output_filename}")
-        return output_filename
-
-    except Exception as e:
-        logger.error(f"Error saving RSS feed: {str(e)}")
-        raise
+    feed_config = {
+        "feed_name": feed_name,
+        "filename_format": "feed_{feed_name}.xml",
+        "pretty": True,
+    }
+    return save_rss_feed(feed_generator, feed_config)
 
 
 def main(feed_name="anthropic_research"):
     """Main function to generate RSS feed from Anthropic's research page."""
     try:
         # Fetch research content using requests
-        html_content = fetch_research_content()
+        html_content = fetch_content("https://www.anthropic.com/research")
 
         # Parse articles from HTML
         articles = parse_research_html(html_content)
@@ -291,10 +131,10 @@ def main(feed_name="anthropic_research"):
             return False
 
         # Generate RSS feed
-        feed = generate_rss_feed(articles, feed_name)
+        feed = generate_research_feed(articles, feed_name)
 
         # Save feed to file
-        save_rss_feed(feed, feed_name)
+        save_research_feed(feed, feed_name)
 
         logger.info(f"Successfully generated RSS feed with {len(articles)} articles")
         return True
