@@ -150,7 +150,7 @@ def generate_rss_feed(articles, feed_config):
         )
 
         # Sort articles with dates
-        sort_reverse = feed_config.get("sort_reverse", True)
+        sort_reverse = feed_config.get("sort_reverse", False)
         articles_with_date.sort(
             key=lambda x: x[actual_date_field], reverse=sort_reverse
         )
