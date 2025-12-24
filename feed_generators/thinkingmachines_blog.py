@@ -1,6 +1,5 @@
 from bs4 import BeautifulSoup
 from utils import (
-    extract_title,
     fetch_content,
     generate_rss_feed,
     parse_date,
@@ -12,6 +11,29 @@ from utils import (
 
 # Set up logging
 logger = setup_logging(__name__)
+
+
+def extract_title(card):
+    """Extract title using multiple fallback selectors."""
+    selectors = ["div[class='post-title']"]
+
+    for selector in selectors:
+        elem = card.select_one(selector)
+        if elem and elem.text.strip():
+            title = elem.text.strip()
+            # Clean up whitespace
+            title = " ".join(title.split())
+            if len(title) >= 5:
+                return title
+
+    # Try using link text as last resort
+    if hasattr(card, "text"):
+        text = card.text.strip()
+        text = " ".join(text.split())
+        if len(text) >= 5:
+            return text
+
+    return None
 
 
 def extract_articles(soup):
@@ -65,7 +87,7 @@ def extract_articles(soup):
             article = {
                 "title": title,
                 "link": link,
-                "description": f"{title} by {author_text}",
+                "description": f"by {author_text}",
                 "pub_date": pub_date,
                 "author": author_text,
             }
@@ -73,22 +95,17 @@ def extract_articles(soup):
             # Validate article
             if validate_article(article, require_date=False):
                 articles.append(article)
-                logger.info(f"Parsed: {title} ({date_text}) by {author_text}")
-            else:
-                logger.warning(f"Article failed validation: {link}")
 
         except Exception as e:
             logger.warning(f"Failed to parse article: {str(e)}")
             continue
 
-    # Sort by date (newest first)
-    articles.sort(key=lambda x: x["pub_date"], reverse=False)
-
     logger.info(f"Successfully parsed {len(articles)} articles")
+    articles.sort(key=lambda x: x["pub_date"], reverse=True)
     return articles
 
 
-def parse_html(html_content):
+def parse_thinkingmachines_html(html_content):
     """Parse HTML content."""
     try:
         soup = BeautifulSoup(html_content, "html.parser")
@@ -96,31 +113,6 @@ def parse_html(html_content):
     except Exception as e:
         logger.error(f"Error parsing HTML content: {str(e)}")
         raise
-
-
-def generate_thinkingmachines_feed(articles, feed_name="thinkingmachines"):
-    """Generate RSS feed using feedgen."""
-    feed_config = {
-        "title": "Thinking Machines Lab - Connectionism",
-        "description": "Research blog by Thinking Machines Lab - Shared science and news from the team",
-        "link": "https://thinkingmachines.ai/blog/",
-        "language": "en",
-        "author": {"name": "Thinking Machines Lab"},
-        "subtitle": "Shared science and news from the team",
-        "sort_reverse": False,
-        "date_field": "pub_date",
-    }
-    return generate_rss_feed(articles, feed_config)
-
-
-def save_thinkingmachines_feed(feed_generator, feed_name="thinkingmachines"):
-    """Save feed to XML file."""
-    feed_config = {
-        "feed_name": feed_name,
-        "filename_format": "feed_{feed_name}.xml",
-        "pretty": True,
-    }
-    return save_rss_feed(feed_generator, feed_config)
 
 
 def main(feed_name="thinkingmachines"):
@@ -131,13 +123,31 @@ def main(feed_name="thinkingmachines"):
         html_content = fetch_content("https://thinkingmachines.ai/blog/")
 
         # Parse articles
-        articles = parse_html(html_content)
+        articles = parse_thinkingmachines_html(html_content)
+
+        if not articles:
+            logger.warning("No articles found on the Thinking Machines blog")
+            return False
 
         # Generate RSS feed
-        feed = generate_thinkingmachines_feed(articles, feed_name)
+        feed_config = {
+            "title": "Thinking Machines Lab - Connectionism",
+            "description": "Research blog by Thinking Machines Lab - Shared science and news from the team",
+            "link": "https://thinkingmachines.ai/blog/",
+            "language": "en",
+            "author": {"name": "Thinking Machines Lab"},
+            "subtitle": "Shared science and news from the team",
+            "sort_reverse": False,
+            "date_field": "pub_date",
+        }
+        feed = generate_rss_feed(articles, feed_config)
 
-        # Save feed to file
-        _output_file = save_thinkingmachines_feed(feed, feed_name)
+        # Save RSS feed
+        feed_config = {
+            "feed_name": feed_name,
+            "pretty": True,
+        }
+        save_rss_feed(feed, feed_config)
 
         logger.info(f"Successfully generated RSS feed with {len(articles)} articles")
         return True

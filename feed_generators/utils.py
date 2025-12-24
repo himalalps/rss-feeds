@@ -83,69 +83,6 @@ def parse_date(date_text):
     return None
 
 
-def extract_date(card):
-    """Extract date using multiple fallback selectors and formats."""
-    selectors = [
-        "p.detail-m",  # Current format on listing page
-        ".detail-m",
-        "time",
-        "[class*='timestamp']",
-        "[class*='date']",
-        ".PostDetail_post-timestamp__TBJ0Z",
-        ".text-label",
-    ]
-
-    # Look for date in the card and its parents
-    elements_to_check = [card]
-    if hasattr(card, "parent") and card.parent:
-        elements_to_check.append(card.parent)
-        if card.parent.parent:
-            elements_to_check.append(card.parent.parent)
-
-    for element in elements_to_check:
-        for selector in selectors:
-            date_elem = element.select_one(selector)
-            if date_elem:
-                date_text = date_elem.text.strip()
-                date = parse_date(date_text)
-                if date:
-                    return date
-
-    return None
-
-
-def extract_title(card):
-    """Extract title using multiple fallback selectors."""
-    selectors = [
-        "h3",
-        "h2",
-        "h1",
-        ".Card_headline__reaoT",
-        "h3[class*='headline']",
-        "h2[class*='headline']",
-        "h3[class*='title']",
-        "h2[class*='title']",
-    ]
-
-    for selector in selectors:
-        elem = card.select_one(selector)
-        if elem and elem.text.strip():
-            title = elem.text.strip()
-            # Clean up whitespace
-            title = " ".join(title.split())
-            if len(title) >= 5:
-                return title
-
-    # Try using link text as last resort
-    if hasattr(card, "text"):
-        text = card.text.strip()
-        text = " ".join(text.split())
-        if len(text) >= 5:
-            return text
-
-    return None
-
-
 def validate_article(article, require_date=True):
     """Validate article has required fields."""
     if not article.get("title") or len(article["title"]) < 5:
@@ -240,7 +177,7 @@ def generate_rss_feed(articles, feed_config):
 
             # Add author if available
             if "author" in article:
-                fe.author({"name": article["author"]})
+                fe.author({"email": article["author"]})
 
         logger.info("Successfully generated RSS feed")
         return fg
