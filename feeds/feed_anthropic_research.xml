@@ -12,7 +12,7 @@
       <link>https://www.anthropic.com/research</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Wed, 14 Jan 2026 02:12:28 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Jan 2026 02:07:17 +0000</lastBuildDate>
     <item>
       <title>Next-generation Constitutional Classifiers: More efficient protection against universal jailbreaks</title>
       <link>https://www.anthropic.com/research/next-generation-constitutional-classifiers</link>
@@ -144,7 +144,7 @@
     <item>
       <title>Building AI for cyber defenders</title>
       <link>https://www.anthropic.com/research/building-ai-cyber-defenders</link>
-      <description>This report reveals that Claude usage has shifted toward educational and scientific tasks with users delegating complete tasks rather than collaborating, while showing AI adoption concentrated in wealthy regions and analyzing enterprise API patterns for the first time.</description>
+      <description> Claude usage has shifted toward educational and scientific tasks with users delegating complete work rather than collaborating. AI adoption concentrates in wealthy regions, with first-time analysis of enterprise API patterns.</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/building-ai-cyber-defenders</guid>
       <category>Policy</category>
       <pubDate>Fri, 03 Oct 2025 18:31:00 +0000</pubDate>
@@ -152,7 +152,7 @@
     <item>
       <title>Anthropic Economic Index report: Uneven geographic and enterprise AI adoption</title>
       <link>https://www.anthropic.com/research/anthropic-economic-index-september-2025-report</link>
-      <description>This report reveals that Claude usage has shifted toward educational and scientific tasks with users delegating complete tasks rather than collaborating, while showing AI adoption concentrated in wealthy regions and analyzing enterprise API patterns for the first time.</description>
+      <description> Claude usage has shifted toward educational and scientific tasks with users delegating complete work rather than collaborating. AI adoption concentrates in wealthy regions, with first-time analysis of enterprise API patterns.</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/anthropic-economic-index-september-2025-report</guid>
       <category>Economic Research</category>
       <pubDate>Mon, 15 Sep 2025 20:33:00 +0000</pubDate>
