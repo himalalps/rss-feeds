@@ -12,7 +12,23 @@
       <link>https://www.anthropic.com/research</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Thu, 15 Jan 2026 02:07:17 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Jan 2026 02:09:11 +0000</lastBuildDate>
+    <item>
+      <title>Anthropic Economic Index: new building blocks for understanding AI use</title>
+      <link>https://www.anthropic.com/research/economic-index-primitives</link>
+      <description>This report introduces new metrics of AI usage to provide a rich portrait of interactions with Claude in November 2025, just prior to the release of Opus 4.5.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/economic-index-primitives</guid>
+      <category>Economic Research</category>
+      <pubDate>Thu, 15 Jan 2026 10:01:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anthropic Economic Index report: economic primitives</title>
+      <link>https://www.anthropic.com/research/anthropic-economic-index-january-2026-report</link>
+      <description>This report introduces new metrics of AI usage to provide a rich portrait of interactions with Claude in November 2025, just prior to the release of Opus 4.5.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/anthropic-economic-index-january-2026-report</guid>
+      <category>Economic Research</category>
+      <pubDate>Thu, 15 Jan 2026 10:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Next-generation Constitutional Classifiers: More efficient protection against universal jailbreaks</title>
       <link>https://www.anthropic.com/research/next-generation-constitutional-classifiers</link>
