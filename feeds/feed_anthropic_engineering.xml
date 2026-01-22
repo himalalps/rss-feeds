@@ -12,7 +12,15 @@
       <link>https://www.anthropic.com/engineering</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Wed, 21 Jan 2026 02:12:27 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Jan 2026 02:19:23 +0000</lastBuildDate>
+    <item>
+      <title>Designing AI-resistant technical evaluations</title>
+      <link>https://www.anthropic.com/engineering/AI-resistant-technical-evaluations</link>
+      <description>What we learned from three iterations of a performance engineering take-home that Claude keeps beating.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/engineering/AI-resistant-technical-evaluations</guid>
+      <category>Engineering</category>
+      <pubDate>Wed, 21 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Demystifying evals for AI agents</title>
       <link>https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents</link>
