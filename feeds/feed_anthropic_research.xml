@@ -12,7 +12,15 @@
       <link>https://www.anthropic.com/research</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Wed, 28 Jan 2026 02:11:29 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Jan 2026 02:33:51 +0000</lastBuildDate>
+    <item>
+      <title>Disempowerment patterns in real-world AI usage</title>
+      <link>https://www.anthropic.com/research/disempowerment-patterns</link>
+      <description>Disempowerment patterns in real-world AI usage</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/disempowerment-patterns</guid>
+      <category>Alignment</category>
+      <pubDate>Wed, 28 Jan 2026 21:07:19 +0000</pubDate>
+    </item>
     <item>
       <title>Claude's new constitution</title>
       <link>https://www.anthropic.com/research/claude-new-constitution</link>
