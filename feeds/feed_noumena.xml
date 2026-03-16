@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Noumena Research</title>
+    <link>https://www.noumena.com/research</link>
+    <description>Research publications from Noumena</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 16 Mar 2026 02:31:33 +0000</lastBuildDate>
+    <item>
+      <title>Why Training MoEs is So Hard</title>
+      <link>https://www.noumena.com/research/0000-why-training-moes-is-hard/</link>
+      <description>Why Training MoEs is So Hard</description>
+      <guid isPermaLink="false">https://www.noumena.com/research/0000-why-training-moes-is-hard/</guid>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>What We Built</title>
+      <link>https://www.noumena.com/research/0001-what-we-built/</link>
+      <description>What We Built</description>
+      <guid isPermaLink="false">https://www.noumena.com/research/0001-what-we-built/</guid>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Make It Measurable</title>
+      <link>https://www.noumena.com/research/0002-make-it-measurable/</link>
+      <description>Make It Measurable</description>
+      <guid isPermaLink="false">https://www.noumena.com/research/0002-make-it-measurable/</guid>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Speedrun Loop</title>
+      <link>https://www.noumena.com/research/0003-speedrun-calibration/</link>
+      <description>The Speedrun Loop</description>
+      <guid isPermaLink="false">https://www.noumena.com/research/0003-speedrun-calibration/</guid>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>What Are We Holding Fixed?</title>
+      <link>https://www.noumena.com/research/0004-420-moe-edition/</link>
+      <description>What Are We Holding Fixed?</description>
+      <guid isPermaLink="false">https://www.noumena.com/research/0004-420-moe-edition/</guid>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>methodology</title>
+      <link>https://www.noumena.com/research/series/methodology/</link>
+      <description>methodology</description>
+      <guid isPermaLink="false">https://www.noumena.com/research/series/methodology/</guid>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>NVFP4 Dynamics</title>
+      <link>https://www.noumena.com/research/0005-nvfp4-dynamics/</link>
+      <description>NVFP4 Dynamics</description>
+      <guid isPermaLink="false">https://www.noumena.com/research/0005-nvfp4-dynamics/</guid>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Super-4096</title>
+      <link>https://www.noumena.com/research/0006-super-4096/</link>
+      <description>Super-4096</description>
+      <guid isPermaLink="false">https://www.noumena.com/research/0006-super-4096/</guid>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Atlas Hypothesis</title>
+      <link>https://www.noumena.com/research/0007-the-geometry-hypothesis/</link>
+      <description>The Atlas Hypothesis</description>
+      <guid isPermaLink="false">https://www.noumena.com/research/0007-the-geometry-hypothesis/</guid>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Do MoE Experts Need Different Learning Rates?</title>
+      <link>https://www.noumena.com/research/0008-expert-learning-rate/</link>
+      <description>Do MoE Experts Need Different Learning Rates?</description>
+      <guid isPermaLink="false">https://www.noumena.com/research/0008-expert-learning-rate/</guid>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>systems</title>
+      <link>https://www.noumena.com/research/series/systems/</link>
+      <description>systems</description>
+      <guid isPermaLink="false">https://www.noumena.com/research/series/systems/</guid>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Reproducing Canon, mHC, and Engram</title>
+      <link>https://www.noumena.com/research/0010-physics-architecture-repros/</link>
+      <description>Reproducing Canon, mHC, and Engram</description>
+      <guid isPermaLink="false">https://www.noumena.com/research/0010-physics-architecture-repros/</guid>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Let the Speedrun Search Itself</title>
+      <link>https://www.noumena.com/research/0011-let-the-speedrun-search-itself/</link>
+      <description>Let the Speedrun Search Itself</description>
+      <guid isPermaLink="false">https://www.noumena.com/research/0011-let-the-speedrun-search-itself/</guid>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>research</title>
+      <link>https://www.noumena.com/research/series/research/</link>
+      <description>research</description>
+      <guid isPermaLink="false">https://www.noumena.com/research/series/research/</guid>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
