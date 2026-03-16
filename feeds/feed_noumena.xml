@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Mar 2026 03:17:33 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Mar 2026 03:27:58 +0000</lastBuildDate>
     <item>
       <title>Why Training MoEs is So Hard</title>
       <link>https://www.noumena.com/research/0000-why-training-moes-is-hard/</link>
@@ -23,10 +23,10 @@
       <pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Make It Measurable</title>
-      <link>https://www.noumena.com/research/0002-make-it-measurable/</link>
-      <description>What to track when loss isn't enough</description>
-      <guid isPermaLink="false">https://www.noumena.com/research/0002-make-it-measurable/</guid>
+      <title>What Are We Holding Fixed?</title>
+      <link>https://www.noumena.com/research/0004-420-moe-edition/</link>
+      <description>Dense-vs-MoE comparison depends on the fairness contract; a failed `#420` transfer exposed the real problem</description>
+      <guid isPermaLink="false">https://www.noumena.com/research/0004-420-moe-edition/</guid>
       <pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -37,17 +37,10 @@
       <pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>What Are We Holding Fixed?</title>
-      <link>https://www.noumena.com/research/0004-420-moe-edition/</link>
-      <description>Dense-vs-MoE comparison depends on the fairness contract; a failed `#420` transfer exposed the real problem</description>
-      <guid isPermaLink="false">https://www.noumena.com/research/0004-420-moe-edition/</guid>
-      <pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>NVFP4 Dynamics</title>
-      <link>https://www.noumena.com/research/0005-nvfp4-dynamics/</link>
-      <description>Why our NVFP4 recipe lagged BF16, and what actually closed almost all of the gap</description>
-      <guid isPermaLink="false">https://www.noumena.com/research/0005-nvfp4-dynamics/</guid>
+      <title>The Atlas Hypothesis</title>
+      <link>https://www.noumena.com/research/0007-the-geometry-hypothesis/</link>
+      <description>why output-only dashboards cannot name what pretraining built, and what a real receipt would have to measure</description>
+      <guid isPermaLink="false">https://www.noumena.com/research/0007-the-geometry-hypothesis/</guid>
       <pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -58,17 +51,10 @@
       <pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>The Atlas Hypothesis</title>
-      <link>https://www.noumena.com/research/0007-the-geometry-hypothesis/</link>
-      <description>why output-only dashboards cannot name what pretraining built, and what a real receipt would have to measure</description>
-      <guid isPermaLink="false">https://www.noumena.com/research/0007-the-geometry-hypothesis/</guid>
-      <pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Do MoE Experts Need Different Learning Rates?</title>
-      <link>https://www.noumena.com/research/0008-expert-learning-rate/</link>
-      <description>Why Moonlet's old 15x expert-LR rule overshoots in bf16 AdamW</description>
-      <guid isPermaLink="false">https://www.noumena.com/research/0008-expert-learning-rate/</guid>
+      <title>Reproducing Canon, mHC, and Engram</title>
+      <link>https://www.noumena.com/research/0010-physics-architecture-repros/</link>
+      <description>A research narrative: wrong starts, PhysicsLM4 alignment, and one real polysemy failure</description>
+      <guid isPermaLink="false">https://www.noumena.com/research/0010-physics-architecture-repros/</guid>
       <pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -79,10 +65,17 @@
       <pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Reproducing Canon, mHC, and Engram</title>
-      <link>https://www.noumena.com/research/0010-physics-architecture-repros/</link>
-      <description>A research narrative: wrong starts, PhysicsLM4 alignment, and one real polysemy failure</description>
-      <guid isPermaLink="false">https://www.noumena.com/research/0010-physics-architecture-repros/</guid>
+      <title>NVFP4 Dynamics</title>
+      <link>https://www.noumena.com/research/0005-nvfp4-dynamics/</link>
+      <description>Why our NVFP4 recipe lagged BF16, and what actually closed almost all of the gap</description>
+      <guid isPermaLink="false">https://www.noumena.com/research/0005-nvfp4-dynamics/</guid>
+      <pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Make It Measurable</title>
+      <link>https://www.noumena.com/research/0002-make-it-measurable/</link>
+      <description>What to track when loss isn't enough</description>
+      <guid isPermaLink="false">https://www.noumena.com/research/0002-make-it-measurable/</guid>
       <pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -90,6 +83,13 @@
       <link>https://www.noumena.com/research/0011-let-the-speedrun-search-itself/</link>
       <description>Eval-gated config-only autoresearch on the canonical super fp8 lane</description>
       <guid isPermaLink="false">https://www.noumena.com/research/0011-let-the-speedrun-search-itself/</guid>
+      <pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Do MoE Experts Need Different Learning Rates?</title>
+      <link>https://www.noumena.com/research/0008-expert-learning-rate/</link>
+      <description>Why Moonlet's old 15x expert-LR rule overshoots in bf16 AdamW</description>
+      <guid isPermaLink="false">https://www.noumena.com/research/0008-expert-learning-rate/</guid>
       <pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

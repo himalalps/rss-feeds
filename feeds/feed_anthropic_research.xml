@@ -12,7 +12,7 @@
       <link>https://www.anthropic.com/research</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Mar 2026 03:17:32 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Mar 2026 03:27:57 +0000</lastBuildDate>
     <item>
       <title>Labor market impacts of AI: A new measure and early evidence</title>
       <link>https://www.anthropic.com/research/labor-market-impacts</link>
@@ -710,18 +710,18 @@
       <pubDate>Wed, 04 Oct 2023 07:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Studying Large Language Model Generalization with Influence Functions</title>
-      <link>https://www.anthropic.com/research/studying-large-language-model-generalization-with-influence-functions</link>
-      <description>Studying Large Language Model Generalization with Influence Functions</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/studying-large-language-model-generalization-with-influence-functions</guid>
-      <category>Alignment</category>
-      <pubDate>Tue, 08 Aug 2023 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Tracing Model Outputs to the Training Data</title>
       <link>https://www.anthropic.com/research/influence-functions</link>
       <description>Tracing Model Outputs to the Training Data</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/influence-functions</guid>
+      <category>Alignment</category>
+      <pubDate>Tue, 08 Aug 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Studying Large Language Model Generalization with Influence Functions</title>
+      <link>https://www.anthropic.com/research/studying-large-language-model-generalization-with-influence-functions</link>
+      <description>Studying Large Language Model Generalization with Influence Functions</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/studying-large-language-model-generalization-with-influence-functions</guid>
       <category>Alignment</category>
       <pubDate>Tue, 08 Aug 2023 00:00:00 +0000</pubDate>
     </item>
