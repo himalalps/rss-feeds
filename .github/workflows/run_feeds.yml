@@ -1,6 +1,7 @@
 name: Run Feeds
 
 on:
+  push:
   schedule:
     - cron: "0 0 * * *" # Runs once per day
   workflow_dispatch:
