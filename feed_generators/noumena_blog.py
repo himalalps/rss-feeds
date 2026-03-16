@@ -379,7 +379,7 @@ def main(feed_name="noumena"):
             "language": "en",
             "author": {"name": "Noumena"},
             "subtitle": "Research publications from Noumena",
-            "sort_reverse": False,
+            "sort_reverse": True,
             "date_field": "date",
         }
         feed = generate_rss_feed(articles, feed_config)
