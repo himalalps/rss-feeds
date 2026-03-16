@@ -214,8 +214,8 @@ def extract_articles_from_html(soup):
     candidate_groups = [
         # Semantic article elements
         soup.find_all("article"),
-        # Links directly to research sub-pages
-        soup.find_all("a", href=re.compile(r"/research/[^/]+")),
+        # Links directly to research sub-pages, excluding navigation series pages
+        soup.find_all("a", href=re.compile(r"/research/(?!series/)[^/]+")),
         # Common card class patterns
         soup.select(".post-card, .blog-card, .article-card, .research-card"),
         soup.select(".post-item, .blog-post, .article-item, .card"),
@@ -260,24 +260,43 @@ def extract_articles_from_html(soup):
                     title = link_elem.get_text(strip=True)
                 title = " ".join(title.split())
 
-                if not title or len(title) < 5:
+                if not title or len(title) < 3:
                     continue
+
+                # When item is an <a> tag, search in its parent container for
+                # sibling elements (e.g. <li><h2><a/></h2><p/></li> structure)
+                container = (
+                    item.find_parent("li") or item.parent
+                    if item.name == "a"
+                    else item
+                )
 
                 # Get date from time element or datetime attribute
                 date_text = None
-                time_elem = item.find("time")
+                time_elem = container.find("time") if container else None
                 if time_elem:
                     date_text = time_elem.get("datetime") or time_elem.get_text(strip=True)
                 if not date_text:
-                    date_elem = item.select_one("[class*='date'], [class*='Date']")
+                    date_elem = (
+                        container.select_one("[class*='date'], [class*='Date']")
+                        if container
+                        else None
+                    )
                     if date_elem:
                         date_text = date_elem.get_text(strip=True)
 
                 date = parse_date(date_text) if date_text else stable_fallback_date(link)
 
                 # Get description from paragraph or excerpt elements
-                desc_elem = item.find("p") or item.select_one(
-                    "[class*='description'], [class*='excerpt'], [class*='summary']"
+                desc_elem = (
+                    (
+                        container.find("p")
+                        or container.select_one(
+                            "[class*='description'], [class*='excerpt'], [class*='summary']"
+                        )
+                    )
+                    if container
+                    else None
                 )
                 description = (
                     desc_elem.get_text(strip=True) if desc_elem else title
