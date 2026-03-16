@@ -152,6 +152,9 @@ def generate_rss_feed(articles, feed_config):
 
         # Sort articles with dates
         sort_reverse = feed_config.get("sort_reverse", False)
+        # Pre-sort by title so articles with the same date have a stable,
+        # deterministic order (Python's sort is stable).
+        articles_with_date.sort(key=lambda x: x.get("title", ""))
         articles_with_date.sort(
             key=lambda x: x[actual_date_field], reverse=sort_reverse
         )
