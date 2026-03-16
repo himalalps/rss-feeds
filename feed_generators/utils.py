@@ -64,6 +64,7 @@ def parse_date(date_text):
         "%b %d %Y",  # "Nov 07 2025"
         "%B %d %Y",  # "November 07 2025"
         "%Y-%m-%dT%H:%M:%S.%fZ",  # "2025-11-07T15:30:00.000Z"
+        "%Y-%m-%dT%H:%M:%SZ",  # "2025-11-07T15:30:00Z"
         "%Y-%m-%dT%H:%M:%S%z",  # "2023-12-07T08:50:00-08:00"
     ]
 
@@ -85,7 +86,7 @@ def parse_date(date_text):
 
 def validate_article(article, require_date=True):
     """Validate article has required fields."""
-    if not article.get("title") or len(article["title"]) < 5:
+    if not article.get("title") or len(article["title"]) < 3:
         return False
     if not article.get("link") or not article["link"].startswith("http"):
         return False
