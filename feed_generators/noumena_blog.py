@@ -360,6 +360,18 @@ def parse_noumena_html(html_content):
         raise
 
 
+def _extract_post_number(link):
+    """Extract the leading numeric post number from a Noumena research URL slug.
+
+    URLs follow the pattern /research/NNNN-slug/, where NNNN is the post number.
+    Returns -1 for URLs that don't match, so unknown posts sort to the end.
+    """
+    match = re.search(r"/research/(\d+)-", link)
+    if match:
+        return int(match.group(1))
+    return -1
+
+
 def main(feed_name="noumena"):
     """Main function to generate RSS feed from Noumena's research page."""
     try:
@@ -367,6 +379,13 @@ def main(feed_name="noumena"):
         html_content = fetch_content(RESEARCH_URL)
 
         articles = parse_noumena_html(html_content)
+
+        # Sort by post number (from URL slug) descending so newest posts appear first.
+        # All articles share the same publish date, so date-based sorting has no effect;
+        # the URL prefix (e.g. 0011-, 0010-, …) is the canonical ordering signal.
+        articles.sort(
+            key=lambda a: _extract_post_number(a.get("link", "")), reverse=True
+        )
 
         if not articles:
             logger.warning("No articles found. Please check the HTML structure.")
@@ -379,7 +398,7 @@ def main(feed_name="noumena"):
             "language": "en",
             "author": {"name": "Noumena"},
             "subtitle": "Research publications from Noumena",
-            "sort_reverse": True,
+            "sort_reverse": False,
             "date_field": "date",
         }
         feed = generate_rss_feed(articles, feed_config)
