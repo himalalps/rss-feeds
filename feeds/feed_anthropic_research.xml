@@ -12,7 +12,7 @@
       <link>https://www.anthropic.com/research</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Wed, 18 Mar 2026 02:45:02 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Mar 2026 02:46:30 +0000</lastBuildDate>
     <item>
       <title>Labor market impacts of AI: A new measure and early evidence</title>
       <link>https://www.anthropic.com/research/labor-market-impacts</link>
@@ -56,10 +56,42 @@
     <item>
       <title>India Country Brief: The Anthropic Economic Index</title>
       <link>https://www.anthropic.com/research/india-brief-economic-index</link>
-      <description>India Country Brief: The Anthropic Economic Index</description>
+      <description>We’re launching a new blog about AI and science. We’ll share research happening at Anthropic and elsewhere, collaborations with external researchers and labs, and discuss practical workflows for scientists using AI in their own work.</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/india-brief-economic-index</guid>
       <category>Economic Research</category>
       <pubDate>Mon, 16 Feb 2026 01:38:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Vibe Physics: The AI Grad Student</title>
+      <link>https://www.anthropic.com/research/vibe-physics</link>
+      <description>Can AI do theoretical physics? I decided to find out by supervising Claude through a real research calculation, start to finish, without ever touching a file myself.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/vibe-physics</guid>
+      <category>Science</category>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>LLMs Conjecture, Prove, and Challenge: February 2026</title>
+      <link>https://www.anthropic.com/research/roundup-feb-2026</link>
+      <description>A new result in theoretical physics conjectured by an LLM, a challenge testing AI on open research problems, a new foundation led by Terence Tao, and a federal roadmap for AI-driven space science.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/roundup-feb-2026</guid>
+      <category>Science</category>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Long-Running Claude for Scientific Research</title>
+      <link>https://www.anthropic.com/research/long-running-tasks</link>
+      <description>A practical guide to running Claude Code for multi-day scientific tasks—test oracles, persistent memory, and orchestration patterns.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/long-running-tasks</guid>
+      <category>Science</category>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing the Science Blog</title>
+      <link>https://www.anthropic.com/research/introducing-anthropic-science</link>
+      <description>We’re launching a new blog about AI and science. We’ll share research happening at Anthropic and elsewhere, collaborations with external researchers and labs, and discuss practical workflows for scientists using AI in their own work.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/introducing-anthropic-science</guid>
+      <category>Science</category>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>How AI assistance impacts the formation of coding skills</title>
@@ -380,14 +412,6 @@
       <guid isPermaLink="false">https://www.anthropic.com/research/anthropic-economic-index-insights-from-claude-sonnet-3-7</guid>
       <category>Societal Impacts</category>
       <pubDate>Thu, 27 Mar 2025 21:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Tracing the thoughts of a large language model</title>
-      <link>https://www.anthropic.com/research/tracing-thoughts-language-model</link>
-      <description>Circuit tracing lets us watch Claude think, uncovering a shared conceptual space where reasoning happens before being translated into language—suggesting the model can learn something in one language and apply it in another.</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/tracing-thoughts-language-model</guid>
-      <category>Interpretability</category>
-      <pubDate>Thu, 27 Mar 2025 09:16:00 +0000</pubDate>
     </item>
     <item>
       <title>Tracing the thoughts of a large language model</title>
