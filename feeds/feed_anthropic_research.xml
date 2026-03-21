@@ -12,7 +12,7 @@
       <link>https://www.anthropic.com/research</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Fri, 20 Mar 2026 02:37:04 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Mar 2026 02:31:01 +0000</lastBuildDate>
     <item>
       <title>Labor market impacts of AI: A new measure and early evidence</title>
       <link>https://www.anthropic.com/research/labor-market-impacts</link>
@@ -56,42 +56,10 @@
     <item>
       <title>India Country Brief: The Anthropic Economic Index</title>
       <link>https://www.anthropic.com/research/india-brief-economic-index</link>
-      <description>We’re launching a new blog about AI and science. We’ll share research happening at Anthropic and elsewhere, collaborations with external researchers and labs, and discuss practical workflows for scientists using AI in their own work.</description>
+      <description>India Country Brief: The Anthropic Economic Index</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/india-brief-economic-index</guid>
       <category>Economic Research</category>
       <pubDate>Mon, 16 Feb 2026 01:38:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Vibe Physics: The AI Grad Student</title>
-      <link>https://www.anthropic.com/research/vibe-physics</link>
-      <description>Can AI do theoretical physics? I decided to find out by supervising Claude through a real research calculation, start to finish, without ever touching a file myself.</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/vibe-physics</guid>
-      <category>Science</category>
-      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>LLMs Conjecture, Prove, and Challenge: February 2026</title>
-      <link>https://www.anthropic.com/research/roundup-feb-2026</link>
-      <description>A new result in theoretical physics conjectured by an LLM, a challenge testing AI on open research problems, a new foundation led by Terence Tao, and a federal roadmap for AI-driven space science.</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/roundup-feb-2026</guid>
-      <category>Science</category>
-      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Long-Running Claude for Scientific Research</title>
-      <link>https://www.anthropic.com/research/long-running-tasks</link>
-      <description>A practical guide to running Claude Code for multi-day scientific tasks—test oracles, persistent memory, and orchestration patterns.</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/long-running-tasks</guid>
-      <category>Science</category>
-      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing the Science Blog</title>
-      <link>https://www.anthropic.com/research/introducing-anthropic-science</link>
-      <description>We’re launching a new blog about AI and science. We’ll share research happening at Anthropic and elsewhere, collaborations with external researchers and labs, and discuss practical workflows for scientists using AI in their own work.</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/introducing-anthropic-science</guid>
-      <category>Science</category>
-      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>How AI assistance impacts the formation of coding skills</title>
