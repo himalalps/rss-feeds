@@ -12,7 +12,31 @@
       <link>https://www.anthropic.com/research</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Mon, 23 Mar 2026 02:47:33 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Mar 2026 02:38:48 +0000</lastBuildDate>
+    <item>
+      <title>Vibe physics: The AI grad student</title>
+      <link>https://www.anthropic.com/research/vibe-physics</link>
+      <description>Can AI do theoretical physics? I decided to find out by supervising Claude through a real research calculation, start to finish, without ever touching a file myself.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/vibe-physics</guid>
+      <category>Science</category>
+      <pubDate>Mon, 23 Mar 2026 23:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Long-running Claude for scientific computing</title>
+      <link>https://www.anthropic.com/research/long-running-Claude</link>
+      <description>A practical guide to running Claude Code for multi-day scientific tasks—test oracles, persistent memory, and orchestration patterns.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/long-running-Claude</guid>
+      <category>Science</category>
+      <pubDate>Mon, 23 Mar 2026 23:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing our Science Blog</title>
+      <link>https://www.anthropic.com/research/introducing-anthropic-science</link>
+      <description>We’re launching a new blog about AI and science. We’ll share research happening at Anthropic and elsewhere, collaborations with external researchers and labs, and discuss practical workflows for scientists using AI in their own work.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/introducing-anthropic-science</guid>
+      <category>Science</category>
+      <pubDate>Mon, 23 Mar 2026 23:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Labor market impacts of AI: A new measure and early evidence</title>
       <link>https://www.anthropic.com/research/labor-market-impacts</link>
@@ -102,7 +126,7 @@
       <pubDate>Thu, 15 Jan 2026 10:01:00 +0000</pubDate>
     </item>
     <item>
-      <title>Anthropic Economic Index report: economic primitives</title>
+      <title>Anthropic Economic Index report: Economic primitives</title>
       <link>https://www.anthropic.com/research/anthropic-economic-index-january-2026-report</link>
       <description>This report introduces new metrics of AI usage to provide a rich portrait of interactions with Claude in November 2025, just prior to the release of Opus 4.5.</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/anthropic-economic-index-january-2026-report</guid>
