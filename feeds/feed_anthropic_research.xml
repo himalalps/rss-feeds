@@ -12,7 +12,15 @@
       <link>https://www.anthropic.com/research</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 24 Mar 2026 07:29:29 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Mar 2026 02:43:47 +0000</lastBuildDate>
+    <item>
+      <title>Anthropic Economic Index report: Learning curves</title>
+      <link>https://www.anthropic.com/research/economic-index-march-2026-report</link>
+      <description>Anthropic's fifth Economic Index report studies Claude usage in February 2026, building on the economic primitives framework introduced in our previous report.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/economic-index-march-2026-report</guid>
+      <category>Economic Research</category>
+      <pubDate>Tue, 24 Mar 2026 10:41:00 +0000</pubDate>
+    </item>
     <item>
       <title>Vibe physics: The AI grad student</title>
       <link>https://www.anthropic.com/research/vibe-physics</link>

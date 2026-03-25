@@ -12,7 +12,15 @@
       <link>https://www.anthropic.com/engineering</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 24 Mar 2026 07:29:25 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Mar 2026 02:43:46 +0000</lastBuildDate>
+    <item>
+      <title>Harness design for long-running application development</title>
+      <link>https://www.anthropic.com/engineering/harness-design-long-running-apps</link>
+      <description>Harness design is key to performance at the frontier of agentic coding. Here's how we pushed Claude further in frontend design and long-running autonomous software engineering.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/engineering/harness-design-long-running-apps</guid>
+      <category>Engineering</category>
+      <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Eval awareness in Claude Opus 4.6’s BrowseComp performance</title>
       <link>https://www.anthropic.com/engineering/eval-awareness-browsecomp</link>
