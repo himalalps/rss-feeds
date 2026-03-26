@@ -12,7 +12,15 @@
       <link>https://www.anthropic.com/engineering</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Wed, 25 Mar 2026 02:43:46 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Mar 2026 02:50:55 +0000</lastBuildDate>
+    <item>
+      <title>Claude Code auto mode: a safer way to skip permissions</title>
+      <link>https://www.anthropic.com/engineering/claude-code-auto-mode</link>
+      <description>Claude Code users approve 93% of permission prompts. We built classifiers to automate some decisions, increasing safety while reducing approval fatigue. Here's what it catches, and what it misses.\n</description>
+      <guid isPermaLink="false">https://www.anthropic.com/engineering/claude-code-auto-mode</guid>
+      <category>Engineering</category>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Harness design for long-running application development</title>
       <link>https://www.anthropic.com/engineering/harness-design-long-running-apps</link>
