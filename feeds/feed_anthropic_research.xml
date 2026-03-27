@@ -12,7 +12,7 @@
       <link>https://www.anthropic.com/research</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Thu, 26 Mar 2026 02:50:57 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Mar 2026 02:53:14 +0000</lastBuildDate>
     <item>
       <title>Anthropic Economic Index report: Learning curves</title>
       <link>https://www.anthropic.com/research/economic-index-march-2026-report</link>
@@ -44,6 +44,14 @@
       <guid isPermaLink="false">https://www.anthropic.com/research/introducing-anthropic-science</guid>
       <category>Science</category>
       <pubDate>Mon, 23 Mar 2026 23:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Partnering with Mozilla to improve Firefox’s security</title>
+      <link>https://www.anthropic.com/research/mozilla-firefox-security</link>
+      <description>Partnering with Mozilla to improve Firefox’s security</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/mozilla-firefox-security</guid>
+      <category>Policy</category>
+      <pubDate>Fri, 06 Mar 2026 10:30:00 +0000</pubDate>
     </item>
     <item>
       <title>Labor market impacts of AI: A new measure and early evidence</title>
@@ -330,7 +338,7 @@
       <link>https://www.anthropic.com/research/project-vend-1</link>
       <description>Project Vend: Can Claude run a small shop? (And why does that matter?)</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/project-vend-1</guid>
-      <category>Policy</category>
+      <category>Frontier Red Team</category>
       <pubDate>Fri, 27 Jun 2025 06:05:00 +0000</pubDate>
     </item>
     <item>
