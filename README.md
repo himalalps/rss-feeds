@@ -13,6 +13,7 @@ RSS feeds in newest first order.
 | [Thinking Machines Lab](https://thinkingmachines.ai/blog/)     | [feed_thinkingmachines.xml](https://raw.githubusercontent.com/himalalps/rss-feeds/main/feeds/feed_thinkingmachines.xml)           |
 | [Noumena Research](https://www.noumena.com/research)           | [feed_noumena.xml](https://raw.githubusercontent.com/himalalps/rss-feeds/main/feeds/feed_noumena.xml)                             |
 | [Dao-AILab Blog](https://dao-lab.ai/blog/)                     | [feed_dao_ailab.xml](https://raw.githubusercontent.com/himalalps/rss-feeds/main/feeds/feed_dao_ailab.xml)                         |
+| [leloykun's Ponder](https://leloykun.github.io/ponder/)        | [feed_leloykun.xml](https://raw.githubusercontent.com/himalalps/rss-feeds/main/feeds/feed_leloykun.xml)                           |
 
 ## RSS Feed Generator
 
