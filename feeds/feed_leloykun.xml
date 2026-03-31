@@ -1,0 +1,236 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>leloykun's Ponder</title>
+    <link>https://leloykun.github.io/ponder/</link>
+    <description>leloykun's Ponder blog</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 31 Mar 2026 08:47:07 +0000</lastBuildDate>
+    <item>
+      <title>Frequency Domain Muon for Convolutional Neural Networks: Simplified</title>
+      <link>https://leloykun.github.io/ponder/freqmuon/</link>
+      <description>The 'correct' way to apply Muon to CNNs</description>
+      <guid isPermaLink="false">https://leloykun.github.io/ponder/freqmuon/</guid>
+      <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>LUCID-MoE: Mixture of Experts with Preconditioned Routing</title>
+      <link>https://leloykun.github.io/ponder/lucid-moe/</link>
+      <description>Sharper Mixture-of-Experts routing with LUCID preconditioning.</description>
+      <guid isPermaLink="false">https://leloykun.github.io/ponder/lucid-moe/</guid>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Error-Compensating Optimizers: ECO-AdamW, ECO-Muon, and Beyond</title>
+      <link>https://leloykun.github.io/ponder/eco/</link>
+      <description>Quantized training without full-precision master weights, extended to handle weight decay and matrix LMOs.</description>
+      <guid isPermaLink="false">https://leloykun.github.io/ponder/eco/</guid>
+      <pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Bidirectional-PRISM: Kronecker-Factored Optimization via Anisotropic Spectral Shaping</title>
+      <link>https://leloykun.github.io/ponder/shampoo-prism/</link>
+      <description>A novel optimizer that combines Shampoo-style preconditioning with PRISM's anisotropic spectral shaping to adaptively suppress noisy gradient directions while maximally descending under the spectral norm trust-region constraint.</description>
+      <guid isPermaLink="false">https://leloykun.github.io/ponder/shampoo-prism/</guid>
+      <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Steepest Descent on Affine-Conic Representable Manifolds with Boundary via Dual Ascent</title>
+      <link>https://leloykun.github.io/ponder/steepest-descent-affine-conic/</link>
+      <description>Novel optimizers for maximally descending on the loss landscape while satisfying strict weight constraints.</description>
+      <guid isPermaLink="false">https://leloykun.github.io/ponder/steepest-descent-affine-conic/</guid>
+      <pubDate>Fri, 09 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Steepest Descent on the Birkhoff Polytope Equipped with the Spectral Norm</title>
+      <link>https://leloykun.github.io/ponder/steepest-descent-doubly-stochastic/</link>
+      <description>We derive an optimizer that performs steepest descent on the Birkhoff polytope equipped with the spectral norm via dual ascent. We show that it yields larger effective weight updates than naive LMO-based optimizers.</description>
+      <guid isPermaLink="false">https://leloykun.github.io/ponder/steepest-descent-doubly-stochastic/</guid>
+      <pubDate>Sun, 04 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sensitivity and Sharpness of Gated Linear Attention Mechanisms</title>
+      <link>https://leloykun.github.io/ponder/lipschitz-gated-linear-attn/</link>
+      <description>We derive sensitivity and sharpness bounds for Gated DeltaNet and Mamba 2, showing that they can be made 1-Lipschitz with appropriate parameter constraints.</description>
+      <guid isPermaLink="false">https://leloykun.github.io/ponder/lipschitz-gated-linear-attn/</guid>
+      <pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Convergence Bounds for Steepest Descent Under Arbitrary Norms</title>
+      <link>https://leloykun.github.io/ponder/steepest-descent-convergence/</link>
+      <description>First-order optimization under arbitrary norms with Nesterov momentum (and decoupled weight decay) yields a universal convergence bound. Our results generalize to norms not induced by inner products, and also considers batch size.</description>
+      <guid isPermaLink="false">https://leloykun.github.io/ponder/steepest-descent-convergence/</guid>
+      <pubDate>Thu, 11 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Critical Batch Size for Steepest Descent Under Arbitrary Norms</title>
+      <link>https://leloykun.github.io/ponder/steepest-descent-crit-bz/</link>
+      <description>First-order optimization under arbitrary norms with Nesterov momentum (and decoupled weight decay) yields universal critical batch size scaling laws. Under an additional local-LMO assumption, the same analysis also heuristically supports square-root learning-rate scaling with batch size.</description>
+      <guid isPermaLink="false">https://leloykun.github.io/ponder/steepest-descent-crit-bz/</guid>
+      <pubDate>Sat, 22 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Rethinking Maximal Update Parametrization: Steepest Descent on Finsler-Structured (Matrix) Geometries via Dual Ascent</title>
+      <link>https://leloykun.github.io/ponder/steepest-descent-finsler-dual-ascent/</link>
+      <description>To guarantee fast and robust model training, we can recast the optimization problem as steepest descent on Finsler-structured geometries. Here we show how to compute the optimal updates via dual ascent.</description>
+      <guid isPermaLink="false">https://leloykun.github.io/ponder/steepest-descent-finsler-dual-ascent/</guid>
+      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Rethinking Maximal Update Parametrization: Steepest Descent on the Spectral Ball</title>
+      <link>https://leloykun.github.io/ponder/rethinking-mup-spectral-ball/</link>
+      <description>Novel optimizers for maximally updating both the weights and activations of neural networks while keeping weight norms under control. To get there, we needed to invent an efficient, GPU/TPU-friendly method for eigenvalue clipping and solve the Steepest Descent problem on the Positive Semidefinite Cone, Convex Spectrahedron, and finally on the Spectral Ball.</description>
+      <guid isPermaLink="false">https://leloykun.github.io/ponder/rethinking-mup-spectral-ball/</guid>
+      <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Factorization-free Eigenvalue Clipping and Steepest Descent on the Positive Semidefinite Cone, Convex Spectrahedron, and Spectral Ball</title>
+      <link>https://leloykun.github.io/ponder/eigenvalue-clipping/</link>
+      <description>Novel optimizers for maximally updating both the weights and activations of neural networks while keeping weight norms under control. To get there, we needed to invent a cheap, GPU/TPU-friendly method for eigenvalue clipping and steepest descent on the positive semidefinite cone, convex spectrahedron, and finally steepest descent on the spectral ball.</description>
+      <guid isPermaLink="false">https://leloykun.github.io/ponder/eigenvalue-clipping/</guid>
+      <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Steepest Descent on Finsler-Structured (Matrix) Manifolds</title>
+      <link>https://leloykun.github.io/ponder/steepest-descent-finsler/</link>
+      <description>Fast and robust model training.</description>
+      <guid isPermaLink="false">https://leloykun.github.io/ponder/steepest-descent-finsler/</guid>
+      <pubDate>Wed, 20 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Heuristic Solutions for Steepest Descent on the Stiefel Manifold</title>
+      <link>https://leloykun.github.io/ponder/steepest-descent-stiefel/</link>
+      <description>What would Muon look like if we constrained the weights to be semi-orthogonal?</description>
+      <guid isPermaLink="false">https://leloykun.github.io/ponder/steepest-descent-stiefel/</guid>
+      <pubDate>Fri, 18 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sensitivity and Sharpness of n-Simplicial Attention</title>
+      <link>https://leloykun.github.io/ponder/lipschitz-n-simplical-transformer/</link>
+      <description>Towards a maximal update parameterization of n-simplicial attention</description>
+      <guid isPermaLink="false">https://leloykun.github.io/ponder/lipschitz-n-simplical-transformer/</guid>
+      <pubDate>Sun, 06 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Adam with Aggressive Gradient Clipping ≈ Smoothed SignSGD/NormSGD</title>
+      <link>https://leloykun.github.io/ponder/adam-aggressive-clipping/</link>
+      <description>Why does Adam with aggressive gradient value/norm clipping have sparse updates and do well with higher learning rates? Here we show that it asymptotically matches Smoothed SignSGD in the value-clipping limit and tracks a rescaled Smoothed NormSGD direction in the norm-clipping limit.</description>
+      <guid isPermaLink="false">https://leloykun.github.io/ponder/adam-aggressive-clipping/</guid>
+      <pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Fast, Numerically Stable, and Auto-Differentiable Spectral Clipping via Newton-Schulz Iteration</title>
+      <link>https://leloykun.github.io/ponder/spectral-clipping/</link>
+      <description>A small step towards hardware-architecture-optimizer codesign in deep learning.</description>
+      <guid isPermaLink="false">https://leloykun.github.io/ponder/spectral-clipping/</guid>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Muon and a Selective Survey on Steepest Descent in Riemannian and Non-Riemannian Manifolds</title>
+      <link>https://leloykun.github.io/ponder/steepest-descent-non-riemannian/</link>
+      <description>Muon from first principles, what makes it different from other optimizers, and why it works so well.</description>
+      <guid isPermaLink="false">https://leloykun.github.io/ponder/steepest-descent-non-riemannian/</guid>
+      <pubDate>Thu, 03 Apr 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Napkin Math on Non-Euclidean Trust Region Optimization</title>
+      <link>https://leloykun.github.io/ponder/napkin-math-trust-region-opt/</link>
+      <description>A possible reason why Muon converges faster &amp; does better at higher learning rates than Adam.</description>
+      <guid isPermaLink="false">https://leloykun.github.io/ponder/napkin-math-trust-region-opt/</guid>
+      <pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Block Matrix Formulation of Linear Attention Mechanisms</title>
+      <link>https://leloykun.github.io/ponder/blockmat-linear-attn/</link>
+      <description>The block matrix formulation of linear attention mechanisms, multi-step online gradient descent at inference time, and chunk-wise parallelism.</description>
+      <guid isPermaLink="false">https://leloykun.github.io/ponder/blockmat-linear-attn/</guid>
+      <pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Steepest Descent Under Schatten-p Norms</title>
+      <link>https://leloykun.github.io/ponder/steepest-descent-schatten-p/</link>
+      <description>Why Muon still work despite not perfectly semi-orthogonalizing the gradients.</description>
+      <guid isPermaLink="false">https://leloykun.github.io/ponder/steepest-descent-schatten-p/</guid>
+      <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Squeezing 1-2% Efficiency Gains Out of Muon by Optimizing the Newton-Schulz Coefficients</title>
+      <link>https://leloykun.github.io/ponder/muon-opt-coeffs/</link>
+      <description>Simply switching to Muon can already get you 2x efficiency gains. But you can squeeze out an extra 1-2% by optimizing the Newton-Schulz coefficients.</description>
+      <guid isPermaLink="false">https://leloykun.github.io/ponder/muon-opt-coeffs/</guid>
+      <pubDate>Fri, 21 Feb 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CASPR Without Accumulation is Muon</title>
+      <link>https://leloykun.github.io/ponder/caspr-wo-accum-is-muon/</link>
+      <description>The CASPR optimizer, a variant of Shampoo, reduces to Muon when we remove the accumulation on the preconditioners.</description>
+      <guid isPermaLink="false">https://leloykun.github.io/ponder/caspr-wo-accum-is-muon/</guid>
+      <pubDate>Thu, 13 Feb 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>GRPO's Main Flaw</title>
+      <link>https://leloykun.github.io/ponder/grpo-flaw/</link>
+      <description>GRPO may not be the best choice for training reasoning models. Here's why.</description>
+      <guid isPermaLink="false">https://leloykun.github.io/ponder/grpo-flaw/</guid>
+      <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>(Linear) Attention as Test-Time Regression</title>
+      <link>https://leloykun.github.io/ponder/test-time-regression/</link>
+      <description>A unifying framework for linear attention mechanisms as test-time regression and how to parallelize training and inference.</description>
+      <guid isPermaLink="false">https://leloykun.github.io/ponder/test-time-regression/</guid>
+      <pubDate>Mon, 27 Jan 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Deep Learning Optimizers as Steepest Descent in Normed Spaces</title>
+      <link>https://leloykun.github.io/ponder/steepest-descent-opt/</link>
+      <description>Instead of asking, 'Which optimizer should I use?' ask, 'In which space do my features live in?'</description>
+      <guid isPermaLink="false">https://leloykun.github.io/ponder/steepest-descent-opt/</guid>
+      <pubDate>Sun, 20 Oct 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ChatGPT May Have Developed Seasonal Depression</title>
+      <link>https://leloykun.github.io/ponder/chatgpt-seasonal-depression/</link>
+      <description>Could ChatGPT's shorter responses be an indication of something more bizarre going on?</description>
+      <guid isPermaLink="false">https://leloykun.github.io/ponder/chatgpt-seasonal-depression/</guid>
+      <pubDate>Sat, 16 Dec 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Human Mind May Be Universal</title>
+      <link>https://leloykun.github.io/ponder/human-mind-universality/</link>
+      <description>Years of experience in building artificial minds led me to believe that these AIs may end up seeming more 'human' than we currently imagine them to be.</description>
+      <guid isPermaLink="false">https://leloykun.github.io/ponder/human-mind-universality/</guid>
+      <pubDate>Sun, 10 Dec 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Four Rules for Rulers</title>
+      <link>https://leloykun.github.io/ponder/4rules4rulers/</link>
+      <description>On how to gain and maintain power.</description>
+      <guid isPermaLink="false">https://leloykun.github.io/ponder/4rules4rulers/</guid>
+      <pubDate>Sun, 19 Jun 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Vaccine Search as a Computational Problem</title>
+      <link>https://leloykun.github.io/ponder/vaccine-search-as-comp-prob/</link>
+      <description>A thought dump on mRNA vaccines and the future of computational biology</description>
+      <guid isPermaLink="false">https://leloykun.github.io/ponder/vaccine-search-as-comp-prob/</guid>
+      <pubDate>Sat, 06 Feb 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Accuracy-Fairness Dilemma in Machine Learning</title>
+      <link>https://leloykun.github.io/ponder/ml-accuracy-fairness-dilemma/</link>
+      <description>Machine learning models merely amplify our biases - not eliminate them.</description>
+      <guid isPermaLink="false">https://leloykun.github.io/ponder/ml-accuracy-fairness-dilemma/</guid>
+      <pubDate>Sat, 24 Oct 2020 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to Master Machine Learning: 3 Tips to Get Started</title>
+      <link>https://leloykun.github.io/ponder/how-to-master-machine-learning/</link>
+      <description>Whether you're only here for the hype or genuinely interested in the field, you’re in for a wild ride.</description>
+      <guid isPermaLink="false">https://leloykun.github.io/ponder/how-to-master-machine-learning/</guid>
+      <pubDate>Sat, 12 Sep 2020 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
