@@ -12,6 +12,7 @@ RSS feeds in newest first order.
 | [Anthropic Research](https://www.anthropic.com/research)       | [feed_anthropic_research.xml](https://raw.githubusercontent.com/himalalps/rss-feeds/main/feeds/feed_anthropic_research.xml)       |
 | [Thinking Machines Lab](https://thinkingmachines.ai/blog/)     | [feed_thinkingmachines.xml](https://raw.githubusercontent.com/himalalps/rss-feeds/main/feeds/feed_thinkingmachines.xml)           |
 | [Noumena Research](https://www.noumena.com/research)           | [feed_noumena.xml](https://raw.githubusercontent.com/himalalps/rss-feeds/main/feeds/feed_noumena.xml)                             |
+| [Dao-AILab Blog](https://dao-lab.ai/blog/)                     | [feed_dao_ailab.xml](https://raw.githubusercontent.com/himalalps/rss-feeds/main/feeds/feed_dao_ailab.xml)                         |
 
 ## RSS Feed Generator
 
