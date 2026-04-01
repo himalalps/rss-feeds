@@ -12,7 +12,15 @@
       <link>https://www.anthropic.com/research</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 31 Mar 2026 08:47:08 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Apr 2026 03:23:10 +0000</lastBuildDate>
+    <item>
+      <title>How Australia Uses Claude: Findings from the Anthropic Economic Index</title>
+      <link>https://www.anthropic.com/research/how-australia-uses-claude</link>
+      <description>Anthropic's fifth Economic Index report studies Claude usage in February 2026, building on the economic primitives framework introduced in our previous report.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/how-australia-uses-claude</guid>
+      <category>Economic Research</category>
+      <pubDate>Tue, 31 Mar 2026 22:17:00 +0000</pubDate>
+    </item>
     <item>
       <title>Anthropic Economic Index report: Learning curves</title>
       <link>https://www.anthropic.com/research/economic-index-march-2026-report</link>
