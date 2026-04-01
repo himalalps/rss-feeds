@@ -11,6 +11,7 @@ RSS feeds in newest first order.
 | [Anthropic Engineering](https://www.anthropic.com/engineering) | [feed_anthropic_engineering.xml](https://raw.githubusercontent.com/himalalps/rss-feeds/main/feeds/feed_anthropic_engineering.xml) |
 | [Anthropic Research](https://www.anthropic.com/research)       | [feed_anthropic_research.xml](https://raw.githubusercontent.com/himalalps/rss-feeds/main/feeds/feed_anthropic_research.xml)       |
 | [Thinking Machines Lab](https://thinkingmachines.ai/blog/)     | [feed_thinkingmachines.xml](https://raw.githubusercontent.com/himalalps/rss-feeds/main/feeds/feed_thinkingmachines.xml)           |
+| [Thinking Machines News](https://thinkingmachines.ai/news/)    | [feed_thinkingmachines_news.xml](https://raw.githubusercontent.com/himalalps/rss-feeds/main/feeds/feed_thinkingmachines_news.xml) |
 | [Noumena Research](https://www.noumena.com/research)           | [feed_noumena.xml](https://raw.githubusercontent.com/himalalps/rss-feeds/main/feeds/feed_noumena.xml)                             |
 | [Dao-AILab Blog](https://dao-lab.ai/blog/)                     | [feed_dao_ailab.xml](https://raw.githubusercontent.com/himalalps/rss-feeds/main/feeds/feed_dao_ailab.xml)                         |
 | [leloykun's Ponder](https://leloykun.github.io/ponder/)        | [feed_leloykun.xml](https://raw.githubusercontent.com/himalalps/rss-feeds/main/feeds/feed_leloykun.xml)                           |
