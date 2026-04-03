@@ -59,6 +59,52 @@ def _extract_date_from_text(text):
     return None
 
 
+def _extract_date_for_article_in_text(text, title):
+    """Find the section-header date that precedes *title* inside a full-index text blob.
+
+    When the parent element's text is the entire page index (e.g.
+    "April 2026 Emotion Concepts … December 2025 Circuits Cross-Post …"),
+    this locates the article title and returns the last 'Month YYYY' heading
+    found before it, which is the month the paper was published.
+
+    Returns a timezone-aware datetime, or None.
+    """
+    if not text or not title:
+        return None
+    pos = text.find(title[:40])
+    if pos < 0:
+        return None
+    before = text[:pos]
+    matches = list(re.finditer(r"\b([A-Z][a-z]+)\s+(\d{4})\b", before))
+    if not matches:
+        return None
+    last = matches[-1]
+    return parse_date(f"{last.group(1)} 1, {last.group(2)}")
+
+
+_MAX_DESCRIPTION_LENGTH = 500
+
+
+def _extract_description_for_article_in_text(text, title):
+    """Extract the article's own short description from a full-index text blob.
+
+    Looks for the text that follows *title* up to the next 'Month YYYY' section
+    header, which is the article's abstract/description in the index.
+
+    Returns a stripped string, or None.
+    """
+    if not text or not title:
+        return None
+    pos = text.find(title[:40])
+    if pos == -1:
+        return None
+    after = text[pos + len(title):].lstrip()
+    # Stop at the next section-header date pattern
+    next_date = re.search(r"\b[A-Z][a-z]+ \d{4}\b", after)
+    snippet = after[: next_date.start()].strip() if next_date else after.strip()
+    return snippet[:_MAX_DESCRIPTION_LENGTH] if snippet else None
+
+
 _MONTH_NAME_TO_NUM = {
     "january": 1,
     "february": 2,
@@ -240,21 +286,32 @@ def extract_articles(soup):
         if not title:
             continue
 
-        # Use parent element text for description context only (not for date extraction,
-        # because the parent often contains the whole page and would produce a wrong date)
+        # Use parent element text for description and date extraction.
+        # When the parent is the full page index, it contains "Month YYYY" section
+        # headers that reveal which month each paper was published.
         parent_text = ""
         parent = a_tag.parent
         if parent:
             parent_text = parent.get_text(separator=" ", strip=True)
 
-        # Prefer fetching the article page for an accurate published date, then fall
-        # back to extracting year/month from the URL, then the stable fallback.
+        # Prefer fetching the article page for an accurate published date, then try
+        # to find the date by locating the article title in the parent text (works
+        # when the parent holds the full page index with "Month YYYY" headers), then
+        # fall back to extracting year/month from the URL, then the stable fallback.
         date = (
             fetch_article_date(abs_link)
+            or _extract_date_for_article_in_text(parent_text, title)
             or _extract_year_month_from_url(abs_link)
             or stable_fallback_date(abs_link)
         )
-        description = parent_text or title
+
+        # Use the article's own abstract extracted from the index text when available;
+        # otherwise fall back to the full parent text or the title.
+        description = (
+            _extract_description_for_article_in_text(parent_text, title)
+            or parent_text
+            or title
+        )
 
         article = {
             "title": title,
