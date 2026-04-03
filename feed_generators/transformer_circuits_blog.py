@@ -233,7 +233,7 @@ def extract_articles(soup):
                     break
 
             if context_texts:
-                description = context_texts[0]
+                description = context_texts[0][:_MAX_DESCRIPTION_LENGTH]
                 combined = " ".join(context_texts)
                 date = _extract_date_from_text(combined)
 
@@ -306,10 +306,10 @@ def extract_articles(soup):
         )
 
         # Use the article's own abstract extracted from the index text when available;
-        # otherwise fall back to the full parent text or the title.
+        # otherwise fall back to the title (never use the full parent text which
+        # may be the entire page content and would be identical for every article).
         description = (
             _extract_description_for_article_in_text(parent_text, title)
-            or parent_text
             or title
         )
 
