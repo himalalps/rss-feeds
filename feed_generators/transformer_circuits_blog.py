@@ -1,5 +1,8 @@
+import json
 import re
+from datetime import datetime
 
+import pytz
 from bs4 import BeautifulSoup
 from utils import (
     fetch_content,
@@ -56,6 +59,94 @@ def _extract_date_from_text(text):
     return None
 
 
+_MONTH_NAME_TO_NUM = {
+    "january": 1,
+    "february": 2,
+    "march": 3,
+    "april": 4,
+    "may": 5,
+    "june": 6,
+    "july": 7,
+    "august": 8,
+    "september": 9,
+    "october": 10,
+    "november": 11,
+    "december": 12,
+}
+
+
+def _extract_year_month_from_url(url):
+    """Derive a date from a transformer-circuits URL.
+
+    URLs follow the pattern  /<year>/<slug>/...
+    The slug sometimes encodes the month (e.g. 'september-update').
+    Returns a timezone-aware datetime or None.
+    """
+    m = re.search(r"/(\d{4})/([^/]+)/", url)
+    if not m:
+        return None
+    year = int(m.group(1))
+    slug = m.group(2).lower()
+    for name, num in _MONTH_NAME_TO_NUM.items():
+        if name in slug:
+            return datetime(year, num, 1, tzinfo=pytz.UTC)
+    return datetime(year, 1, 1, tzinfo=pytz.UTC)
+
+
+def fetch_article_date(url):
+    """Fetch an individual article page and return its published date.
+
+    Checks (in order):
+      1. <meta> tags whose name/property contains 'publish' or equals 'date'
+      2. JSON-LD datePublished / dateCreated / date fields
+      3. <time> elements (datetime attribute or text content)
+
+    Returns a timezone-aware datetime, or None if nothing is found.
+    """
+    if not url.startswith(BASE_URL):
+        return None
+    try:
+        html = fetch_content(url)
+        soup = BeautifulSoup(html, "html.parser")
+
+        # 1. Meta tags
+        for meta in soup.find_all("meta"):
+            for attr in ("name", "property", "itemprop"):
+                val = meta.get(attr, "").lower()
+                if "publish" in val or val in ("date", "article:published_time"):
+                    content = meta.get("content", "")
+                    if content:
+                        date = parse_date(content)
+                        if date:
+                            return date
+
+        # 2. JSON-LD
+        for script in soup.find_all("script", type="application/ld+json"):
+            if not script.string:
+                continue
+            try:
+                data = json.loads(script.string)
+                for key in ("datePublished", "dateCreated", "date"):
+                    if key in data:
+                        date = parse_date(data[key])
+                        if date:
+                            return date
+            except Exception:
+                pass
+
+        # 3. <time> elements
+        for time_tag in soup.find_all("time"):
+            dt = time_tag.get("datetime", "") or time_tag.get_text(strip=True)
+            if dt:
+                date = parse_date(dt)
+                if date:
+                    return date
+
+        return None
+    except Exception:
+        return None
+
+
 def extract_articles(soup):
     """Extract paper entries from the transformer-circuits.pub index page."""
     articles = []
@@ -100,6 +191,25 @@ def extract_articles(soup):
                 combined = " ".join(context_texts)
                 date = _extract_date_from_text(combined)
 
+            # If still no date, check the nearest preceding h2 for a month header
+            # (e.g. the index page groups articles under "April 2026", "December 2025" …)
+            if date is None:
+                for prev_sib in heading.find_previous_siblings():
+                    prev_tag = prev_sib.name if hasattr(prev_sib, "name") else None
+                    if prev_tag == "h2":
+                        date = _extract_date_from_text(
+                            prev_sib.get_text(separator=" ", strip=True)
+                        )
+                        break
+
+            # Fall back to fetching the individual article page for its published date
+            if date is None:
+                date = fetch_article_date(abs_link)
+
+            # Last resort: derive year (and month when encoded in URL) from the URL path
+            if date is None:
+                date = _extract_year_month_from_url(abs_link)
+
             if date is None:
                 date = stable_fallback_date(abs_link)
 
@@ -130,13 +240,20 @@ def extract_articles(soup):
         if not title:
             continue
 
-        # Use parent element text for date/description context
+        # Use parent element text for description context only (not for date extraction,
+        # because the parent often contains the whole page and would produce a wrong date)
         parent_text = ""
         parent = a_tag.parent
         if parent:
             parent_text = parent.get_text(separator=" ", strip=True)
 
-        date = _extract_date_from_text(parent_text) or stable_fallback_date(abs_link)
+        # Prefer fetching the article page for an accurate published date, then fall
+        # back to extracting year/month from the URL, then the stable fallback.
+        date = (
+            fetch_article_date(abs_link)
+            or _extract_year_month_from_url(abs_link)
+            or stable_fallback_date(abs_link)
+        )
         description = parent_text or title
 
         article = {
