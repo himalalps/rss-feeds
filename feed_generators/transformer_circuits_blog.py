@@ -33,8 +33,8 @@ def _looks_like_paper_url(href):
     """Return True if the href looks like a link to a paper page."""
     if not href:
         return False
-    # Paper URLs contain a 4-digit year segment (with or without a leading slash)
-    return bool(re.search(r"(?:^|/)\d{4}/", href))
+    # Paper URLs contain a 4-digit year segment (1900–2099, with or without a leading slash)
+    return bool(re.search(r"(?:^|/)(?:19|20)\d{2}/", href))
 
 
 def _extract_date_from_text(text):
@@ -183,7 +183,7 @@ def main(feed_name="transformer_circuits"):
             "language": "en",
             "author": {"name": "Transformer Circuits Authors"},
             "subtitle": "Interpretability research on transformer circuits",
-            "sort_reverse": False,
+            "sort_reverse": True,
             "date_field": "date",
         }
         feed = generate_rss_feed(articles, feed_config)
