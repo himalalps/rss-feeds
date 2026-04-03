@@ -72,7 +72,7 @@ def _extract_date_for_article_in_text(text, title):
     if not text or not title:
         return None
     pos = text.find(title[:40])
-    if pos <= 0:
+    if pos < 0:
         return None
     before = text[:pos]
     matches = list(re.finditer(r"\b([A-Z][a-z]+)\s+(\d{4})\b", before))
@@ -80,6 +80,9 @@ def _extract_date_for_article_in_text(text, title):
         return None
     last = matches[-1]
     return parse_date(f"{last.group(1)} 1, {last.group(2)}")
+
+
+_MAX_DESCRIPTION_LENGTH = 500
 
 
 def _extract_description_for_article_in_text(text, title):
@@ -99,7 +102,7 @@ def _extract_description_for_article_in_text(text, title):
     # Stop at the next section-header date pattern
     next_date = re.search(r"\b[A-Z][a-z]+ \d{4}\b", after)
     snippet = after[: next_date.start()].strip() if next_date else after.strip()
-    return snippet[:500] if snippet else None
+    return snippet[:_MAX_DESCRIPTION_LENGTH] if snippet else None
 
 
 _MONTH_NAME_TO_NUM = {
