@@ -357,7 +357,7 @@ def main(feed_name="transformer_circuits"):
             "language": "en",
             "author": {"name": "Transformer Circuits Authors"},
             "subtitle": "Interpretability research on transformer circuits",
-            "sort_reverse": True,
+            "sort_reverse": False,
             "date_field": "date",
         }
         feed = generate_rss_feed(articles, feed_config)
