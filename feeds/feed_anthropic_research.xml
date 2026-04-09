@@ -12,11 +12,19 @@
       <link>https://www.anthropic.com/research</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Wed, 08 Apr 2026 02:55:45 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Apr 2026 02:50:13 +0000</lastBuildDate>
     <item>
       <title>Emotion concepts and their function in a large language model</title>
       <link>https://www.anthropic.com/research/emotion-concepts-function</link>
-      <description>Emotion concepts and their function in a large language model</description>
+      <description>All modern language models sometimes act like they have emotions. What’s behind these behaviors? Our interpretability team investigates.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/emotion-concepts-function</guid>
+      <category>Interpretability</category>
+      <pubDate>Thu, 02 Apr 2026 10:56:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Emotion concepts and their function in a large language model</title>
+      <link>https://www.anthropic.com/research/emotion-concepts-function</link>
+      <description>All modern language models sometimes act like they have emotions. What’s behind these behaviors? Our interpretability team investigates.</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/emotion-concepts-function</guid>
       <category>Interpretability</category>
       <pubDate>Thu, 02 Apr 2026 10:56:00 +0000</pubDate>
@@ -72,7 +80,7 @@
     <item>
       <title>Partnering with Mozilla to improve Firefox’s security</title>
       <link>https://www.anthropic.com/research/mozilla-firefox-security</link>
-      <description>Partnering with Mozilla to improve Firefox’s security</description>
+      <description>In this paper, we present a new framework for understanding AI’s labor market impacts, and test it against early data.</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/mozilla-firefox-security</guid>
       <category>Policy</category>
       <pubDate>Fri, 06 Mar 2026 10:30:00 +0000</pubDate>
@@ -80,7 +88,15 @@
     <item>
       <title>Labor market impacts of AI: A new measure and early evidence</title>
       <link>https://www.anthropic.com/research/labor-market-impacts</link>
-      <description>Labor market impacts of AI: A new measure and early evidence</description>
+      <description>In this paper, we present a new framework for understanding AI’s labor market impacts, and test it against early data.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/labor-market-impacts</guid>
+      <category>Economic Research</category>
+      <pubDate>Thu, 05 Mar 2026 19:59:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Labor market impacts of AI: A new measure and early evidence</title>
+      <link>https://www.anthropic.com/research/labor-market-impacts</link>
+      <description>In this paper, we present a new framework for understanding AI’s labor market impacts, and test it against early data.</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/labor-market-impacts</guid>
       <category>Economic Research</category>
       <pubDate>Thu, 05 Mar 2026 19:59:21 +0000</pubDate>
@@ -260,14 +276,6 @@
       <guid isPermaLink="false">https://www.anthropic.com/research/deprecation-commitments</guid>
       <category>Alignment</category>
       <pubDate>Tue, 04 Nov 2025 16:00:49 +0000</pubDate>
-    </item>
-    <item>
-      <title>Signs of introspection in large language models</title>
-      <link>https://www.anthropic.com/research/introspection</link>
-      <description>Can Claude access and report on its own internal states? This research finds evidence for a limited but functional ability to introspect—a step toward understanding what's actually happening inside these models.</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/introspection</guid>
-      <category>Interpretability</category>
-      <pubDate>Wed, 29 Oct 2025 01:20:00 +0000</pubDate>
     </item>
     <item>
       <title>Signs of introspection in large language models</title>
@@ -516,14 +524,6 @@
       <guid isPermaLink="false">https://www.anthropic.com/research/building-effective-agents</guid>
       <category>Product</category>
       <pubDate>Thu, 19 Dec 2024 21:14:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Alignment faking in large language models</title>
-      <link>https://www.anthropic.com/research/alignment-faking</link>
-      <description>This paper provides the first empirical example of a model engaging in alignment faking without being trained to do so—selectively complying with training objectives while strategically preserving existing preferences.</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/alignment-faking</guid>
-      <category>Alignment</category>
-      <pubDate>Wed, 18 Dec 2024 14:16:00 +0000</pubDate>
     </item>
     <item>
       <title>Alignment faking in large language models</title>
