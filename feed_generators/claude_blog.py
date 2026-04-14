@@ -260,15 +260,9 @@ def extract_articles_from_html(soup):
         soup.find_all("a", href=re.compile(r"/blog/[^/]+")),
         # Common card class patterns
         soup.select(
-            ".post-card, .blog-card, .article-card, .blog-post"
-        ),
-        soup.select(
-            ".post-item, .article-item, .card"
-        ),
-        soup.select(
-            "[class*='PostCard'], [class*='ArticleCard'], [class*='BlogCard']"
-        ),
-        soup.select(
+            ".post-card, .blog-card, .article-card, .blog-post, "
+            ".post-item, .article-item, .card, "
+            "[class*='PostCard'], [class*='ArticleCard'], [class*='BlogCard'], "
             "[class*='post-card'], [class*='article-card'], [class*='blog-card']"
         ),
     ]

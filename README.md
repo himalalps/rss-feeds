@@ -15,7 +15,7 @@ RSS feeds in newest first order.
 | [Noumena Research](https://www.noumena.com/research)           | [feed_noumena.xml](https://raw.githubusercontent.com/himalalps/rss-feeds/main/feeds/feed_noumena.xml)                             |
 | [Dao-AILab Blog](https://dao-lab.ai/blog/)                     | [feed_dao_ailab.xml](https://raw.githubusercontent.com/himalalps/rss-feeds/main/feeds/feed_dao_ailab.xml)                         |
 | [leloykun's Ponder](https://leloykun.github.io/ponder/)        | [feed_leloykun.xml](https://raw.githubusercontent.com/himalalps/rss-feeds/main/feeds/feed_leloykun.xml)                           |
-| [Claude Blog](https://claude.com/blog/)                           | [feed_claude_blog.xml](https://raw.githubusercontent.com/himalalps/rss-feeds/main/feeds/feed_claude_blog.xml)                   |
+| [Claude Blog](https://claude.com/blog/)                         | [feed_claude_blog.xml](https://raw.githubusercontent.com/himalalps/rss-feeds/main/feeds/feed_claude_blog.xml)                     |
 | [Transformer Circuits Thread](https://transformer-circuits.pub/) | [feed_transformer_circuits.xml](https://raw.githubusercontent.com/himalalps/rss-feeds/main/feeds/feed_transformer_circuits.xml) |
 
 ## RSS Feed Generator
