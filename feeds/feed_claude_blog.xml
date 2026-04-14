@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Claude Blog</title>
+    <link>https://claude.com/blog</link>
+    <description>Blog posts from Claude by Anthropic</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 14 Apr 2026 09:34:17 +0000</lastBuildDate>
+    <item>
+      <title>The advisor strategy: Give agents an intelligence boost</title>
+      <link>https://claude.com/blog/the-advisor-strategy</link>
+      <description>The advisor strategy: Give agents an intelligence boost</description>
+      <guid isPermaLink="false">https://claude.com/blog/the-advisor-strategy</guid>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How and when to use subagents in Claude Code</title>
+      <link>https://claude.com/blog/subagents-in-claude-code</link>
+      <description>How and when to use subagents in Claude Code</description>
+      <guid isPermaLink="false">https://claude.com/blog/subagents-in-claude-code</guid>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Seeing like an agent: how we design tools in Claude Code</title>
+      <link>https://claude.com/blog/seeing-like-an-agent</link>
+      <description>Seeing like an agent: how we design tools in Claude Code</description>
+      <guid isPermaLink="false">https://claude.com/blog/seeing-like-an-agent</guid>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Product management on the AI exponential</title>
+      <link>https://claude.com/blog/product-management-on-the-ai-exponential</link>
+      <description>Product management on the AI exponential</description>
+      <guid isPermaLink="false">https://claude.com/blog/product-management-on-the-ai-exponential</guid>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Preparing your security program for AI-accelerated offense</title>
+      <link>https://claude.com/blog/preparing-your-security-program-for-ai-accelerated-offense</link>
+      <description>Preparing your security program for AI-accelerated offense</description>
+      <guid isPermaLink="false">https://claude.com/blog/preparing-your-security-program-for-ai-accelerated-offense</guid>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Multi-agent coordination patterns: Five approaches and when to use them</title>
+      <link>https://claude.com/blog/multi-agent-coordination-patterns</link>
+      <description>Multi-agent coordination patterns: Five approaches and when to use them</description>
+      <guid isPermaLink="false">https://claude.com/blog/multi-agent-coordination-patterns</guid>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Harnessing Claude’s intelligence</title>
+      <link>https://claude.com/blog/harnessing-claudes-intelligence</link>
+      <description>Harnessing Claude’s intelligence</description>
+      <guid isPermaLink="false">https://claude.com/blog/harnessing-claudes-intelligence</guid>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Put Claude to work on your computer</title>
+      <link>https://claude.com/blog/dispatch-and-computer-use</link>
+      <description>Put Claude to work on your computer</description>
+      <guid isPermaLink="false">https://claude.com/blog/dispatch-and-computer-use</guid>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Making Claude Cowork ready for enterprise</title>
+      <link>https://claude.com/blog/cowork-for-enterprise</link>
+      <description>Making Claude Cowork ready for enterprise</description>
+      <guid isPermaLink="false">https://claude.com/blog/cowork-for-enterprise</guid>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Code with Claude comes to San Francisco, London, and Tokyo</title>
+      <link>https://claude.com/blog/code-with-claude-san-francisco-london-tokyo</link>
+      <description>Code with Claude comes to San Francisco, London, and Tokyo</description>
+      <guid isPermaLink="false">https://claude.com/blog/code-with-claude-san-francisco-london-tokyo</guid>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Audit Claude Platform activity with the Compliance API</title>
+      <link>https://claude.com/blog/claude-platform-compliance-api</link>
+      <description>Audit Claude Platform activity with the Compliance API</description>
+      <guid isPermaLink="false">https://claude.com/blog/claude-platform-compliance-api</guid>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude Managed Agents: get to production 10x faster</title>
+      <link>https://claude.com/blog/claude-managed-agents</link>
+      <description>Claude Managed Agents: get to production 10x faster</description>
+      <guid isPermaLink="false">https://claude.com/blog/claude-managed-agents</guid>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Carta Healthcare gets AI to reason like a clinical abstractor</title>
+      <link>https://claude.com/blog/carta-healthcare-clinical-abstractor</link>
+      <description>How Carta Healthcare gets AI to reason like a clinical abstractor</description>
+      <guid isPermaLink="false">https://claude.com/blog/carta-healthcare-clinical-abstractor</guid>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Auto mode for Claude Code</title>
+      <link>https://claude.com/blog/auto-mode</link>
+      <description>Auto mode for Claude Code</description>
+      <guid isPermaLink="false">https://claude.com/blog/auto-mode</guid>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>1M context is now generally available for Opus 4.6 and Sonnet 4.6</title>
+      <link>https://claude.com/blog/1m-context-ga</link>
+      <description>1M context is now generally available for Opus 4.6 and Sonnet 4.6</description>
+      <guid isPermaLink="false">https://claude.com/blog/1m-context-ga</guid>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
