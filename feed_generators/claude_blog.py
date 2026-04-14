@@ -68,6 +68,13 @@ def _parse_article_dict(item):
         or item.get("published_at")
         or item.get("createdAt")
         or item.get("datePublished")
+        or item.get("dateCreated")
+        or item.get("_createdAt")
+        or item.get("_updatedAt")
+        or item.get("publish_date")
+        or item.get("postDate")
+        or item.get("created")
+        or item.get("published")
     )
     date = parse_date(date_str) if date_str else stable_fallback_date(link)
 
@@ -406,6 +413,120 @@ def parse_claude_blog_html(html_content):
         raise
 
 
+def _is_fallback_date(date):
+    """Check if a date is the stable fallback date (2023-01-01)."""
+    if date is None:
+        return True
+    fallback = stable_fallback_date(None)
+    return date == fallback
+
+
+def extract_date_from_article_page(url):
+    """Fetch an individual article page and extract its publication date.
+
+    Tries multiple strategies:
+    1. OpenGraph / meta tags (article:published_time, etc.)
+    2. JSON-LD structured data (datePublished)
+    3. <time> elements with datetime attributes
+    4. Visible text matching common date patterns
+    """
+    try:
+        html_content = fetch_content(url)
+        soup = BeautifulSoup(html_content, "html.parser")
+
+        # Strategy 1: Meta tags
+        meta_properties = [
+            "article:published_time",
+            "og:article:published_time",
+            "article:modified_time",
+            "og:updated_time",
+        ]
+        for prop in meta_properties:
+            meta = soup.find("meta", property=prop)
+            if meta and meta.get("content"):
+                date = parse_date(meta["content"])
+                if date:
+                    return date
+
+        meta_names = ["date", "pubdate", "publish_date", "DC.date.issued"]
+        for name in meta_names:
+            meta = soup.find("meta", attrs={"name": name})
+            if meta and meta.get("content"):
+                date = parse_date(meta["content"])
+                if date:
+                    return date
+
+        # Strategy 2: JSON-LD structured data
+        for script in soup.find_all("script", type="application/ld+json"):
+            try:
+                data = json.loads(script.string or "")
+                items = data if isinstance(data, list) else [data]
+                for item in items:
+                    if not isinstance(item, dict):
+                        continue
+                    date_str = item.get("datePublished") or item.get("dateCreated")
+                    if date_str:
+                        date = parse_date(date_str)
+                        if date:
+                            return date
+            except (json.JSONDecodeError, AttributeError):
+                continue
+
+        # Strategy 3: <time> elements
+        for time_elem in soup.find_all("time"):
+            date_text = time_elem.get("datetime") or time_elem.get_text(strip=True)
+            if date_text:
+                date = parse_date(date_text)
+                if date:
+                    return date
+
+        # Strategy 4: Elements with date-related classes
+        date_selectors = [
+            "[class*='date']",
+            "[class*='Date']",
+            "[class*='publish']",
+            "[class*='Publish']",
+            "[class*='posted']",
+            "[class*='Posted']",
+        ]
+        for selector in date_selectors:
+            for elem in soup.select(selector):
+                text = elem.get_text(strip=True)
+                if text and len(text) < 50:
+                    date = parse_date(text)
+                    if date:
+                        return date
+
+        return None
+
+    except Exception as e:
+        logger.warning(f"Error fetching date from {url}: {str(e)}")
+        return None
+
+
+def backfill_missing_dates(articles):
+    """Fetch individual article pages to fill in missing dates."""
+    fallback_count = sum(1 for a in articles if _is_fallback_date(a.get("date")))
+    if fallback_count == 0:
+        return articles
+
+    logger.info(
+        f"Backfilling dates for {fallback_count} articles from individual pages"
+    )
+    updated = 0
+    for article in articles:
+        if not _is_fallback_date(article.get("date")):
+            continue
+        date = extract_date_from_article_page(article["link"])
+        if date:
+            article["date"] = date
+            updated += 1
+            logger.info(f"Found date {date} for: {article['title']}")
+
+    logger.info(f"Backfilled dates for {updated}/{fallback_count} articles")
+    return articles
+
+
 def main(feed_name="claude_blog"):
     """Main function to generate RSS feed from Claude's blog page."""
     try:
@@ -417,6 +538,10 @@ def main(feed_name="claude_blog"):
         if not articles:
             logger.warning("No articles found on the Claude blog")
             return False
+
+        # Backfill dates from individual article pages when the listing
+        # page doesn't provide them
+        articles = backfill_missing_dates(articles)
 
         feed_config = {
             "title": "Claude Blog",
