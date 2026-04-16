@@ -7,7 +7,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 15 Apr 2026 03:19:49 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Apr 2026 03:28:15 +0000</lastBuildDate>
+    <item>
+      <title>Using Claude Code: session management and 1M context</title>
+      <link>https://claude.com/blog/using-claude-code-session-management-and-1m-context</link>
+      <description>Using Claude Code: session management and 1M context</description>
+      <guid isPermaLink="false">https://claude.com/blog/using-claude-code-session-management-and-1m-context</guid>
+      <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Introducing routines in Claude Code</title>
       <link>https://claude.com/blog/introducing-routines-in-claude-code</link>
@@ -105,13 +112,6 @@
       <description>Put Claude to work on your computer</description>
       <guid isPermaLink="false">https://claude.com/blog/dispatch-and-computer-use</guid>
       <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Product management on the AI exponential</title>
-      <link>https://claude.com/blog/product-management-on-the-ai-exponential</link>
-      <description>Product management on the AI exponential</description>
-      <guid isPermaLink="false">https://claude.com/blog/product-management-on-the-ai-exponential</guid>
-      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
