@@ -65,6 +65,7 @@ def _extract_from_xml_feed(content):
 
 
 def _extract_plain_article_text(raw_description):
+    """Extract article body text from HTML-like descriptions and return plain text."""
     if not raw_description:
         return ""
 
