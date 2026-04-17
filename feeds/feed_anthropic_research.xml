@@ -12,7 +12,7 @@
       <link>https://www.anthropic.com/research</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Fri, 17 Apr 2026 07:40:27 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 Apr 2026 08:07:42 +0000</lastBuildDate>
     <item>
       <title>Automated Alignment Researchers: Using large language models to scale scalable oversight</title>
       <link>https://www.anthropic.com/research/automated-alignment-researchers</link>
@@ -731,7 +731,7 @@
       <description>Evaluating and Mitigating Discrimination in Language Model Decisions</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/evaluating-and-mitigating-discrimination-in-language-model-decisions</guid>
       <category>Societal Impacts</category>
-      <pubDate>Thu, 07 Dec 2023 08:50:00 +0000</pubDate>
+      <pubDate>Thu, 07 Dec 2023 16:50:00 +0000</pubDate>
     </item>
     <item>
       <title>Specific versus General Principles for Constitutional AI</title>
@@ -739,7 +739,7 @@
       <description>Anthropic and the Collective Intelligence Project ran a public process with ~1,000 Americans to draft a constitution for an AI system, then trained a model on it.</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/specific-versus-general-principles-for-constitutional-ai</guid>
       <category>Alignment</category>
-      <pubDate>Tue, 24 Oct 2023 09:07:00 +0000</pubDate>
+      <pubDate>Tue, 24 Oct 2023 16:07:00 +0000</pubDate>
     </item>
     <item>
       <title>Towards Understanding Sycophancy in Language Models</title>
@@ -747,7 +747,7 @@
       <description>Anthropic and the Collective Intelligence Project ran a public process with ~1,000 Americans to draft a constitution for an AI system, then trained a model on it.</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/towards-understanding-sycophancy-in-language-models</guid>
       <category>Alignment</category>
-      <pubDate>Mon, 23 Oct 2023 11:57:00 +0000</pubDate>
+      <pubDate>Mon, 23 Oct 2023 18:57:00 +0000</pubDate>
     </item>
     <item>
       <title>Collective Constitutional AI: Aligning a Language Model with Public Input</title>
@@ -755,7 +755,7 @@
       <description>Anthropic and the Collective Intelligence Project ran a public process with ~1,000 Americans to draft a constitution for an AI system, then trained a model on it.</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/collective-constitutional-ai-aligning-a-language-model-with-public-input</guid>
       <category>Policy</category>
-      <pubDate>Tue, 17 Oct 2023 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 17 Oct 2023 07:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Towards Monosemanticity: Decomposing Language Models With Dictionary Learning</title>
@@ -763,7 +763,7 @@
       <description>Towards Monosemanticity: Decomposing Language Models With Dictionary Learning</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/towards-monosemanticity-decomposing-language-models-with-dictionary-learning</guid>
       <category>Interpretability</category>
-      <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 05 Oct 2023 07:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Decomposing Language Models Into Understandable Components</title>
@@ -771,7 +771,7 @@
       <description>Decomposing Language Models Into Understandable Components</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/decomposing-language-models-into-understandable-components</guid>
       <category>Interpretability</category>
-      <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 05 Oct 2023 07:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Challenges in evaluating AI systems</title>
@@ -779,7 +779,7 @@
       <description>Challenges in evaluating AI systems</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/evaluating-ai-systems</guid>
       <category>Policy</category>
-      <pubDate>Wed, 04 Oct 2023 07:00:00 +0000</pubDate>
+      <pubDate>Wed, 04 Oct 2023 14:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Studying Large Language Model Generalization with Influence Functions</title>
@@ -787,7 +787,7 @@
       <description>Studying Large Language Model Generalization with Influence Functions</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/studying-large-language-model-generalization-with-influence-functions</guid>
       <category>Alignment</category>
-      <pubDate>Tue, 08 Aug 2023 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 08 Aug 2023 07:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Tracing Model Outputs to the Training Data</title>
@@ -795,7 +795,7 @@
       <description>Tracing Model Outputs to the Training Data</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/influence-functions</guid>
       <category>Alignment</category>
-      <pubDate>Tue, 08 Aug 2023 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 08 Aug 2023 07:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Question Decomposition Improves the Faithfulness of Model-Generated Reasoning</title>
@@ -803,7 +803,7 @@
       <description>Question Decomposition Improves the Faithfulness of Model-Generated Reasoning</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/question-decomposition-improves-the-faithfulness-of-model-generated-reasoning</guid>
       <category>Alignment</category>
-      <pubDate>Tue, 18 Jul 2023 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 18 Jul 2023 07:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Measuring Faithfulness in Chain-of-Thought Reasoning</title>
@@ -811,7 +811,7 @@
       <description>Measuring Faithfulness in Chain-of-Thought Reasoning</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/measuring-faithfulness-in-chain-of-thought-reasoning</guid>
       <category>Alignment</category>
-      <pubDate>Tue, 18 Jul 2023 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 18 Jul 2023 07:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Towards Measuring the Representation of Subjective Global Opinions in Language Models</title>
@@ -819,7 +819,7 @@
       <description>Towards Measuring the Representation of Subjective Global Opinions in Language Models</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/towards-measuring-the-representation-of-subjective-global-opinions-in-language-models</guid>
       <category>Societal Impacts</category>
-      <pubDate>Thu, 29 Jun 2023 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 29 Jun 2023 07:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Interpretability Dreams</title>
@@ -827,7 +827,7 @@
       <description>Interpretability Dreams</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/interpretability-dreams</guid>
       <category>Interpretability</category>
-      <pubDate>Wed, 24 May 2023 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 24 May 2023 07:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Circuits Updates — May 2023</title>
@@ -835,7 +835,7 @@
       <description>Circuits Updates — May 2023</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/circuits-updates-may-2023</guid>
       <category>Interpretability</category>
-      <pubDate>Wed, 24 May 2023 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 24 May 2023 07:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Distributed Representations: Composition u0026 Superposition</title>
@@ -843,7 +843,7 @@
       <description>Distributed Representations: Composition u0026 Superposition</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/distributed-representations-composition-superposition</guid>
       <category>Interpretability</category>
-      <pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 04 May 2023 07:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Privileged Bases in the Transformer Residual Stream</title>
@@ -851,7 +851,7 @@
       <description>Privileged Bases in the Transformer Residual Stream</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/privileged-bases-in-the-transformer-residual-stream</guid>
       <category>Interpretability</category>
-      <pubDate>Thu, 16 Mar 2023 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 16 Mar 2023 07:00:00 +0000</pubDate>
     </item>
     <item>
       <title>The Capacity for Moral Self-Correction in Large Language Models</title>
@@ -859,7 +859,7 @@
       <description>The Capacity for Moral Self-Correction in Large Language Models</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/the-capacity-for-moral-self-correction-in-large-language-models</guid>
       <category>Societal Impacts</category>
-      <pubDate>Wed, 15 Feb 2023 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 15 Feb 2023 08:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Superposition, Memorization, and Double Descent</title>
@@ -867,7 +867,7 @@
       <description>Superposition, Memorization, and Double Descent</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/superposition-memorization-and-double-descent</guid>
       <category>Interpretability</category>
-      <pubDate>Thu, 05 Jan 2023 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 05 Jan 2023 08:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Discovering Language Model Behaviors with Model-Written Evaluations</title>
@@ -875,7 +875,7 @@
       <description>Discovering Language Model Behaviors with Model-Written Evaluations</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/discovering-language-model-behaviors-with-model-written-evaluations</guid>
       <category>Alignment</category>
-      <pubDate>Mon, 19 Dec 2022 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 19 Dec 2022 08:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Constitutional AI: Harmlessness from AI Feedback</title>
@@ -883,7 +883,7 @@
       <description>Neural networks pack many concepts into single neurons. This paper shows how and when models represent more features than they have dimensions.</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/constitutional-ai-harmlessness-from-ai-feedback</guid>
       <category>Alignment</category>
-      <pubDate>Thu, 15 Dec 2022 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 15 Dec 2022 08:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Measuring Progress on Scalable Oversight for Large Language Models</title>
@@ -891,7 +891,7 @@
       <description>Neural networks pack many concepts into single neurons. This paper shows how and when models represent more features than they have dimensions.</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/measuring-progress-on-scalable-oversight-for-large-language-models</guid>
       <category>Alignment</category>
-      <pubDate>Fri, 04 Nov 2022 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 04 Nov 2022 07:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Toy Models of Superposition</title>
@@ -899,7 +899,7 @@
       <description>Neural networks pack many concepts into single neurons. This paper shows how and when models represent more features than they have dimensions.</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/toy-models-of-superposition</guid>
       <category>Interpretability</category>
-      <pubDate>Wed, 14 Sep 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 14 Sep 2022 07:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Red Teaming Language Models to Reduce Harms: Methods, Scaling Behaviors, and Lessons Learned</title>
@@ -907,7 +907,7 @@
       <description>Red Teaming Language Models to Reduce Harms: Methods, Scaling Behaviors, and Lessons Learned</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/red-teaming-language-models-to-reduce-harms-methods-scaling-behaviors-and-lessons-learned</guid>
       <category>Societal Impacts</category>
-      <pubDate>Mon, 22 Aug 2022 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 22 Aug 2022 07:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Language Models (Mostly) Know What They Know</title>
@@ -915,7 +915,7 @@
       <description>Language Models (Mostly) Know What They Know</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/language-models-mostly-know-what-they-know</guid>
       <category>Alignment</category>
-      <pubDate>Mon, 11 Jul 2022 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 11 Jul 2022 07:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Softmax Linear Units</title>
@@ -923,7 +923,7 @@
       <description>Softmax Linear Units</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/softmax-linear-units</guid>
       <category>Interpretability</category>
-      <pubDate>Fri, 17 Jun 2022 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 17 Jun 2022 07:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Scaling Laws and Interpretability of Learning from Repeated Data</title>
@@ -931,7 +931,7 @@
       <description>Scaling Laws and Interpretability of Learning from Repeated Data</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/scaling-laws-and-interpretability-of-learning-from-repeated-data</guid>
       <category>Interpretability</category>
-      <pubDate>Sat, 21 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 21 May 2022 07:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback</title>
@@ -939,7 +939,7 @@
       <description>Large models have predictable loss via scaling laws but unpredictable capabilities. This tension has significant policy implications.</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/training-a-helpful-and-harmless-assistant-with-reinforcement-learning-from-human-feedback</guid>
       <category>Alignment</category>
-      <pubDate>Tue, 12 Apr 2022 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 12 Apr 2022 07:00:00 +0000</pubDate>
     </item>
     <item>
       <title>In-context Learning and Induction Heads</title>
@@ -947,7 +947,7 @@
       <description>Large models have predictable loss via scaling laws but unpredictable capabilities. This tension has significant policy implications.</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/in-context-learning-and-induction-heads</guid>
       <category>Interpretability</category>
-      <pubDate>Tue, 08 Mar 2022 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 08 Mar 2022 08:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Predictability and Surprise in Large Generative Models</title>
@@ -955,7 +955,7 @@
       <description>Large models have predictable loss via scaling laws but unpredictable capabilities. This tension has significant policy implications.</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/predictability-and-surprise-in-large-generative-models</guid>
       <category>Societal Impacts</category>
-      <pubDate>Tue, 15 Feb 2022 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 15 Feb 2022 08:00:00 +0000</pubDate>
     </item>
     <item>
       <title>A Mathematical Framework for Transformer Circuits</title>
@@ -963,7 +963,7 @@
       <description>A Mathematical Framework for Transformer Circuits</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/a-mathematical-framework-for-transformer-circuits</guid>
       <category>Interpretability</category>
-      <pubDate>Wed, 22 Dec 2021 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 22 Dec 2021 08:00:00 +0000</pubDate>
     </item>
     <item>
       <title>A General Language Assistant as a Laboratory for Alignment</title>
@@ -971,7 +971,7 @@
       <description>A General Language Assistant as a Laboratory for Alignment</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/a-general-language-assistant-as-a-laboratory-for-alignment</guid>
       <category>Alignment</category>
-      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 01 Dec 2021 08:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
