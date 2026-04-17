@@ -17,6 +17,7 @@ RSS feeds in newest first order.
 | [leloykun's Ponder](https://leloykun.github.io/ponder/)        | [feed_leloykun.xml](https://raw.githubusercontent.com/himalalps/rss-feeds/main/feeds/feed_leloykun.xml)                           |
 | [Claude Blog](https://claude.com/blog/)                         | [feed_claude_blog.xml](https://raw.githubusercontent.com/himalalps/rss-feeds/main/feeds/feed_claude_blog.xml)                     |
 | [Transformer Circuits Thread](https://transformer-circuits.pub/) | [feed_transformer_circuits.xml](https://raw.githubusercontent.com/himalalps/rss-feeds/main/feeds/feed_transformer_circuits.xml) |
+| [People Daily](https://plink.anyfeeder.com/people-daily) | [feed_people_daily.xml](https://raw.githubusercontent.com/himalalps/rss-feeds/main/feeds/feed_people_daily.xml) |
 
 ## RSS Feed Generator
 
