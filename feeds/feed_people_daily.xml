@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>People Daily</title>
+    <link>https://plink.anyfeeder.com/people-daily</link>
+    <description>People Daily feed generated from AnyFeeder source links</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 17 Apr 2026 07:33:47 +0000</lastBuildDate>
+  </channel>
+</rss>
