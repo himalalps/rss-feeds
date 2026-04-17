@@ -81,8 +81,9 @@ def _extract_plain_article_text(raw_description):
     for tag in soup(["script", "style"]):
         tag.decompose()
 
-    paragraphs = [p.get_text(" ", strip=True) for p in soup.find_all("p")]
-    paragraphs = [p for p in paragraphs if p]
+    paragraphs = [
+        p.get_text(" ", strip=True) for p in soup.find_all("p") if p.get_text(strip=True)
+    ]
     if paragraphs:
         return "\n".join(paragraphs)
 
