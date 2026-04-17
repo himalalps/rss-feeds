@@ -1,4 +1,6 @@
 import xml.etree.ElementTree as ET
+from html import unescape
+import re
 from urllib.parse import urlparse
 
 from bs4 import BeautifulSoup
@@ -15,6 +17,10 @@ from utils import (
 logger = setup_logging(__name__)
 
 BASE_URL = "https://plink.anyfeeder.com/people-daily"
+ENPCONTENT_BODY_RE = re.compile(
+    r"<!--\s*enpcontent\s*-->(.*?)<!--\s*/enpcontent\s*-->",
+    flags=re.IGNORECASE | re.DOTALL,
+)
 
 
 def _is_xml_feed(content):
@@ -30,7 +36,8 @@ def _extract_from_xml_feed(content):
     for item in root.findall(".//item"):
         title = (item.findtext("title") or "").strip()
         link = (item.findtext("link") or "").strip()
-        description = (item.findtext("description") or title).strip() or title
+        raw_description = (item.findtext("description") or title).strip()
+        description = _extract_plain_article_text(raw_description) or title
         date = parse_date(item.findtext("pubDate")) or stable_fallback_date(link or title)
 
         article = {"title": title, "link": link, "description": description, "date": date}
@@ -49,6 +56,7 @@ def _extract_from_xml_feed(content):
                 entry.findtext("atom:summary", default="", namespaces=ns)
                 or title
             ).strip()
+            description = _extract_plain_article_text(description) or title
             date_text = entry.findtext("atom:updated", default="", namespaces=ns)
             date = parse_date(date_text) or stable_fallback_date(link or title)
 
@@ -58,6 +66,38 @@ def _extract_from_xml_feed(content):
                 seen_links.add(link)
 
     return articles
+
+
+def _extract_plain_article_text(raw_description):
+    """Return cleaned plain-text article content from a raw description string.
+
+    Args:
+        raw_description: Raw description content (may contain escaped HTML and wrappers).
+
+    Returns:
+        Plain text article content with enpcontent wrapper and script/style noise removed.
+    """
+    if not raw_description:
+        return ""
+
+    decoded = unescape(raw_description)
+    match = ENPCONTENT_BODY_RE.search(decoded)
+    content_html = match.group(1) if match else decoded
+
+    soup = BeautifulSoup(content_html, "html.parser")
+    for tag in soup(["script", "style"]):
+        tag.decompose()
+
+    paragraphs = []
+    for paragraph in soup.find_all("p"):
+        text = paragraph.get_text(" ", strip=True)
+        if text:
+            paragraphs.append(text)
+    if paragraphs:
+        return "\n".join(paragraphs)
+
+    text = soup.get_text("\n", strip=True)
+    return "\n".join(line.strip() for line in text.splitlines() if line.strip())
 
 
 def _extract_from_html(content):
@@ -126,7 +166,7 @@ def main(feed_name="people_daily"):
 
         feed_config = {
             "title": "People Daily",
-            "description": "People Daily feed generated from AnyFeeder source links",
+            "description": "People Daily",
             "link": BASE_URL,
             "language": "zh-cn",
             "author": {"name": "People Daily"},

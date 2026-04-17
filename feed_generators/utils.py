@@ -51,8 +51,10 @@ def parse_date(date_text):
     date_text = date_text.strip()
     current_year = datetime.now().year
 
-    # List of date formats to try
+    # List of date formats to try.  Formats that include %z will produce a
+    # timezone-aware datetime and are handled separately below.
     date_formats = [
+        "%a, %d %b %Y %H:%M:%S %z",  # "Thu, 17 Apr 2026 07:40:12 +0000" (RSS pubDate)
         "%b %d",  # "Nov 7", "Oct 29"
         "%B %d",  # "November 7", "October 29"
         "%b %d, %Y",  # "Nov 7, 2025"
@@ -74,6 +76,10 @@ def parse_date(date_text):
             # If the format doesn't include year, add current year
             if "%Y" not in date_format:
                 date = date.replace(year=current_year)
+            # For formats with timezone info (%z), convert to UTC rather than
+            # replacing the offset, which would produce incorrect values.
+            if date.tzinfo is not None:
+                return date.astimezone(pytz.UTC)
             return date.replace(tzinfo=pytz.UTC)
         except ValueError:
             continue
