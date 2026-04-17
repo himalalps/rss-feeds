@@ -17,6 +17,7 @@ from utils import (
 logger = setup_logging(__name__)
 
 BASE_URL = "https://plink.anyfeeder.com/people-daily"
+CONTENT_MARKER_PATTERN = r"<!--\s*enpcontent\s*-->(.*?)<!--\s*/enpcontent\s*-->"
 
 
 def _is_xml_feed(content):
@@ -65,16 +66,19 @@ def _extract_from_xml_feed(content):
 
 
 def _extract_plain_article_text(raw_description):
-    """Extract article body text from HTML-like descriptions and return plain text."""
+    """Return cleaned plain-text article content from a raw description string.
+
+    Args:
+        raw_description: Raw description content (may contain escaped HTML and wrappers).
+
+    Returns:
+        Plain text article content with source wrappers and script/style noise removed.
+    """
     if not raw_description:
         return ""
 
     decoded = unescape(raw_description)
-    match = re.search(
-        r"<!--\s*enpcontent\s*-->(.*?)<!--\s*/enpcontent\s*-->",
-        decoded,
-        flags=re.IGNORECASE | re.DOTALL,
-    )
+    match = re.search(CONTENT_MARKER_PATTERN, decoded, flags=re.IGNORECASE | re.DOTALL)
     content_html = match.group(1) if match else decoded
 
     soup = BeautifulSoup(content_html, "html.parser")
