@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 18 Apr 2026 02:54:44 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 Apr 2026 03:30:14 +0000</lastBuildDate>
     <item>
       <title>Frequency Domain Muon for Convolutional Neural Networks: Simplified</title>
       <link>https://leloykun.github.io/ponder/freqmuon/</link>
@@ -210,6 +210,13 @@
       <description>On how to gain and maintain power.</description>
       <guid isPermaLink="false">https://leloykun.github.io/ponder/4rules4rulers/</guid>
       <pubDate>Sun, 19 Jun 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Vaccine Search as a Computational Problem</title>
+      <link>https://leloykun.github.io/ponder/vaccine-search-as-comp-prob/</link>
+      <description>A thought dump on mRNA vaccines and the future of computational biology</description>
+      <guid isPermaLink="false">https://leloykun.github.io/ponder/vaccine-search-as-comp-prob/</guid>
+      <pubDate>Sat, 06 Feb 2021 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>The Accuracy-Fairness Dilemma in Machine Learning</title>
