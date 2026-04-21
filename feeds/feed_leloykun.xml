@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 21 Apr 2026 07:01:48 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Apr 2026 03:24:10 +0000</lastBuildDate>
     <item>
       <title>Frequency Domain Muon for Convolutional Neural Networks: Simplified</title>
       <link>https://leloykun.github.io/ponder/freqmuon/</link>
@@ -100,6 +100,13 @@
       <pubDate>Wed, 20 Aug 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Heuristic Solutions for Steepest Descent on the Stiefel Manifold</title>
+      <link>https://leloykun.github.io/ponder/steepest-descent-stiefel/</link>
+      <description>What would Muon look like if we constrained the weights to be semi-orthogonal?</description>
+      <guid isPermaLink="false">https://leloykun.github.io/ponder/steepest-descent-stiefel/</guid>
+      <pubDate>Fri, 18 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Sensitivity and Sharpness of n-Simplicial Attention</title>
       <link>https://leloykun.github.io/ponder/lipschitz-n-simplical-transformer/</link>
       <description>Towards a maximal update parameterization of n-simplicial attention</description>
@@ -170,6 +177,13 @@
       <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>(Linear) Attention as Test-Time Regression</title>
+      <link>https://leloykun.github.io/ponder/test-time-regression/</link>
+      <description>A unifying framework for linear attention mechanisms as test-time regression and how to parallelize training and inference.</description>
+      <guid isPermaLink="false">https://leloykun.github.io/ponder/test-time-regression/</guid>
+      <pubDate>Mon, 27 Jan 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Deep Learning Optimizers as Steepest Descent in Normed Spaces</title>
       <link>https://leloykun.github.io/ponder/steepest-descent-opt/</link>
       <description>Instead of asking, 'Which optimizer should I use?' ask, 'In which space do my features live in?'</description>
@@ -196,6 +210,13 @@
       <description>On how to gain and maintain power.</description>
       <guid isPermaLink="false">https://leloykun.github.io/ponder/4rules4rulers/</guid>
       <pubDate>Sun, 19 Jun 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Vaccine Search as a Computational Problem</title>
+      <link>https://leloykun.github.io/ponder/vaccine-search-as-comp-prob/</link>
+      <description>A thought dump on mRNA vaccines and the future of computational biology</description>
+      <guid isPermaLink="false">https://leloykun.github.io/ponder/vaccine-search-as-comp-prob/</guid>
+      <pubDate>Sat, 06 Feb 2021 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>The Accuracy-Fairness Dilemma in Machine Learning</title>
