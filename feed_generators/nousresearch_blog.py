@@ -222,8 +222,8 @@ def extract_articles_from_script_tags(soup):
             continue
 
         patterns = [
-            rf'"title"\s*:\s*"[^"]{{{MIN_EMBEDDED_TITLE_LENGTH},}}"',
-            rf'"headline"\s*:\s*"[^"]{{{MIN_EMBEDDED_TITLE_LENGTH},}}"',
+            r'"title"\s*:\s*"[^"]{%d,}"' % MIN_EMBEDDED_TITLE_LENGTH,
+            r'"headline"\s*:\s*"[^"]{%d,}"' % MIN_EMBEDDED_TITLE_LENGTH,
         ]
         if not any(re.search(pattern, content) for pattern in patterns):
             continue
@@ -249,7 +249,7 @@ def extract_articles_from_html(soup):
         soup.find_all("a", href=re.compile(r"^/blog/.+")),
         soup.select(
             ".post-card, .blog-card, .article-card, .blog-post, "
-            ".post-item, .article-item, .card, "
+            ".post-item, .article-item, "
             "[class*='PostCard'], [class*='ArticleCard'], [class*='BlogCard'], "
             "[class*='post-card'], [class*='article-card'], [class*='blog-card']"
         ),
@@ -331,7 +331,7 @@ def extract_articles_from_html(soup):
                 }
                 if validate_article(article, require_date=False):
                     articles.append(article)
-            except Exception as e:
+            except (AttributeError, KeyError, TypeError, ValueError) as e:
                 logger.warning(f"Error parsing article element: {str(e)}")
                 continue
 
