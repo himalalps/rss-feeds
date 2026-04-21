@@ -17,6 +17,8 @@ logger = setup_logging(__name__)
 
 BASE_URL = "https://nousresearch.com"
 BLOG_URL = f"{BASE_URL}/blog"
+MIN_SCRIPT_LENGTH = 50
+MIN_EMBEDDED_TITLE_LENGTH = 5
 
 
 def _make_absolute(href):
@@ -196,14 +198,14 @@ def extract_articles_from_script_tags(soup):
     """Extract articles from inline script tags containing JSON data."""
     for script in soup.find_all("script"):
         content = script.string or ""
-        if not content or len(content) < 50:
+        if not content or len(content) < MIN_SCRIPT_LENGTH:
             continue
         if script.get("type") == "application/ld+json":
             continue
 
         patterns = [
-            r'"title"\s*:\s*"[^"]{5,}"',
-            r'"headline"\s*:\s*"[^"]{5,}"',
+            rf'"title"\s*:\s*"[^"]{{{MIN_EMBEDDED_TITLE_LENGTH},}}"',
+            rf'"headline"\s*:\s*"[^"]{{{MIN_EMBEDDED_TITLE_LENGTH},}}"',
         ]
         if not any(re.search(pattern, content) for pattern in patterns):
             continue
@@ -226,7 +228,7 @@ def extract_articles_from_html(soup):
 
     candidate_groups = [
         soup.find_all("article"),
-        soup.find_all("a", href=re.compile(r"/blog/[^/?#]+/?$")),
+        soup.find_all("a", href=re.compile(r"^/blog/.+")),
         soup.select(
             ".post-card, .blog-card, .article-card, .blog-post, "
             ".post-item, .article-item, .card, "
