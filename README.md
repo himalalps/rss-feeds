@@ -18,6 +18,7 @@ RSS feeds in newest first order.
 | [Claude Blog](https://claude.com/blog/)                         | [feed_claude_blog.xml](https://raw.githubusercontent.com/himalalps/rss-feeds/main/feeds/feed_claude_blog.xml)                     |
 | [Transformer Circuits Thread](https://transformer-circuits.pub/) | [feed_transformer_circuits.xml](https://raw.githubusercontent.com/himalalps/rss-feeds/main/feeds/feed_transformer_circuits.xml) |
 | [People Daily](https://plink.anyfeeder.com/people-daily) | [feed_people_daily.xml](https://raw.githubusercontent.com/himalalps/rss-feeds/main/feeds/feed_people_daily.xml) |
+| [Nous Research Blog](https://nousresearch.com/blog) | [feed_nousresearch.xml](https://raw.githubusercontent.com/himalalps/rss-feeds/main/feeds/feed_nousresearch.xml) |
 
 ## RSS Feed Generator
 
