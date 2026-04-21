@@ -19,6 +19,8 @@ BASE_URL = "https://nousresearch.com"
 BLOG_URL = f"{BASE_URL}/blog"
 MIN_SCRIPT_LENGTH = 50
 MIN_EMBEDDED_TITLE_LENGTH = 5
+MAX_NESTED_SEARCH_DEPTH = 5
+MIN_ARTICLES_FOR_VALID_COLLECTION = 2
 
 
 def _make_absolute(href):
@@ -139,13 +141,13 @@ def _parse_article_dict(item):
 
 def _search_nested_for_articles(data, depth=0):
     """Recursively search nested dicts/lists for article collections."""
-    if depth > 5:
+    if depth > MAX_NESTED_SEARCH_DEPTH:
         return []
 
     if isinstance(data, list) and data:
         parsed = [_parse_article_dict(item) for item in data if isinstance(item, dict)]
         valid = [a for a in parsed if a]
-        if len(valid) >= 2:
+        if len(valid) >= MIN_ARTICLES_FOR_VALID_COLLECTION:
             return valid
 
         for item in data:
@@ -204,8 +206,8 @@ def extract_articles_from_script_tags(soup):
             continue
 
         patterns = [
-            rf'"title"\s*:\s*"[^"]{{{MIN_EMBEDDED_TITLE_LENGTH},}}"',
-            rf'"headline"\s*:\s*"[^"]{{{MIN_EMBEDDED_TITLE_LENGTH},}}"',
+            r'"title"\s*:\s*"[^"]{' + str(MIN_EMBEDDED_TITLE_LENGTH) + r',}"',
+            r'"headline"\s*:\s*"[^"]{' + str(MIN_EMBEDDED_TITLE_LENGTH) + r',}"',
         ]
         if not any(re.search(pattern, content) for pattern in patterns):
             continue
