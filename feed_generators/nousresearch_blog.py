@@ -1,5 +1,6 @@
 import json
 import re
+from urllib.parse import urlparse
 
 from bs4 import BeautifulSoup
 from utils import (
@@ -21,6 +22,7 @@ MIN_SCRIPT_LENGTH = 50
 MIN_EMBEDDED_TITLE_LENGTH = 5
 MAX_NESTED_SEARCH_DEPTH = 5
 MIN_ARTICLES_FOR_VALID_COLLECTION = 2
+MIN_TITLE_LENGTH = 3
 
 
 def _make_absolute(href):
@@ -32,6 +34,20 @@ def _make_absolute(href):
     if href.startswith("/"):
         return BASE_URL + href
     return BASE_URL + "/" + href
+
+
+def _looks_like_post_link(link):
+    """Return whether a URL is likely an individual blog post."""
+    parsed = urlparse(link)
+    path = parsed.path.strip("/")
+    parts = [p for p in path.split("/") if p]
+    if len(parts) < 2 or parts[0] != "blog":
+        return False
+
+    blocked_sections = {"tag", "tags", "category", "categories", "archive", "author"}
+    if parts[1] in blocked_sections:
+        return False
+    return True
 
 
 def extract_articles_from_json_ld(soup):
@@ -206,8 +222,8 @@ def extract_articles_from_script_tags(soup):
             continue
 
         patterns = [
-            r'"title"\s*:\s*"[^"]{' + str(MIN_EMBEDDED_TITLE_LENGTH) + r',}"',
-            r'"headline"\s*:\s*"[^"]{' + str(MIN_EMBEDDED_TITLE_LENGTH) + r',}"',
+            rf'"title"\s*:\s*"[^"]{{{MIN_EMBEDDED_TITLE_LENGTH},}}"',
+            rf'"headline"\s*:\s*"[^"]{{{MIN_EMBEDDED_TITLE_LENGTH},}}"',
         ]
         if not any(re.search(pattern, content) for pattern in patterns):
             continue
@@ -256,6 +272,8 @@ def extract_articles_from_html(soup):
                 link = _make_absolute(href)
                 if not link or not link.startswith("http"):
                     continue
+                if not _looks_like_post_link(link):
+                    continue
                 if link in seen_links:
                     continue
 
@@ -267,7 +285,7 @@ def extract_articles_from_html(soup):
                     else link_elem.get_text(strip=True)
                 )
                 title = " ".join(title.split())
-                if not title or len(title) < 3:
+                if not title or len(title) < MIN_TITLE_LENGTH:
                     continue
 
                 container = (
