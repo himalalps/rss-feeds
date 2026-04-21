@@ -216,15 +216,6 @@ def extract_articles_from_script_tags(soup):
         except (json.JSONDecodeError, ValueError):
             pass
 
-        for match in re.finditer(r"\[[\s\S]{50,}?\]", content):
-            try:
-                arr = json.loads(match.group())
-                found = _search_nested_for_articles(arr)
-                if found:
-                    return found
-            except (json.JSONDecodeError, ValueError):
-                continue
-
     return []
 
 
@@ -235,7 +226,7 @@ def extract_articles_from_html(soup):
 
     candidate_groups = [
         soup.find_all("article"),
-        soup.find_all("a", href=re.compile(r"/blog/[^/]+")),
+        soup.find_all("a", href=re.compile(r"/blog/[^/?#]+/?$")),
         soup.select(
             ".post-card, .blog-card, .article-card, .blog-post, "
             ".post-item, .article-item, .card, "
