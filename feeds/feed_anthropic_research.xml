@@ -12,7 +12,23 @@
       <link>https://www.anthropic.com/research</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Wed, 22 Apr 2026 03:22:34 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Apr 2026 03:25:54 +0000</lastBuildDate>
+    <item>
+      <title>Announcing the Anthropic Economic Index Survey </title>
+      <link>https://www.anthropic.com/research/economic-index-survey-announcement</link>
+      <description>We're launching the Anthropic Economic Index Survey, a monthly survey conducted through Anthropic Interviewer.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/economic-index-survey-announcement</guid>
+      <category>Economic Research</category>
+      <pubDate>Wed, 22 Apr 2026 14:27:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>What 81,000 people told us about the economics of AI</title>
+      <link>https://www.anthropic.com/research/81k-economics</link>
+      <description>Our recent survey study with 81,000 Claude users provides a way to connect people’s economic concerns with what we’ve quantified in Claude traffic.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/81k-economics</guid>
+      <category>Economic Research</category>
+      <pubDate>Wed, 22 Apr 2026 14:12:30 +0000</pubDate>
+    </item>
     <item>
       <title>Automated Alignment Researchers: Using large language models to scale scalable oversight</title>
       <link>https://www.anthropic.com/research/automated-alignment-researchers</link>
