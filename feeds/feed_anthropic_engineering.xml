@@ -12,7 +12,23 @@
       <link>https://www.anthropic.com/engineering</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Fri, 24 Apr 2026 03:28:20 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 25 Apr 2026 02:56:02 +0000</lastBuildDate>
+    <item>
+      <title>An update on recent Claude Code quality reports</title>
+      <link>https://www.anthropic.com/engineering/april-23-postmortem</link>
+      <description>We traced recent reports of Claude Code quality issues to three separate changes. Here's what happened and what we're changing.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/engineering/april-23-postmortem</guid>
+      <category>Engineering</category>
+      <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Scaling Managed Agents: Decoupling the brain from the hands</title>
+      <link>https://www.anthropic.com/engineering/managed-agents</link>
+      <description>Harnesses encode assumptions that go stale as models improve. Managed Agents—our hosted service for long-horizon agent work—is built around interfaces that stay stable as harnesses change.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/engineering/managed-agents</guid>
+      <category>Engineering</category>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Claude Code auto mode: a safer way to skip permissions</title>
       <link>https://www.anthropic.com/engineering/claude-code-auto-mode</link>
@@ -36,6 +52,14 @@
       <guid isPermaLink="false">https://www.anthropic.com/engineering/eval-awareness-browsecomp</guid>
       <category>Engineering</category>
       <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Quantifying infrastructure noise in agentic coding evals</title>
+      <link>https://www.anthropic.com/engineering/infrastructure-noise</link>
+      <description>Infrastructure configuration can swing agentic coding benchmarks by several percentage points—sometimes more than the leaderboard gap between top models.\n\n</description>
+      <guid isPermaLink="false">https://www.anthropic.com/engineering/infrastructure-noise</guid>
+      <category>Engineering</category>
+      <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Building a C compiler with a team of parallel Claudes</title>
