@@ -1,0 +1,579 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>LMSYS Blog</title>
+    <link>https://lmsys.org/blog/</link>
+    <description>Research blog from LMSYS</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 27 Apr 2026 05:25:44 +0000</lastBuildDate>
+    <item>
+      <title>DeepSeek-V4 on Day 0: From Fast Inference to Verified RL with SGLang and Miles</title>
+      <link>https://lmsys.org/blog/2026-04-25-deepseek-v4/</link>
+      <description>We are thrilled to announce Day-0 support for **DeepSeek-V4** across both inference and RL training. **SGLang** and **Miles** form the first open-source stack to serve and train DeepSeek-V4 on launch day — with systems purpose-built for its hybrid sparse-attention architecture, manifold-constrained hyper-connections (mHC), and FP4 expert weights.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2026-04-25-deepseek-v4/</guid>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>HiSparse: Turbocharging Sparse Attention with Hierarchical Memory</title>
+      <link>https://lmsys.org/blog/2026-04-10-sglang-hisparse/</link>
+      <description>Self-attention has become a major bottleneck in scaling LLMs to long contexts because of its quadratic compute and memory/IO cost. This has driven growing interest in efficient attention mechanisms. Among them, **sparse attention** is especially promising: by attending to only a selected subset of KV caches, it retains strong modeling capability while avoiding the sharp increase in compute and I/O costs that regular attention faces as context grows.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2026-04-10-sglang-hisparse/</guid>
+      <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Highlights of SGLang at NVIDIA GTC 2026</title>
+      <link>https://lmsys.org/blog/2026-03-25-gtc2026/</link>
+      <description>SGLang came to NVIDIA GTC 2026 with panels, a happy hour, a 200-person meetup, and a hands-on training lab. Three days, five events, one packed week at the center of the LLM ecosystem and left with a lot to share. If you missed it, here's the full recap.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2026-03-25-gtc2026/</guid>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Elastic EP in SGLang: Achieving Partial Failure Tolerance for DeepSeek MoE Deployments</title>
+      <link>https://lmsys.org/blog/2026-03-25-eep-partial-failure-tolerance/</link>
+      <description>To serve massive Mixture-of-Experts (MoE) models efficiently, deploying a "wide" Expert Parallelism (EP) strategy—often spanning 32 GPUs or more per inference instance—is not just an option; it is a necessity. We need wide EP for two critical reasons:</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2026-03-25-eep-partial-failure-tolerance/</guid>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ROCm Support for Miles: Large-Scale RL Post-Training on AMD Instinct™ GPUs</title>
+      <link>https://lmsys.org/blog/2026-03-17-rocm-miles-rl-amd/</link>
+      <description>Reinforcement learning (RL) has rapidly become a core stage of modern foundation-model development. While large-scale pretraining remains essential, today's most capable models rely heavily on post-training techniques to improve reasoning, tool use, and multi-turn interaction. These workflows depend on scalable reinforcement learning infrastructure capable of running across multi-node GPU clusters.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2026-03-17-rocm-miles-rl-amd/</guid>
+      <pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>SGLang Adds Day-0 Support for NVIDIA Nemotron 3 Super for building High-Efficiency Multi-Agent Systems</title>
+      <link>https://lmsys.org/blog/2026-03-11-run-nvidia-nemotron-3-super/</link>
+      <description>We are excited to announce that SGLang supports NVIDIA Nemotron 3 Super on Day 0.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2026-03-11-run-nvidia-nemotron-3-super/</guid>
+      <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Unlocking 25x Inference Performance with SGLang on NVIDIA GB300 NVL72</title>
+      <link>https://lmsys.org/blog/2026-02-20-gb300-inferencex/</link>
+      <description>The SGLang team has worked closely with NVIDIA across [multiple GPU generations](https://lmsys.org/blog/2025-05-05-large-scale-ep/) to unlock step-function gains in inference performance for large-scale deployments of Mixture of Expert (MoE) reasoning models. Building on [prior results](https://lmsys.org/blog/2025-10-14-sa-inference-max/) that delivered 4x speedups on Blackwell B200 vs.Hopper H200 in SemiAnalysis InferenceMAXv1, we are now extending this momentum to Blackwell Ultra. With GB300 NVL72, SGLang achieves up to 25x performance gain on the latest InferenceXv2 benchmark compared to H200. Additionally, we increased SGLang's InferenceXv2 performance on GB200 NVL72 by up to 8x in less than 4 months. These performance gains are a result of the close collaboration between SGLang developers and NVIDIA engineering teams and translate directly into lower latency, higher throughput, and significantly reduced cost per token for large-scale Mixture of Experts (MoE) reasoning model deployments.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2026-02-20-gb300-inferencex/</guid>
+      <pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Deploying DeepSeek on GB300 NVL72: Big Wins in Long-Context Inference</title>
+      <link>https://lmsys.org/blog/2026-02-19-gb300-longctx/</link>
+      <description>As the latest addition to the Blackwell family, the **GB300 NVL72** is the most powerful platform for long-context LLM inference. In this blog post, we share our latest progress on optimizing DeepSeek R1-NVFP4 for 128K/8K ISL/OSL (Input Sequence Length/Output Sequence Length) long-context serving using prefill–decode disaggregation (PD), chunked pipeline parallelism (PP) for prefill, wide expert parallelism (Wide-EP) for decode, multi-token prediction (MTP), overlap scheduling, and faster attention kernels driven by 2x Special Function Unit (SFU) throughput increase in key instructions used in attention softmax.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2026-02-19-gb300-longctx/</guid>
+      <pubDate>Thu, 19 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>SGLang-Diffusion: Advanced Optimizations for Production-Ready Video Generation</title>
+      <link>https://lmsys.org/blog/2026-02-16-sglang-diffusion-advanced-optimizations/</link>
+      <description>Following our [two-month progress update](https://lmsys.org/blog/2026-01-16-sglang-diffusion/), we're excited to share a</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2026-02-16-sglang-diffusion-advanced-optimizations/</guid>
+      <pubDate>Mon, 16 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Unleashing Computational Power: Ultimate Latency Optimization of Qwen3 and Qwen3-VL on AMD MI300X Series</title>
+      <link>https://lmsys.org/blog/2026-02-11-Qwen-latency/</link>
+      <description>Qwen is a series of large-scale, high-performance Large Language Models (LLMs) developed by the Qwen Team of Alibaba Cloud. From the first generation to the latest third-generation flagship models, all Qwen variants have undergone dedicated training and fine-grained tuning, endowing them with strong instruction-following capabilities, efficient deployability for interactive AI applications, and robust performance in solving complex tasks. As flagship models in the Qwen3 family, Qwen3-235B and Qwen3-VL-235B have achieved comprehensive multi-dimensional improvements and have been widely deployed at scale in the Qwen APP.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2026-02-11-Qwen-latency/</guid>
+      <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Squeezing 1TB Model Rollout into a Single H200: INT4 QAT RL End-to-End Practice</title>
+      <link>https://lmsys.org/blog/2026-01-26-int4-qat/</link>
+      <description>&gt; 💡 **TL;DR:**</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2026-01-26-int4-qat/</guid>
+      <pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Optimizing GLM4-MoE for Production: 65% Faster TTFT with SGLang</title>
+      <link>https://lmsys.org/blog/2026-01-21-novita-glm4/</link>
+      <description>A suite of production-tested, high-impact optimizations has been developed by Novita AI for deploying GLM4-MOE models based on SGLANG.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2026-01-21-novita-glm4/</guid>
+      <pubDate>Wed, 21 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>SGLang-Diffusion: Two Months In</title>
+      <link>https://lmsys.org/blog/2026-01-16-sglang-diffusion/</link>
+      <description>Since its release in early Nov. 2025, **SGLang-Diffusion** has gained significant attention and widespread adoption</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2026-01-16-sglang-diffusion/</guid>
+      <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Pipeline Parallelism in SGLang: Scaling to Million-Token Contexts and Beyond</title>
+      <link>https://lmsys.org/blog/2026-01-15-chunked-pipeline/</link>
+      <description>We are excited to introduce SGLang's highly optimized Pipeline Parallelism (PP) implementation, specifically engineered to tackle the challenges of ultra-long context inference. By integrating **Chunked Pipeline Parallelism**, **Asynchronous P2P Communication**, and a simple yet effective **Dynamic Chunking mechanism**, this PP design achieves industry-leading performance while ensuring seamless compatibility with other parallel strategies, PD Disaggregation, and HiCache. In multi-node deployments, scaling to PP4 TP8 with this implementation yields a **3.31× Prefill Throughput for DeepSeek-V3.1** on an H20 cluster compared to TP8 when the chunked prefill size is set to 12K, significantly outperforming the TP32 solution (2.54×) by a **30.5% margin**. This highlights PP's inherent architectural advantage for large-scale, cross-node scaling over pure TP. Furthermore, our implementation also delivers up to a **67.9% reduction in TTFT** while maintaining an **82.8% strong scaling efficiency**, providing a highly efficient, open-source path for scaling trillion-parameter models for ultra-long context.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2026-01-15-chunked-pipeline/</guid>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>EPD Disaggregation: Elastic Encoder Scaling for Vision-Language Models in SGLang</title>
+      <link>https://lmsys.org/blog/2026-01-12-epd/</link>
+      <description>&gt; We introduce Encoder-Prefill-Decode (EPD) Disaggregation in SGLang, a novel architecture that separates vision encoding from language processing in Vision-Language Models (VLMs).  This can enable:</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2026-01-12-epd/</guid>
+      <pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>SpecBundle &amp; SpecForge v0.2: Production-Ready Speculative Decoding Models and Framework</title>
+      <link>https://lmsys.org/blog/2025-12-23-spec-bundle-phase-1/</link>
+      <description>The SpecForge team has collaborated with multiple industry partners - including **Ant, Meituan, Nex-AGI, and EigenAI** - to release [**SpecBundle (Phase 1)**](https://huggingface.co/collections/lmsys/specbundle), a collection of production-grade EAGLE-3 model checkpoints trained on large-scale datasets. **SpecBundle** is designed to improve the availability and real-world performance of speculative decoding, with Phase 1 focusing on instruct-tuned models.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2025-12-23-spec-bundle-phase-1/</guid>
+      <pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Power Up Diffusion LLMs: Day‑0 Support for LLaDA 2.0</title>
+      <link>https://lmsys.org/blog/2025-12-19-diffusion-llm/</link>
+      <description>We are excited to introduce the design and implementation of the Diffusion Large Language Model (dLLM) framework within SGLang. By leveraging the existing Chunked-Prefill mechanism, our system achieves:</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2025-12-19-diffusion-llm/</guid>
+      <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mini-SGLang: Efficient Inference Engine in a Nutshell</title>
+      <link>https://lmsys.org/blog/2025-12-17-minisgl/</link>
+      <description>We're excited to introduce **Mini-SGLang**, a lightweight yet high-performance inference framework for Large Language Models (LLMs). Derived from the [SGLang](https://github.com/sgl-project/sglang) project, Mini-SGLang is designed to demystify the complexities of modern serving systems. Despite its compact codebase, it retains the advanced features that define state-of-the-art performance, including **Radix Attention** for efficient KV cache reuse, **Chunked Prefill** for controlled memory footprint, **Overlap Scheduling** for reduced CPU overhead, and **Tensor Parallelism** for scalable distributed serving. With an OpenAI-compatible API and out-of-the-box support for models like Llama-3 and Qwen-3, Mini-SGLang serves as both a capable inference engine and a transparent reference implementation for researchers and developers.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2025-12-17-minisgl/</guid>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>SGLang Day-0 Support for MiMo-V2-Flash Model</title>
+      <link>https://lmsys.org/blog/2025-12-16-mimo-v2-flash/</link>
+      <description>[XiaomiMiMo/MiMo-V2-Flash](https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash), with 309B total parameters and 15B activated parameters, is a new inference-centric model designed to maximize decoding efficiency. It is based on two key designs: **sliding window attention** and **multi-layer MTP**. MiMo-V2-Flash is explicitly co-designed for real-world serving workloads, enabling flexible tradeoffs between throughput and latency on different hardware. Combined with SGLang’s optimized Spec v2 runtime, which provides near-zero-overhead support for multi-layer MTP and efficient SWA execution, MiMo-V2-Flash delivers balanced TPOT and throughput on H200. In this blog, we will introduce the model and SGLang's efficient support.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2025-12-16-mimo-v2-flash/</guid>
+      <pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>SGLang Adds Day-0 Support for the Highly Efficient, Open Nemotron 3 Nano Hybrid MoE Model</title>
+      <link>https://lmsys.org/blog/2025-12-15-run-nvidia-nemotron-3-nano/</link>
+      <description>**Jan 28th Update**: NVIDIA just released their Nemotron 3 Nano model in NVFP4 precision. This model is supported by SGLang out of the box and it uses a new method called Quantization-Aware Distillation (QAD) to maintain accuracy on NVFP4 while delivering 4x throughput on B200 compared to FP8-H100. You can download the NVFP4 checkpoints [here](https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-NVFP4) and run them using this [NVIDIA Brev launchable](https://brev.nvidia.com/launchable/deploy?launchableID=env-386BHXsTBKROX8F2WBCbQP6S6qt).</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2025-12-15-run-nvidia-nemotron-3-nano/</guid>
+      <pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Let Tensors Fly — Accelerating Large Model Weight Loading with R-Fork</title>
+      <link>https://lmsys.org/blog/2025-12-10-rfork/</link>
+      <description>&gt; We introduce **Tensor R-Fork** (stands for Tensor Remote Fork), a novel weight loading methodology that leverages **efficient inter-node device-to-device interconnect** to load tensors from a running SGLang instance to a new instance with **zero-copy**.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2025-12-10-rfork/</guid>
+      <pubDate>Wed, 10 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Boost SGLang Inference: Native NVIDIA Model Optimizer Integration for Seamless Quantization and Deployment</title>
+      <link>https://lmsys.org/blog/2025-12-02-modelopt-quantization/</link>
+      <description>(Updated on Dec 2)</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2025-12-02-modelopt-quantization/</guid>
+      <pubDate>Tue, 02 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>From research to production: Accelerate OSS LLM with EAGLE-3 on Vertex</title>
+      <link>https://lmsys.org/blog/2025-12-01-eagle3-vertex/</link>
+      <description>**TL;DR:** Speculative decoding boosts LLM inference, but traditional methods require a separate, inefficient draft model. Vertex AI utilizes EAGLE-3, adding a small draft head (2-5% of the target model) to internal layers, simplifying training and achieving ~2x-3x decoding speedup. **This post outlines our pipeline for data cleaning, embeddings, training, and serving EAGLE-3 with SGLang on Vertex AI at scale.**</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2025-12-01-eagle3-vertex/</guid>
+      <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Unified FP8: Moving Beyond Mixed Precision for Stable and Accelerated MoE RL</title>
+      <link>https://lmsys.org/blog/2025-11-25-fp8-rl/</link>
+      <description>&gt; TL;DR: We have implemented fully FP8-based sampling and training in RL. Experiments show that for MoE models, the larger the model, the more severe the train–inference discrepancy becomes when using BF16 training with FP8 rollout. In contrast, using unified FP8 for both training and rollout effectively eliminates train–inference inconsistency caused by quantization error, improving both the speed and stability of RL training.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2025-11-25-fp8-rl/</guid>
+      <pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>LMSYS Fellowship Program</title>
+      <link>https://lmsys.org/blog/2025-11-23-fellowship-apply/</link>
+      <description>We are thrilled to announce the launch of the LMSYS Fellowship Program!</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2025-11-23-fellowship-apply/</guid>
+      <pubDate>Sun, 23 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Miles — RL Framework To Fire Up Large-Scale MoE Training</title>
+      <link>https://lmsys.org/blog/2025-11-19-miles/</link>
+      <description>&gt; *A journey of a thousand miles is made one small step at a time.*</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2025-11-19-miles/</guid>
+      <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🚀 AutoRound Meets SGLang: Enabling Quantized Model Inference with AutoRound</title>
+      <link>https://lmsys.org/blog/2025-11-13-AutoRound/</link>
+      <description>We are thrilled to announce an official collaboration between [**SGLang**](https://github.com/sgl-project/sglang) and [**AutoRound**](https://github.com/intel/auto-round), enabling low-bit quantization for efficient LLM inference.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2025-11-13-AutoRound/</guid>
+      <pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>SGLang Diffusion: Accelerating Video and Image Generation</title>
+      <link>https://lmsys.org/blog/2025-11-07-sglang-diffusion/</link>
+      <description>We are excited to introduce SGLang Diffusion, which brings SGLang's state-of-the-art performance to accelerate image and video generation for diffusion models.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2025-11-07-sglang-diffusion/</guid>
+      <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>"No Free Lunch": Deconstruct Efficient Attention with MiniMax M2</title>
+      <link>https://lmsys.org/blog/2025-11-04-miminmax-m2/</link>
+      <description>We are excited to announce day-one support for the new flagship model, MiniMax M2, on SGLang. The MiniMax M2 redefines efficiency for agents: it is a compact, fast, and cost-effective Mixture of Experts (MoE) model (230 billion total parameters, 10 billion active) built for elite performance in coding and agentic tasks, all while maintaining powerful general intelligence. With only 10B activated parameters, M2 delivers the sophisticated, end-to-end tool-use performance expected from leading models, but in a streamlined form factor that makes deployment and scaling easier than ever.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2025-11-04-miminmax-m2/</guid>
+      <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Optimizing GPT-OSS on NVIDIA DGX Spark: Getting the Most Out of Your Spark</title>
+      <link>https://lmsys.org/blog/2025-11-03-gpt-oss-on-nvidia-dgx-spark/</link>
+      <description>We’ve got some exciting updates about the **NVIDIA DGX Spark**\! In the week following the official launch, we collaborated closely with NVIDIA and successfully brought **GPT-OSS 20B** and **GPT-OSS 120B** support to **SGLang** on the DGX Spark. The results are impressive: around **70 tokens/s** on GPT-OSS 20B and **50 tokens/s** on GPT-OSS 120B, which is state-of-the-art so far, and makes running a **local coding agent** on the DGX Spark fully viable.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2025-11-03-gpt-oss-on-nvidia-dgx-spark/</guid>
+      <pubDate>Mon, 03 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>SGLang-Jax: An Open-Source Solution for Native TPU Inference</title>
+      <link>https://lmsys.org/blog/2025-10-29-sglang-jax/</link>
+      <description>We're excited to introduce SGLang-Jax, a state-of-the-art open-source inference engine built entirely on Jax and XLA.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2025-10-29-sglang-jax/</guid>
+      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Accelerating Hybrid Inference in SGLang with KTransformers CPU Kernels</title>
+      <link>https://lmsys.org/blog/2025-10-22-KTransformers/</link>
+      <description>Modern Mixture-of-Experts (MoE) language models such as **DeepSeek-V3** contain hundreds of billions of parameters, but only a small subset of experts are activated per token.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2025-10-22-KTransformers/</guid>
+      <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>SGLang and NVIDIA Accelerating SemiAnalysis InferenceMAX and GB200 Together</title>
+      <link>https://lmsys.org/blog/2025-10-14-sa-inference-max/</link>
+      <description>The SGLang and NVIDIA teams have a strong track record of collaboration, consistently delivering inference optimizations and system-level improvements to ensure exceptional performance of the SGLang framework. Most recently, this collaboration has been centered on the **NVIDIA Blackwell architecture**, NVIDIA’s latest data center GPU. By leveraging key Blackwell features like **FP8 attention**, **NVFP4 MoE**, and **PD-Disaggregated Expert Parallelism** architecture, SGLang achieved [breakthrough performance](https://lmsys.org/blog/2025-09-25-gb200-part-2/) at high throughput. On an NVIDIA GB200 NVL72 system, SGLang served the DeepSeek R1 models at an incredible **26k input and 13k output tokens per second per GPU** for prefill and decode, respectively. This milestone represents a new level of cost and power efficiency at scale.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2025-10-14-sa-inference-max/</guid>
+      <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>NVIDIA DGX Spark In-Depth Review: A New Standard for Local AI Inference</title>
+      <link>https://lmsys.org/blog/2025-10-13-nvidia-dgx-spark/</link>
+      <description>Thanks to NVIDIA’s early access program, we are thrilled to get our hands on the NVIDIA DGX™ Spark. It’s quite an unconventional system, as NVIDIA rarely releases compact, all-in-one machines that bring supercomputing-class performance to a desktop workstation form factor.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2025-10-13-nvidia-dgx-spark/</guid>
+      <pubDate>Mon, 13 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>SGLang Day 0 Support for DeepSeek-V3.2 with Sparse Attention</title>
+      <link>https://lmsys.org/blog/2025-09-29-deepseek-V32/</link>
+      <description>We are excited to announce that **SGLang supports DeepSeek-V3.2 on Day 0**! According to the DeepSeek [tech report](https://github.com/deepseek-ai/DeepSeek-V3.2-Exp/blob/main/DeepSeek_V3_2.pdf), it equips DeepSeek-V3.1-Terminus with [DeepSeek Sparse Attention (DSA)](https://arxiv.org/pdf/2502.11089) through continued training. With DSA, a fine-grained sparse attention mechanism powered by a lightning indexer, DeepSeek-V3.2 achieves significant efficiency improvements in both training and inference, especially in long-context scenarios. For more details about upcoming features, please check our [Roadmap](https://github.com/sgl-project/sglang/issues/11060).</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2025-09-29-deepseek-V32/</guid>
+      <pubDate>Mon, 29 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>PD-Multiplexing: Unlocking High-Goodput LLM Serving with GreenContext</title>
+      <link>https://lmsys.org/blog/2025-09-28-pdmux/</link>
+      <description>This post highlights our initial efforts to support **a new serving paradigm, PD-Multiplexing, in** **SGLang.** It is designed to deliver higher goodput in LLM serving. PD-Multiplexing leverages [**GreenContext**](https://docs.nvidia.com/cuda/cuda-driver-api/group__CUDA__GREEN__CONTEXTS.html), a new NVIDIA GPU capability that allows lightweight and fine-grained partitioning of GPU resources across tasks within the same process. We envision this paradigm as a promising new approach to LLM service deployment, delivering stronger SLO guarantees and higher goodput for Model-as-a-Service (MaaS).</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2025-09-28-pdmux/</guid>
+      <pubDate>Sun, 28 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Together with SGLang: Best Practices for Serving DeepSeek-R1 on H20-96G</title>
+      <link>https://lmsys.org/blog/2025-09-26-sglang-ant-group/</link>
+      <description>Operationalizing scaled Mixture-of-Experts (MoE) models such as DeepSeek-R1 requires a careful balance of latency, throughput, and cost. The challenge is especially acute on hardware with asymmetric performance profiles—for example, the H20 GPU, which offers high memory bandwidth but comparatively low compute throughput. Our goal was to design a serving stack that meets the stringent SLAs typically achieved on high-end GPUs while leveraging the H20’s cost advantages.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2025-09-26-sglang-ant-group/</guid>
+      <pubDate>Fri, 26 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Deploying DeepSeek on GB200 NVL72 with PD and Large Scale EP (Part II): 3.8x Prefill, 4.8x Decode Throughput</title>
+      <link>https://lmsys.org/blog/2025-09-25-gb200-part-2/</link>
+      <description>The GB200 NVL72 is one of the most powerful hardware for deep learning. In this blog post, we share our progress after our [previous blog post](https://lmsys.org/blog/2025-06-16-gb200-part-1/) to optimize the inference performance of DeepSeek V3/R1 with FP8 attention, NVFP4 MoE, large-scale expert parallelism, prefill-decode disaggregation, and various other optimizations. When using FP8 attention and NVFP4 MoE, SGLang achieved 26,156 input and 13,386 output tokens per second per GPU for prefill and decode, respectively, on DeepSeek V3/R1 for 2000-token input sequences, which is a 3.8x and 4.8x speedup compared to [H100 settings](https://lmsys.org/blog/2025-05-05-large-scale-ep/). Even with traditional BF16 attention and FP8 MoE, SGLang still achieves 18,471 input and 9,087 output tokens per second. Reproduction instructions can be found [here](https://github.com/sgl-project/sglang/issues/10903).</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2025-09-25-gb200-part-2/</guid>
+      <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Optimizing FP4 Mixed-Precision Inference on AMD GPUs</title>
+      <link>https://lmsys.org/blog/2025-09-21-petit-amdgpu/</link>
+      <description>As frontier large language models (LLMs) continue scaling to unprecedented sizes, they demand increasingly more compute power and memory bandwidth from GPUs. Both GPU manufacturers and model developers are shifting toward low-precision floating-point formats. FP4 (4-bit floating point) quantization has emerged as a particularly compelling solution—for instance, FP4-quantized [Llama 3.3 70B](https://huggingface.co/nvidia/Llama-3.3-70B-Instruct-FP4) models achieve a 3.5x reduction in model size while maintaining minimal quality degradation on benchmarks like [MMLU](https://arxiv.org/abs/2009.03300).</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2025-09-21-petit-amdgpu/</guid>
+      <pubDate>Sun, 21 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>SGLang HiCache: Fast Hierarchical KV Caching with Your Favorite Storage Backends</title>
+      <link>https://lmsys.org/blog/2025-09-10-sglang-hicache/</link>
+      <description>In a coding agent scenario using Qwen3-Coder-480B, the observed dialogues often stretched past 25K tokens around 8 turns per session. Without full KV cache retention, nearly every request required costly re-computation. By **integrating SGLang HiCache with DeepSeek 3FS KVStore** for large-scale historical KV caching, the session’s **average TTFT dropped by 56%, inference throughput doubled, and the cache hit rate jumped from 40% to 80%.”**</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2025-09-10-sglang-hicache/</guid>
+      <pubDate>Wed, 10 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>LongCat-Flash: Deploying Meituan's Agentic Model with SGLang</title>
+      <link>https://lmsys.org/blog/2025-09-01-sglang-longcat-flash/</link>
+      <description>LongCat-Flash, Meituan's open-source Agentic Mixture-of-Experts (MoE) model is now available from huggingface [LongCat-Flash-Chat](https://huggingface.co/meituan-longcat/LongCat-Flash-Chat). Released by Meituan LongCat Team, it features:</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2025-09-01-sglang-longcat-flash/</guid>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Fine-tune and deploy gpt-oss MXFP4: ModelOpt + SGLang</title>
+      <link>https://lmsys.org/blog/2025-08-28-gpt-oss-qat/</link>
+      <description>(Updated on Aug 29)</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2025-08-28-gpt-oss-qat/</guid>
+      <pubDate>Thu, 28 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>SGLang for gpt-oss: From Day 0 Support to Enhanced Performance</title>
+      <link>https://lmsys.org/blog/2025-08-27-gpt-oss/</link>
+      <description>We are excited to announce a major update for SGLang, focusing on deep performance optimizations and new features for the recently released openai/gpt-oss-120b model. **While we had support from day zero, we took the last few weeks to enhance our engine to ensure you get the best possible performance.**</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2025-08-27-gpt-oss/</guid>
+      <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>GLM-4.5 Meets SGLang: Reasoning, Coding, and Agentic Abilities</title>
+      <link>https://lmsys.org/blog/2025-07-31-glm4-5/</link>
+      <description>Today, we are excited to introduce our latest flagship models [GLM-4.5](https://huggingface.co/zai-org/GLM-4.5) and [GLM-4.5-Air](https://huggingface.co/zai-org/GLM-4.5-Air), along with their FP8 variants. All models are now available with day-one support on SGLang.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2025-07-31-glm4-5/</guid>
+      <pubDate>Thu, 31 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>SpecForge: Accelerating Speculative Decoding Training for SGLang</title>
+      <link>https://lmsys.org/blog/2025-07-25-spec-forge/</link>
+      <description>Speculative decoding is a powerful technique for accelerating Large Language Model (LLM) inference. In this blog post, we are excited to announce the open-sourcing of **[SpecForge](https://github.com/sgl-project/SpecForge)**, our new training framework for Eagle3-based speculative decoding. SpecForge is designed for ease of use and is tightly integrated with the **[SGLang](https://github.com/sgl-project/sglang)** inference engine, enabling a seamless transition from training to deployment.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2025-07-25-spec-forge/</guid>
+      <pubDate>Fri, 25 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Deploying Kimi K2 with PD Disaggregation and Large-Scale Expert Parallelism on 128 H200 GPUs</title>
+      <link>https://lmsys.org/blog/2025-07-20-k2-large-scale-ep/</link>
+      <description>**Kimi K2 is currently the most advanced open-source Mixture-of-Experts (MoE) model available.**</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2025-07-20-k2-large-scale-ep/</guid>
+      <pubDate>Sun, 20 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Accelerating SGLang with Multiple Token Prediction</title>
+      <link>https://lmsys.org/blog/2025-07-17-mtp/</link>
+      <description>SGLang now supports smooth combination of these advanced features: **Multiple Token Prediction (MTP)**, **Large-Scale Expert Parallelism (EP)**, and **Prefill-Decode disaggregation**. This integration delivers **up to 60% higher output throughput** through a new decoding paradigm, better parallelism, and more efficient resource utilization without sacrificing generation quality. If you are serving models, e.g., DeepSeek V3, SGLang now supports MTP as a plug-and-play feature, unlocking immediate performance gains. You can find instruction for reproduction [here](https://github.com/sgl-project/sglang/issues/7998).</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2025-07-17-mtp/</guid>
+      <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to support new VLMs into SGLang: A Case Study with NVILA</title>
+      <link>https://lmsys.org/blog/2025-07-16-nvila/</link>
+      <description>The world of LLMs is evolving at a remarkable pace, with Visual Language Models (VLMs) at the forefront of this revolution. These models power applications that can understand and reason about both images and text. There are [tons of new VLM models](https://huggingface.co/models?pipeline_tag=image-text-to-text&amp;sort=trending) emerging daily, and we want to integrate them into [SGLang](https://github.com/sgl-project/sglang) to leverage its high-speed throughput. Today, we’ll provide a step-by-step walkthrough for integrating new VLMs into the SGLang ecosystem, using the recent [NVILA model](https://arxiv.org/abs/2412.04468) as a real-world case study.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2025-07-16-nvila/</guid>
+      <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cost Effective Deployment of DeepSeek R1 with Intel® Xeon® 6 CPU on SGLang</title>
+      <link>https://lmsys.org/blog/2025-07-14-intel-xeon-optimization/</link>
+      <description>The impressive performance of DeepSeek R1 marked a rise of giant Mixture of Experts (MoE) models in Large Language Models (LLM). However, its massive model size and unique architecture have posed new challenges on deployment. The significant memory requirements will normally require 8x or even 16x high-end AI accelerators to deploy.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2025-07-14-intel-xeon-optimization/</guid>
+      <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>slime: An SGLang-Native Post-Training Framework for RL Scaling</title>
+      <link>https://lmsys.org/blog/2025-07-09-slime/</link>
+      <description>We believe in RL. We believe RL is the final piece toward AGI.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2025-07-09-slime/</guid>
+      <pubDate>Wed, 09 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>OME: Revolutionizing LLM Infrastructure with Model-Driven Architecture</title>
+      <link>https://lmsys.org/blog/2025-07-08-ome/</link>
+      <description>In any large organization deploying LLMs, two distinct teams emerge with conflicting needs:</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2025-07-08-ome/</guid>
+      <pubDate>Tue, 08 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Deploying DeepSeek on GB200 NVL72 with PD and Large Scale EP (Part I): 2.7x Higher Decoding Throughput</title>
+      <link>https://lmsys.org/blog/2025-06-16-gb200-part-1/</link>
+      <description>The GB200 NVL72 is the world's most advanced hardware for AI training and inference. In this blog post, we're excited to share early results from running DeepSeek 671B with prefill-decode disaggregation and large-scale expert parallelism on the GB200 NVL72. By leveraging Blackwell-specific features to enhance existing components, **SGLang achieved 7,583 tokens per second per GPU for decoding on the GB200 NVL72—a 2.7x speedup compared to the H100 per GPU** ([link](https://lmsys.org/blog/2025-05-05-large-scale-ep/)) for 2,000-token input lengths. Performance is expected to improve further with ongoing optimizations. You can find reproduction instructions [here](https://github.com/sgl-project/sglang/issues/7227).</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2025-06-16-gb200-part-1/</guid>
+      <pubDate>Mon, 16 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Deploying DeepSeek with PD Disaggregation and Large-Scale Expert Parallelism on 96 H100 GPUs</title>
+      <link>https://lmsys.org/blog/2025-05-05-large-scale-ep/</link>
+      <description>DeepSeek is a popular open-source large language model (LLM) praised for its strong performance. However, its large size and unique architecture, which uses Multi-head Latent Attention (MLA) and Mixture of Experts (MoE), require an advanced system for efficient serving at scale. In this blog, we explain how we match DeepSeek's inference system performance with SGLang.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2025-05-05-large-scale-ep/</guid>
+      <pubDate>Mon, 05 May 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>SGLang v0.4: Zero-Overhead Batch Scheduler, Cache-Aware Load Balancer, Faster Structured Outputs</title>
+      <link>https://lmsys.org/blog/2024-12-04-sglang-v0-4/</link>
+      <description>We’re excited to release [SGLang v0.4](https://github.com/sgl-project/sglang), featuring significant performance improvements and new features:</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2024-12-04-sglang-v0-4/</guid>
+      <pubDate>Wed, 04 Dec 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Announcing a New Site for Chatbot Arena</title>
+      <link>https://lmsys.org/blog/2024-09-20-arena-new-site/</link>
+      <description>We’re excited to share that Chatbot Arena now has its own dedicated website: [lmarena.ai](https://lmarena.ai) and [blog](https://blog.lmarena.ai)!</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2024-09-20-arena-new-site/</guid>
+      <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>RedTeam Arena: An Open-Source, Community-driven Jailbreaking Platform</title>
+      <link>https://lmsys.org/blog/2024-09-13-redteam-arena/</link>
+      <description>We are excited to launch [RedTeam Arena](https://redarena.ai), a community-driven redteaming platform, built in collaboration with [Pliny](https://x.com/elder_plinius) and the [BASI](https://discord.gg/Y6GxC59G) community!</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2024-09-13-redteam-arena/</guid>
+      <pubDate>Fri, 13 Sep 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>SGLang v0.3 Release: 7x Faster DeepSeek MLA, 1.5x Faster torch.compile, Multi-Image/Video LLaVA-OneVision</title>
+      <link>https://lmsys.org/blog/2024-09-04-sglang-v0-3/</link>
+      <description>We're excited to announce the release of [SGLang v0.3](https://github.com/sgl-project/sglang/tree/main), which brings significant performance enhancements and expanded support for novel model architectures. Here are the key updates:</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2024-09-04-sglang-v0-3/</guid>
+      <pubDate>Wed, 04 Sep 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Does style matter? Disentangling style and substance in Chatbot Arena</title>
+      <link>https://lmsys.org/blog/2024-08-28-style-control/</link>
+      <description>Why is GPT-4o-mini so good? Why does Claude rank so low, when anecdotal experience suggests otherwise?</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2024-08-28-style-control/</guid>
+      <pubDate>Thu, 29 Aug 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Achieving Faster Open-Source Llama3 Serving with SGLang Runtime (vs. TensorRT-LLM, vLLM)</title>
+      <link>https://lmsys.org/blog/2024-07-25-sglang-llama3/</link>
+      <description>At LMSYS.org, we've been running the [Chatbot Arena](https://chat.lmsys.org/) platform for over a year, serving millions of users. We know firsthand how crucial efficient serving is for AI products and research. Through our operational experiences and in-depth research, we've continuously enhanced the underlying serving systems, spanning from the high-level multi-model serving framework, [FastChat](https://github.com/lm-sys/FastChat/tree/main), to the efficient serving engine, [SGLang Runtime (SRT)](https://github.com/sgl-project/sglang).</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2024-07-25-sglang-llama3/</guid>
+      <pubDate>Thu, 25 Jul 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>RouteLLM: An Open-Source Framework for Cost-Effective LLM Routing</title>
+      <link>https://lmsys.org/blog/2024-07-01-routellm/</link>
+      <description>LLMs have demonstrated remarkable capabilities across a range of tasks, but there exists wide variation in their costs and capabilities, as seen from the plot of performance against cost in Figure 1. Very broadly, more capable models tend to be more expensive than less capable models. This leads to a dilemma when deploying LLMs in the real-world - routing all queries to the largest, most capable model leads to the highest-quality responses but can be expensive, while routing queries to smaller models can save costs but may result in lower-quality responses.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2024-07-01-routellm/</guid>
+      <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Multimodal Arena is Here!</title>
+      <link>https://lmsys.org/blog/2024-06-27-multimodal/</link>
+      <description>We added image support to [Chatbot Arena](https://lmarena.ai/)! You can now chat with your favorite vision-language models from OpenAI, Anthropic, Google, and most other major LLM providers to help discover how these models stack up against eachother.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2024-06-27-multimodal/</guid>
+      <pubDate>Thu, 27 Jun 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Hard Prompts Category in Chatbot Arena</title>
+      <link>https://lmsys.org/blog/2024-05-17-category-hard/</link>
+      <description>Introducing **Hard Prompts**, a new and challenging category in the Chatbot Arena [Leaderboard](https://leaderboard.lmsys.org).</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2024-05-17-category-hard/</guid>
+      <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>What’s up with Llama 3? Arena data analysis</title>
+      <link>https://lmsys.org/blog/2024-05-08-llama3/</link>
+      <description>On April 18th, Meta released Llama 3, their newest open-weight large language model. Since then, Llama 3-70B has quickly risen to the top of the English [Chatbot Arena leaderboard](https://leaderboard.lmsys.org) with over 50,000 battles. This remarkable achievement by Meta is excellent news for the open-source community. In this blog post, we aim to provide more insight into why users rank Llama 3-70b on par with top-ranked models like GPT-4-Turbo, Gemini 1.5 Pro, and Claude 3 Opus.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2024-05-08-llama3/</guid>
+      <pubDate>Wed, 08 May 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>LMSYS Kaggle Competition – Predicting Human Preference with $100,000 in Prizes</title>
+      <link>https://lmsys.org/blog/2024-05-02-kaggle-competition/</link>
+      <description>LMSYS and Kaggle are launching a human preference prediction competition! You are challenged to predict which responses users will prefer in head-to-head battles between Large Language Models (LLMs). You'll work with a dataset from the [Chatbot Arena](https://lmarena.ai), containing conversations and user preferences across various LLMs. By developing a model that accurately predicts human preferences, you'll contribute to improving chatbot performance and alignment with user expectations. The training dataset includes over 55,000 real-world user and LLM conversations and user preferences, with personally identifiable information removed. Your solution submission will be tested on a hidden test set of 25,000 samples.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2024-05-02-kaggle-competition/</guid>
+      <pubDate>Thu, 02 May 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>From Live Data to High-Quality Benchmarks: The Arena-Hard Pipeline</title>
+      <link>https://lmsys.org/blog/2024-04-19-arena-hard/</link>
+      <description>Building an affordable and reliable benchmark for LLM chatbots has become a critical challenge. A high-quality benchmark should 1) robustly separate model capability, 2) reflect human preference in real-world use cases, and 3) frequently update to avoid over-fitting or test set leakage.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2024-04-19-arena-hard/</guid>
+      <pubDate>Fri, 19 Apr 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>LMSYS Chatbot Arena: Live and Community-Driven LLM Evaluation</title>
+      <link>https://lmsys.org/blog/2024-03-01-policy/</link>
+      <description>Chatbot Arena ([lmarena.ai](https://lmarena.ai)) is an open-source project developed by members from [LMSYS](https://lmarena.ai/?about) and UC Berkeley SkyLab. Our mission is to advance LLM development and understanding through live, open, and community-driven evaluations. We maintain the open evaluation platform for any user to rate LLMs via pairwise comparisons under real-world use cases and publish [leaderboard](https://lmarena.ai/?leaderboard) periodically.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2024-03-01-policy/</guid>
+      <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Fast JSON Decoding for Local LLMs with Compressed Finite State Machine</title>
+      <link>https://lmsys.org/blog/2024-02-05-compressed-fsm/</link>
+      <description>Constraining an LLM to consistently generate valid JSON or YAML that adheres to a specific schema is a critical feature for many applications.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2024-02-05-compressed-fsm/</guid>
+      <pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Fast and Expressive LLM Inference with RadixAttention and SGLang</title>
+      <link>https://lmsys.org/blog/2024-01-17-sglang/</link>
+      <description>Large Language Models (LLMs) are increasingly utilized for complex tasks that require multiple chained generation calls, advanced prompting techniques, control flow, and interaction with external environments. However, there is a notable deficiency in efficient systems for programming and executing these applications.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2024-01-17-sglang/</guid>
+      <pubDate>Wed, 17 Jan 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Chatbot Arena: New models &amp; Elo system update</title>
+      <link>https://lmsys.org/blog/2023-12-07-leaderboard/</link>
+      <description>Welcome to our latest update on the Chatbot Arena, our open evaluation platform to test the most advanced LLMs. We're excited to share that over **130,000** votes that are now collected to rank the most capable 40+ models! In this blog post, we'll cover the results of several new models:</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2023-12-07-leaderboard/</guid>
+      <pubDate>Thu, 07 Dec 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Break the Sequential Dependency of LLM Inference Using Lookahead Decoding</title>
+      <link>https://lmsys.org/blog/2023-11-21-lookahead-decoding/</link>
+      <description>**TL;DR:** We introduce  **lookahead decoding**, a new, exact, and parallel decoding algorithm to accelerate LLM inference.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2023-11-21-lookahead-decoding/</guid>
+      <pubDate>Tue, 21 Nov 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Recipe for Serving Thousands of Concurrent LoRA Adapters</title>
+      <link>https://lmsys.org/blog/2023-11-15-slora/</link>
+      <description>In this blog post, we introduce [S-LoRA](https://arxiv.org/abs/2311.03285) ([code](https://github.com/S-LoRA/S-LoRA)), a system designed for the scalable serving of many LoRA adapters. S-LoRA adopts the idea of</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2023-11-15-slora/</guid>
+      <pubDate>Wed, 15 Nov 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Catch me if you can! How to beat GPT-4 with a 13B model</title>
+      <link>https://lmsys.org/blog/2023-11-14-llm-decontaminator/</link>
+      <description>Announcing Llama-rephraser: 13B models reaching GPT-4 performance in major benchmarks (MMLU/GSK-8K/HumanEval)!</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2023-11-14-llm-decontaminator/</guid>
+      <pubDate>Tue, 14 Nov 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ToxicChat: A Benchmark for Content Moderation in Real-world User-AI Interactions</title>
+      <link>https://lmsys.org/blog/2023-10-30-toxicchat/</link>
+      <description>In this blogpost, we introduce ToxicChat, a benchmark consisting of 10K high-quality data for content moderation in real-world user-AI interactions. Evaluation results show that fine-tuning on this benchmark notably improves a baseline model’s ability to detect toxic queries in user-AI interactions.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2023-10-30-toxicchat/</guid>
+      <pubDate>Mon, 30 Oct 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Chatbot Arena Conversation Dataset Release</title>
+      <link>https://lmsys.org/blog/2023-07-20-dataset/</link>
+      <description>Since its launch three months ago, [Chatbot Arena](https://lmsys.org/blog/2023-05-03-arena/) has become a widely cited LLM evaluation platform that emphasizes large-scale, community-based, and interactive human evaluation. In that short time span, we collected around 53K votes from 19K unique IP addresses for 22 models.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2023-07-20-dataset/</guid>
+      <pubDate>Thu, 20 Jul 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Long Can Open-Source LLMs Truly Promise on Context Length?</title>
+      <link>https://lmsys.org/blog/2023-06-29-longchat/</link>
+      <description>In this blogpost, we introduce our latest series of chatbot models, LongChat-7B and LongChat-13B, featuring a new level of extended context length up to 16K tokens.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2023-06-29-longchat/</guid>
+      <pubDate>Thu, 29 Jun 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Chatbot Arena Leaderboard Week 8: Introducing MT-Bench and Vicuna-33B</title>
+      <link>https://lmsys.org/blog/2023-06-22-leaderboard/</link>
+      <description>In this blog post, we share the latest update on Chatbot Arena leaderboard, which now includes more open models and three metrics:</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2023-06-22-leaderboard/</guid>
+      <pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Building a Truly \"Open\" OpenAI API Server with Open Models Locally</title>
+      <link>https://lmsys.org/blog/2023-06-09-api-server/</link>
+      <description>Many applications have been built on closed-source OpenAI APIs, but now you can effortlessly port them to use open-source alternatives without modifying the code. [FastChat](https://github.com/lm-sys/FastChat)'s OpenAI-compatible API server enables this seamless transition.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2023-06-09-api-server/</guid>
+      <pubDate>Fri, 09 Jun 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Chatbot Arena Leaderboard Updates (Week 4)</title>
+      <link>https://lmsys.org/blog/2023-05-25-leaderboard/</link>
+      <description>In this update, we are excited to welcome the following models joining the [Chatbot Arena](https://lmsys.org/blog/2023-05-03-arena/):</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2023-05-25-leaderboard/</guid>
+      <pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Chatbot Arena Leaderboard Updates (Week 2)</title>
+      <link>https://lmsys.org/blog/2023-05-10-leaderboard/</link>
+      <description>We release an updated leaderboard with more models and new data we collected last week, after the announcement of the anonymous [Chatbot Arena](https://lmsys.org/blog/2023-05-03-arena/). We are actively iterating on the design of the arena and leaderboard scores.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2023-05-10-leaderboard/</guid>
+      <pubDate>Wed, 10 May 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Chatbot Arena: Benchmarking LLMs in the Wild with Elo Ratings</title>
+      <link>https://lmsys.org/blog/2023-05-03-arena/</link>
+      <description>We present Chatbot Arena, a benchmark platform for large language models (LLMs) that features anonymous, randomized battles in a crowdsourced manner. In this blog post, we are releasing our initial results and a leaderboard based on the Elo rating system, which is a widely-used rating system in chess and other competitive games. We invite the entire community to join this effort by contributing new models and evaluating them by asking questions and voting for your favorite answer.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2023-05-03-arena/</guid>
+      <pubDate>Wed, 03 May 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Vicuna: An Open-Source Chatbot Impressing GPT-4 with 90%* ChatGPT Quality</title>
+      <link>https://lmsys.org/blog/2023-03-30-vicuna/</link>
+      <description>We introduce Vicuna-13B, an open-source chatbot trained by fine-tuning LLaMA on user-shared conversations collected from ShareGPT. Preliminary evaluation using GPT-4 as a judge shows Vicuna-13B achieves more than 90%* quality of OpenAI ChatGPT and Google Bard while outperforming other models like LLaMA and Stanford Alpaca in more than 90%&lt;sup&gt;*&lt;/sup&gt; of cases. The cost of training Vicuna-13B is around $300. The [code](https://github.com/lm-sys/FastChat) and [weights](https://github.com/lm-sys/FastChat#vicuna-weights), along with an online [demo](https://chat.lmsys.org), are publicly available for non-commercial use.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2023-03-30-vicuna/</guid>
+      <pubDate>Thu, 30 Mar 2023 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
