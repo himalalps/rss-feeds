@@ -33,7 +33,7 @@ def parse_front_matter(content):
     result = {}
 
     for line in front_matter_text.splitlines():
-        if line and (line[0] == " " or line[0] == "\t"):
+        if line.startswith(" ") or line.startswith("\t"):
             continue
         stripped = line.strip()
         if not stripped or ":" not in stripped:
