@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 28 Apr 2026 03:43:58 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 Apr 2026 03:41:04 +0000</lastBuildDate>
     <item>
       <title>DeepSeek-V4 on Day 0: From Fast Inference to Verified RL with SGLang and Miles</title>
       <link>https://lmsys.org/blog/2026-04-25-deepseek-v4/</link>
