@@ -7,7 +7,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 29 Apr 2026 03:41:04 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 Apr 2026 03:42:33 +0000</lastBuildDate>
+    <item>
+      <title>Updating 1T parameters in seconds — P2P weight transfer in Large Scale Distributed RL</title>
+      <link>https://lmsys.org/blog/2026-04-29-p2p-update/</link>
+      <description>We introduced a **RDMA-based, Peer to Peer weight update** mechanism for RL workloads in SGLang as a supplement to traditional NCCL broadcast methods, compatible with all major open source models. By utilizing a source-side **CPU engine replica** and **P2P RDMA transfers** via Mooncake TransferEngine, we speed up weight transfer times for 1T-parameter Kimi-K2 7 times (53 seconds -&gt; 7.2 seconds), at the cost of one additional inference engine replica (32G) per training rank on CPU memory. These optimizations minimize network redundancy and allow inference servers to resume rollout significantly faster.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2026-04-29-p2p-update/</guid>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>DeepSeek-V4 on Day 0: From Fast Inference to Verified RL with SGLang and Miles</title>
       <link>https://lmsys.org/blog/2026-04-25-deepseek-v4/</link>

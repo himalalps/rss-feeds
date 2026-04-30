@@ -12,7 +12,15 @@
       <link>https://www.anthropic.com/research</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Wed, 29 Apr 2026 03:41:21 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 Apr 2026 03:42:51 +0000</lastBuildDate>
+    <item>
+      <title>Evaluating Claude’s bioinformatics research capabilities with BioMysteryBench</title>
+      <link>https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench</link>
+      <description>We're launching the Anthropic Economic Index Survey, a monthly survey conducted through Anthropic Interviewer.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench</guid>
+      <category>Science</category>
+      <pubDate>Wed, 29 Apr 2026 20:26:00 +0000</pubDate>
+    </item>
     <item>
       <title>Announcing the Anthropic Economic Index Survey </title>
       <link>https://www.anthropic.com/research/economic-index-survey-announcement</link>

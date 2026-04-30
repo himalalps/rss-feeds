@@ -7,7 +7,28 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 29 Apr 2026 03:41:15 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 Apr 2026 03:42:40 +0000</lastBuildDate>
+    <item>
+      <title>Product development in the agentic era</title>
+      <link>https://claude.com/blog/product-development-in-the-agentic-era</link>
+      <description>Product development in the agentic era</description>
+      <guid isPermaLink="false">https://claude.com/blog/product-development-in-the-agentic-era</guid>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Deploying Claude across the enterprise with Claude Cowork</title>
+      <link>https://claude.com/blog/new-guide-deploying-claude-across-the-enterprise-with-claude-cowork</link>
+      <description>Deploying Claude across the enterprise with Claude Cowork</description>
+      <guid isPermaLink="false">https://claude.com/blog/new-guide-deploying-claude-across-the-enterprise-with-claude-cowork</guid>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude API skill now in CodeRabbit, JetBrains, Resolve AI, and Warp</title>
+      <link>https://claude.com/blog/claude-api-skill</link>
+      <description>Claude API skill now in CodeRabbit, JetBrains, Resolve AI, and Warp</description>
+      <guid isPermaLink="false">https://claude.com/blog/claude-api-skill</guid>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Onboarding Claude Code like a new developer: Lessons from 17 years of development</title>
       <link>https://claude.com/blog/onboarding-claude-code-like-a-new-developer-lessons-from-17-years-of-development</link>
@@ -91,27 +112,6 @@
       <description>Multi-agent coordination patterns: Five approaches and when to use them</description>
       <guid isPermaLink="false">https://claude.com/blog/multi-agent-coordination-patterns</guid>
       <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The advisor strategy: Give agents an intelligence boost</title>
-      <link>https://claude.com/blog/the-advisor-strategy</link>
-      <description>The advisor strategy: Give agents an intelligence boost</description>
-      <guid isPermaLink="false">https://claude.com/blog/the-advisor-strategy</guid>
-      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Making Claude Cowork ready for enterprise</title>
-      <link>https://claude.com/blog/cowork-for-enterprise</link>
-      <description>Making Claude Cowork ready for enterprise</description>
-      <guid isPermaLink="false">https://claude.com/blog/cowork-for-enterprise</guid>
-      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Claude Managed Agents: get to production 10x faster</title>
-      <link>https://claude.com/blog/claude-managed-agents</link>
-      <description>Claude Managed Agents: get to production 10x faster</description>
-      <guid isPermaLink="false">https://claude.com/blog/claude-managed-agents</guid>
-      <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
