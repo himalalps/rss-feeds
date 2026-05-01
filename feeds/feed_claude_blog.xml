@@ -7,7 +7,35 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 30 Apr 2026 03:42:40 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 01 May 2026 03:55:28 +0000</lastBuildDate>
+    <item>
+      <title>Lessons from building Claude Code: Prompt caching is everything</title>
+      <link>https://claude.com/blog/lessons-from-building-claude-code-prompt-caching-is-everything</link>
+      <description>Lessons from building Claude Code: Prompt caching is everything</description>
+      <guid isPermaLink="false">https://claude.com/blog/lessons-from-building-claude-code-prompt-caching-is-everything</guid>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Kepler built verifiable AI for financial services with Claude</title>
+      <link>https://claude.com/blog/how-kepler-built-verifiable-ai-for-financial-services-with-claude</link>
+      <description>How Kepler built verifiable AI for financial services with Claude</description>
+      <guid isPermaLink="false">https://claude.com/blog/how-kepler-built-verifiable-ai-for-financial-services-with-claude</guid>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude Security is now in public beta</title>
+      <link>https://claude.com/blog/claude-security-public-beta</link>
+      <description>Claude Security is now in public beta</description>
+      <guid isPermaLink="false">https://claude.com/blog/claude-security-public-beta</guid>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Building AI agents for the enterprise</title>
+      <link>https://claude.com/blog/building-ai-agents-for-the-enterprise</link>
+      <description>Building AI agents for the enterprise</description>
+      <guid isPermaLink="false">https://claude.com/blog/building-ai-agents-for-the-enterprise</guid>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Product development in the agentic era</title>
       <link>https://claude.com/blog/product-development-in-the-agentic-era</link>
@@ -16,9 +44,9 @@
       <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Deploying Claude across the enterprise with Claude Cowork</title>
+      <title>Deploying agentic AI across the enterprise with Claude Cowork</title>
       <link>https://claude.com/blog/new-guide-deploying-claude-across-the-enterprise-with-claude-cowork</link>
-      <description>Deploying Claude across the enterprise with Claude Cowork</description>
+      <description>Deploying agentic AI across the enterprise with Claude Cowork</description>
       <guid isPermaLink="false">https://claude.com/blog/new-guide-deploying-claude-across-the-enterprise-with-claude-cowork</guid>
       <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
     </item>
@@ -79,39 +107,11 @@
       <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Introducing routines in Claude Code</title>
-      <link>https://claude.com/blog/introducing-routines-in-claude-code</link>
-      <description>Introducing routines in Claude Code</description>
-      <guid isPermaLink="false">https://claude.com/blog/introducing-routines-in-claude-code</guid>
-      <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Redesigning Claude Code on desktop for parallel agents</title>
       <link>https://claude.com/blog/claude-code-desktop-redesign</link>
       <description>Redesigning Claude Code on desktop for parallel agents</description>
       <guid isPermaLink="false">https://claude.com/blog/claude-code-desktop-redesign</guid>
       <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Seeing like an agent: how we design tools in Claude Code</title>
-      <link>https://claude.com/blog/seeing-like-an-agent</link>
-      <description>Seeing like an agent: how we design tools in Claude Code</description>
-      <guid isPermaLink="false">https://claude.com/blog/seeing-like-an-agent</guid>
-      <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Preparing your security program for AI-accelerated offense</title>
-      <link>https://claude.com/blog/preparing-your-security-program-for-ai-accelerated-offense</link>
-      <description>Preparing your security program for AI-accelerated offense</description>
-      <guid isPermaLink="false">https://claude.com/blog/preparing-your-security-program-for-ai-accelerated-offense</guid>
-      <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Multi-agent coordination patterns: Five approaches and when to use them</title>
-      <link>https://claude.com/blog/multi-agent-coordination-patterns</link>
-      <description>Multi-agent coordination patterns: Five approaches and when to use them</description>
-      <guid isPermaLink="false">https://claude.com/blog/multi-agent-coordination-patterns</guid>
-      <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
