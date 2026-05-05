@@ -7,13 +7,20 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 04 May 2026 03:46:52 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 05 May 2026 03:30:43 +0000</lastBuildDate>
     <item>
       <title>Emotion Concepts and their Function in a Large Language ModelSofroniew et al., 2026We find representations of emotion concepts in Claude Sonnet 4.5 and show that they causally influence its outputs.</title>
       <link>https://transformer-circuits.pub/2026/emotions/index.html</link>
       <description>s.</description>
       <guid isPermaLink="false">https://transformer-circuits.pub/2026/emotions/index.html</guid>
       <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>HeadVisWe develop an interactive visualization tool to help us understand the behaviors of attention heads in language models.</title>
+      <link>https://transformer-circuits.pub/2026/headvis/index.html</link>
+      <description>HeadVisWe develop an interactive visualization tool to help us understand the behaviors of attention heads in language models.</description>
+      <guid isPermaLink="false">https://transformer-circuits.pub/2026/headvis/index.html</guid>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Circuits Cross-Post â Activation OraclesWe train language models to answer questions about their own activations in natural language.</title>
