@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 07 May 2026 03:42:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 07 May 2026 05:24:17 +0000</lastBuildDate>
     <item>
       <title>Emotion Concepts and their Function in a Large Language ModelSofroniew et al., 2026We find representations of emotion concepts in Claude Sonnet 4.5 and show that they causally influence its outputs.</title>
       <link>https://transformer-circuits.pub/2026/emotions/index.html</link>
@@ -23,23 +23,23 @@
       <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Circuits Cross-Post â Activation OraclesWe train language models to answer questions about their own activations in natural language.</title>
+      <title>Circuits Cross-Post — Activation OraclesWe train language models to answer questions about their own activations in natural language.</title>
       <link>https://alignment.anthropic.com/2025/activation-oracles/</link>
       <description>.</description>
       <guid isPermaLink="false">https://alignment.anthropic.com/2025/activation-oracles/</guid>
       <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Circuits Updates â November 2025A short update on harm pressure.</title>
+      <title>Circuits Updates — November 2025A short update on harm pressure.</title>
       <link>https://transformer-circuits.pub/2025/november-update/index.html</link>
-      <description>Circuits Updates â November 2025A short update on harm pressure.</description>
+      <description>Circuits Updates — November 2025A short update on harm pressure.</description>
       <guid isPermaLink="false">https://transformer-circuits.pub/2025/november-update/index.html</guid>
       <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Circuits Updates â October 2025Small updates on visual features and dictionary initialization.</title>
+      <title>Circuits Updates — October 2025Small updates on visual features and dictionary initialization.</title>
       <link>https://transformer-circuits.pub/2025/october-update/index.html</link>
-      <description>Circuits Updates â October 2025Small updates on visual features and dictionary initialization.</description>
+      <description>Circuits Updates — October 2025Small updates on visual features and dictionary initialization.</description>
       <guid isPermaLink="false">https://transformer-circuits.pub/2025/october-update/index.html</guid>
       <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
     </item>
@@ -53,29 +53,29 @@
     <item>
       <title>Emergent Introspective Awareness in Large Language ModelsLindsey, 2025We find evidence that language models can introspect on their internal states.</title>
       <link>https://transformer-circuits.pub/2025/introspection/index.html</link>
-      <description>s. Circuits Updates â</description>
+      <description>s. Circuits Updates —</description>
       <guid isPermaLink="false">https://transformer-circuits.pub/2025/introspection/index.html</guid>
       <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Circuits Updates â September 2025A small update on features and in-context learning.</title>
+      <title>Circuits Updates — September 2025A small update on features and in-context learning.</title>
       <link>https://transformer-circuits.pub/2025/september-update/index.html</link>
-      <description>Circuits Updates â September 2025A small update on features and in-context learning.</description>
+      <description>Circuits Updates — September 2025A small update on features and in-context learning.</description>
       <guid isPermaLink="false">https://transformer-circuits.pub/2025/september-update/index.html</guid>
       <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Circuits Updates â August 2025A small update: How does a persona modify the assistantâs response?</title>
+      <title>Circuits Updates — August 2025A small update: How does a persona modify the assistant’s response?</title>
       <link>https://transformer-circuits.pub/2025/august-update/index.html</link>
-      <description>Circuits Updates â August 2025A small update: How does a persona modify the assistantâs response?</description>
+      <description>Circuits Updates — August 2025A small update: How does a persona modify the assistant’s response?</description>
       <guid isPermaLink="false">https://transformer-circuits.pub/2025/august-update/index.html</guid>
       <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Circuits Updates â July 2025A collection of small updates: revisiting A Mathematical Framework and applications of
+      <title>Circuits Updates — July 2025A collection of small updates: revisiting A Mathematical Framework and applications of
                     interpretability to biology.</title>
       <link>https://transformer-circuits.pub/2025/july-update/index.html</link>
-      <description>Circuits Updates â July 2025A collection of small updates: revisiting A Mathematical Framework and applications of
+      <description>Circuits Updates — July 2025A collection of small updates: revisiting A Mathematical Framework and applications of
                     interpretability to biology.</description>
       <guid isPermaLink="false">https://transformer-circuits.pub/2025/july-update/index.html</guid>
       <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
@@ -84,7 +84,7 @@
       <title>A Toy Model of Mechanistic (Un)FaithfulnessWhen transcoders go awry.</title>
       <link>https://transformer-circuits.pub/2025/faithfulness-toy-model/index.html</link>
       <description>. Tracing Attention Computation Through Feature Interactions Kamath et al., 2025 We describe and apply a method to explain attention patterns in terms of
-                    feature interactions, and integrate this information into attribution graphs. A Toy Model of Interference Weights Unpacking "interference weights" in some more depth. Sparse mixtures of linear transforms We investigate sparse mixture of linear transforms (MOLT), a new approach to transcoders. Circuits Updates â</description>
+                    feature interactions, and integrate this information into attribution graphs. A Toy Model of Interference Weights Unpacking "interference weights" in some more depth. Sparse mixtures of linear transforms We investigate sparse mixture of linear transforms (MOLT), a new approach to transcoders. Circuits Updates —</description>
       <guid isPermaLink="false">https://transformer-circuits.pub/2025/faithfulness-toy-model/index.html</guid>
       <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
     </item>
@@ -92,14 +92,14 @@
       <title>Tracing Attention Computation Through Feature InteractionsKamath et al., 2025We describe and apply a method to explain attention patterns in terms of
                     feature interactions, and integrate this information into attribution graphs.</title>
       <link>https://transformer-circuits.pub/2025/attention-qk/index.html</link>
-      <description>s. A Toy Model of Interference Weights Unpacking "interference weights" in some more depth. Sparse mixtures of linear transforms We investigate sparse mixture of linear transforms (MOLT), a new approach to transcoders. Circuits Updates â</description>
+      <description>s. A Toy Model of Interference Weights Unpacking "interference weights" in some more depth. Sparse mixtures of linear transforms We investigate sparse mixture of linear transforms (MOLT), a new approach to transcoders. Circuits Updates —</description>
       <guid isPermaLink="false">https://transformer-circuits.pub/2025/attention-qk/index.html</guid>
       <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Circuits Updates â April 2025A collection of small updates: jailbreaks, dense features, and spinning up on interpretability.</title>
+      <title>Circuits Updates — April 2025A collection of small updates: jailbreaks, dense features, and spinning up on interpretability.</title>
       <link>https://transformer-circuits.pub/2025/april-update/index.html</link>
-      <description>Circuits Updates â April 2025A collection of small updates: jailbreaks, dense features, and spinning up on interpretability.</description>
+      <description>Circuits Updates — April 2025A collection of small updates: jailbreaks, dense features, and spinning up on interpretability.</description>
       <guid isPermaLink="false">https://transformer-circuits.pub/2025/april-update/index.html</guid>
       <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
     </item>
@@ -112,8 +112,8 @@
       <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>On the Biology of a Large Language ModelLindsey et al., 2025We investigate the internal mechanisms used by Claude 3.5 Haiku â Anthropic's lightweight
-                    production model â in a variety of contexts.</title>
+      <title>On the Biology of a Large Language ModelLindsey et al., 2025We investigate the internal mechanisms used by Claude 3.5 Haiku — Anthropic's lightweight
+                    production model — in a variety of contexts.</title>
       <link>https://transformer-circuits.pub/2025/attribution-graphs/biology.html</link>
       <description>s. Circuit Tracing: Revealing Computational Graphs in Language Models Ameisen et al., 2025 We describe an approach to tracing the "step-by-step" computation involved when a model responds
                     to a single prompt.</description>
@@ -121,9 +121,9 @@
       <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Circuits Updates â January 2025A collection of small updates: dictionary learning optimization techniques.</title>
+      <title>Circuits Updates — January 2025A collection of small updates: dictionary learning optimization techniques.</title>
       <link>https://transformer-circuits.pub/2025/january-update/index.html</link>
-      <description>Circuits Updates â January 2025A collection of small updates: dictionary learning optimization techniques.</description>
+      <description>Circuits Updates — January 2025A collection of small updates: dictionary learning optimization techniques.</description>
       <guid isPermaLink="false">https://transformer-circuits.pub/2025/january-update/index.html</guid>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
     </item>
@@ -179,32 +179,32 @@
       <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Circuits Updates â September 2024A collection of small updates: investigating successor heads, oversampling data in SAEs.</title>
+      <title>Circuits Updates — September 2024A collection of small updates: investigating successor heads, oversampling data in SAEs.</title>
       <link>https://transformer-circuits.pub/2024/september-update/index.html</link>
-      <description>Circuits Updates â September 2024A collection of small updates: investigating successor heads, oversampling data in SAEs.</description>
+      <description>Circuits Updates — September 2024A collection of small updates: investigating successor heads, oversampling data in SAEs.</description>
       <guid isPermaLink="false">https://transformer-circuits.pub/2024/september-update/index.html</guid>
       <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Circuits Updates â August 2024A collection of small updates: interpretability evals, reproducing self-explanation.</title>
+      <title>Circuits Updates — August 2024A collection of small updates: interpretability evals, reproducing self-explanation.</title>
       <link>https://transformer-circuits.pub/2024/august-update/index.html</link>
-      <description>Circuits Updates â August 2024A collection of small updates: interpretability evals, reproducing self-explanation.</description>
+      <description>Circuits Updates — August 2024A collection of small updates: interpretability evals, reproducing self-explanation.</description>
       <guid isPermaLink="false">https://transformer-circuits.pub/2024/august-update/index.html</guid>
       <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Circuits Updates â July 2024A collection of small updates: five hurdles, linear representations, dark matter, pivot tables,
+      <title>Circuits Updates — July 2024A collection of small updates: five hurdles, linear representations, dark matter, pivot tables,
                     feature sensitivity.</title>
       <link>https://transformer-circuits.pub/2024/july-update/index.html</link>
-      <description>Circuits Updates â July 2024A collection of small updates: five hurdles, linear representations, dark matter, pivot tables,
+      <description>Circuits Updates — July 2024A collection of small updates: five hurdles, linear representations, dark matter, pivot tables,
                     feature sensitivity.</description>
       <guid isPermaLink="false">https://transformer-circuits.pub/2024/july-update/index.html</guid>
       <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Circuits Updates â June 2024A collection of small updates: topk and gated SAE investigation.</title>
+      <title>Circuits Updates — June 2024A collection of small updates: topk and gated SAE investigation.</title>
       <link>https://transformer-circuits.pub/2024/june-update/index.html</link>
-      <description>Circuits Updates â June 2024A collection of small updates: topk and gated SAE investigation.</description>
+      <description>Circuits Updates — June 2024A collection of small updates: topk and gated SAE investigation.</description>
       <guid isPermaLink="false">https://transformer-circuits.pub/2024/june-update/index.html</guid>
       <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
     </item>
@@ -217,16 +217,16 @@
       <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Circuits Updates â April 2024A collection of small updates from the Anthropic Interpretability Team.</title>
+      <title>Circuits Updates — April 2024A collection of small updates from the Anthropic Interpretability Team.</title>
       <link>https://transformer-circuits.pub/2024/april-update/index.html</link>
-      <description>Circuits Updates â April 2024A collection of small updates from the Anthropic Interpretability Team.</description>
+      <description>Circuits Updates — April 2024A collection of small updates from the Anthropic Interpretability Team.</description>
       <guid isPermaLink="false">https://transformer-circuits.pub/2024/april-update/index.html</guid>
       <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Circuits Updates â March 2024A collection of small updates from the Anthropic Interpretability Team.</title>
+      <title>Circuits Updates — March 2024A collection of small updates from the Anthropic Interpretability Team.</title>
       <link>https://transformer-circuits.pub/2024/march-update/index.html</link>
-      <description>Circuits Updates â March 2024A collection of small updates from the Anthropic Interpretability Team.</description>
+      <description>Circuits Updates — March 2024A collection of small updates from the Anthropic Interpretability Team.</description>
       <guid isPermaLink="false">https://transformer-circuits.pub/2024/march-update/index.html</guid>
       <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
     </item>
@@ -247,16 +247,16 @@
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Circuits Updates â January 2024A collection of small updates from the Anthropic Interpretability Team.</title>
+      <title>Circuits Updates — January 2024A collection of small updates from the Anthropic Interpretability Team.</title>
       <link>https://transformer-circuits.pub/2024/jan-update/index.html</link>
-      <description>Circuits Updates â January 2024A collection of small updates from the Anthropic Interpretability Team.</description>
+      <description>Circuits Updates — January 2024A collection of small updates from the Anthropic Interpretability Team.</description>
       <guid isPermaLink="false">https://transformer-circuits.pub/2024/jan-update/index.html</guid>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Circuits Updates â February 2024A collection of small updates from the Anthropic Interpretability Team.</title>
+      <title>Circuits Updates — February 2024A collection of small updates from the Anthropic Interpretability Team.</title>
       <link>https://transformer-circuits.pub/2024/feb-update/index.html</link>
-      <description>Circuits Updates â February 2024A collection of small updates from the Anthropic Interpretability Team.</description>
+      <description>Circuits Updates — February 2024A collection of small updates from the Anthropic Interpretability Team.</description>
       <guid isPermaLink="false">https://transformer-circuits.pub/2024/feb-update/index.html</guid>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
     </item>
@@ -269,15 +269,15 @@
       <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Circuits Updates â July 2023A collection of small updates from the Anthropic Interpretability Team.</title>
+      <title>Circuits Updates — July 2023A collection of small updates from the Anthropic Interpretability Team.</title>
       <link>https://transformer-circuits.pub/2023/july-update/index.html</link>
-      <description>Circuits Updates â July 2023A collection of small updates from the Anthropic Interpretability Team.</description>
+      <description>Circuits Updates — July 2023A collection of small updates from the Anthropic Interpretability Team.</description>
       <guid isPermaLink="false">https://transformer-circuits.pub/2023/july-update/index.html</guid>
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Distributed Representations: Composition &amp; SuperpositionAn informal note on how "distributed representations" might be understood
-                    as two different, competing strategies â "composition" and "superposition" â with quite
+                    as two different, competing strategies — "composition" and "superposition" — with quite
                     different properties.</title>
       <link>https://transformer-circuits.pub/2023/superposition-composition/index.html</link>
       <description>.</description>
@@ -285,9 +285,9 @@
       <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Circuits Updates â May 2023A collection of small updates from the Anthropic Interpretability Team.</title>
+      <title>Circuits Updates — May 2023A collection of small updates from the Anthropic Interpretability Team.</title>
       <link>https://transformer-circuits.pub/2023/may-update/index.html</link>
-      <description>Circuits Updates â May 2023A collection of small updates from the Anthropic Interpretability Team.</description>
+      <description>Circuits Updates — May 2023A collection of small updates from the Anthropic Interpretability Team.</description>
       <guid isPermaLink="false">https://transformer-circuits.pub/2023/may-update/index.html</guid>
       <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
     </item>
@@ -402,7 +402,7 @@
       <title>Distill on Hiatus</title>
       <link>https://distill.pub/2021/distill-hiatus/</link>
       <description>,
-                we're taking a page from David Haâs approach of simply creating websites (eg. World Models ) for research projects.</description>
+                we're taking a page from David Ha’s approach of simply creating websites (eg. World Models ) for research projects.</description>
       <guid isPermaLink="false">https://distill.pub/2021/distill-hiatus/</guid>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
     </item>
@@ -421,7 +421,7 @@
       <description>for a striking
                 example).
                 Previously we would have submitted to Distill, but with Distill on Hiatus ,
-                we're taking a page from David Haâs approach of simply creating websites (eg. World Models ) for research projects.</description>
+                we're taking a page from David Ha’s approach of simply creating websites (eg. World Models ) for research projects.</description>
       <guid isPermaLink="false">https://distill.pub/2019/activation-atlas/</guid>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
     </item>
