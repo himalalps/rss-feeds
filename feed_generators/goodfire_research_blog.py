@@ -1,5 +1,6 @@
 import json
 import re
+import sys
 
 from bs4 import BeautifulSoup
 from utils import (
@@ -17,6 +18,13 @@ logger = setup_logging(__name__)
 
 BASE_URL = "https://www.goodfire.ai"
 RESEARCH_URL = f"{BASE_URL}/research"
+
+
+def clean_date_text(date_text):
+    """Strip ordinal suffixes from date strings (e.g. 'May 5th 2026' → 'May 5 2026')."""
+    if not date_text:
+        return date_text
+    return re.sub(r"(\d+)(st|nd|rd|th)\b", r"\1", date_text)
 
 
 def extract_articles_from_json_ld(soup):
@@ -219,6 +227,8 @@ def extract_articles_from_html(soup):
     candidate_groups = [
         # Semantic article elements
         soup.find_all("article"),
+        # Webflow dynamic list items
+        soup.select(".w-dyn-item"),
         # Links directly to research sub-pages
         soup.find_all("a", href=re.compile(r"/research/[^/]+")),
         # Common card class patterns
@@ -238,7 +248,7 @@ def extract_articles_from_html(soup):
                 if item.name == "a":
                     link_elem = item
                 else:
-                    link_elem = item.find("a")
+                    link_elem = item.find("a", href=True)
 
                 if not link_elem:
                     continue
@@ -257,50 +267,50 @@ def extract_articles_from_html(soup):
                     continue
                 seen_links.add(link)
 
-                # Get title from heading elements
-                title_elem = item.find(["h1", "h2", "h3", "h4", "h5"])
-                if title_elem:
-                    title = title_elem.get_text(strip=True)
+                # Determine container BEFORE extracting title/date/description so
+                # that sibling/parent elements are available for all field lookups.
+                # For Webflow cards the <a> is often just an image link; the title
+                # lives in a sibling heading inside the same card/li parent.
+                if item.name == "a":
+                    container = (
+                        item.find_parent("article")
+                        or item.find_parent("li")
+                        or item.find_parent(
+                            class_=re.compile(
+                                r"(card|item|post|article|research|w-dyn-item)", re.I
+                            )
+                        )
+                        or item.parent
+                    )
                 else:
-                    title = link_elem.get_text(strip=True)
+                    container = item
+
+                # Get title from heading elements within the container
+                title_elem = container.find(["h1", "h2", "h3", "h4", "h5"])
+                if title_elem:
+                    title = title_elem.get_text(" ", strip=True)
+                else:
+                    title = link_elem.get_text(" ", strip=True)
                 title = " ".join(title.split())
 
                 if not title or len(title) < 3:
                     continue
 
-                # When item is an <a> tag, search in its parent container for
-                # sibling elements (e.g. <li><h2><a/></h2><p/></li> structure)
-                if item.name == "a":
-                    container = item.find_parent("li") or item.parent
-                else:
-                    container = item
-
                 # Get date from time element or datetime attribute
                 date_text = None
-                time_elem = container.find("time") if container else None
+                time_elem = container.find("time")
                 if time_elem:
                     date_text = time_elem.get("datetime") or time_elem.get_text(strip=True)
                 if not date_text:
-                    date_elem = (
-                        container.select_one("[class*='date'], [class*='Date']")
-                        if container
-                        else None
-                    )
+                    date_elem = container.select_one("[class*='date'], [class*='Date']")
                     if date_elem:
                         date_text = date_elem.get_text(strip=True)
 
-                date = parse_date(date_text) if date_text else stable_fallback_date(link)
+                date = parse_date(clean_date_text(date_text)) if date_text else stable_fallback_date(link)
 
                 # Get description from paragraph or excerpt elements
-                desc_elem = (
-                    (
-                        container.find("p")
-                        or container.select_one(
-                            "[class*='description'], [class*='excerpt'], [class*='summary']"
-                        )
-                    )
-                    if container
-                    else None
+                desc_elem = container.find("p") or container.select_one(
+                    "[class*='description'], [class*='excerpt'], [class*='summary']"
                 )
                 description = (
                     desc_elem.get_text(strip=True) if desc_elem else title
@@ -403,4 +413,4 @@ def main(feed_name="goodfire_research"):
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(0 if main() else 1)
