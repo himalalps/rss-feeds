@@ -1,5 +1,6 @@
 import json
 import re
+import sys
 
 from bs4 import BeautifulSoup
 from utils import (
@@ -285,7 +286,7 @@ def extract_articles_from_html(soup):
                     container = item
 
                 # Get title from heading elements within the container
-                title_elem = container.find(["h1", "h2", "h3", "h4", "h5"]) if container else None
+                title_elem = container.find(["h1", "h2", "h3", "h4", "h5"])
                 if title_elem:
                     title = title_elem.get_text(" ", strip=True)
                 else:
@@ -297,30 +298,19 @@ def extract_articles_from_html(soup):
 
                 # Get date from time element or datetime attribute
                 date_text = None
-                time_elem = container.find("time") if container else None
+                time_elem = container.find("time")
                 if time_elem:
                     date_text = time_elem.get("datetime") or time_elem.get_text(strip=True)
                 if not date_text:
-                    date_elem = (
-                        container.select_one("[class*='date'], [class*='Date']")
-                        if container
-                        else None
-                    )
+                    date_elem = container.select_one("[class*='date'], [class*='Date']")
                     if date_elem:
                         date_text = date_elem.get_text(strip=True)
 
                 date = parse_date(clean_date_text(date_text)) if date_text else stable_fallback_date(link)
 
                 # Get description from paragraph or excerpt elements
-                desc_elem = (
-                    (
-                        container.find("p")
-                        or container.select_one(
-                            "[class*='description'], [class*='excerpt'], [class*='summary']"
-                        )
-                    )
-                    if container
-                    else None
+                desc_elem = container.find("p") or container.select_one(
+                    "[class*='description'], [class*='excerpt'], [class*='summary']"
                 )
                 description = (
                     desc_elem.get_text(strip=True) if desc_elem else title
@@ -423,5 +413,4 @@ def main(feed_name="goodfire_research"):
 
 
 if __name__ == "__main__":
-    import sys
     sys.exit(0 if main() else 1)
