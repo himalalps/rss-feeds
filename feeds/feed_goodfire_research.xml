@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Goodfire Research</title>
+    <link>https://www.goodfire.ai/research</link>
+    <description>AI interpretability research from Goodfire</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 07 May 2026 02:26:04 +0000</lastBuildDate>
+    <item>
+      <title>Goodfire</title>
+      <link>https://www.goodfire.ai/company</link>
+      <description>AI interpretability research lab focused on understanding and intentionally designing advanced AI systems</description>
+      <guid isPermaLink="false">https://www.goodfire.ai/company</guid>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
