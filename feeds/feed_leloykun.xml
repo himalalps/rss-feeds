@@ -7,13 +7,20 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 11 May 2026 04:02:51 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 12 May 2026 03:46:30 +0000</lastBuildDate>
     <item>
       <title>Frequency Domain Muon for Convolutional Neural Networks: Simplified</title>
       <link>https://leloykun.github.io/ponder/freqmuon/</link>
       <description>The 'correct' way to apply Muon to CNNs</description>
       <guid isPermaLink="false">https://leloykun.github.io/ponder/freqmuon/</guid>
       <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>LUCID-MoE: Mixture of Experts with Preconditioned Routing</title>
+      <link>https://leloykun.github.io/ponder/lucid-moe/</link>
+      <description>Sharper Mixture-of-Experts routing with LUCID preconditioning.</description>
+      <guid isPermaLink="false">https://leloykun.github.io/ponder/lucid-moe/</guid>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Error-Compensating Optimizers: ECO-AdamW, ECO-Muon, and Beyond</title>
@@ -58,6 +65,13 @@
       <pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Squeezing 1-2% Efficiency Gains Out of Muon by Optimizing the Newton-Schulz Coefficients</title>
+      <link>https://leloykun.github.io/ponder/muon-opt-coeffs/</link>
+      <description>Simply switching to Muon can already get you 2x efficiency gains. But you can squeeze out an extra 1-2% by optimizing the Newton-Schulz coefficients.</description>
+      <guid isPermaLink="false">https://leloykun.github.io/ponder/muon-opt-coeffs/</guid>
+      <pubDate>Fri, 21 Feb 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>CASPR Without Accumulation is Muon</title>
       <link>https://leloykun.github.io/ponder/caspr-wo-accum-is-muon/</link>
       <description>The CASPR optimizer, a variant of Shampoo, reduces to Muon when we remove the accumulation on the preconditioners.</description>
@@ -91,6 +105,13 @@
       <description>On how to gain and maintain power.</description>
       <guid isPermaLink="false">https://leloykun.github.io/ponder/4rules4rulers/</guid>
       <pubDate>Sun, 19 Jun 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Accuracy-Fairness Dilemma in Machine Learning</title>
+      <link>https://leloykun.github.io/ponder/ml-accuracy-fairness-dilemma/</link>
+      <description>Machine learning models merely amplify our biases - not eliminate them.</description>
+      <guid isPermaLink="false">https://leloykun.github.io/ponder/ml-accuracy-fairness-dilemma/</guid>
+      <pubDate>Sat, 24 Oct 2020 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>How to Master Machine Learning: 3 Tips to Get Started</title>
