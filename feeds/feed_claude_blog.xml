@@ -7,7 +7,28 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 12 May 2026 03:46:25 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 13 May 2026 03:55:31 +0000</lastBuildDate>
+    <item>
+      <title>How Anthropic's cybersecurity team built a threat detection platform with Claude Code</title>
+      <link>https://claude.com/blog/how-anthropic-uses-claude-cybersecurity</link>
+      <description>How Anthropic's cybersecurity team built a threat detection platform with Claude Code</description>
+      <guid isPermaLink="false">https://claude.com/blog/how-anthropic-uses-claude-cybersecurity</guid>
+      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Code w/ Claude SF 2026: Building on the AI exponential</title>
+      <link>https://claude.com/blog/code-w-claude-sf-2026-sf</link>
+      <description>Code w/ Claude SF 2026: Building on the AI exponential</description>
+      <guid isPermaLink="false">https://claude.com/blog/code-w-claude-sf-2026-sf</guid>
+      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude for the legal industry</title>
+      <link>https://claude.com/blog/claude-for-the-legal-industry</link>
+      <description>Claude for the legal industry</description>
+      <guid isPermaLink="false">https://claude.com/blog/claude-for-the-legal-industry</guid>
+      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Introducing the Claude Platform on AWS</title>
       <link>https://claude.com/blog/claude-platform-on-aws</link>
@@ -79,13 +100,6 @@
       <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Product development in the agentic era</title>
-      <link>https://claude.com/blog/product-development-in-the-agentic-era</link>
-      <description>Product development in the agentic era</description>
-      <guid isPermaLink="false">https://claude.com/blog/product-development-in-the-agentic-era</guid>
-      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Deploying agentic AI across the enterprise with Claude Cowork</title>
       <link>https://claude.com/blog/new-guide-deploying-claude-across-the-enterprise-with-claude-cowork</link>
       <description>Deploying agentic AI across the enterprise with Claude Cowork</description>
@@ -98,20 +112,6 @@
       <description>Claude API skill now in CodeRabbit, JetBrains, Resolve AI, and Warp</description>
       <guid isPermaLink="false">https://claude.com/blog/claude-api-skill</guid>
       <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Onboarding Claude Code like a new developer: Lessons from 17 years of development</title>
-      <link>https://claude.com/blog/onboarding-claude-code-like-a-new-developer-lessons-from-17-years-of-development</link>
-      <description>Onboarding Claude Code like a new developer: Lessons from 17 years of development</description>
-      <guid isPermaLink="false">https://claude.com/blog/onboarding-claude-code-like-a-new-developer-lessons-from-17-years-of-development</guid>
-      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>New connectors in Claude for everyday life</title>
-      <link>https://claude.com/blog/connectors-for-everyday-life</link>
-      <description>New connectors in Claude for everyday life</description>
-      <guid isPermaLink="false">https://claude.com/blog/connectors-for-everyday-life</guid>
-      <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
