@@ -7,7 +7,21 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 19 May 2026 04:05:24 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 20 May 2026 04:06:00 +0000</lastBuildDate>
+    <item>
+      <title>Using Claude Code: The unreasonable effectiveness of HTML</title>
+      <link>https://claude.com/blog/using-claude-code-the-unreasonable-effectiveness-of-html</link>
+      <description>Using Claude Code: The unreasonable effectiveness of HTML</description>
+      <guid isPermaLink="false">https://claude.com/blog/using-claude-code-the-unreasonable-effectiveness-of-html</guid>
+      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels</title>
+      <link>https://claude.com/blog/claude-managed-agents-updates</link>
+      <description>New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels</description>
+      <guid isPermaLink="false">https://claude.com/blog/claude-managed-agents-updates</guid>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Deploying Claude across the legal industry</title>
       <link>https://claude.com/blog/deploying-claude-across-the-legal-industry</link>
@@ -98,20 +112,6 @@
       <description>How a non-technical project manager built and shipped a stress management app with Claude Code in six weeks</description>
       <guid isPermaLink="false">https://claude.com/blog/how-a-non-technical-project-manager-built-and-shipped-a-stress-management-app-with-claude-code-in-six-weeks</guid>
       <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Claude Security is now in public beta</title>
-      <link>https://claude.com/blog/claude-security-public-beta</link>
-      <description>Claude Security is now in public beta</description>
-      <guid isPermaLink="false">https://claude.com/blog/claude-security-public-beta</guid>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Building AI agents for the enterprise</title>
-      <link>https://claude.com/blog/building-ai-agents-for-the-enterprise</link>
-      <description>Building AI agents for the enterprise</description>
-      <guid isPermaLink="false">https://claude.com/blog/building-ai-agents-for-the-enterprise</guid>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
