@@ -7,7 +7,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 22 May 2026 04:10:15 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 23 May 2026 03:49:36 +0000</lastBuildDate>
+    <item>
+      <title>How Anthropic's finance team uses Claude to shape the narrative behind the numbers</title>
+      <link>https://claude.com/blog/how-anthropics-finance-team-uses-claude-to-shape-the-narrative-behind-the-numbers</link>
+      <description>How Anthropic's finance team uses Claude to shape the narrative behind the numbers</description>
+      <guid isPermaLink="false">https://claude.com/blog/how-anthropics-finance-team-uses-claude-to-shape-the-narrative-behind-the-numbers</guid>
+      <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>How our partners are putting Opus to work for cybersecurity</title>
       <link>https://claude.com/blog/how-our-partners-are-putting-opus-to-work-for-cybersecurity</link>
@@ -105,13 +112,6 @@
       <description>Agent view in Claude Code</description>
       <guid isPermaLink="false">https://claude.com/blog/agent-view-in-claude-code</guid>
       <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Collaborate with Claude across Excel, PowerPoint, Word and Outlook</title>
-      <link>https://claude.com/blog/collaborate-with-claude-across-excel-powerpoint-word-and-outlook</link>
-      <description>Collaborate with Claude across Excel, PowerPoint, Word and Outlook</description>
-      <guid isPermaLink="false">https://claude.com/blog/collaborate-with-claude-across-excel-powerpoint-word-and-outlook</guid>
-      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
