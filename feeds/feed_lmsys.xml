@@ -7,7 +7,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 28 May 2026 04:09:16 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 29 May 2026 04:11:17 +0000</lastBuildDate>
+    <item>
+      <title>Win on TCO: How AMD Instinct™ MI355X Achieves Cost-Competitive Distributed Inference Through SGLang with MoRI</title>
+      <link>https://lmsys.org/blog/2026-05-28-mori/</link>
+      <description>The SGLang and AMD team has worked closely to unlock competitive Total Cost of Ownership (TCO) for large-scale DeepSeek-R1 disaggregated inference on AMD Instinct™ MI355X GPUs. Building on [SGLang](https://github.com/sgl-project/sglang)'s serving framework and AMD's [MoRI](https://github.com/ROCm/mori) communication library, we demonstrate that AMD achieves competitive — and at key operating points, superior — TCO compared to NVIDIA B200 running Dynamo + TRT-LLM. These results are validated by [InferenceX](https://github.com/SemiAnalysisAI/InferenceX), SemiAnalysis's open-source continuous benchmark platform that tests across hundreds of GPUs with a [live dashboard](https://inferencex.com).</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2026-05-28-mori/</guid>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Updating 1T parameters in seconds — P2P weight transfer in Large Scale Distributed RL</title>
       <link>https://lmsys.org/blog/2026-04-29-p2p-update/</link>
