@@ -7,12 +7,19 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 01 Jun 2026 04:51:26 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jun 2026 04:40:40 +0000</lastBuildDate>
     <item>
       <title>Natural Language Autoencoders Produce Unsupervised Explanations of LLM ActivationsFraser-Taliente, Kantamneni, Ong, et al., 2026We train Claude to translate its internal state into natural language.</title>
       <link>https://transformer-circuits.pub/2026/nla/index.html</link>
       <description>e. HeadVis We develop an interactive visualization tool to help us understand the behaviors of attention heads in language models.</description>
       <guid isPermaLink="false">https://transformer-circuits.pub/2026/nla/index.html</guid>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Circuits Updates â May 2026A short update on understanding features through downstream connections.</title>
+      <link>https://transformer-circuits.pub/2026/may-update/index.html</link>
+      <description>Circuits Updates â May 2026A short update on understanding features through downstream connections.</description>
+      <guid isPermaLink="false">https://transformer-circuits.pub/2026/may-update/index.html</guid>
       <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
