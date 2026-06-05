@@ -7,7 +7,21 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 04 Jun 2026 04:43:40 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 04:17:43 +0000</lastBuildDate>
+    <item>
+      <title>SGLang and Miles Add Day-0 Support for NVIDIA Nemotron 3 Ultra for Long-Running Autonomous Agents</title>
+      <link>https://lmsys.org/blog/2026-06-04-nvidia-run-nemotron-3-ultra/</link>
+      <description>We are excited to announce that SGLang and Miles support NVIDIA Nemotron 3 Ultra on Day 0\.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2026-06-04-nvidia-run-nemotron-3-ultra/</guid>
+      <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Higgs Audio v3 TTS on SGLang-Omni: Real-Time, Controllable Speech for Voice Agents</title>
+      <link>https://lmsys.org/blog/2026-06-04-higgs-audio-v3-tts/</link>
+      <description>Today we are announcing end-to-end serving for [**Higgs Audio v3 TTS**](https://www.boson.ai/blog/higgs-audio-v3-tts) on [**SGLang-Omni**](https://github.com/sgl-project/sglang-omni). Higgs Audio v3 TTS is Boson AI's text-to-speech model for conversational voice agents: it generates natural and expressive speech at low latency, supports [100 languages with single-digit WER/CER](https://huggingface.co/bosonai/higgs-audio-v3-tts-4b#supported-languages), and lets developers control emotion, style, prosody, and sound effects directly from the input text stream.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2026-06-04-higgs-audio-v3-tts/</guid>
+      <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Heterogeneous CPU + GPU EPD Disaggregation to Boost VLM Serving</title>
       <link>https://lmsys.org/blog/2026-06-01-hetero-epd/</link>
