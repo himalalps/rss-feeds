@@ -7,7 +7,21 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 05 Jun 2026 04:17:36 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 06 Jun 2026 04:00:12 +0000</lastBuildDate>
+    <item>
+      <title>The Claude Cowork product guide</title>
+      <link>https://claude.com/blog/the-claude-cowork-product-guide</link>
+      <description>The Claude Cowork product guide</description>
+      <guid isPermaLink="false">https://claude.com/blog/the-claude-cowork-product-guide</guid>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How one Anthropic seller rebuilt his team's workflows with Claude Code</title>
+      <link>https://claude.com/blog/how-anthropic-uses-claude-gtm-engineering</link>
+      <description>How one Anthropic seller rebuilt his team's workflows with Claude Code</description>
+      <guid isPermaLink="false">https://claude.com/blog/how-anthropic-uses-claude-gtm-engineering</guid>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Running an AI-native engineering org</title>
       <link>https://claude.com/blog/running-an-ai-native-engineering-org</link>
@@ -98,20 +112,6 @@
       <description>Claude now works with more security and compliance tools</description>
       <guid isPermaLink="false">https://claude.com/blog/compliance-api-security-partners</guid>
       <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Using Claude Code: The unreasonable effectiveness of HTML</title>
-      <link>https://claude.com/blog/using-claude-code-the-unreasonable-effectiveness-of-html</link>
-      <description>Using Claude Code: The unreasonable effectiveness of HTML</description>
-      <guid isPermaLink="false">https://claude.com/blog/using-claude-code-the-unreasonable-effectiveness-of-html</guid>
-      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How an Anthropic sales leader uses Claude Cowork to run a 4,000-account book</title>
-      <link>https://claude.com/blog/how-an-anthropic-sales-leader-uses-claude-cowork-to-run-a-4-000-account-book</link>
-      <description>How an Anthropic sales leader uses Claude Cowork to run a 4,000-account book</description>
-      <guid isPermaLink="false">https://claude.com/blog/how-an-anthropic-sales-leader-uses-claude-cowork-to-run-a-4-000-account-book</guid>
-      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

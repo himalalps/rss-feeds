@@ -12,7 +12,15 @@
       <link>https://www.anthropic.com/research</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Fri, 05 Jun 2026 04:17:31 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 06 Jun 2026 04:00:08 +0000</lastBuildDate>
+    <item>
+      <title>Making Claude a chemist</title>
+      <link>https://www.anthropic.com/research/making-claude-a-chemist</link>
+      <description>As AI transforms the nature of and methods behind cyberattacks, how well do the techniques and frameworks used by the security community hold up? In a new report, we seek to answer that question. </description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/making-claude-a-chemist</guid>
+      <category>Science</category>
+      <pubDate>Fri, 05 Jun 2026 20:57:00 +0000</pubDate>
+    </item>
     <item>
       <title>What we learned mapping a year’s worth of AI-enabled cyber threats</title>
       <link>https://www.anthropic.com/research/AI-enabled-cyber-threats-mitre-attack</link>
@@ -96,7 +104,7 @@
     <item>
       <title>How people ask Claude for personal guidance</title>
       <link>https://www.anthropic.com/research/claude-personal-guidance</link>
-      <description>How people ask Claude for personal guidance</description>
+      <description>We look at what types of guidance people ask of Claude, and describe how this research shaped the training of our newest models.</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/claude-personal-guidance</guid>
       <category>Societal Impacts</category>
       <pubDate>Thu, 30 Apr 2026 16:35:00 +0000</pubDate>
@@ -216,7 +224,7 @@
     <item>
       <title>An update on our model deprecation commitments for Claude Opus 3</title>
       <link>https://www.anthropic.com/research/deprecation-updates-opus-3</link>
-      <description>An update on our model deprecation commitments for Claude Opus 3</description>
+      <description>Why do AI assistants like Claude sometimes seem surprisingly human. We advance a theory.</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/deprecation-updates-opus-3</guid>
       <category>Alignment</category>
       <pubDate>Wed, 25 Feb 2026 20:02:00 +0000</pubDate>
@@ -224,7 +232,7 @@
     <item>
       <title>The persona selection model</title>
       <link>https://www.anthropic.com/research/persona-selection-model</link>
-      <description>We tracked 11 observable behaviors across thousands of Claude.ai conversations to build the AI Fluency Index — a baseline for measuring how people collaborate with AI today.</description>
+      <description>Why do AI assistants like Claude sometimes seem surprisingly human. We advance a theory.</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/persona-selection-model</guid>
       <category>Alignment</category>
       <pubDate>Mon, 23 Feb 2026 11:53:00 +0000</pubDate>
@@ -240,7 +248,7 @@
     <item>
       <title>Measuring AI agent autonomy in practice</title>
       <link>https://www.anthropic.com/research/measuring-agent-autonomy</link>
-      <description>Measuring AI agent autonomy in practice</description>
+      <description>How much autonomy do people grant agents? How does that change as people gain experience? We analyzed millions of human-agent interactions to answer these and other questions.</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/measuring-agent-autonomy</guid>
       <category>Societal Impacts</category>
       <pubDate>Wed, 18 Feb 2026 15:10:00 +0000</pubDate>
@@ -272,7 +280,7 @@
     <item>
       <title>Claude's new constitution</title>
       <link>https://www.anthropic.com/research/claude-new-constitution</link>
-      <description>Claude's new constitution</description>
+      <description>Who is the Assistant? We investigate the character that most modern language models inhabit when interacting with users.</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/claude-new-constitution</guid>
       <category>Announcements</category>
       <pubDate>Thu, 22 Jan 2026 04:15:00 +0000</pubDate>
@@ -280,7 +288,7 @@
     <item>
       <title>The assistant axis: situating and stabilizing the character of large language models</title>
       <link>https://www.anthropic.com/research/assistant-axis</link>
-      <description>The assistant axis: situating and stabilizing the character of large language models</description>
+      <description>Who is the Assistant? We investigate the character that most modern language models inhabit when interacting with users.</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/assistant-axis</guid>
       <category>Interpretability</category>
       <pubDate>Mon, 19 Jan 2026 17:00:00 +0000</pubDate>
@@ -304,7 +312,7 @@
     <item>
       <title>Next-generation Constitutional Classifiers: More efficient protection against universal jailbreaks</title>
       <link>https://www.anthropic.com/research/next-generation-constitutional-classifiers</link>
-      <description>Next-generation Constitutional Classifiers: More efficient protection against universal jailbreaks</description>
+      <description>Last year, we described a new approach to defend against jailbreaks, which we called Constitutional Classifiers. We’ve now developed the next generation.</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/next-generation-constitutional-classifiers</guid>
       <category>Alignment</category>
       <pubDate>Fri, 09 Jan 2026 17:17:00 +0000</pubDate>
@@ -344,7 +352,7 @@
     <item>
       <title>How AI is transforming work at Anthropic</title>
       <link>https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic</link>
-      <description>We surveyed Anthropic engineers and researchers, conducted in-depth qualitative interviews, and studied internal Claude Code usage data to find out how AI use is changing how we do our jobs. We found that AI use is radically changing the nature of work for software developers.</description>
+      <description>We surveyed Anthropic engineers and researchers, conducted in-depth qualitative interviews, and studied internal Claude Code usage data to find out how AI use is changing how we do our jobs. </description>
       <guid isPermaLink="false">https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic</guid>
       <category>Societal Impacts</category>
       <pubDate>Tue, 02 Dec 2025 18:58:43 +0000</pubDate>
@@ -352,7 +360,7 @@
     <item>
       <title>Estimating AI productivity gains from Claude conversations</title>
       <link>https://www.anthropic.com/research/estimating-productivity-gains</link>
-      <description>Analyzing 100,000 Claude conversations, this research finds AI reduces task time by 80% on average. If universally adopted over 10 years, current models could increase US labor productivity growth by 1.8% annually—doubling recent rates. Knowledge work like software development and management see the largest gains.</description>
+      <description>Analyzing 100,000 Claude conversations, this research finds AI reduces task time by 80% on average. </description>
       <guid isPermaLink="false">https://www.anthropic.com/research/estimating-productivity-gains</guid>
       <category>Economic Research</category>
       <pubDate>Tue, 25 Nov 2025 11:05:00 +0000</pubDate>
@@ -360,7 +368,7 @@
     <item>
       <title>Mitigating the risk of prompt injections in browser use</title>
       <link>https://www.anthropic.com/research/prompt-injection-defenses</link>
-      <description>How much does Claude help people program robots? To find out, two teams of Anthropic staff raced to teach quadruped robots to fetch beach balls. The AI-assisted team completed tasks faster and was the only group to make real progress toward full autonomy.</description>
+      <description>We show for the first time that realistic AI training processes can accidentally produce misaligned models.</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/prompt-injection-defenses</guid>
       <category>Product</category>
       <pubDate>Mon, 24 Nov 2025 15:10:00 +0000</pubDate>
@@ -368,7 +376,7 @@
     <item>
       <title>From shortcuts to sabotage: natural emergent misalignment from reward hacking</title>
       <link>https://www.anthropic.com/research/emergent-misalignment-reward-hacking</link>
-      <description>How much does Claude help people program robots? To find out, two teams of Anthropic staff raced to teach quadruped robots to fetch beach balls. The AI-assisted team completed tasks faster and was the only group to make real progress toward full autonomy.</description>
+      <description>We show for the first time that realistic AI training processes can accidentally produce misaligned models.</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/emergent-misalignment-reward-hacking</guid>
       <category>Alignment</category>
       <pubDate>Fri, 21 Nov 2025 14:32:00 +0000</pubDate>
@@ -384,7 +392,7 @@
     <item>
       <title>Commitments on model deprecation and preservation</title>
       <link>https://www.anthropic.com/research/deprecation-commitments</link>
-      <description>Can Claude access and report on its own internal states? This research finds evidence for a limited but functional ability to introspect—a step toward understanding what's actually happening inside these models.</description>
+      <description>Can Claude access and report on its own internal states? This research finds evidence for a limited but functional ability to introspect.</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/deprecation-commitments</guid>
       <category>Alignment</category>
       <pubDate>Tue, 04 Nov 2025 16:00:49 +0000</pubDate>
@@ -392,7 +400,7 @@
     <item>
       <title>Signs of introspection in large language models</title>
       <link>https://www.anthropic.com/research/introspection</link>
-      <description>Can Claude access and report on its own internal states? This research finds evidence for a limited but functional ability to introspect—a step toward understanding what's actually happening inside these models.</description>
+      <description>Can Claude access and report on its own internal states? This research finds evidence for a limited but functional ability to introspect.</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/introspection</guid>
       <category>Interpretability</category>
       <pubDate>Wed, 29 Oct 2025 01:20:00 +0000</pubDate>
@@ -528,7 +536,7 @@
     <item>
       <title>Exploring model welfare</title>
       <link>https://www.anthropic.com/research/exploring-model-welfare</link>
-      <description>What values does Claude actually express during real conversations? Analyzing 700,000 interactions, this paper creates the first large-scale empirical taxonomy of AI values and finds that Claude adapts its expressed values to context—mirroring users in most cases, but resisting when core principles are at stake.</description>
+      <description>What values does Claude actually express during real conversations? Analyzing 700,000 interactions, this paper creates the first large-scale empirical taxonomy of AI values.</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/exploring-model-welfare</guid>
       <category>Alignment</category>
       <pubDate>Thu, 24 Apr 2025 10:59:00 +0000</pubDate>
@@ -536,7 +544,7 @@
     <item>
       <title>Values in the wild: Discovering and analyzing values in real-world language model interactions</title>
       <link>https://www.anthropic.com/research/values-wild</link>
-      <description>What values does Claude actually express during real conversations? Analyzing 700,000 interactions, this paper creates the first large-scale empirical taxonomy of AI values and finds that Claude adapts its expressed values to context—mirroring users in most cases, but resisting when core principles are at stake.</description>
+      <description>What values does Claude actually express during real conversations? Analyzing 700,000 interactions, this paper creates the first large-scale empirical taxonomy of AI values.</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/values-wild</guid>
       <category>Societal Impacts</category>
       <pubDate>Mon, 21 Apr 2025 11:50:00 +0000</pubDate>
