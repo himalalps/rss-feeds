@@ -7,13 +7,20 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 09 Jun 2026 04:03:41 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jun 2026 04:15:19 +0000</lastBuildDate>
     <item>
       <title>Announcing the Recipient of the 2026 LMSYS PhD Fellowship</title>
       <link>https://lmsys.org/blog/2026-06-08-lmsys-phd-fellowship/</link>
       <description>We are delighted to announce the first recipient of the [LMSYS Fellowship Program](https://www.lmsys.org/blog/2025-11-23-fellowship-apply/): **Will Lin**.</description>
       <guid isPermaLink="false">https://lmsys.org/blog/2026-06-08-lmsys-phd-fellowship/</guid>
       <pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>No Token Left Behind: Demystifying Token-In-Token-Out in Miles</title>
+      <link>https://lmsys.org/blog/2026-05-13-no-token-left-behind/</link>
+      <description>In agentic RL, a rollout is not a single generation. It is a chain of model calls, tool outputs, harness messages, and resumed generations. Token-In-Token-Out (TITO) is a design principle that addresses one critical source of training–inference mismatch in this process: whether the trainer evaluates the exact same token sequence that the inference engine consumed and produced during rollout. In this blog post, we aim to clarify how we define the TITO principle, why it is important in RL training, and how such principle is instantiated in the Miles framework.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2026-05-13-no-token-left-behind/</guid>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>SGLang and Miles Add Day-0 Support for NVIDIA Nemotron 3 Ultra for Long-Running Autonomous Agents</title>
