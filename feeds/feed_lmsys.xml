@@ -7,7 +7,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 15 Jun 2026 05:01:42 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jun 2026 05:03:14 +0000</lastBuildDate>
+    <item>
+      <title>The next generation of speculative decoding: DFlash and Spec V2</title>
+      <link>https://lmsys.org/blog/2026-06-15-next-generation-speculative-decoding-dflash-v2/</link>
+      <description>Using Modal and Z Lab's DFlash speculative decoding models with SGLang’s newly default Spec V2 engine, you can achieve state-of-the-art latencies for LLM inference serving. Our new, jointly-released DFlash model for Qwen 3.5 397B-A17B achieves higher throughput than both the baseline model and native MTP speculation in all the settings we benchmarked. At concurrency 1 on the HumanEval coding dataset, it achieves &gt;4.3x the throughput of baseline and 1.5x the throughput of MTP.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2026-06-15-next-generation-speculative-decoding-dflash-v2/</guid>
+      <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Announcing the Recipient of the 2026 LMSYS PhD Fellowship</title>
       <link>https://lmsys.org/blog/2026-06-08-lmsys-phd-fellowship/</link>

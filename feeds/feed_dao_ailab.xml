@@ -7,7 +7,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 15 Jun 2026 05:01:36 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jun 2026 05:03:04 +0000</lastBuildDate>
+    <item>
+      <title>ReplaySSM: Cache SSM Inputs, Not State</title>
+      <link>https://dao-lab.ai/blog/2026/06/15/replayssm/</link>
+      <description>ReplaySSM: Cache SSM Inputs, Not State</description>
+      <guid isPermaLink="false">https://dao-lab.ai/blog/2026/06/15/replayssm/</guid>
+      <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>SonicMoE: A Hardware-Efficient and Software-Extensible Blueprint for Fine-Grained MoEs</title>
       <link>https://dao-lab.ai/blog/2026/04/26/sonicmoe-blackwell/</link>
