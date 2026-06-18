@@ -7,7 +7,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 17 Jun 2026 04:46:43 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2026 04:40:06 +0000</lastBuildDate>
+    <item>
+      <title>Optimizing Ling-2.6-1T on TPU with SGLang-JAX: Hiding MoE Data Movement Behind Compute with One Pallas Kernel</title>
+      <link>https://lmsys.org/blog/2026-06-17-ling-2-6-tpu/</link>
+      <description>SGLang-JAX now supports efficient serving of inclusionAI's Ling-2.6-1T on TPU v7x. With a working baseline in place, profiling pointed to the Mixture-of-Experts (MoE) path as the main bottleneck: each layer scatters tokens across 32 JAX devices (two per v7x chip), runs the expert FFNs, and gathers the outputs back. This post focuses first on Fused MoE V2, a new Pallas kernel that fuses scatter, expert FFN, and gather while overlapping TPU compute and data movement.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2026-06-17-ling-2-6-tpu/</guid>
+      <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>The next generation of speculative decoding: DFlash and Spec V2</title>
       <link>https://lmsys.org/blog/2026-06-15-next-generation-speculative-decoding-dflash-v2/</link>
