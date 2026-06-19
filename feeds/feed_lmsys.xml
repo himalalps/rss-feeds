@@ -7,7 +7,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 18 Jun 2026 04:40:06 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 19 Jun 2026 04:58:20 +0000</lastBuildDate>
+    <item>
+      <title>MOSS-TTS Local Transformer v1.5 on SGLang-Omni: Serving Native-Streaming 48 kHz Speech</title>
+      <link>https://lmsys.org/blog/2026-06-17-moss-tts-local-v15/</link>
+      <description>Today we are announcing end-to-end serving for [**MOSS-TTS-Local-Transformer-v1.5**](https://huggingface.co/OpenMOSS-Team/MOSS-TTS-Local-Transformer-v1.5) on [**SGLang-Omni**](https://github.com/sgl-project/sglang-omni), together with [MOSI](https://mosi.cn/) and the [OpenMOSS Team](https://www.open-moss.com/).</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2026-06-17-moss-tts-local-v15/</guid>
+      <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Optimizing Ling-2.6-1T on TPU with SGLang-JAX: Hiding MoE Data Movement Behind Compute with One Pallas Kernel</title>
       <link>https://lmsys.org/blog/2026-06-17-ling-2-6-tpu/</link>

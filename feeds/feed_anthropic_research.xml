@@ -12,7 +12,15 @@
       <link>https://www.anthropic.com/research</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Thu, 18 Jun 2026 04:40:30 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 19 Jun 2026 04:58:36 +0000</lastBuildDate>
+    <item>
+      <title>Project Fetch: Phase two</title>
+      <link>https://www.anthropic.com/research/project-fetch-phase-two</link>
+      <description>We report results from our latest test of whether Claude can help Anthropic employees perform sophisticated robotics tasks. We found that Claude Opus 4.7, operating without human assistance, was about 20 times faster than the fastest human team at all tasks completed by participants less than a year ago.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/project-fetch-phase-two</guid>
+      <category>Frontier Red Team</category>
+      <pubDate>Thu, 18 Jun 2026 18:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Agentic coding and persistent returns to expertise </title>
       <link>https://www.anthropic.com/research/claude-code-expertise</link>
