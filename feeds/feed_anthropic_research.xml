@@ -12,7 +12,7 @@
       <link>https://www.anthropic.com/research</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Mon, 22 Jun 2026 05:02:39 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Jun 2026 04:03:03 +0000</lastBuildDate>
     <item>
       <title>Project Fetch: Phase two</title>
       <link>https://www.anthropic.com/research/project-fetch-phase-two</link>
@@ -24,7 +24,15 @@
     <item>
       <title>Agentic coding and persistent returns to expertise </title>
       <link>https://www.anthropic.com/research/claude-code-expertise</link>
-      <description>Agentic coding and persistent returns to expertise </description>
+      <description>This report provides evidence on how Claude Code is used in practice, based on a privacy-preserving analysis of around 400,000 interactive sessions from around 235,000 people between October 2025 and April 2026.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/claude-code-expertise</guid>
+      <category>Economic Research</category>
+      <pubDate>Tue, 16 Jun 2026 11:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Agentic coding and persistent returns to expertise </title>
+      <link>https://www.anthropic.com/research/claude-code-expertise</link>
+      <description>This report provides evidence on how Claude Code is used in practice, based on a privacy-preserving analysis of around 400,000 interactive sessions from around 235,000 people between October 2025 and April 2026.</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/claude-code-expertise</guid>
       <category>Economic Research</category>
       <pubDate>Tue, 16 Jun 2026 11:00:00 +0000</pubDate>
@@ -420,14 +428,6 @@
       <guid isPermaLink="false">https://www.anthropic.com/research/bloom</guid>
       <category>Alignment</category>
       <pubDate>Fri, 19 Dec 2025 19:45:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Project Vend: Phase two</title>
-      <link>https://www.anthropic.com/research/project-vend-2</link>
-      <description>In June, we revealed that we’d set up a small shop in our San Francisco office lunchroom, run by an AI shopkeeper. It was part of Project Vend, a free-form experiment exploring how well AIs could do on complex, real-world tasks. How has Claude's business been since we last wrote? </description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/project-vend-2</guid>
-      <category>Policy</category>
-      <pubDate>Thu, 18 Dec 2025 10:33:00 +0000</pubDate>
     </item>
     <item>
       <title>Project Vend: Phase two</title>
