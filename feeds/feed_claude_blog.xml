@@ -7,7 +7,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 24 Jun 2026 04:04:21 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jun 2026 04:04:47 +0000</lastBuildDate>
+    <item>
+      <title>Building effective human-agent teams</title>
+      <link>https://claude.com/blog/building-effective-human-agent-teams</link>
+      <description>Building effective human-agent teams</description>
+      <guid isPermaLink="false">https://claude.com/blog/building-effective-human-agent-teams</guid>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Agent identity in Claude Tag: a new access model for autonomous, team-wide AI</title>
       <link>https://claude.com/blog/agent-identity-access-model</link>
@@ -104,13 +111,6 @@
       <link>https://claude.com/blog/the-claude-cowork-product-guide</link>
       <description>The Claude Cowork product guide</description>
       <guid isPermaLink="false">https://claude.com/blog/the-claude-cowork-product-guide</guid>
-      <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How one Anthropic seller rebuilt his team's workflows with Claude Code</title>
-      <link>https://claude.com/blog/how-anthropic-uses-claude-gtm-engineering</link>
-      <description>How one Anthropic seller rebuilt his team's workflows with Claude Code</description>
-      <guid isPermaLink="false">https://claude.com/blog/how-anthropic-uses-claude-gtm-engineering</guid>
       <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
