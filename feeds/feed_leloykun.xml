@@ -7,7 +7,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 25 Jun 2026 04:05:04 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jun 2026 04:11:49 +0000</lastBuildDate>
+    <item>
+      <title>LoRA-Muon-OGD: Spectral Orthogonal Gradient Projection on the Low-Rank Manifold for LLM Continual Learning</title>
+      <link>https://leloykun.github.io/ponder/lora-muon-ogd/</link>
+      <description>Generalizing Orthogonal Gradient Projection to the low-rank case and to steepest descent under a larger family of norms.</description>
+      <guid isPermaLink="false">https://leloykun.github.io/ponder/lora-muon-ogd/</guid>
+      <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Lean4-TileLang Tensor Program Superoptimizer [WIP]</title>
       <link>https://leloykun.github.io/ponder/lean4-tilelang/</link>
