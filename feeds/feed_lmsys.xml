@@ -7,11 +7,18 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 26 Jun 2026 04:12:01 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 27 Jun 2026 03:58:25 +0000</lastBuildDate>
+    <item>
+      <title>Improving DeepEP MoE Load Balance in SGLang with Waterfill and LPLB</title>
+      <link>https://lmsys.org/blog/2026-06-26-waterfill-lplb/</link>
+      <description>Mixture-of-Experts (MoE) models rely on Expert Parallelism (EP) to scale inference across multiple GPUs. In SGLang, DeepEP and EPLB provide high-performance serving under EP, but the workload seen by each rank can still be imbalanced because tokens are not routed uniformly across experts.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2026-06-26-waterfill-lplb/</guid>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>MOSS-TTS Local Transformer v1.5 on SGLang-Omni: Serving Native-Streaming 48 kHz Speech</title>
       <link>https://lmsys.org/blog/2026-06-17-moss-tts-local-v15/</link>
-      <description>Today we are announcing end-to-end serving for [**MOSS-TTS-Local-Transformer-v1.5**](https://huggingface.co/OpenMOSS-Team/MOSS-TTS-Local-Transformer-v1.5) on [**SGLang-Omni**](https://github.com/sgl-project/sglang-omni), together with [MOSI](https://mosi.cn/) and the [OpenMOSS Team](https://www.open-moss.com/).</description>
+      <description>Today we are announcing end-to-end serving for [**MOSS-TTS-Local-Transformer-v1.5**](https://huggingface.co/OpenMOSS-Team/MOSS-TTS-Local-Transformer-v1.5) on [**SGLang-Omni**](https://github.com/sgl-project/sglang-omni), together with [MOSI](https://mosi.cn/) and the [OpenMOSS Team](https://openmoss.ai/).</description>
       <guid isPermaLink="false">https://lmsys.org/blog/2026-06-17-moss-tts-local-v15/</guid>
       <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
     </item>
