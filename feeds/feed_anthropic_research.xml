@@ -12,7 +12,15 @@
       <link>https://www.anthropic.com/research</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Mon, 29 Jun 2026 04:27:51 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jun 2026 04:06:57 +0000</lastBuildDate>
+    <item>
+      <title>Anthropic Economic Index report: Cadences</title>
+      <link>https://www.anthropic.com/research/economic-index-june-2026-report</link>
+      <description>In our latest Economic Index report, we sample hourly for the first time to ask: When do people come to Claude? What do they produce with it? And how do they perceive AI's impact on their work?</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/economic-index-june-2026-report</guid>
+      <category>Economic Research</category>
+      <pubDate>Fri, 26 Jun 2026 20:08:00 +0000</pubDate>
+    </item>
     <item>
       <title>Anthropic Economic Index report: Cadences</title>
       <link>https://www.anthropic.com/research/economic-index-june-2026-report</link>
@@ -28,14 +36,6 @@
       <guid isPermaLink="false">https://www.anthropic.com/research/project-fetch-phase-two</guid>
       <category>Frontier Red Team</category>
       <pubDate>Thu, 18 Jun 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Agentic coding and persistent returns to expertise </title>
-      <link>https://www.anthropic.com/research/claude-code-expertise</link>
-      <description>This report provides evidence on how Claude Code is used in practice, based on a privacy-preserving analysis of around 400,000 interactive sessions from around 235,000 people between October 2025 and April 2026.</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/claude-code-expertise</guid>
-      <category>Economic Research</category>
-      <pubDate>Tue, 16 Jun 2026 11:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Agentic coding and persistent returns to expertise </title>
