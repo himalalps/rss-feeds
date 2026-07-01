@@ -7,7 +7,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 30 Jun 2026 04:06:54 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 04:23:17 +0000</lastBuildDate>
+    <item>
+      <title>Circuits Updates â June 2026A short update on turn-averaged sparse autoencoders.</title>
+      <link>https://transformer-circuits.pub/2026/june-update/index.html</link>
+      <description>Circuits Updates â June 2026A short update on turn-averaged sparse autoencoders.</description>
+      <guid isPermaLink="false">https://transformer-circuits.pub/2026/june-update/index.html</guid>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Natural Language Autoencoders Produce Unsupervised Explanations of LLM ActivationsFraser-Taliente, Kantamneni, Ong, et al., 2026We train Claude to translate its internal state into natural language.</title>
       <link>https://transformer-circuits.pub/2026/nla/index.html</link>
