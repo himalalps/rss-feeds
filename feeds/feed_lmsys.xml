@@ -7,7 +7,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 02 Jul 2026 04:02:10 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jul 2026 03:48:09 +0000</lastBuildDate>
+    <item>
+      <title>Agent-Assisted SGLang Development: An Initial Exploration</title>
+      <link>https://lmsys.org/blog/2026-07-02-agent-assisted-sglang-development/</link>
+      <description>SGLang development increasingly goes beyond isolated code changes. The same repository now spans LLM serving, distributed runtime, GPU kernels, diffusion pipelines, model-specific execution paths, and production incident handling. In the past, many of these workflows depended on individual developer memory: how to launch a certain model, how to read a profile trace, which log to add first when debugging a CUDA crash, or which benchmarks a performance PR should include. As agent tools mature, this experience can be turned into executable `SKILL.md` files, scripts, benchmark contracts, and review loops.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2026-07-02-agent-assisted-sglang-development/</guid>
+      <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Improving DeepEP MoE Load Balance in SGLang with Waterfill and LPLB</title>
       <link>https://lmsys.org/blog/2026-06-26-waterfill-lplb/</link>
