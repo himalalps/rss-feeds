@@ -7,7 +7,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 06 Jul 2026 04:05:05 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jul 2026 03:56:16 +0000</lastBuildDate>
+    <item>
+      <title>DSpark in SGLang: Speculative Decoding with Confidence-Driven, Variable-Length Verification</title>
+      <link>https://lmsys.org/blog/2026-07-06-dspark-sglang/</link>
+      <description>Speculative decoding trades extra compute for fewer decode steps, and the trade</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2026-07-06-dspark-sglang/</guid>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Agent-Assisted SGLang Development: An Initial Exploration</title>
       <link>https://lmsys.org/blog/2026-07-02-agent-assisted-sglang-development/</link>

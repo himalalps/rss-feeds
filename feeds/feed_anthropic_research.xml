@@ -12,7 +12,23 @@
       <link>https://www.anthropic.com/research</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Mon, 06 Jul 2026 04:05:26 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jul 2026 03:56:36 +0000</lastBuildDate>
+    <item>
+      <title>A global workspace in language models</title>
+      <link>https://www.anthropic.com/research/global-workspace</link>
+      <description>New interpretability research reveals an emergent mental workspace in Claude that holds internal thoughts that don’t appear in the model’s output.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/global-workspace</guid>
+      <category>Interpretability</category>
+      <pubDate>Mon, 06 Jul 2026 14:12:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>A global workspace in language models</title>
+      <link>https://www.anthropic.com/research/global-workspace</link>
+      <description>New interpretability research reveals an emergent mental workspace in Claude that holds internal thoughts that don’t appear in the model’s output.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/global-workspace</guid>
+      <category>Interpretability</category>
+      <pubDate>Mon, 06 Jul 2026 14:12:00 +0000</pubDate>
+    </item>
     <item>
       <title>Anthropic Economic Index report: Cadences</title>
       <link>https://www.anthropic.com/research/economic-index-june-2026-report</link>
@@ -132,14 +148,6 @@
       <guid isPermaLink="false">https://www.anthropic.com/research/teaching-claude-why</guid>
       <category>Alignment</category>
       <pubDate>Fri, 08 May 2026 12:18:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Natural Language Autoencoders: Turning Claude’s thoughts into text</title>
-      <link>https://www.anthropic.com/research/natural-language-autoencoders</link>
-      <description>AI models like Claude talk in words but think in numbers. In this study, we train Claude to translate its thoughts into human-readable text.</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/natural-language-autoencoders</guid>
-      <category>Interpretability</category>
-      <pubDate>Thu, 07 May 2026 21:21:00 +0000</pubDate>
     </item>
     <item>
       <title>Natural Language Autoencoders: Turning Claude’s thoughts into text</title>

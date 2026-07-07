@@ -7,7 +7,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 06 Jul 2026 04:05:23 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jul 2026 03:56:29 +0000</lastBuildDate>
+    <item>
+      <title>Verbalizable Representations Form a Global Workspace in Language ModelsGurnee et al., 2026We find that Claude maintains a small, privileged set of representations it can report on, control, and reason with, atop a much larger volume of automatic processing.</title>
+      <link>https://transformer-circuits.pub/2026/workspace/index.html</link>
+      <description>g.</description>
+      <guid isPermaLink="false">https://transformer-circuits.pub/2026/workspace/index.html</guid>
+      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Circuits Updates â June 2026A short update on turn-averaged sparse autoencoders.</title>
       <link>https://transformer-circuits.pub/2026/june-update/index.html</link>
