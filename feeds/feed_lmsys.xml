@@ -7,7 +7,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 08 Jul 2026 03:22:40 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jul 2026 03:50:07 +0000</lastBuildDate>
+    <item>
+      <title>Accelerating SGLang HiCache with Netpreme X-Mem™ MPU</title>
+      <link>https://lmsys.org/blog/2026-06-27-netpreme-xmem/</link>
+      <description>&gt; Netpreme X-Mem™ Memory Processing Unit (MPU) makes SGLang HiCache faster and more scalable by augmenting the slower Host DRAM offload tier with a purpose-built high-bandwidth KV memory tier.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2026-06-27-netpreme-xmem/</guid>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>DSpark in SGLang: Speculative Decoding with Confidence-Driven, Variable-Length Verification</title>
       <link>https://lmsys.org/blog/2026-07-06-dspark-sglang/</link>

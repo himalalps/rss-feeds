@@ -7,7 +7,21 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 08 Jul 2026 03:22:05 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jul 2026 03:49:29 +0000</lastBuildDate>
+    <item>
+      <title>Working at the frontier: How Thomson Reuters builds AI for high-stakes professional work</title>
+      <link>https://claude.com/blog/working-at-the-frontier-how-thomson-reuters-builds-ai-for-high--stakes-professional-work</link>
+      <description>Working at the frontier: How Thomson Reuters builds AI for high-stakes professional work</description>
+      <guid isPermaLink="false">https://claude.com/blog/working-at-the-frontier-how-thomson-reuters-builds-ai-for-high--stakes-professional-work</guid>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Anthropic's marketing operations team uses Claude Cowork to automate reporting and campaign builds</title>
+      <link>https://claude.com/blog/how-anthropics-marketing-operations-team-uses-claude-cowork-to-automate-reporting-and-campaign-builds</link>
+      <description>How Anthropic's marketing operations team uses Claude Cowork to automate reporting and campaign builds</description>
+      <guid isPermaLink="false">https://claude.com/blog/how-anthropics-marketing-operations-team-uses-claude-cowork-to-automate-reporting-and-campaign-builds</guid>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>How people are using Claude Cowork</title>
       <link>https://claude.com/blog/how-people-are-using-claude-cowork</link>
@@ -93,24 +107,10 @@
       <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Steering Claude Code: CLAUDE.md files, skills, hooks, rules, subagents and more</title>
+      <title>Steering Claude Code: when to use CLAUDE.md, skills, hooks, and subagents</title>
       <link>https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more</link>
-      <description>Steering Claude Code: CLAUDE.md files, skills, hooks, rules, subagents and more</description>
+      <description>Steering Claude Code: when to use CLAUDE.md, skills, hooks, and subagents</description>
       <guid isPermaLink="false">https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more</guid>
-      <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Centrally manage authorization for MCP connectors</title>
-      <link>https://claude.com/blog/enterprise-managed-auth</link>
-      <description>Centrally manage authorization for MCP connectors</description>
-      <guid isPermaLink="false">https://claude.com/blog/enterprise-managed-auth</guid>
-      <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Claude Code now supports artifacts</title>
-      <link>https://claude.com/blog/artifacts-in-claude-code</link>
-      <description>Claude Code now supports artifacts</description>
-      <guid isPermaLink="false">https://claude.com/blog/artifacts-in-claude-code</guid>
       <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

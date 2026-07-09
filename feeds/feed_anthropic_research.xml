@@ -12,7 +12,15 @@
       <link>https://www.anthropic.com/research</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Wed, 08 Jul 2026 03:23:01 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jul 2026 03:50:22 +0000</lastBuildDate>
+    <item>
+      <title>An off switch for dual use knowledge in AI models</title>
+      <link>https://www.anthropic.com/research/off-switch-dual-use</link>
+      <description>New interpretability research reveals an emergent mental workspace in Claude that holds internal thoughts that don’t appear in the model’s output.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/off-switch-dual-use</guid>
+      <category>Alignment</category>
+      <pubDate>Wed, 08 Jul 2026 21:46:00 +0000</pubDate>
+    </item>
     <item>
       <title>A global workspace in language models</title>
       <link>https://www.anthropic.com/research/global-workspace</link>
@@ -528,7 +536,7 @@
     <item>
       <title>Preparing for AI’s economic impact: exploring policy responses</title>
       <link>https://www.anthropic.com/research/economic-policy-responses</link>
-      <description>Preparing for AI’s economic impact: exploring policy responses</description>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tortor eros, tincidunt eu est id, laoreet interdum turpis.</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/economic-policy-responses</guid>
       <category>Policy</category>
       <pubDate>Tue, 14 Oct 2025 08:00:00 +0000</pubDate>
@@ -536,7 +544,7 @@
     <item>
       <title>A small number of samples can poison LLMs of any size</title>
       <link>https://www.anthropic.com/research/small-samples-poison</link>
-      <description>A small number of samples can poison LLMs of any size</description>
+      <description>As research and experience demonstrated the utility of frontier AI as a tool for cyber attackers, we invested in improving Claude’s ability to help defenders detect, analyze, and remediate vulnerabilities in code and deployed systems.</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/small-samples-poison</guid>
       <category>Alignment</category>
       <pubDate>Thu, 09 Oct 2025 13:50:00 +0000</pubDate>
@@ -654,7 +662,7 @@
       <pubDate>Fri, 27 Jun 2025 06:05:00 +0000</pubDate>
     </item>
     <item>
-      <title>Agentic Misalignment: How LLMs could be insider threats</title>
+      <title>Agentic misalignment: How LLMs could be insider threats</title>
       <link>https://www.anthropic.com/research/agentic-misalignment</link>
       <description>Large Language Models (LLMs) that are not fine-tuned for cybersecurity can succeed in multistage attacks on networks with dozens of hosts when equipped with a novel toolkit.</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/agentic-misalignment</guid>
@@ -688,7 +696,7 @@
     <item>
       <title>Open-sourcing circuit tracing tools</title>
       <link>https://www.anthropic.com/research/open-source-circuit-tracing</link>
-      <description>Open-sourcing circuit tracing tools</description>
+      <description>Claude Code shows 79% automation versus 49% on Claude.ai. Web development dominates usage, and startups adopt agentic tools faster than enterprises—patterns previewing AI's impact on other occupations.</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/open-source-circuit-tracing</guid>
       <category>Interpretability</category>
       <pubDate>Thu, 29 May 2025 12:13:00 +0000</pubDate>
@@ -696,7 +704,7 @@
     <item>
       <title>Anthropic Economic Index: AI’s impact on software development</title>
       <link>https://www.anthropic.com/research/impact-software-development</link>
-      <description>Comparing Claude Code to Claude.ai reveals stark differences in how developers work with AI. The coding agent shows 79% automation versus 49% on Claude.ai, web development dominates usage, and startups are adopting agentic tools far faster than enterprises—patterns that may preview how AI transforms other occupations.</description>
+      <description>Claude Code shows 79% automation versus 49% on Claude.ai. Web development dominates usage, and startups adopt agentic tools faster than enterprises—patterns previewing AI's impact on other occupations.</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/impact-software-development</guid>
       <category>Societal Impacts</category>
       <pubDate>Mon, 28 Apr 2025 09:36:00 +0000</pubDate>
@@ -926,9 +934,9 @@
       <pubDate>Thu, 06 Jun 2024 13:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Mapping the Mind of a Large Language Model</title>
+      <title>Mapping the mind of a large language model</title>
       <link>https://www.anthropic.com/research/mapping-mind-language-model</link>
-      <description>Mapping the Mind of a Large Language Model</description>
+      <description>Mapping the mind of a large language model</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/mapping-mind-language-model</guid>
       <category>Interpretability</category>
       <pubDate>Tue, 21 May 2024 07:00:00 +0000</pubDate>
@@ -950,9 +958,9 @@
       <pubDate>Tue, 23 Apr 2024 09:42:44 +0000</pubDate>
     </item>
     <item>
-      <title>Measuring the Persuasiveness of Language Models</title>
+      <title>Measuring the persuasiveness of language models</title>
       <link>https://www.anthropic.com/research/measuring-model-persuasiveness</link>
-      <description>Measuring the Persuasiveness of Language Models</description>
+      <description>Measuring the persuasiveness of language models</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/measuring-model-persuasiveness</guid>
       <category>Societal Impacts</category>
       <pubDate>Tue, 09 Apr 2024 15:55:00 +0000</pubDate>
