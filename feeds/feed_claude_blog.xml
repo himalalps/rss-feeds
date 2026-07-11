@@ -7,7 +7,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 10 Jul 2026 03:50:31 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 11 Jul 2026 03:17:01 +0000</lastBuildDate>
+    <item>
+      <title>Working at the frontier: How Cognition trusts Claude Fable 5 to work through the night</title>
+      <link>https://claude.com/blog/working-at-the-frontier-how-cognition-trusts-claude-fable-5-to-work-through-the-night</link>
+      <description>Working at the frontier: How Cognition trusts Claude Fable 5 to work through the night</description>
+      <guid isPermaLink="false">https://claude.com/blog/working-at-the-frontier-how-cognition-trusts-claude-fable-5-to-work-through-the-night</guid>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Working at the frontier: How Thomson Reuters builds AI for high-stakes professional work</title>
       <link>https://claude.com/blog/working-at-the-frontier-how-thomson-reuters-builds-ai-for-high--stakes-professional-work</link>
@@ -65,9 +72,9 @@
       <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Getting started with loops</title>
+      <title>Loop engineering: Getting started with loops</title>
       <link>https://claude.com/blog/getting-started-with-loops</link>
-      <description>Getting started with loops</description>
+      <description>Loop engineering: Getting started with loops</description>
       <guid isPermaLink="false">https://claude.com/blog/getting-started-with-loops</guid>
       <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
     </item>
@@ -105,13 +112,6 @@
       <description>The full Claude Desktop experience on AWS, Google Cloud, and Microsoft Foundry</description>
       <guid isPermaLink="false">https://claude.com/blog/the-full-claude-desktop-experience-on-aws-google-cloud-and-microsoft-foundry</guid>
       <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Steering Claude Code: when to use CLAUDE.md, skills, hooks, and subagents</title>
-      <link>https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more</link>
-      <description>Steering Claude Code: when to use CLAUDE.md, skills, hooks, and subagents</description>
-      <guid isPermaLink="false">https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more</guid>
-      <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

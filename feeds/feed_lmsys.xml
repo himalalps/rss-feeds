@@ -7,7 +7,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 10 Jul 2026 03:50:50 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 11 Jul 2026 03:17:41 +0000</lastBuildDate>
+    <item>
+      <title>Bringing DeepSeek-V4 Flash RL Training to AMD Instinct MI355X GPUs with Miles</title>
+      <link>https://lmsys.org/blog/2026-07-10-rocm-miles-dsv4/</link>
+      <description>DeepSeek-V4 RL is now supported in Miles on AMD Instinct™ MI355X GPUs with ROCm™! RL requires SGLang rollout and Megatron training to implement the same policy closely enough that token probabilities remain aligned, even as Miles repeatedly transfers updated weights back to the live rollout engine.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2026-07-10-rocm-miles-dsv4/</guid>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Accelerating SGLang HiCache with Netpreme X-Mem™ MPU</title>
       <link>https://lmsys.org/blog/2026-06-27-netpreme-xmem/</link>
