@@ -7,7 +7,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 12 Jul 2026 03:29:13 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jul 2026 03:32:52 +0000</lastBuildDate>
+    <item>
+      <title>Same Confidence, Opposite Truth</title>
+      <link>https://www.noumena.com/research/0012-same-confidence-opposite-truth/</link>
+      <description>post-training barely moved the shape of agreement while moving it from gold answers into wrong ones</description>
+      <guid isPermaLink="false">https://www.noumena.com/research/0012-same-confidence-opposite-truth/</guid>
+      <pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Let the Speedrun Search Itself</title>
       <link>https://www.noumena.com/research/0011-let-the-speedrun-search-itself/</link>
@@ -18,14 +25,14 @@
     <item>
       <title>Reproducing Canon, mHC, and Engram</title>
       <link>https://www.noumena.com/research/0010-physics-architecture-repros/</link>
-      <description>A research narrative: wrong starts, PhysicsLM4 alignment, and one real polysemy failure</description>
+      <description>Three architectural bets, one physics harness, and the question of which deserves a larger run</description>
       <guid isPermaLink="false">https://www.noumena.com/research/0010-physics-architecture-repros/</guid>
       <pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>RDEP</title>
+      <title>The Rack Is the Computer</title>
       <link>https://www.noumena.com/research/0009-rdep/</link>
-      <description>keeping sparse expert compute hot across a whole NVLink fabric</description>
+      <description>RDEP makes the NVLink domain—not the rank mesh—the unit of sparse training</description>
       <guid isPermaLink="false">https://www.noumena.com/research/0009-rdep/</guid>
       <pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate>
     </item>
@@ -37,51 +44,51 @@
       <pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>The Atlas Hypothesis</title>
+      <title>One Boundary, Two Crossings</title>
       <link>https://www.noumena.com/research/0007-the-geometry-hypothesis/</link>
-      <description>why output-only dashboards cannot name what pretraining built, and what a real receipt would have to measure</description>
+      <description>the MoE Atlas as a candidate contract for pretraining readiness and geometric forgetting</description>
       <guid isPermaLink="false">https://www.noumena.com/research/0007-the-geometry-hypothesis/</guid>
       <pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Super-4096</title>
+      <title>I Built Super-4096 to Fail</title>
       <link>https://www.noumena.com/research/0006-super-4096/</link>
-      <description>Loss keeps improving while routing collapses under extreme sparsity</description>
+      <description>I gave the router 4,096 experts. One batch came back looking like fourteen.</description>
       <guid isPermaLink="false">https://www.noumena.com/research/0006-super-4096/</guid>
       <pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>NVFP4 Dynamics</title>
+      <title>The NVFP4 Fix Was Fighting Itself</title>
       <link>https://www.noumena.com/research/0005-nvfp4-dynamics/</link>
-      <description>Why our NVFP4 recipe lagged BF16, and what actually closed almost all of the gap</description>
+      <description>I split the old two-knob rescue. The embedding gain helped; the logits gain gave it back.</description>
       <guid isPermaLink="false">https://www.noumena.com/research/0005-nvfp4-dynamics/</guid>
       <pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>What Are We Holding Fixed?</title>
+      <title>The Experiment Had Two Model Sizes</title>
       <link>https://www.noumena.com/research/0004-420-moe-edition/</link>
-      <description>Dense-vs-MoE comparison depends on the fairness contract; a failed `#420` transfer exposed the real problem</description>
+      <description>A literal #420 transfer made the denominator part of the result</description>
       <guid isPermaLink="false">https://www.noumena.com/research/0004-420-moe-edition/</guid>
       <pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>The Speedrun Loop</title>
+      <title>Fewer Tokens, More Time</title>
       <link>https://www.noumena.com/research/0003-speedrun-calibration/</link>
-      <description>A small-model speedrun is our fastest honest instrument for architecture research</description>
+      <description>What our first dense–MoE speedrun measured</description>
       <guid isPermaLink="false">https://www.noumena.com/research/0003-speedrun-calibration/</guid>
       <pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Make It Measurable</title>
+      <title>The Loss Curve Was Fine</title>
       <link>https://www.noumena.com/research/0002-make-it-measurable/</link>
-      <description>What to track when loss isn't enough</description>
+      <description>What a 4,096-expert router collapse taught me to measure</description>
       <guid isPermaLink="false">https://www.noumena.com/research/0002-make-it-measurable/</guid>
       <pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>What We Built</title>
+      <title>The Stale Batch</title>
       <link>https://www.noumena.com/research/0001-what-we-built/</link>
-      <description>A production-grade MoE training system, because reproducibility is the experiment</description>
+      <description>A one-batch resume bug and the state a trustworthy run must preserve</description>
       <guid isPermaLink="false">https://www.noumena.com/research/0001-what-we-built/</guid>
       <pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate>
     </item>
