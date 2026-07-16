@@ -7,7 +7,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 15 Jul 2026 02:52:08 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2026 03:13:05 +0000</lastBuildDate>
+    <item>
+      <title>Inkling: Our open-weights model</title>
+      <link>https://thinkingmachines.ai/news/introducing-inkling/</link>
+      <description>by Thinking Machines</description>
+      <author>Thinking Machines</author>
+      <guid isPermaLink="false">https://thinkingmachines.ai/news/introducing-inkling/</guid>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Learning to Replicate Expert Judgment in Financial Tasks</title>
       <link>https://thinkingmachines.ai/news/learning-to-replicate-expert-judgment-in-financial-tasks/</link>
