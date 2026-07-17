@@ -7,7 +7,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 15 Jul 2026 02:52:26 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2026 03:16:25 +0000</lastBuildDate>
+    <item>
+      <title>SGLang and Miles Add Day-0 Support for Inkling, a Frontier Multimodal Model</title>
+      <link>https://lmsys.org/blog/2026-07-15-inkling-day0-support/</link>
+      <description>We're excited to partner with the Thinking Machines team to bring Day-0 support for Inkling to SGLang and Miles, with dedicated optimizations for its new architecture and broad feature coverage, and with Modal to train a DFlash draft model for Inkling.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2026-07-15-inkling-day0-support/</guid>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Serving GLM5.2 NVFP4 Agentic Workload with SGLang: Reaching 500 TPS in 2 Weeks</title>
       <link>https://lmsys.org/blog/2026-07-13-glm52-optimization/</link>
