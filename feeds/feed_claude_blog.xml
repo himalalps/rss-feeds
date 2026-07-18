@@ -7,7 +7,21 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 17 Jul 2026 03:16:04 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Jul 2026 02:53:21 +0000</lastBuildDate>
+    <item>
+      <title>Working at the frontier: How Cursor knew Claude Fable 5 was ready for the hardest 1% of problems</title>
+      <link>https://claude.com/blog/working-at-the-frontier-cursor</link>
+      <description>Working at the frontier: How Cursor knew Claude Fable 5 was ready for the hardest 1% of problems</description>
+      <guid isPermaLink="false">https://claude.com/blog/working-at-the-frontier-cursor</guid>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Zero risk isn't the job: a CISO's guide to agentic AI</title>
+      <link>https://claude.com/blog/ciso-guide-to-agentic-ai</link>
+      <description>Zero risk isn't the job: a CISO's guide to agentic AI</description>
+      <guid isPermaLink="false">https://claude.com/blog/ciso-guide-to-agentic-ai</guid>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Working with Claude Fable 5 in Claude Cowork</title>
       <link>https://claude.com/blog/working-with-claude-fable-5-in-claude-cowork</link>
@@ -98,20 +112,6 @@
       <description>Giving admins more visibility and control over Claude spend</description>
       <guid isPermaLink="false">https://claude.com/blog/giving-admins-more-visibility-and-control-over-claude-usage-and-spend</guid>
       <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Loop engineering: Getting started with loops</title>
-      <link>https://claude.com/blog/getting-started-with-loops</link>
-      <description>Loop engineering: Getting started with loops</description>
-      <guid isPermaLink="false">https://claude.com/blog/getting-started-with-loops</guid>
-      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing the Claude apps gateway for Amazon Bedrock and Google Cloud</title>
-      <link>https://claude.com/blog/introducing-the-claude-apps-gateway</link>
-      <description>Introducing the Claude apps gateway for Amazon Bedrock and Google Cloud</description>
-      <guid isPermaLink="false">https://claude.com/blog/introducing-the-claude-apps-gateway</guid>
-      <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
