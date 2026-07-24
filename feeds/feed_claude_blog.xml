@@ -7,7 +7,21 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 23 Jul 2026 03:24:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jul 2026 03:18:00 +0000</lastBuildDate>
+    <item>
+      <title>Think through hard problems in voice mode</title>
+      <link>https://claude.com/blog/think-through-hard-problems-in-voice-mode</link>
+      <description>Think through hard problems in voice mode</description>
+      <guid isPermaLink="false">https://claude.com/blog/think-through-hard-problems-in-voice-mode</guid>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Four role-based certifications for the people who put Claude to work for customers</title>
+      <link>https://claude.com/blog/four-role-based-claude-certifications</link>
+      <description>Four role-based certifications for the people who put Claude to work for customers</description>
+      <guid isPermaLink="false">https://claude.com/blog/four-role-based-claude-certifications</guid>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>How Outtake built a cyber investigator on Claude</title>
       <link>https://claude.com/blog/how-outtake-built-a-cyber-investigator-on-claude</link>
@@ -98,20 +112,6 @@
       <description>Working at the frontier: How Thomson Reuters builds AI for high-stakes professional work</description>
       <guid isPermaLink="false">https://claude.com/blog/working-at-the-frontier-how-thomson-reuters-builds-ai-for-high--stakes-professional-work</guid>
       <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How Anthropic's marketing operations team uses Claude Cowork to automate reporting and campaign builds</title>
-      <link>https://claude.com/blog/how-anthropics-marketing-operations-team-uses-claude-cowork-to-automate-reporting-and-campaign-builds</link>
-      <description>How Anthropic's marketing operations team uses Claude Cowork to automate reporting and campaign builds</description>
-      <guid isPermaLink="false">https://claude.com/blog/how-anthropics-marketing-operations-team-uses-claude-cowork-to-automate-reporting-and-campaign-builds</guid>
-      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Bringing Claude Code and Claude Cowork to government</title>
-      <link>https://claude.com/blog/bringing-claude-code-and-claude-cowork-to-government</link>
-      <description>Bringing Claude Code and Claude Cowork to government</description>
-      <guid isPermaLink="false">https://claude.com/blog/bringing-claude-code-and-claude-cowork-to-government</guid>
-      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
