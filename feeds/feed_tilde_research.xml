@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Tilde Research</title>
+    <link>https://tilderesearch.com/research</link>
+    <description>Research publications from Tilde Research</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 29 Jul 2026 07:07:57 +0000</lastBuildDate>
+    <item>
+      <title>Online KL Shampoo</title>
+      <link>https://blog.tilderesearch.com/blog/online-kl-shampoo</link>
+      <description>We introduce Online KL Shampoo (OKLS), a zero-staleness, hardware-aligned, Kronecker product-based optimizer that achieves 1.45x Muon's parameter efficiency while maintaining 98% training throughput.</description>
+      <guid isPermaLink="false">https://blog.tilderesearch.com/blog/online-kl-shampoo</guid>
+      <category>Technical Release</category>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Parallax: Parameterized Local Linear Attention</title>
+      <link>https://blog.tilderesearch.com/blog/parallax</link>
+      <description>Parallax keeps the local-linear principle but parametrizes the solve directly → a single additive correction on top of Softmax.</description>
+      <guid isPermaLink="false">https://blog.tilderesearch.com/blog/parallax</guid>
+      <category>Technical Release</category>
+      <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Towards Compositional Steepest Descent</title>
+      <link>https://blog.tilderesearch.com/blog/compositional-muon</link>
+      <description>We introduce Compositional Muon (CM), which extends Muon-style steepest descent from individual matrices to composed transformer circuits</description>
+      <guid isPermaLink="false">https://blog.tilderesearch.com/blog/compositional-muon</guid>
+      <category>Technical Release</category>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Wall Attention: Length Generalization With Diagonal Gates</title>
+      <link>https://blog.tilderesearch.com/blog/wall-attn</link>
+      <description>We introduce Wall Attention, which generalizes diagonal forget gates from linear RNNs to softmax attention, yielding a data-dependent positional encoding that is a full replacement for RoPE.</description>
+      <guid isPermaLink="false">https://blog.tilderesearch.com/blog/wall-attn</guid>
+      <category>Technical Release</category>
+      <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Aurora: Leverage-Aware Updates for Rectangular Matrices</title>
+      <link>https://blog.tilderesearch.com/blog/aurora</link>
+      <description>We formulate the problem of steepest descent under the joint constraint of row-norm uniformity and orthogonality and present Aurora as a solution.</description>
+      <guid isPermaLink="false">https://blog.tilderesearch.com/blog/aurora</guid>
+      <category>Technical Release</category>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Nitrobrew: Fast, Lossless Distillation for Free</title>
+      <link>https://blog.tilderesearch.com/blog/nitrobrew</link>
+      <description>Nitrobrew exploits the fact that teacher logits are generated from a much lower-dimensional hidden state, achieving 1.5-3x faster end-to-end throughput for on-policy distillation.</description>
+      <guid isPermaLink="false">https://blog.tilderesearch.com/blog/nitrobrew</guid>
+      <category>Technical Release</category>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Gram-Space Manifold Muon</title>
+      <link>https://blog.tilderesearch.com/vignettes/gram-space</link>
+      <description>Recently, Bernstein and Thinking Machines introduced a Muon variant that constrains weights to the Stiefel manifold.</description>
+      <guid isPermaLink="false">https://blog.tilderesearch.com/vignettes/gram-space</guid>
+      <category>Vignette</category>
+      <pubDate>Mon, 13 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Complexity and Transformers</title>
+      <link>https://blog.tilderesearch.com/vignettes/complexity</link>
+      <description>Can a simple transformer solve problems that constant-depth circuits cannot?</description>
+      <guid isPermaLink="false">https://blog.tilderesearch.com/vignettes/complexity</guid>
+      <category>Vignette</category>
+      <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Regression is All You Need</title>
+      <link>https://blog.tilderesearch.com/vignettes/regression</link>
+      <description>There are many derivations of attention available. In this vignette we present our favorite from nonparametric regression.</description>
+      <guid isPermaLink="false">https://blog.tilderesearch.com/vignettes/regression</guid>
+      <category>Vignette</category>
+      <pubDate>Thu, 28 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>A Telescope, Pointed at the Stars</title>
+      <link>https://blog.tilderesearch.com/blog/telescope-stars</link>
+      <description>We believe mechanistic understanding is the foundation for entirely new architectures, capabilities, and safety tools.</description>
+      <guid isPermaLink="false">https://blog.tilderesearch.com/blog/telescope-stars</guid>
+      <category>Announcement</category>
+      <pubDate>Sun, 10 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>MoMoE: Memory-optimized Mixture of Experts</title>
+      <link>https://blog.tilderesearch.com/blog/momoe</link>
+      <description>Mixture-of-Experts (MoE) architectures scale model parameter counts efficiently by activating only a fraction of weights per token.</description>
+      <guid isPermaLink="false">https://blog.tilderesearch.com/blog/momoe</guid>
+      <category>Technical Release</category>
+      <pubDate>Fri, 25 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sparsity is Cool</title>
+      <link>https://blog.tilderesearch.com/blog/sparse-attn</link>
+      <description>Sparse attention models have recently emerged as strong competitors to base attention.</description>
+      <guid isPermaLink="false">https://blog.tilderesearch.com/blog/sparse-attn</guid>
+      <category>Vignette</category>
+      <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Activault: Scalable, Efficient, and Fast Model Activation Storage</title>
+      <link>https://blog.tilderesearch.com/blog/activault</link>
+      <description>Mixture-of-Experts (MoE) architectures scale model parameter counts efficiently by activating only a fraction of weights per token.</description>
+      <guid isPermaLink="false">https://blog.tilderesearch.com/blog/activault</guid>
+      <category>Technical Release</category>
+      <pubDate>Mon, 17 Mar 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sieve: SAEs Beat Baselines on a Real-World Task (A Code Generation Case Study)</title>
+      <link>https://blog.tilderesearch.com/blog/sieve</link>
+      <description>We demonstrate the first application of SAE-based interventions to a downstream task that outperforms classical baselines with minimal effort/time.</description>
+      <guid isPermaLink="false">https://blog.tilderesearch.com/blog/sieve</guid>
+      <category>Technical Release</category>
+      <pubDate>Sun, 15 Dec 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Rate Distortion Dance of Sparse Autoencoders</title>
+      <link>https://blog.tilderesearch.com/blog/rate-distortion-saes</link>
+      <description>Mixture-of-Experts (MoE) architectures scale model parameter counts efficiently by activating only a fraction of weights per token.</description>
+      <guid isPermaLink="false">https://blog.tilderesearch.com/blog/rate-distortion-saes</guid>
+      <category>Vignette</category>
+      <pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
