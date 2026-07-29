@@ -39,6 +39,7 @@ jobs:
           uv run feed_generators/run_all_feeds.py
 
       - name: Commit and push feed
+        if: ${{ github.ref == 'refs/heads/main' && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch') }}
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
@@ -52,5 +53,5 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m 'Update RSS feed'
-            git push "$remote_repo" main
+            git push "$remote_repo" HEAD:main
           fi
