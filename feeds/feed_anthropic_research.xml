@@ -12,7 +12,15 @@
       <link>https://www.anthropic.com/research</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 28 Jul 2026 02:55:27 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2026 03:14:41 +0000</lastBuildDate>
+    <item>
+      <title>Discovering cryptographic weaknesses with Claude</title>
+      <link>https://www.anthropic.com/research/discovering-cryptographic-weaknesses</link>
+      <description>cryptographic algorithms. The first attack significantly weakens HAWK, a digital signature scheme that was built for a future world where quantum computers are able to break existing standards. The second identifies a new way to attack round-reduced AES, the most widely used symmetric cipher. </description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/discovering-cryptographic-weaknesses</guid>
+      <category>Frontier Red Team</category>
+      <pubDate>Tue, 28 Jul 2026 17:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Project Pilot: Can AI control a drone?</title>
       <link>https://www.anthropic.com/research/project-pilot</link>
