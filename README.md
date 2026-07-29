@@ -19,6 +19,7 @@ RSS feeds in newest first order.
 | [Transformer Circuits Thread](https://transformer-circuits.pub/) | [feed_transformer_circuits.xml](https://raw.githubusercontent.com/himalalps/rss-feeds/main/feeds/feed_transformer_circuits.xml) |
 | [People Daily](https://plink.anyfeeder.com/people-daily) | [feed_people_daily.xml](https://raw.githubusercontent.com/himalalps/rss-feeds/main/feeds/feed_people_daily.xml) |
 | [LMSYS Blog](https://lmsys.org/blog/) | [feed_lmsys.xml](https://raw.githubusercontent.com/himalalps/rss-feeds/main/feeds/feed_lmsys.xml) |
+| [Tilde Research](https://tilderesearch.com/research) | [feed_tilde_research.xml](https://raw.githubusercontent.com/himalalps/rss-feeds/main/feeds/feed_tilde_research.xml) |
 
 ## RSS Feed Generator
 
