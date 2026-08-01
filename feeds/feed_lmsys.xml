@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 31 Jul 2026 03:29:56 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 Aug 2026 03:29:01 +0000</lastBuildDate>
     <item>
       <title>RadixArk Joins Forces with Google to Bring Full SGLang Features to TPUs</title>
       <link>https://lmsys.org/blog/2026-07-30-sglang-google-tpu/</link>
@@ -21,6 +21,13 @@
       <description>&gt; TL;DR: We implemented two Blackwell-native RL recipes in Miles: end-to-end MXFP8 and per-token NVFP4 for MoE experts. Both are supported by fine-grained precision control across checkpoint conversion, Megatron training, SGLang rollout, and live weight updates. MXFP8 covers rollout, forward propagation, weight-gradient GEMMs, and data-gradient GEMMs. NVFP4 uses online per-token activation scaling for its MoE expert path, and both formats support high-precision or dequantized backward modes. In a Qwen3-30B-A3B recipe ablation on 8x B200, BF16 and all five low-precision configurations have closely overlapping raw reward curves, while MXFP8 and NVFP4 reduce rollout time.</description>
       <guid isPermaLink="false">https://lmsys.org/blog/2026-07-29-mxfp8-nvfp4-rl/</guid>
       <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Toward a Cleaner Quantization Stack in SGLang</title>
+      <link>https://lmsys.org/blog/2026-07-31-cleaner-quantization-stack/</link>
+      <description>Quantization has moved from an advanced feature to an **essential part of high-throughput LLM serving**. As the number of checkpoint formats, model architectures, and hardware backends grows, the quantization stack becomes increasingly difficult to maintain.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2026-07-31-cleaner-quantization-stack/</guid>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>SGLang and Miles Add Day-0 Support for Kimi K3</title>
