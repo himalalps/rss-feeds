@@ -7,7 +7,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 04 Aug 2026 03:13:08 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 02:54:23 +0000</lastBuildDate>
+    <item>
+      <title>A guide to cost visibility and control in Claude</title>
+      <link>https://claude.com/blog/a-guide-to-cost-visibility-and-control-in-claude</link>
+      <description>A guide to cost visibility and control in Claude</description>
+      <guid isPermaLink="false">https://claude.com/blog/a-guide-to-cost-visibility-and-control-in-claude</guid>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Bringing MCP 2026-07-28 to Claude</title>
       <link>https://claude.com/blog/bringing-mcp-2026-07-28-to-claude</link>
@@ -98,13 +105,6 @@
       <description>Zero risk isn't the job: a CISO's guide to agentic AI</description>
       <guid isPermaLink="false">https://claude.com/blog/ciso-guide-to-agentic-ai</guid>
       <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Working with Claude Fable 5 in Claude Cowork</title>
-      <link>https://claude.com/blog/working-with-claude-fable-5-in-claude-cowork</link>
-      <description>Working with Claude Fable 5 in Claude Cowork</description>
-      <guid isPermaLink="false">https://claude.com/blog/working-with-claude-fable-5-in-claude-cowork</guid>
-      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>How Anthropic runs large-scale code migrations with Claude Code</title>

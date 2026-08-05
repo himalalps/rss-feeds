@@ -7,7 +7,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 03 Aug 2026 03:30:45 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 02:54:28 +0000</lastBuildDate>
+    <item>
+      <title>SpecForge v0.3.0: a Unified Disaggregated and Colocated Speculative Decoding Stack, and New Open SpecBundle Draft Models</title>
+      <link>https://lmsys.org/blog/2026-08-04-specforge-v0-3/</link>
+      <description>When we first released [SpecForge](https://www.lmsys.org/blog/2025-07-25-spec-forge/), a training job owned both the frozen target model and the draft model being optimized. This made EAGLE3 draft-model training practical and directly compatible with SGLang, but it also tied two very different workloads to the same process lifecycle and resource topology.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2026-08-04-specforge-v0-3/</guid>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>RadixArk Joins Forces with Google to Bring Full SGLang Features to TPUs</title>
       <link>https://lmsys.org/blog/2026-07-30-sglang-google-tpu/</link>
