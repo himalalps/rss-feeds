@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Tencent Hy Research</title>
+    <link>https://hy.tencent.ai/research?page=1</link>
+    <description>Research publications from Tencent Hy</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 06 Aug 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>From LR to ELR: A Better Heuristic for Pretraining Dynamics</title>
+      <link>https://hy.tencent.ai/research/elr?langVersion=en</link>
+      <description>Understanding pretraining dynamics is crucial for designing effective training hyperparameters for large language models (LLMs), particularly the learning rate (LR). However, LR does not always reflect how much the function represented by the model actually changes, and the optimal LR often shifts with model and data scale.</description>
+      <guid isPermaLink="false">https://hy.tencent.ai/research/elr?langVersion=en</guid>
+      <pubDate>Fri, 06 Aug 2027 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hyra: A simple yet effective scaffold for general discovery</title>
+      <link>https://hy.tencent.ai/research/hyra?langVersion=en</link>
+      <description>Today, we are introducing Hyra-1.0, the first release of Hyra (Hunyuan Research Agent) - an agent capable of recursive self-improvement, purpose-built for performance-driven research and engineering tasks.</description>
+      <guid isPermaLink="false">https://hy.tencent.ai/research/hyra?langVersion=en</guid>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Hy3</title>
+      <link>https://hy.tencent.ai/research/hy3?langVersion=en</link>
+      <description>Introducing Hy3</description>
+      <guid isPermaLink="false">https://hy.tencent.ai/research/hy3?langVersion=en</guid>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Real life is where context gets hard</title>
+      <link>https://hy.tencent.ai/research/100039?langVersion=en</link>
+      <description>Previously, we built CL-Bench to test whether AI could learn complex new knowledge, such as rules, and use it effectively. But real life doesn't come with a rulebook. To be a helpful everyday assistant, an AI must do more than just understand complex rules; it should also understand complex human relationships and piece together clues from messy, scattered context.</description>
+      <guid isPermaLink="false">https://hy.tencent.ai/research/100039?langVersion=en</guid>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hy3 preview: The First Step in Rebuilding the Hy model</title>
+      <link>https://hy.tencent.ai/research/hy3-preview?langVersion=en</link>
+      <description>Hy3 preview: The First Step in Rebuilding the Hy model</description>
+      <guid isPermaLink="false">https://hy.tencent.ai/research/hy3-preview?langVersion=en</guid>
+      <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Stabilizing RLVR via Token-level Gradient Diagnosis and Layerwise Clipping</title>
+      <link>https://hy.tencent.ai/research/100015?langVersion=en</link>
+      <description>Stabilizing RLVR via Token-level Gradient Diagnosis and Layerwise Clipping</description>
+      <guid isPermaLink="false">https://hy.tencent.ai/research/100015?langVersion=en</guid>
+      <pubDate>Fri, 13 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Learning from context is harder than we thought</title>
+      <link>https://hy.tencent.ai/research/100025?langVersion=en</link>
+      <description>Learning from context is harder than we thought</description>
+      <guid isPermaLink="false">https://hy.tencent.ai/research/100025?langVersion=en</guid>
+      <pubDate>Tue, 03 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
