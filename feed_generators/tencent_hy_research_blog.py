@@ -12,6 +12,7 @@ logger = setup_logging(__name__)
 RESEARCH_URL = "https://hy.tencent.ai/research?page=1"
 CHROMEDRIVER_PORT = 9515
 DATE_FORMAT = "%b %d, %Y"
+RENDER_TIMEOUT = 60
 
 
 class ChromeDriverClient:
@@ -111,14 +112,19 @@ class ChromeDriverClient:
         self.close()
 
 
-def wait_until(condition, timeout=20, interval=0.25):
+def wait_until(
+    condition,
+    timeout=RENDER_TIMEOUT,
+    interval=0.25,
+    stage="Tencent Hy to render",
+):
     deadline = time.monotonic() + timeout
     while time.monotonic() < deadline:
         value = condition()
         if value:
             return value
         time.sleep(interval)
-    raise RuntimeError("Timed out waiting for Tencent Hy to render")
+    raise RuntimeError(f"Timed out waiting for {stage} after {timeout} seconds")
 
 
 def parse_row_text(text):
@@ -158,12 +164,17 @@ def parse_research_page():
 
     with ChromeDriverClient() as driver:
         driver.navigate(RESEARCH_URL)
-        rows = wait_until(lambda: get_rows(driver))
+        rows = wait_until(
+            lambda: get_rows(driver), stage="Tencent Hy research list to render"
+        )
 
         for index in range(len(rows)):
             if index:
                 driver.navigate(RESEARCH_URL)
-                rows = wait_until(lambda: get_rows(driver))
+                rows = wait_until(
+                    lambda: get_rows(driver),
+                    stage="Tencent Hy research list to render",
+                )
 
             article = parse_row_text(rows[index])
             listing_url = driver.current_url()
@@ -180,7 +191,8 @@ def parse_research_page():
                     driver.current_url()
                     if driver.current_url() != listing_url
                     else None
-                )
+                ),
+                stage=f"article URL for {article['title']!r}",
             )
             wait_until(
                 lambda: driver.execute(
@@ -188,7 +200,8 @@ def parse_research_page():
                     return document.querySelectorAll('.research-list__row').length === 0
                       && document.querySelector('main')?.innerText.length > 100;
                     """
-                )
+                ),
+                stage=f"article detail for {article['title']!r}",
             )
 
             article["link"] = link
