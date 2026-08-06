@@ -12,7 +12,7 @@ logger = setup_logging(__name__)
 RESEARCH_URL = "https://hy.tencent.ai/research?page=1"
 CHROMEDRIVER_PORT = 9515
 DATE_FORMAT = "%b %d, %Y"
-RENDER_TIMEOUT = 60
+RENDER_TIMEOUT = 30
 
 
 class ChromeDriverClient:
