@@ -18,9 +18,7 @@ def run_all_feeds():
     """
     feed_generators_dir = os.path.dirname(os.path.abspath(__file__))
     skip_scripts = []
-    optional_scripts = {"tencent_hy_research_blog.py"}
     failed_scripts = []
-    optional_failed_scripts = []
     successful_scripts = []
 
     for filename in os.listdir(feed_generators_dir):
@@ -37,12 +35,6 @@ def run_all_feeds():
             if result.returncode == 0:
                 logger.info(f"Successfully ran script: {script_path}")
                 successful_scripts.append(filename)
-            elif filename in optional_scripts:
-                logger.warning(
-                    f"Optional feed failed; keeping its existing XML: "
-                    f"{script_path}\n{result.stderr}"
-                )
-                optional_failed_scripts.append(filename)
             else:
                 logger.error(f"Error running script: {script_path}\n{result.stderr}")
                 failed_scripts.append(filename)
@@ -51,18 +43,12 @@ def run_all_feeds():
     logger.info(f"\n{'='*60}")
     logger.info(f"Feed Generation Summary:")
     logger.info(f"  Successful: {len(successful_scripts)}")
-    logger.info(f"  Optional failures: {len(optional_failed_scripts)}")
     logger.info(f"  Failed: {len(failed_scripts)}")
 
     if successful_scripts:
         logger.info(f"\nSuccessful feeds:")
         for script in successful_scripts:
             logger.info(f"  ✓ {script}")
-
-    if optional_failed_scripts:
-        logger.warning(f"\nOptional feeds using existing XML:")
-        for script in optional_failed_scripts:
-            logger.warning(f"  ! {script}")
 
     if failed_scripts:
         logger.error(f"\nFailed feeds:")
