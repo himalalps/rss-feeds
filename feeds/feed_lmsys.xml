@@ -7,7 +7,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 07 Aug 2026 02:53:31 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 08 Aug 2026 01:58:50 +0000</lastBuildDate>
+    <item>
+      <title>HPC-Ops × SGLang: High-Performance Attention, Router GEMM, and MoE Kernels from Tencent Hunyuan</title>
+      <link>https://lmsys.org/blog/2026-08-07-hpc-ops-sglang/</link>
+      <description>[HPC-Ops](https://github.com/Tencent/hpc-ops) is an open-source operator library for LLM inference, deployed in Tencent's large-scale production serving. Its core operators, including Dynamic Attention and Fused MoE, play a critical role in Hunyuan's online inference, reducing TPOT of Hy3 model by up to 48.8%. HPC-Ops Attention, Router GEMM, and MoE are now integrated into SGLang's main branch, bringing these production-proven optimizations to the open-source serving community.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2026-08-07-hpc-ops-sglang/</guid>
+      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Full-Stack Performance Optimization of AR+DiT in SGL-Diffusion</title>
       <link>https://lmsys.org/blog/2026-08-05-glmImage-optimization/</link>
