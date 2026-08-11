@@ -7,7 +7,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 10 Aug 2026 02:10:35 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2026 02:05:13 +0000</lastBuildDate>
+    <item>
+      <title>SGLang Adds Day-0 Support for Muse Glimmer, a Multimodal Model Built for Local Agentic Workflows</title>
+      <link>https://lmsys.org/blog/2026-08-10-meta-muse-glimmer/</link>
+      <description>We're excited to partner with Meta Superintelligence Labs to bring Day-0 support for [Muse Glimmer](https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model) to SGLang, with dedicated optimizations tailored for high-performance inference of agentic workflows on local hardware.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2026-08-10-meta-muse-glimmer/</guid>
+      <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>HPC-Ops × SGLang: High-Performance Attention, Router GEMM, and MoE Kernels from Tencent Hunyuan</title>
       <link>https://lmsys.org/blog/2026-08-07-hpc-ops-sglang/</link>

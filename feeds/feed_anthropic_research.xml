@@ -12,7 +12,23 @@
       <link>https://www.anthropic.com/research</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Mon, 10 Aug 2026 02:10:56 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2026 02:05:41 +0000</lastBuildDate>
+    <item>
+      <title>Learning more about Claude's mathematical capabilities</title>
+      <link>https://www.anthropic.com/research/riemann-zeta</link>
+      <description>An unreleased research version of Claude has made strides on a problem related to the Riemann hypothesis. It improved a longstanding lower bound for the fraction of zeros of the Riemann zeta function that satisfy the hypothesis, increasing it from 41.6% to 67.2%.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/riemann-zeta</guid>
+      <category>Science</category>
+      <pubDate>Mon, 10 Aug 2026 17:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Learning more about Claude's mathematical capabilities</title>
+      <link>https://www.anthropic.com/research/riemann-zeta</link>
+      <description>An unreleased research version of Claude has made strides on a problem related to the Riemann hypothesis. It improved a longstanding lower bound for the fraction of zeros of the Riemann zeta function that satisfy the hypothesis, increasing it from 41.6% to 67.2%.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/riemann-zeta</guid>
+      <category>Science</category>
+      <pubDate>Mon, 10 Aug 2026 17:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Discovering cryptographic weaknesses with Claude</title>
       <link>https://www.anthropic.com/research/discovering-cryptographic-weaknesses</link>
@@ -76,14 +92,6 @@
       <guid isPermaLink="false">https://www.anthropic.com/research/global-workspace</guid>
       <category>Interpretability</category>
       <pubDate>Mon, 06 Jul 2026 14:12:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Anthropic Economic Index report: Cadences</title>
-      <link>https://www.anthropic.com/research/economic-index-june-2026-report</link>
-      <description>In our latest Economic Index report, we sample hourly for the first time to ask: When do people come to Claude? What do they produce with it? And how do they perceive AI's impact on their work?</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/economic-index-june-2026-report</guid>
-      <category>Economic Research</category>
-      <pubDate>Fri, 26 Jun 2026 20:08:00 +0000</pubDate>
     </item>
     <item>
       <title>Anthropic Economic Index report: Cadences</title>
