@@ -7,7 +7,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 11 Aug 2026 02:05:41 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Aug 2026 02:23:06 +0000</lastBuildDate>
+    <item>
+      <title>Popcorn: Democratized Fast Kernel Dispatching</title>
+      <link>https://blog.tilderesearch.com/blog/popcorn</link>
+      <description>Popcorn sits between kernels and users. You call a stable, reference-backed op API; Popcorn routes each call to the fastest implementation validated for those inputs and hardware.</description>
+      <guid isPermaLink="false">https://blog.tilderesearch.com/blog/popcorn</guid>
+      <category>Vignette</category>
+      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>One Layer Deeper Competition</title>
       <link>https://blog.tilderesearch.com/blog/one-layer-deeper</link>
