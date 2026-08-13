@@ -12,7 +12,23 @@
       <link>https://www.anthropic.com/research</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Wed, 12 Aug 2026 02:23:06 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2026 02:24:42 +0000</lastBuildDate>
+    <item>
+      <title>Patterns and problems in emerging multiagent systems</title>
+      <link>https://www.anthropic.com/research/multiagent-systems</link>
+      <description>Here, we identify a few examples of behavioral tendencies in current frontier models and show how they can produce unexpected systemic failures, in hopes of starting a conversation about mitigating these risks.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/multiagent-systems</guid>
+      <category>Frontier Red Team</category>
+      <pubDate>Thu, 13 Aug 2026 01:08:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>Reviewing the evidence on worker retraining programs</title>
+      <link>https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs</link>
+      <description>We're sharing a review of the evidence on worker retraining programs, coauthored by independent researcher David Roodman and Anthropic's Maxim Massenkoff.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs</guid>
+      <category>Economic Research</category>
+      <pubDate>Wed, 12 Aug 2026 17:05:00 +0000</pubDate>
+    </item>
     <item>
       <title>Learning more about Claude's mathematical capabilities</title>
       <link>https://www.anthropic.com/research/riemann-zeta</link>
