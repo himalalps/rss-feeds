@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 16 Aug 2026 01:41:09 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2026 01:38:56 +0000</lastBuildDate>
     <item>
       <title>ReplaySSM: Cache SSM Inputs, Not State</title>
       <link>https://dao-lab.ai/blog/2026/06/15/replayssm/</link>
@@ -56,13 +56,6 @@
       <description>FlashAttention-3: Fast and Accurate Attention with Asynchrony and Low-precision</description>
       <guid isPermaLink="false">https://dao-lab.ai/blog/2024/07/11/flash3/</guid>
       <pubDate>Thu, 11 Jul 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>State Space Duality (Mamba-2) Part IV - The Systems</title>
-      <link>https://dao-lab.ai/blog/2024/05/31/mamba2-part4-systems/</link>
-      <description>State Space Duality (Mamba-2) Part IV - The Systems</description>
-      <guid isPermaLink="false">https://dao-lab.ai/blog/2024/05/31/mamba2-part4-systems/</guid>
-      <pubDate>Fri, 31 May 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>State Space Duality (Mamba-2) Part III - The Algorithm</title>
