@@ -7,7 +7,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 17 Aug 2026 01:39:45 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2026 01:34:47 +0000</lastBuildDate>
+    <item>
+      <title>Advanced CUDA Graph Techniques in SGLang</title>
+      <link>https://lmsys.org/blog/2026-08-17-advanced-cuda-graph/</link>
+      <description>CUDA Graphs promise to remove kernel-launch overhead, but getting close to that benefit in a real inference engine requires graphing as much of the workload as possible without sacrificing compatibility, startup time, or memory.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2026-08-17-advanced-cuda-graph/</guid>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>SGLang and Miles Add Day-0 Support for Qwen3.8</title>
       <link>https://lmsys.org/blog/2026-08-12-qwen3-8-day0-support/</link>
