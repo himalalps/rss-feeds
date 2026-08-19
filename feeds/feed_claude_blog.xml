@@ -7,7 +7,21 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 18 Aug 2026 01:35:18 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 01:37:04 +0000</lastBuildDate>
+    <item>
+      <title>The Claude Science product guide</title>
+      <link>https://claude.com/blog/the-claude-science-product-guide</link>
+      <description>The Claude Science product guide</description>
+      <guid isPermaLink="false">https://claude.com/blog/the-claude-science-product-guide</guid>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude on call: How Claude Tag serves as Anthropic’s first responder for CI/CD failures</title>
+      <link>https://claude.com/blog/ai-ci-cd-on-call</link>
+      <description>Claude on call: How Claude Tag serves as Anthropic’s first responder for CI/CD failures</description>
+      <guid isPermaLink="false">https://claude.com/blog/ai-ci-cd-on-call</guid>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>How ABC Legal turned every employee into a builder with Claude Managed Agents</title>
       <link>https://claude.com/blog/how-abc-legal-turned-every-employee-into-a-builder-with-claude-managed-agents</link>
@@ -98,20 +112,6 @@
       <description>Inference hooks: inline data loss prevention for Claude Enterprise</description>
       <guid isPermaLink="false">https://claude.com/blog/claude-enterprise-inference-hooks</guid>
       <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>A guide to cost visibility and control in Claude</title>
-      <link>https://claude.com/blog/a-guide-to-cost-visibility-and-control-in-claude</link>
-      <description>A guide to cost visibility and control in Claude</description>
-      <guid isPermaLink="false">https://claude.com/blog/a-guide-to-cost-visibility-and-control-in-claude</guid>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Bringing MCP 2026-07-28 to Claude</title>
-      <link>https://claude.com/blog/bringing-mcp-2026-07-28-to-claude</link>
-      <description>Bringing MCP 2026-07-28 to Claude</description>
-      <guid isPermaLink="false">https://claude.com/blog/bringing-mcp-2026-07-28-to-claude</guid>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
