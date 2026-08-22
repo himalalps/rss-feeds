@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 21 Aug 2026 01:40:07 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 22 Aug 2026 01:34:16 +0000</lastBuildDate>
     <item>
       <title>ReplaySSM: Cache SSM Inputs, Not State</title>
       <link>https://dao-lab.ai/blog/2026/06/15/replayssm/</link>
@@ -28,13 +28,6 @@
       <description>Gram Newton-Schulz: A Fast, Hardware-Aware Newton-Schulz Algorithm for Muon</description>
       <guid isPermaLink="false">https://dao-lab.ai/blog/2026/03/30/gram-newton-schulz/</guid>
       <pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Mamba-3 Part 2 - Methodological Deep Dive</title>
-      <link>https://dao-lab.ai/blog/2026/03/16/mamba3-part2/</link>
-      <description>Mamba-3 Part 2 - Methodological Deep Dive</description>
-      <guid isPermaLink="false">https://dao-lab.ai/blog/2026/03/16/mamba3-part2/</guid>
-      <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Mamba-3 Part 1</title>
