@@ -12,11 +12,19 @@
       <link>https://www.anthropic.com/research</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Mon, 24 Aug 2026 01:41:18 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 01:36:25 +0000</lastBuildDate>
     <item>
       <title>How Claude is accelerating protein design and analytical chemistry</title>
       <link>https://www.anthropic.com/research/Claude-accelerates-protein-design</link>
-      <description>In this post, we share two results that show how Claude can help life scientists increase the pace of their research. In the first, we tested Claude’s ability to design protein binders from scratch, a key step in creating protein-based drugs that has historically taken a specialist weeks or months per target. In the second example, we evaluated whether Claude can accelerate chemical analysis. Claude Opus 5, a generally available model, was given NMR and LC-MS data (the data that allows chemists to assess the identity and purity of the compounds they work with). </description>
+      <description>In this post, we share two results that show how Claude can help life scientists increase the pace of their research. </description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/Claude-accelerates-protein-design</guid>
+      <category>Science</category>
+      <pubDate>Tue, 18 Aug 2026 14:45:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Claude is accelerating protein design and analytical chemistry</title>
+      <link>https://www.anthropic.com/research/Claude-accelerates-protein-design</link>
+      <description>In this post, we share two results that show how Claude can help life scientists increase the pace of their research. </description>
       <guid isPermaLink="false">https://www.anthropic.com/research/Claude-accelerates-protein-design</guid>
       <category>Science</category>
       <pubDate>Tue, 18 Aug 2026 14:45:00 +0000</pubDate>
@@ -28,6 +36,14 @@
       <guid isPermaLink="false">https://www.anthropic.com/research/multiagent-systems</guid>
       <category>Frontier Red Team</category>
       <pubDate>Thu, 13 Aug 2026 01:08:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>Reviewing the evidence on worker retraining programs</title>
+      <link>https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs</link>
+      <description>We're sharing a review of the evidence on worker retraining programs, coauthored by independent researcher David Roodman and Anthropic's Maxim Massenkoff.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs</guid>
+      <category>Economic Research</category>
+      <pubDate>Wed, 12 Aug 2026 17:05:00 +0000</pubDate>
     </item>
     <item>
       <title>Reviewing the evidence on worker retraining programs</title>
