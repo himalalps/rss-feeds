@@ -12,7 +12,15 @@
       <link>https://www.anthropic.com/research</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Wed, 26 Aug 2026 01:41:05 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 27 Aug 2026 08:36:35 +0000</lastBuildDate>
+    <item>
+      <title>Enabling independent research on how people use Claude</title>
+      <link>https://www.anthropic.com/research/enabling-independent-research</link>
+      <description>Earlier this year, we ran a pilot giving external researchers access to aggregate, real-world Claude usage data. Three research groups designed their own studies for Anthropic Insights, our privacy-preserving analysis tool. In this post, we share high-level results from those studies and what we learned running this pilot.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/enabling-independent-research</guid>
+      <category>Societal Impacts</category>
+      <pubDate>Wed, 26 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>How Claude is accelerating protein design and analytical chemistry</title>
       <link>https://www.anthropic.com/research/Claude-accelerates-protein-design</link>
@@ -854,9 +862,9 @@
       <pubDate>Tue, 25 Feb 2025 20:17:00 +0000</pubDate>
     </item>
     <item>
-      <title>Insights on Crosscoder Model Diffing</title>
+      <title>Insights on crosscoder model diffing</title>
       <link>https://www.anthropic.com/research/crosscoder-model-diffing</link>
-      <description>Insights on Crosscoder Model Diffing</description>
+      <description>Insights on crosscoder model diffing</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/crosscoder-model-diffing</guid>
       <category>Interpretability</category>
       <pubDate>Thu, 20 Feb 2025 23:50:00 +0000</pubDate>
@@ -1134,9 +1142,9 @@
       <pubDate>Tue, 08 Aug 2023 07:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Tracing Model Outputs to the Training Data</title>
+      <title>Tracing model outputs to the training data </title>
       <link>https://www.anthropic.com/research/influence-functions</link>
-      <description>Tracing Model Outputs to the Training Data</description>
+      <description>Tracing model outputs to the training data </description>
       <guid isPermaLink="false">https://www.anthropic.com/research/influence-functions</guid>
       <category>Alignment</category>
       <pubDate>Tue, 08 Aug 2023 07:00:00 +0000</pubDate>
@@ -1166,9 +1174,9 @@
       <pubDate>Thu, 29 Jun 2023 07:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Interpretability Dreams</title>
+      <title>Interpretability dreams</title>
       <link>https://www.anthropic.com/research/interpretability-dreams</link>
-      <description>Interpretability Dreams</description>
+      <description>Interpretability dreams</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/interpretability-dreams</guid>
       <category>Interpretability</category>
       <pubDate>Wed, 24 May 2023 07:00:00 +0000</pubDate>
@@ -1206,9 +1214,9 @@
       <pubDate>Wed, 15 Feb 2023 08:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Superposition, Memorization, and Double Descent</title>
+      <title>Superposition, memorization, and double descent</title>
       <link>https://www.anthropic.com/research/superposition-memorization-and-double-descent</link>
-      <description>Superposition, Memorization, and Double Descent</description>
+      <description>Superposition, memorization, and double descent</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/superposition-memorization-and-double-descent</guid>
       <category>Interpretability</category>
       <pubDate>Thu, 05 Jan 2023 08:00:00 +0000</pubDate>
@@ -1222,7 +1230,7 @@
       <pubDate>Mon, 19 Dec 2022 08:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Constitutional AI: Harmlessness from AI Feedback</title>
+      <title>Constitutional AI: Harmlessness from AI feedback</title>
       <link>https://www.anthropic.com/research/constitutional-ai-harmlessness-from-ai-feedback</link>
       <description>Neural networks pack many concepts into single neurons. This paper shows how and when models represent more features than they have dimensions.</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/constitutional-ai-harmlessness-from-ai-feedback</guid>
@@ -1238,7 +1246,7 @@
       <pubDate>Fri, 04 Nov 2022 07:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Toy Models of Superposition</title>
+      <title>Toy models of superposition</title>
       <link>https://www.anthropic.com/research/toy-models-of-superposition</link>
       <description>Neural networks pack many concepts into single neurons. This paper shows how and when models represent more features than they have dimensions.</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/toy-models-of-superposition</guid>
@@ -1254,9 +1262,9 @@
       <pubDate>Mon, 22 Aug 2022 07:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Language Models (Mostly) Know What They Know</title>
+      <title>Language models (mostly) know what they know</title>
       <link>https://www.anthropic.com/research/language-models-mostly-know-what-they-know</link>
-      <description>Language Models (Mostly) Know What They Know</description>
+      <description>Language models (mostly) know what they know</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/language-models-mostly-know-what-they-know</guid>
       <category>Alignment</category>
       <pubDate>Mon, 11 Jul 2022 07:00:00 +0000</pubDate>
@@ -1272,7 +1280,7 @@
     <item>
       <title>Scaling Laws and Interpretability of Learning from Repeated Data</title>
       <link>https://www.anthropic.com/research/scaling-laws-and-interpretability-of-learning-from-repeated-data</link>
-      <description>Scaling Laws and Interpretability of Learning from Repeated Data</description>
+      <description>\"Induction heads\" complete sequences like [A][B]...[A] → [B]. They may be the mechanistic source of most in-context learning in transformers.</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/scaling-laws-and-interpretability-of-learning-from-repeated-data</guid>
       <category>Interpretability</category>
       <pubDate>Sat, 21 May 2022 07:00:00 +0000</pubDate>
@@ -1280,15 +1288,15 @@
     <item>
       <title>Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback</title>
       <link>https://www.anthropic.com/research/training-a-helpful-and-harmless-assistant-with-reinforcement-learning-from-human-feedback</link>
-      <description>Large models have predictable loss via scaling laws but unpredictable capabilities. This tension has significant policy implications.</description>
+      <description>\"Induction heads\" complete sequences like [A][B]...[A] → [B]. They may be the mechanistic source of most in-context learning in transformers.</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/training-a-helpful-and-harmless-assistant-with-reinforcement-learning-from-human-feedback</guid>
       <category>Alignment</category>
       <pubDate>Tue, 12 Apr 2022 07:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>In-context Learning and Induction Heads</title>
+      <title>In-context learning and induction heads</title>
       <link>https://www.anthropic.com/research/in-context-learning-and-induction-heads</link>
-      <description>Large models have predictable loss via scaling laws but unpredictable capabilities. This tension has significant policy implications.</description>
+      <description>\"Induction heads\" complete sequences like [A][B]...[A] → [B]. They may be the mechanistic source of most in-context learning in transformers.</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/in-context-learning-and-induction-heads</guid>
       <category>Interpretability</category>
       <pubDate>Tue, 08 Mar 2022 08:00:00 +0000</pubDate>
