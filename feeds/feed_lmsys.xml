@@ -7,7 +7,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 27 Aug 2026 08:36:35 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2026 10:49:07 +0000</lastBuildDate>
+    <item>
+      <title>MiniMax-H3 on 8×H200: 1.95× Lossless, Up to 6.24× at 0.76–0.91 SSIM</title>
+      <link>https://lmsys.org/blog/2026-08-27-minimax-h3-h200/</link>
+      <description>We benchmarked [MiniMax-H3](https://github.com/MiniMax-AI) video generation on 8× NVIDIA</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2026-08-27-minimax-h3-h200/</guid>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Qwen3.8-Flash-Next: Day-0 Support in SGLang</title>
       <link>https://lmsys.org/blog/2026-08-26-qwen-flash-next/</link>
