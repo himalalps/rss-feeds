@@ -7,7 +7,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 28 Aug 2026 10:49:07 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 29 Aug 2026 06:36:07 +0000</lastBuildDate>
+    <item>
+      <title>Infer-forge: Harness, Loop, and Graph Engineering Around SGLang</title>
+      <link>https://lmsys.org/blog/2026-08-28-infer-forge-loop-engineering/</link>
+      <description>**Inference optimization may look local in code, but its validity is global.** A kernel, communication path, or scheduling change becomes meaningful only at a specific deployment point defined by the model, workload, SLO, serving topology, runtime version, and accelerator platform. The same patch may improve one point and regress another. Agent-assisted exploration can produce more environments, experiments, measurements, and rejected paths, all of which must remain reproducible.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2026-08-28-infer-forge-loop-engineering/</guid>
+      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>MiniMax-H3 on 8×H200: 1.95× Lossless, Up to 6.24× at 0.76–0.91 SSIM</title>
       <link>https://lmsys.org/blog/2026-08-27-minimax-h3-h200/</link>
