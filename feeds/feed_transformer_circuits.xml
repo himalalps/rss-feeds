@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 30 Aug 2026 04:49:20 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 04:52:47 +0000</lastBuildDate>
     <item>
       <title>Characterizing interference weights in a tiny language modelWe identify interference weights in a 1-layer transformer by measuring their effect on model outputs and loss.</title>
       <link>https://transformer-circuits.pub/2026/interference_effectiveness_helpfulness/index.html</link>
