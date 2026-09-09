@@ -7,7 +7,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 08 Sep 2026 03:59:41 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 04:05:56 +0000</lastBuildDate>
+    <item>
+      <title>Reducing cost and improving performance with Claude Platform</title>
+      <link>https://claude.com/blog/reducing-cost-and-improving-performance-with-claude-platform</link>
+      <description>Reducing cost and improving performance with Claude Platform</description>
+      <guid isPermaLink="false">https://claude.com/blog/reducing-cost-and-improving-performance-with-claude-platform</guid>
+      <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>A guide to the anatomy of effective commerce agents</title>
       <link>https://claude.com/blog/the-anatomy-of-effective-commerce-agents</link>
@@ -97,13 +104,6 @@
       <link>https://claude.com/blog/how-monday-com-transformed-its-platform-into-an-agent-first-product-where-humans-and-agents-collaborate</link>
       <description>How monday.com transformed its platform into an agent-first product where humans and agents collaborate</description>
       <guid isPermaLink="false">https://claude.com/blog/how-monday-com-transformed-its-platform-into-an-agent-first-product-where-humans-and-agents-collaborate</guid>
-      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Claude Code guide for startups</title>
-      <link>https://claude.com/blog/claude-code-guide-for-startups</link>
-      <description>The Claude Code guide for startups</description>
-      <guid isPermaLink="false">https://claude.com/blog/claude-code-guide-for-startups</guid>
       <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
