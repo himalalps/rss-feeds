@@ -12,7 +12,7 @@
       <link>https://www.anthropic.com/research</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Fri, 11 Sep 2026 04:00:42 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 12 Sep 2026 04:02:34 +0000</lastBuildDate>
     <item>
       <title>Measuring tactical intelligence targeting and conventional weapons capabilities of AI models</title>
       <link>https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities</link>
@@ -64,7 +64,7 @@
     <item>
       <title>Enabling independent research on how people use Claude</title>
       <link>https://www.anthropic.com/research/enabling-independent-research</link>
-      <description>Earlier this year, we ran a pilot giving external researchers access to aggregate, real-world Claude usage data. Three research groups designed their own studies for Anthropic Insights, our privacy-preserving analysis tool. In this post, we share high-level results from those studies and what we learned running this pilot.</description>
+      <description>We ran a pilot giving external researchers access to aggregate, real-world Claude usage data. In this post, we share high-level results and what we learned running this pilot.</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/enabling-independent-research</guid>
       <category>Societal Impacts</category>
       <pubDate>Wed, 26 Aug 2026 18:00:00 +0000</pubDate>
@@ -136,7 +136,7 @@
     <item>
       <title>How Canada uses Claude: Findings from the Anthropic Economic Index</title>
       <link>https://www.anthropic.com/research/how-canada-uses-claude</link>
-      <description>How Canada uses Claude: Findings from the Anthropic Economic Index</description>
+      <description>New research into how the values expressed by Claude vary across the top 20 languages on Claude.ai.</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/how-canada-uses-claude</guid>
       <category>Economics</category>
       <pubDate>Tue, 14 Jul 2026 13:00:00 +0000</pubDate>
@@ -144,7 +144,7 @@
     <item>
       <title>Claude’s values across models and languages</title>
       <link>https://www.anthropic.com/research/claude-values-models-languages</link>
-      <description>In project Fetch, we examined how humans can use models to get robots to perform complex tasks. Now, we investigate many models on a large variety of different robotics tasks in simulation, to see how good models are at controlling robots themselves. </description>
+      <description>New research into how the values expressed by Claude vary across the top 20 languages on Claude.ai.</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/claude-values-models-languages</guid>
       <category>Societal Impacts</category>
       <pubDate>Mon, 13 Jul 2026 17:08:00 +0000</pubDate>
@@ -452,6 +452,14 @@
       <guid isPermaLink="false">https://www.anthropic.com/research/persona-selection-model</guid>
       <category>Alignment</category>
       <pubDate>Mon, 23 Feb 2026 11:53:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anthropic Education Report: The AI Fluency Index</title>
+      <link>https://www.anthropic.com/research/AI-fluency-index</link>
+      <description>We tracked 11 observable behaviors across thousands of Claude.ai conversations to build the AI Fluency Index — a baseline for measuring how people collaborate with AI today.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/AI-fluency-index</guid>
+      <category>Announcements</category>
+      <pubDate>Mon, 23 Feb 2026 11:52:00 +0000</pubDate>
     </item>
     <item>
       <title>Measuring AI agent autonomy in practice</title>
