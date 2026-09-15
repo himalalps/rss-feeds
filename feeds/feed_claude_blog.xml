@@ -7,7 +7,35 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 14 Sep 2026 04:21:02 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 04:21:22 +0000</lastBuildDate>
+    <item>
+      <title>How healthcare organizations use Claude Tag</title>
+      <link>https://claude.com/blog/how-healthcare-organizations-use-claude-tag</link>
+      <description>How healthcare organizations use Claude Tag</description>
+      <guid isPermaLink="false">https://claude.com/blog/how-healthcare-organizations-use-claude-tag</guid>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Deploying AI from pilot to production</title>
+      <link>https://claude.com/blog/deploying-ai-from-pilot-to-production</link>
+      <description>Deploying AI from pilot to production</description>
+      <guid isPermaLink="false">https://claude.com/blog/deploying-ai-from-pilot-to-production</guid>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude for Financial Advisors</title>
+      <link>https://claude.com/blog/claude-for-financial-advisors</link>
+      <description>Claude for Financial Advisors</description>
+      <guid isPermaLink="false">https://claude.com/blog/claude-for-financial-advisors</guid>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic</title>
+      <link>https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic</link>
+      <description>Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic</description>
+      <guid isPermaLink="false">https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic</guid>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>What 1,000 small business owners taught us about AI</title>
       <link>https://claude.com/blog/what-1-000-small-business-owners-taught-us-about-ai</link>
@@ -79,39 +107,11 @@
       <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Claude's memory works everywhere, and you decide what's in it</title>
-      <link>https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it</link>
-      <description>Claude's memory works everywhere, and you decide what's in it</description>
-      <guid isPermaLink="false">https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it</guid>
-      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Bain &amp; Company joins the Claude Partner Network as a Global Premier partner</title>
       <link>https://claude.com/blog/bain-company-joins-the-claude-partner-network-as-a-global-premier-partner</link>
       <description>Bain &amp; Company joins the Claude Partner Network as a Global Premier partner</description>
       <guid isPermaLink="false">https://claude.com/blog/bain-company-joins-the-claude-partner-network-as-a-global-premier-partner</guid>
       <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep</title>
-      <link>https://claude.com/blog/how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-every-sales-rep</link>
-      <description>How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep</description>
-      <guid isPermaLink="false">https://claude.com/blog/how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-every-sales-rep</guid>
-      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The AI-Native SDLC playbook</title>
-      <link>https://claude.com/blog/the-ai-native-sdlc-playbook</link>
-      <description>The AI-Native SDLC playbook</description>
-      <guid isPermaLink="false">https://claude.com/blog/the-ai-native-sdlc-playbook</guid>
-      <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders</title>
-      <link>https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders</link>
-      <description>Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders</description>
-      <guid isPermaLink="false">https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders</guid>
-      <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
