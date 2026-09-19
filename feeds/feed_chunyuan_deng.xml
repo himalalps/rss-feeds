@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Chunyuan Deng — Blog</title>
+    <link>https://charlesdddd.github.io/blog/archive.html</link>
+    <description>Blog posts from Chunyuan Deng. Publication dates are approximate: the archive provides only the month, represented here as its first day in UTC.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 19 Sep 2026 11:05:25 +0000</lastBuildDate>
+    <item>
+      <title>Reading a Pretraining Run</title>
+      <link>https://charlesdddd.github.io/blog/reading-a-pretraining-run.html</link>
+      <description>What to watch in a large run and in what order: definitions, aggregation semantics, sampling cadence, and a priority for every optimization, tensor, routing, modality, system, and evaluation metric.</description>
+      <guid isPermaLink="false">https://charlesdddd.github.io/blog/reading-a-pretraining-run.html</guid>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Transformers Are (Naively) Looped Transformers, Horizontally</title>
+      <link>https://charlesdddd.github.io/blog/transformers-are-looped.html</link>
+      <description>The standard Transformer applies the same weights at every sequence position — making it a horizontally looped, time-recurrent architecture. The natural generalization assigns per-position weight matrices. TTT realizes this via gradient descent, and turns out to be LocoProp applied along the time axis.</description>
+      <guid isPermaLink="false">https://charlesdddd.github.io/blog/transformers-are-looped.html</guid>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Rethinking Key-Value Relationships in Linear Attention</title>
+      <link>https://charlesdddd.github.io/blog/linear-attention-key-value.html</link>
+      <description>We tested how DeltaNet handles diverse key-value relationships from identity to exponentials, scaling up to 32,000 tokens. Under standard normalized conditions, DeltaNet stays remarkably stable whether values come from k² or e^k. Information theory explains the bounds: DeltaNet retains 99.6% of information for identity but only 1.2% for exponentials, revealing fundamental compression limits.</description>
+      <guid isPermaLink="false">https://charlesdddd.github.io/blog/linear-attention-key-value.html</guid>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The ABC Research Mindset</title>
+      <link>https://charlesdddd.github.io/blog/abc-research-mindset.html</link>
+      <description>A simple debiasing trick for judging new research ideas. By reordering the timeline of proposals, we can strip away the novelty premium and compare ideas on their actual merits. Applied to latent reasoning and transformer architecture debates.</description>
+      <guid isPermaLink="false">https://charlesdddd.github.io/blog/abc-research-mindset.html</guid>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
