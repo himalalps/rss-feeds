@@ -7,13 +7,20 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 18 Sep 2026 04:07:18 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 19 Sep 2026 04:04:13 +0000</lastBuildDate>
     <item>
       <title>SGLang and Miles Add Day-0 Support for DeepSeek-V4.1</title>
       <link>https://lmsys.org/blog/2026-09-10-deepseek-v41/</link>
       <description>DeepSeek-V4.1 introduces several architecture choices that shape the serving stack.</description>
       <guid isPermaLink="false">https://lmsys.org/blog/2026-09-10-deepseek-v41/</guid>
       <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Running DeepSeek-V4-Flash and Kimi-K3 on Consumer Hardware with SSD Expert Pack</title>
+      <link>https://lmsys.org/blog/2026-08-29-sglang-ssd-expert-pack/</link>
+      <description>&gt; SGLang brings the core idea of SSD-LLaMA to MoE inference: keep routed experts that do not fit in VRAM and host RAM on an NVMe SSD, load only the experts selected by the router, and use Expert Pack layout, direct I/O, pinned staging, asynchronous H2D transfers, and a GPU cache to turn SSD capacity into a practical backing tier.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2026-08-29-sglang-ssd-expert-pack/</guid>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Infer-forge: Harness, Loop, and Graph Engineering Around SGLang</title>
