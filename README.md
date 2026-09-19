@@ -20,8 +20,13 @@ RSS feeds in newest first order.
 | [People Daily](https://plink.anyfeeder.com/people-daily) | [feed_people_daily.xml](https://raw.githubusercontent.com/himalalps/rss-feeds/main/feeds/feed_people_daily.xml) |
 | [LMSYS Blog](https://lmsys.org/blog/) | [feed_lmsys.xml](https://raw.githubusercontent.com/himalalps/rss-feeds/main/feeds/feed_lmsys.xml) |
 | [Tilde Research](https://tilderesearch.com/research) | [feed_tilde_research.xml](https://raw.githubusercontent.com/himalalps/rss-feeds/main/feeds/feed_tilde_research.xml) |
+| [Chunyuan Deng](https://charlesdddd.github.io/blog/archive.html) | [feed_chunyuan_deng.xml](https://raw.githubusercontent.com/himalalps/rss-feeds/main/feeds/feed_chunyuan_deng.xml) |
 
 ## RSS Feed Generator
+
+Chunyuan Deng's feed uses the archive's default English titles and summaries.
+The source dates contain only a month and year; RSS publication dates use the
+first day of that month at midnight UTC as an approximation.
 
 The goal of this project is to generate rss (feed.xml) files from web pages (\*.html) that contain blogs or updates but do not provide a subscribe button or a default RSS feed.
 
