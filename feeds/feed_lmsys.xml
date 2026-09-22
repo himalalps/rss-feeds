@@ -7,7 +7,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 21 Sep 2026 04:21:02 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2026 04:16:42 +0000</lastBuildDate>
+    <item>
+      <title>Accelerating Long-Context and Agentic Inference with NVFP4 KV Cache</title>
+      <link>https://lmsys.org/blog/2026-09-16-nvfp4-kv-cache/</link>
+      <description>The KV cache is a fundamental building block of the modern LLM inference system. The context from multiple conversation rounds in agent sessions is cached as *keys* and *values* (KV) in GPU memory, allowing the model to reuse them during subsequent decoding steps. When generating each new token, the new query token attends to the relevant past KV tokens from the KV cache. As context windows grow, storing and reading KV cache puts increasing pressure on GPU memory capacity and bandwidth.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2026-09-16-nvfp4-kv-cache/</guid>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>SGLang and Miles Add Day-0 Support for DeepSeek-V4.1</title>
       <link>https://lmsys.org/blog/2026-09-10-deepseek-v41/</link>
