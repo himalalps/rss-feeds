@@ -7,7 +7,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 22 Sep 2026 04:16:47 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2026 04:13:48 +0000</lastBuildDate>
+    <item>
+      <title>What a task costs on Opus 5.5</title>
+      <link>https://claude.com/blog/what-a-task-costs-on-opus-5-5</link>
+      <description>What a task costs on Opus 5.5</description>
+      <guid isPermaLink="false">https://claude.com/blog/what-a-task-costs-on-opus-5-5</guid>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5</title>
       <link>https://claude.com/blog/working-at-the-frontier-how-balyasny-asset-management-evaluates-and-governs-claude-fable-5</link>
@@ -104,13 +111,6 @@
       <link>https://claude.com/blog/the-anatomy-of-effective-commerce-agents</link>
       <description>A guide to the anatomy of effective commerce agents</description>
       <guid isPermaLink="false">https://claude.com/blog/the-anatomy-of-effective-commerce-agents</guid>
-      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Building commerce agents with Claude</title>
-      <link>https://claude.com/blog/claude-for-commerce-agents</link>
-      <description>Building commerce agents with Claude</description>
-      <guid isPermaLink="false">https://claude.com/blog/claude-for-commerce-agents</guid>
       <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
