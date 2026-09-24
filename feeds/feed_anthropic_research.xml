@@ -12,7 +12,15 @@
       <link>https://www.anthropic.com/research</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Wed, 23 Sep 2026 04:13:12 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 04:08:46 +0000</lastBuildDate>
+    <item>
+      <title> Claude discovers a novel enzyme system with CRISPR-like repeats</title>
+      <link>https://www.anthropic.com/research/claude-discovers-novel-enzyme-system</link>
+      <description>We’re announcing a new life sciences research group and laboratory at Anthropic. This post introduces the team behind this work and shares early results in which Claude discovered a novel enzyme system with properties reminiscent of CRISPR, with only high-level direction from our scientists.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/claude-discovers-novel-enzyme-system</guid>
+      <category>Science</category>
+      <pubDate>Wed, 23 Sep 2026 16:06:00 +0000</pubDate>
+    </item>
     <item>
       <title>How Claude is uplifting biomolecular modeling</title>
       <link>https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling</link>
@@ -76,14 +84,6 @@
       <guid isPermaLink="false">https://www.anthropic.com/research/enabling-independent-research</guid>
       <category>Societal Impacts</category>
       <pubDate>Wed, 26 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How Claude is accelerating protein design and analytical chemistry</title>
-      <link>https://www.anthropic.com/research/Claude-accelerates-protein-design</link>
-      <description>In this post, we share two results that show how Claude can help life scientists increase the pace of their research. </description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/Claude-accelerates-protein-design</guid>
-      <category>Science</category>
-      <pubDate>Tue, 18 Aug 2026 14:45:00 +0000</pubDate>
     </item>
     <item>
       <title>How Claude is accelerating protein design and analytical chemistry</title>
