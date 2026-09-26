@@ -7,7 +7,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 25 Sep 2026 04:22:50 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 26 Sep 2026 04:26:37 +0000</lastBuildDate>
+    <item>
+      <title>Scaling JEV-like Decision Models with SGLang</title>
+      <link>https://lmsys.org/blog/2026-09-25-sglang-decision-models/</link>
+      <description>A customer asks whether an order has shipped. An agent already has the order ID and three possible next actions: query the order-status service, search general delivery-policy documentation, or ask the customer for the ID. Before it can act, it needs to choose.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2026-09-25-sglang-decision-models/</guid>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Accelerating Long-Context and Agentic Inference with NVFP4 KV Cache</title>
       <link>https://lmsys.org/blog/2026-09-16-nvfp4-kv-cache/</link>
