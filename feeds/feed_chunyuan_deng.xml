@@ -7,14 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 28 Sep 2026 04:46:18 +0000</lastBuildDate>
-    <item>
-      <title>Reading a Pretraining Run</title>
-      <link>https://charlesdddd.github.io/blog/reading-a-pretraining-run.html</link>
-      <description>What to watch in a large run and in what order: definitions, aggregation semantics, sampling cadence, and a priority for every optimization, tensor, routing, modality, system, and evaluation metric.</description>
-      <guid isPermaLink="false">https://charlesdddd.github.io/blog/reading-a-pretraining-run.html</guid>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Tue, 29 Sep 2026 05:12:38 +0000</lastBuildDate>
     <item>
       <title>Transformers Are (Naively) Looped Transformers, Horizontally</title>
       <link>https://charlesdddd.github.io/blog/transformers-are-looped.html</link>
