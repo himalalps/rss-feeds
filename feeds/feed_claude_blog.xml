@@ -7,7 +7,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 29 Sep 2026 05:12:22 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 04:59:43 +0000</lastBuildDate>
+    <item>
+      <title>Agents you can coach: how Asana builds human-agent teams with Claude</title>
+      <link>https://claude.com/blog/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude</link>
+      <description>Agents you can coach: how Asana builds human-agent teams with Claude</description>
+      <guid isPermaLink="false">https://claude.com/blog/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude</guid>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Giving companies more control over their AI agents, with NVIDIA</title>
       <link>https://claude.com/blog/giving-companies-more-control-over-their-ai-agents-with-nvidia</link>
@@ -98,13 +105,6 @@
       <description>Building an AI-native revenue organization</description>
       <guid isPermaLink="false">https://claude.com/blog/building-an-ai-native-revenue-organization</guid>
       <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Claude for Financial Advisors</title>
-      <link>https://claude.com/blog/claude-for-financial-advisors</link>
-      <description>Claude for Financial Advisors</description>
-      <guid isPermaLink="false">https://claude.com/blog/claude-for-financial-advisors</guid>
-      <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic</title>

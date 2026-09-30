@@ -12,7 +12,23 @@
       <link>https://www.anthropic.com/research</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 29 Sep 2026 05:13:09 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 05:00:15 +0000</lastBuildDate>
+    <item>
+      <title>What do you want from AI? </title>
+      <link>https://www.anthropic.com/research/your-thoughts-on-ai</link>
+      <description>We’re launching a new study using Anthropic Interviewer to learn from your experiences with AI, and we invite you to participate. </description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/your-thoughts-on-ai</guid>
+      <category>Societal Impacts</category>
+      <pubDate>Tue, 29 Sep 2026 16:39:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>GLM-5.3 and the spread of advanced cyber capabilities</title>
+      <link>https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities</link>
+      <description>Like Claude Mythos Preview, GLM-5.3 has strong capabilities for autonomously building end-to-end cyber exploits. But GLM-5.3 is unlike other frontier models in that it has been released without meaningful safeguards to limit misuse.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities</guid>
+      <category>Frontier Red Team</category>
+      <pubDate>Tue, 29 Sep 2026 15:46:00 +0000</pubDate>
+    </item>
     <item>
       <title>Yes, Claude can do Nine Loops</title>
       <link>https://www.anthropic.com/research/yes-claude-can-do-nine-loops</link>
