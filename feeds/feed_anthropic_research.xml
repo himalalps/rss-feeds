@@ -12,7 +12,15 @@
       <link>https://www.anthropic.com/research</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Wed, 30 Sep 2026 05:00:15 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 05:14:06 +0000</lastBuildDate>
+    <item>
+      <title>What work can robots do?</title>
+      <link>https://www.anthropic.com/research/what-work-can-robots-do</link>
+      <description>We built an index of how well today’s robots can perform US job tasks. Robots can already do three-quarters of physical tasks, mostly in limited settings, but are cost-competitive for just 0.3% of them.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/what-work-can-robots-do</guid>
+      <category>Economics</category>
+      <pubDate>Wed, 30 Sep 2026 16:01:00 +0000</pubDate>
+    </item>
     <item>
       <title>What do you want from AI? </title>
       <link>https://www.anthropic.com/research/your-thoughts-on-ai</link>
