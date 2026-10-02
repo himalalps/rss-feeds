@@ -12,7 +12,15 @@
       <link>https://www.anthropic.com/research</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Thu, 01 Oct 2026 05:14:06 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 05:02:15 +0000</lastBuildDate>
+    <item>
+      <title>Claude-shaped science</title>
+      <link>https://www.anthropic.com/research/claude-shaped-science</link>
+      <description>Guest author Prof. Matthew Schwartz describes what happened when he stopped fighting Claude and allowed Claude to find “Claude-shaped” problems: ones best suited to the capabilities of the current generation of LLM tools. This led him to build BootLoops, a toolkit for exact calculations in quantitative science, which he has been applying across scientific fields alongside experts.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/claude-shaped-science</guid>
+      <category>Science</category>
+      <pubDate>Thu, 01 Oct 2026 14:02:00 +0000</pubDate>
+    </item>
     <item>
       <title>What work can robots do?</title>
       <link>https://www.anthropic.com/research/what-work-can-robots-do</link>
