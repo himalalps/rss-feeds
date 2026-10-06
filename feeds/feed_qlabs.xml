@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Q — Research</title>
+    <link>https://qlabs.sh/</link>
+    <description>Research links from Q (qlabs.sh). Publication dates are omitted because the homepage does not provide them.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 06 Oct 2026 03:14:41 +0000</lastBuildDate>
+    <item>
+      <title>Approximating Solomonoff Induction</title>
+      <link>https://qlabs.sh/research/</link>
+      <description>Solving generalization: Approximating Solomonoff Induction</description>
+      <guid isPermaLink="false">https://qlabs.sh/research/</guid>
+      <category>Solving generalization</category>
+    </item>
+    <item>
+      <title>NanoGPT Slowrun</title>
+      <link>https://qlabs.sh/slowrun/</link>
+      <description>Pretraining data efficiency: NanoGPT Slowrun</description>
+      <guid isPermaLink="false">https://qlabs.sh/slowrun/</guid>
+      <category>Pretraining data efficiency</category>
+    </item>
+    <item>
+      <title>13x data efficiency with hyper-epoch pretraining</title>
+      <link>https://arxiv.org/abs/2606.03938</link>
+      <description>Pretraining data efficiency: 13x data efficiency with hyper-epoch pretraining</description>
+      <guid isPermaLink="false">https://arxiv.org/abs/2606.03938</guid>
+      <category>Pretraining data efficiency</category>
+    </item>
+    <item>
+      <title>Computational depth is all you need: towards 10^7-layer neural nets</title>
+      <link>https://qlabs.sh/research/depth/</link>
+      <description>Scaling laws and new scaling axes: Computational depth is all you need: towards 10^7-layer neural nets</description>
+      <guid isPermaLink="false">https://qlabs.sh/research/depth/</guid>
+      <category>Scaling laws and new scaling axes</category>
+    </item>
+    <item>
+      <title>Dust: Pretraining transformers without backpropagation</title>
+      <link>https://qlabs.sh/research/dust</link>
+      <description>Replacing backprop/gradient descent: Dust: Pretraining transformers without backpropagation</description>
+      <guid isPermaLink="false">https://qlabs.sh/research/dust</guid>
+      <category>Replacing backprop/gradient descent</category>
+    </item>
+  </channel>
+</rss>

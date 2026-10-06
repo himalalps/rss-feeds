@@ -2,7 +2,7 @@
 
 Forked from https://github.com/Olshansk/rss-feeds
 
-RSS feeds in newest first order.
+RSS feeds in newest first order when publication dates are available.
 
 ## tl;dr Available RSS Feeds <!-- omit in toc -->
 
@@ -21,8 +21,13 @@ RSS feeds in newest first order.
 | [LMSYS Blog](https://lmsys.org/blog/) | [feed_lmsys.xml](https://raw.githubusercontent.com/himalalps/rss-feeds/main/feeds/feed_lmsys.xml) |
 | [Tilde Research](https://tilderesearch.com/research) | [feed_tilde_research.xml](https://raw.githubusercontent.com/himalalps/rss-feeds/main/feeds/feed_tilde_research.xml) |
 | [Chunyuan Deng](https://charlesdddd.github.io/blog/archive.html) | [feed_chunyuan_deng.xml](https://raw.githubusercontent.com/himalalps/rss-feeds/main/feeds/feed_chunyuan_deng.xml) |
+| [Q Research](https://qlabs.sh/) | [feed_qlabs.xml](https://raw.githubusercontent.com/himalalps/rss-feeds/main/feeds/feed_qlabs.xml) |
 
 ## RSS Feed Generator
+
+Q's feed includes the research links listed on its homepage, including external
+papers, and excludes secondary social links. Entries retain homepage order and
+omit publication dates because the source does not provide them.
 
 Chunyuan Deng's feed uses the archive's default English titles and summaries.
 The source dates contain only a month and year; RSS publication dates use the
