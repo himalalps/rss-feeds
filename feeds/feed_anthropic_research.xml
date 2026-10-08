@@ -12,7 +12,7 @@
       <link>https://www.anthropic.com/research</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Wed, 07 Oct 2026 05:20:47 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 05:29:51 +0000</lastBuildDate>
     <item>
       <title>Claude-shaped science</title>
       <link>https://www.anthropic.com/research/claude-shaped-science</link>
@@ -32,7 +32,15 @@
     <item>
       <title>What do you want from AI? </title>
       <link>https://www.anthropic.com/research/your-thoughts-on-ai</link>
-      <description>We’re launching a new study using Anthropic Interviewer to learn from your experiences with AI, and we invite you to participate. </description>
+      <description>We’re launching a new study using Anthropic Interviewer to learn from your experiences with AI. </description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/your-thoughts-on-ai</guid>
+      <category>Societal Impacts</category>
+      <pubDate>Tue, 29 Sep 2026 16:39:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>What do you want from AI? </title>
+      <link>https://www.anthropic.com/research/your-thoughts-on-ai</link>
+      <description>We’re launching a new study using Anthropic Interviewer to learn from your experiences with AI. </description>
       <guid isPermaLink="false">https://www.anthropic.com/research/your-thoughts-on-ai</guid>
       <category>Societal Impacts</category>
       <pubDate>Tue, 29 Sep 2026 16:39:00 +0000</pubDate>
@@ -62,9 +70,17 @@
       <pubDate>Thu, 24 Sep 2026 18:37:00 +0000</pubDate>
     </item>
     <item>
+      <title>Project Swap: What happens when agents trade for us?</title>
+      <link>https://www.anthropic.com/research/project-swap</link>
+      <description>To see what works and what breaks when agents are sent into a market, we made a miniature market of Claudes.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/project-swap</guid>
+      <category>Economics</category>
+      <pubDate>Thu, 24 Sep 2026 18:37:00 +0000</pubDate>
+    </item>
+    <item>
       <title> Claude discovers a novel enzyme system with CRISPR-like repeats</title>
       <link>https://www.anthropic.com/research/claude-discovers-novel-enzyme-system</link>
-      <description>We’re announcing a new life sciences research group and laboratory at Anthropic. This post introduces the team behind this work and shares early results in which Claude discovered a novel enzyme system with properties reminiscent of CRISPR, with only high-level direction from our scientists.</description>
+      <description>We’re announcing a new life sciences research group and laboratory at Anthropic. This post introduces the team behind this work and shares early results in which Claude discovered a novel enzyme system with properties reminiscent of CRISPR.</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/claude-discovers-novel-enzyme-system</guid>
       <category>Science</category>
       <pubDate>Wed, 23 Sep 2026 16:06:00 +0000</pubDate>
@@ -92,22 +108,6 @@
       <guid isPermaLink="false">https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents</guid>
       <category>Alignment</category>
       <pubDate>Wed, 09 Sep 2026 15:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>An alignment assessment of recent cybersecurity incidents</title>
-      <link>https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents</link>
-      <description>We present an alignment assessment of four incidents in which Claude models gained unauthorized access to real third-party systems. </description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents</guid>
-      <category>Alignment</category>
-      <pubDate>Wed, 09 Sep 2026 15:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Formalizing Fermat's Last Theorem </title>
-      <link>https://www.anthropic.com/research/formalizing-fermats-last-theorem</link>
-      <description>We are sharing the first complete computer-checked proof of Fermat’s Last Theorem. Claude worked largely autonomously over 11 days to write the proof in the Lean programming language.</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/formalizing-fermats-last-theorem</guid>
-      <category>Science</category>
-      <pubDate>Fri, 04 Sep 2026 15:27:00 +0000</pubDate>
     </item>
     <item>
       <title>Formalizing Fermat's Last Theorem </title>
