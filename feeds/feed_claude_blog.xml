@@ -7,25 +7,25 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 08 Oct 2026 05:29:20 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 05:33:07 +0000</lastBuildDate>
     <item>
       <title>Claude Code in the cloud: a field guide to cloud sessions</title>
       <link>https://claude.dev/blog/claude-code-in-the-cloud/</link>
-      <description>Introducing Claude Haiku 5.5: the cheapest, fastest, and most capable small model we’ve ever released.</description>
+      <description>Bradley Axen, Head of AI Capabilities at Block, on how his team evaluates new large language models, how Claude Fable 5 orchestrates company-wide code migrations, and why safeguards are a critical part of deploying frontier intelligence responsibly, at scale.</description>
       <guid isPermaLink="false">https://claude.dev/blog/claude-code-in-the-cloud/</guid>
       <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Getting started with Claude Code mods</title>
       <link>https://claude.dev/blog/getting-started-with-claude-code-mods/</link>
-      <description>Introducing Claude Haiku 5.5: the cheapest, fastest, and most capable small model we’ve ever released.</description>
+      <description>Bradley Axen, Head of AI Capabilities at Block, on how his team evaluates new large language models, how Claude Fable 5 orchestrates company-wide code migrations, and why safeguards are a critical part of deploying frontier intelligence responsibly, at scale.</description>
       <guid isPermaLink="false">https://claude.dev/blog/getting-started-with-claude-code-mods/</guid>
       <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Automating eval design and hillclimbing with Claude</title>
       <link>https://claude.dev/blog/automating-eval-design-and-hillclimbing/</link>
-      <description>Principles for designing evals and hillclimbing against them without fooling yourself, and how the claude-api skill's build-eval and hillclimb commands put them to work.</description>
+      <description>Bradley Axen, Head of AI Capabilities at Block, on how his team evaluates new large language models, how Claude Fable 5 orchestrates company-wide code migrations, and why safeguards are a critical part of deploying frontier intelligence responsibly, at scale.</description>
       <guid isPermaLink="false">https://claude.dev/blog/automating-eval-design-and-hillclimbing/</guid>
       <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
     </item>
