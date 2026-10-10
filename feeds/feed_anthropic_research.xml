@@ -12,11 +12,27 @@
       <link>https://www.anthropic.com/research</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Fri, 09 Oct 2026 05:34:07 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 10 Oct 2026 05:18:09 +0000</lastBuildDate>
+    <item>
+      <title>Investigating unintended model actions in our evaluations and internal use</title>
+      <link>https://www.anthropic.com/research/investigating-unintended-model-actions</link>
+      <description>This report describes examples of unintended model actions we’ve observed during evaluations and internal use of Claude. </description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/investigating-unintended-model-actions</guid>
+      <category>Alignment</category>
+      <pubDate>Fri, 09 Oct 2026 16:09:00 +0000</pubDate>
+    </item>
     <item>
       <title> The missing map of the sky</title>
       <link>https://www.anthropic.com/research/the-missing-map-of-the-sky</link>
-      <description>Astronomers have mapped the entire sky in visible light, infrared, radio, X-rays, and gamma rays. No one, however, had created a complete map of the sky in ultraviolet (UV) light. Here, Brice Ménard, an astrophysicist at Johns Hopkins University and a researcher at Anthropic, explains how he worked with Claude Science to produce the first complete map of the sky in UV light.</description>
+      <description>Brice Ménard, an astrophysicist at Johns Hopkins University and a researcher at Anthropic, explains how he worked with Claude Science to produce the first complete map of the sky in UV light.</description>
+      <guid isPermaLink="false">https://www.anthropic.com/research/the-missing-map-of-the-sky</guid>
+      <category>Science</category>
+      <pubDate>Thu, 08 Oct 2026 20:59:00 +0000</pubDate>
+    </item>
+    <item>
+      <title> The missing map of the sky</title>
+      <link>https://www.anthropic.com/research/the-missing-map-of-the-sky</link>
+      <description>Brice Ménard, an astrophysicist at Johns Hopkins University and a researcher at Anthropic, explains how he worked with Claude Science to produce the first complete map of the sky in UV light.</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/the-missing-map-of-the-sky</guid>
       <category>Science</category>
       <pubDate>Thu, 08 Oct 2026 20:59:00 +0000</pubDate>
@@ -92,14 +108,6 @@
       <guid isPermaLink="false">https://www.anthropic.com/research/project-swap</guid>
       <category>Economics</category>
       <pubDate>Thu, 24 Sep 2026 18:37:00 +0000</pubDate>
-    </item>
-    <item>
-      <title> Claude discovers a novel enzyme system with CRISPR-like repeats</title>
-      <link>https://www.anthropic.com/research/claude-discovers-novel-enzyme-system</link>
-      <description>We’re announcing a new life sciences research group and laboratory at Anthropic. This post introduces the team behind this work and shares early results in which Claude discovered a novel enzyme system with properties reminiscent of CRISPR.</description>
-      <guid isPermaLink="false">https://www.anthropic.com/research/claude-discovers-novel-enzyme-system</guid>
-      <category>Science</category>
-      <pubDate>Wed, 23 Sep 2026 16:06:00 +0000</pubDate>
     </item>
     <item>
       <title>How Claude is uplifting biomolecular modeling</title>

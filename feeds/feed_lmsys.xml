@@ -7,7 +7,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 09 Oct 2026 05:33:27 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 10 Oct 2026 05:17:36 +0000</lastBuildDate>
+    <item>
+      <title>SGLang and Miles on NVIDIA Vera Rubin</title>
+      <link>https://lmsys.org/blog/2026-10-09-vera-rubin/</link>
+      <description>We had early access to two NVIDIA Vera Rubin nodes (8 GPUs) and used them to bring SGLang and Miles up on the platform: SGLang for inference and Miles for RL training. On the inference side, we tuned SGLang for Kimi K3 NVFP4: this post covers what we changed in the attention, MoE/communication and KDA kernels, and how much each change bought. On the training side, Miles, which uses SGLang for rollout and Megatron for training, runs RL end to end on Vera Rubin out of the box, including agentic RL with sandboxes on the Vera CPU.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2026-10-09-vera-rubin/</guid>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Scaling JEV-like Decision Models with SGLang</title>
       <link>https://lmsys.org/blog/2026-09-25-sglang-decision-models/</link>
