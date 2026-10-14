@@ -12,7 +12,7 @@
       <link>https://www.anthropic.com/research</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 13 Oct 2026 06:21:04 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 04:22:06 +0000</lastBuildDate>
     <item>
       <title>AI models may be capable of self-replicating without access to a datacenter</title>
       <link>https://www.anthropic.com/research/self-replicating-ai</link>
@@ -26,7 +26,7 @@
       <link>https://www.anthropic.com/research/distillation-defenses</link>
       <description>Illicit distillation allows model developers to copy frontier AI capabilities without creating proportionally robust safeguards. Here, we describe how we’ve reduced the rate of distillation by more than 90%.</description>
       <guid isPermaLink="false">https://www.anthropic.com/research/distillation-defenses</guid>
-      <category>Research</category>
+      <category>Policy</category>
       <pubDate>Mon, 12 Oct 2026 09:30:00 +0000</pubDate>
     </item>
     <item>
