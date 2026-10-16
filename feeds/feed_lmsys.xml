@@ -7,7 +7,21 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 14 Oct 2026 04:21:30 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 04:00:21 +0000</lastBuildDate>
+    <item>
+      <title>SGLang Adds Day-0 Support for NVIDIA Nemotron 3.5 Super VL</title>
+      <link>https://lmsys.org/blog/2026-10-15-nvidia-nemotron-3-5-super-vl/</link>
+      <description>Always-on AI agents must do more than generate text. They need to interpret visual information, reason across long-running tasks, and use tools reliably across documents, applications, and video.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2026-10-15-nvidia-nemotron-3-5-super-vl/</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>SGLang and Miles Add Day-0 Support for Muse Spark Open</title>
+      <link>https://lmsys.org/blog/2026-10-15-meta-muse-spark-open/</link>
+      <description>- **Model:** Muse Spark Open is an open-weight multimodal mixture-of-experts model. It uses an **816B-parameter text transformer backbone**, with approximately **42 billion active parameters per token**. It accepts **text, image, video, and audio inputs** and supports a **1M-token context window**. Checkpoints are available in **NVFP4 and BF16**.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2026-10-15-meta-muse-spark-open/</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>SGLang and Miles on NVIDIA Vera Rubin</title>
       <link>https://lmsys.org/blog/2026-10-09-vera-rubin/</link>
