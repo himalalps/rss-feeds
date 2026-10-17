@@ -7,7 +7,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 16 Oct 2026 04:00:21 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 03:51:03 +0000</lastBuildDate>
+    <item>
+      <title>SGLang Powers Beam in Production</title>
+      <link>https://lmsys.org/blog/2026-10-16-beam/</link>
+      <description>Reflection’s Beam is a 501B-parameter mixture-of-experts model with 23B active parameters per token, built for software engineering and long-horizon agentic tasks. With its planned Apache 2.0 release, Beam is designed for developers to deploy and build on across the runtimes, frameworks, and coding harnesses they already use.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2026-10-16-beam/</guid>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>SGLang Adds Day-0 Support for NVIDIA Nemotron 3.5 Super VL</title>
       <link>https://lmsys.org/blog/2026-10-15-nvidia-nemotron-3-5-super-vl/</link>
