@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 19 Oct 2026 04:06:21 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 04:19:07 +0000</lastBuildDate>
     <item>
       <title>Transformers Are (Naively) Looped Transformers, Horizontally</title>
       <link>https://charlesdddd.github.io/blog/transformers-are-looped.html</link>

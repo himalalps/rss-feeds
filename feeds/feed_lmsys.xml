@@ -7,7 +7,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 19 Oct 2026 04:06:20 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 04:19:35 +0000</lastBuildDate>
+    <item>
+      <title>SGLang Low-Latency Mode: Kernels and Runtime</title>
+      <link>https://lmsys.org/blog/2026-10-18-sglang-low-latency-mode/</link>
+      <description>.article:has(#kernels-for-low-latency-inference) h2 { font-size: 30px; font-weight: 700; margin-top: 3rem; padding-top: 0; margin-bottom: 1rem; }</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2026-10-18-sglang-low-latency-mode/</guid>
+      <pubDate>Sun, 18 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>SGLang Powers Beam in Production</title>
       <link>https://lmsys.org/blog/2026-10-16-beam/</link>
