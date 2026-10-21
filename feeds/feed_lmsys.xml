@@ -7,7 +7,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 20 Oct 2026 04:19:35 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 04:08:14 +0000</lastBuildDate>
+    <item>
+      <title>SGLang-TorchTPU: PyTorch-Native Production Serving on TPUs</title>
+      <link>https://lmsys.org/blog/2026-10-20-sglang-torchtpu/</link>
+      <description>- SGLang-TorchTPU is open source today, built by the SGLang team at RadixArk in collaboration with Google and Meta.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2026-10-20-sglang-torchtpu/</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>SGLang Low-Latency Mode: Kernels and Runtime</title>
       <link>https://lmsys.org/blog/2026-10-18-sglang-low-latency-mode/</link>
