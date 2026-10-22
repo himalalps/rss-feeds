@@ -7,11 +7,18 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 21 Oct 2026 04:08:14 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 04:08:37 +0000</lastBuildDate>
+    <item>
+      <title>Elastic Expert Parallelism Scaling in SGLang: Growing a Live MoE Deployment with NIXL</title>
+      <link>https://lmsys.org/blog/2026-10-21-elastic-ep-scaling-nixl/</link>
+      <description>Inference deployments operate under changing load and must adapt their capacity while maintaining throughput and latency targets. For large Mixture-of-Experts (MoE) models, the standard options are horizontal scaling, which adds another complete replica, and vertical scaling, which restarts the deployment with a wider expert-parallel topology.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2026-10-21-elastic-ep-scaling-nixl/</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>SGLang-TorchTPU: PyTorch-Native Production Serving on TPUs</title>
       <link>https://lmsys.org/blog/2026-10-20-sglang-torchtpu/</link>
-      <description>- SGLang-TorchTPU is open source today, built by the SGLang team at RadixArk in collaboration with Google and Meta.</description>
+      <description>- [SGLang-TorchTPU](https://github.com/sgl-project/sglang-torchtpu) is open source today, built by the SGLang team at RadixArk in collaboration with Google and Meta.</description>
       <guid isPermaLink="false">https://lmsys.org/blog/2026-10-20-sglang-torchtpu/</guid>
       <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
     </item>
