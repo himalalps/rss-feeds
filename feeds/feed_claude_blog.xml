@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 25 Oct 2026 04:05:33 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 04:09:40 +0000</lastBuildDate>
     <item>
       <title>How the Claude Code team does code review</title>
       <link>https://claude.dev/blog/solving-code-review-at-anthropic/</link>
