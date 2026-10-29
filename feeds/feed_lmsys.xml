@@ -7,7 +7,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 28 Oct 2026 05:00:15 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 05:13:15 +0000</lastBuildDate>
+    <item>
+      <title>Training SWE agents with Miles on MI355X: taming long-tail trajectories and complex sandbox coordination</title>
+      <link>https://lmsys.org/blog/2026-10-22-miles-mi355x-agentic-rl/</link>
+      <description>We trained Qwen3-30B-A3B-Instruct with fully asynchronous agentic RL on AMD Instinct MI355X using Miles, SGLang, Megatron-LM, and Harbor, nearly quadrupling its pass@1 score on a 100-task stratified subset of SWE-bench Verified, from 7.3% to 27.5%. The biggest bottlenecks were long-tail trajectories, CPU sandboxes, and data movement. We share how we addressed these challenges to improve throughput and accelerate learning, with lessons applicable to larger models such as DeepSeek-V4-Flash, GLM-5.3, and Kimi K3.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2026-10-22-miles-mi355x-agentic-rl/</guid>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>SGLang security update: improving request isolation</title>
       <link>https://lmsys.org/blog/2026-10-26-cf-security/</link>
