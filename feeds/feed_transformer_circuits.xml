@@ -7,7 +7,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Oct 2026 05:13:36 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 05:13:06 +0000</lastBuildDate>
+    <item>
+      <title>Circuits Updates â October 2026A short update on an extension to the Jacobian lens.</title>
+      <link>https://transformer-circuits.pub/2026/october-update/index.html</link>
+      <description>Circuits Updates â October 2026A short update on an extension to the Jacobian lens.</description>
+      <guid isPermaLink="false">https://transformer-circuits.pub/2026/october-update/index.html</guid>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Characterizing interference weights in a tiny language modelWe identify interference weights in a 1-layer transformer by measuring their effect on model outputs and loss.</title>
       <link>https://transformer-circuits.pub/2026/interference_effectiveness_helpfulness/index.html</link>
