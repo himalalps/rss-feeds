@@ -7,7 +7,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Nov 2026 05:24:58 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 06:03:52 +0000</lastBuildDate>
+    <item>
+      <title>HiCache Across Multi-Parallelism and Distributed Serving</title>
+      <link>https://lmsys.org/blog/2026-11-02-hicache-distributed-serving/</link>
+      <description>Agentic workloads repeatedly send long, mostly unchanged histories to the model. Radix cache reuses prefix KV in GPU memory, and [HiCache](https://lmsys.org/blog/2025-09-10-sglang-hicache/) extends that reuse to host memory and external storage. In production, this must also work with parallelism, speculative decoding, and prefill-decode disaggregation. That requires consistent cache decisions across ranks, restoration of draft state, and coordination between local cache reuse and remote KV transfer.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2026-11-02-hicache-distributed-serving/</guid>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Training SWE agents with Miles on MI355X: taming long-tail trajectories and complex sandbox coordination</title>
       <link>https://lmsys.org/blog/2026-10-22-miles-mi355x-agentic-rl/</link>
