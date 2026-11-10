@@ -7,13 +7,20 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 26 Oct 2026 04:09:40 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 06:48:43 +0000</lastBuildDate>
     <item>
-      <title>How the Claude Code team does code review</title>
-      <link>https://claude.dev/blog/solving-code-review-at-anthropic/</link>
-      <description>Claude Duet is a proactive agent that works for you, even while you’re away. It builds on two layers of protection: safety training in the Claude model itself and the safeguards that exist in products like Claude Code and Claude Managed Agents. On top of those, we added new protections for working across your accounts and acting on your behalf.</description>
-      <guid isPermaLink="false">https://claude.dev/blog/solving-code-review-at-anthropic/</guid>
-      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+      <title>Which Claude model should you build with?</title>
+      <link>https://claude.dev/blog/which-claude-model-should-you-build-with/</link>
+      <description>Introducing Claude Fable 5.2 and Claude Mythos 5.2, our new models for the hardest technical challenges.</description>
+      <guid isPermaLink="false">https://claude.dev/blog/which-claude-model-should-you-build-with/</guid>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Safely scaling multi-agent teams with Claude Fable 5.2</title>
+      <link>https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/</link>
+      <description>Introducing Claude Fable 5.2 and Claude Mythos 5.2, our new models for the hardest technical challenges.</description>
+      <guid isPermaLink="false">https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/</guid>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

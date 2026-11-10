@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 09 Nov 2026 05:39:43 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 06:48:20 +0000</lastBuildDate>
     <item>
       <title>XM-Sparse: Pushing the Throughput Frontier of Sparse Attention with Netpreme X-Mem™</title>
       <link>https://lmsys.org/blog/2026-11-04-xm-sparse/</link>
@@ -21,6 +21,13 @@
       <description>Agentic workloads repeatedly send long, mostly unchanged histories to the model. Radix cache reuses prefix KV in GPU memory, and [HiCache](https://lmsys.org/blog/2025-09-10-sglang-hicache/) extends that reuse to host memory and external storage. In production, this must also work with parallelism, speculative decoding, and prefill-decode disaggregation. That requires consistent cache decisions across ranks, restoration of draft state, and coordination between local cache reuse and remote KV transfer.</description>
       <guid isPermaLink="false">https://lmsys.org/blog/2026-11-02-hicache-distributed-serving/</guid>
       <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Accelerating GLM-5.3-Flash on H200: High-Throughput Disaggregated Serving</title>
+      <link>https://lmsys.org/blog/2026-11-01-glm53-h200-pd/</link>
+      <description>GLM-5.3-Flash combines sparse attention, recurrent linear attention, and MoE. Serving it efficiently at long context lengths requires sufficient memory to sustain high concurrency, low execution cost per output token, and sufficient prefill throughput to keep decode busy.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2026-11-01-glm53-h200-pd/</guid>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Training SWE agents with Miles on MI355X: taming long-tail trajectories and complex sandbox coordination</title>
