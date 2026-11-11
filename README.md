@@ -22,6 +22,7 @@ RSS feeds in newest first order when publication dates are available.
 | [Tilde Research](https://tilderesearch.com/research) | [feed_tilde_research.xml](https://raw.githubusercontent.com/himalalps/rss-feeds/main/feeds/feed_tilde_research.xml) |
 | [Chunyuan Deng](https://charlesdddd.github.io/blog/archive.html) | [feed_chunyuan_deng.xml](https://raw.githubusercontent.com/himalalps/rss-feeds/main/feeds/feed_chunyuan_deng.xml) |
 | [Q Research](https://qlabs.sh/) | [feed_qlabs.xml](https://raw.githubusercontent.com/himalalps/rss-feeds/main/feeds/feed_qlabs.xml) |
+| [Open Athena Blog](https://openathena.ai/blog/) | [feed_openathena.xml](https://raw.githubusercontent.com/himalalps/rss-feeds/main/feeds/feed_openathena.xml) |
 
 ## RSS Feed Generator
 
@@ -32,6 +33,11 @@ omit publication dates because the source does not provide them.
 Chunyuan Deng's feed uses the archive's default English titles and summaries.
 The source dates contain only a month and year; RSS publication dates use the
 first day of that month at midnight UTC as an approximation.
+
+Open Athena's blog ships no feed of its own. Every listing card ends with a
+`November 9, 2026 · Larry Dial` meta line, so publication dates use midnight UTC
+on the listed day and the trailing name becomes the entry author. Cards carry
+zero or more project tags; the first tag becomes the entry category.
 
 The goal of this project is to generate rss (feed.xml) files from web pages (\*.html) that contain blogs or updates but do not provide a subscribe button or a default RSS feed.
 
