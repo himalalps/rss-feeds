@@ -7,7 +7,21 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 11 Nov 2026 05:37:21 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 06:42:00 +0000</lastBuildDate>
+    <item>
+      <title>Unified Memory in SGLang: One Arena for Every Token Lifetime</title>
+      <link>https://lmsys.org/blog/2026-11-11-unified-memory/</link>
+      <description>**TL;DR.**</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2026-11-11-unified-memory/</guid>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Muse Spark Open Ultrafast: Pushing beyond 1,000 Tokens per second</title>
+      <link>https://lmsys.org/blog/2026-11-05-muse-spark-open-ultrafast/</link>
+      <description>In this post, we explain why SGLang (and ML infra in general) is moving towards larger GPU kernels, called **megakernels**, and what makes one different from a normal kernel. We built one for [Muse Spark Open](https://www.lmsys.org/blog/2026-10-15-meta-muse-spark-open), from scratch in CUDA C++ and PTX, and it takes decoding **517 → 1,109 tok/s** on Blackwell GPUs.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2026-11-05-muse-spark-open-ultrafast/</guid>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>XM-Sparse: Pushing the Throughput Frontier of Sparse Attention with Netpreme X-Mem™</title>
       <link>https://lmsys.org/blog/2026-11-04-xm-sparse/</link>
