@@ -7,7 +7,21 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 12 Nov 2026 06:42:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 05:58:47 +0000</lastBuildDate>
+    <item>
+      <title>SGLang-Neuron v0.1.0: SGLang's Serving Stack on AWS Trainium</title>
+      <link>https://lmsys.org/blog/2026-11-12-sglang-neuron-v0.1.0/</link>
+      <description>* [SGLang-Neuron](https://github.com/sgl-project/sglang-neuron) v0.1.0 is now open source and available in public preview. It is a PyTorch-native plugin, co-developed by the SGLang team at RadixArk and Amazon Annapurna Labs, that serves LLMs and diffusion models on AWS Trainium. During the preview, SGLang-Neuron is supported through the AWS Deep Learning Container for SGLang-Neuron.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2026-11-12-sglang-neuron-v0.1.0/</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>LMSYS Org Launches SGLang Consortium with NVIDIA, AMD, Intel, Google, Meta, Cloudflare, Modal and RadixArk to Advance Open-Source AI Inference</title>
+      <link>https://lmsys.org/blog/2026-11-12-sglang-consortium/</link>
+      <description>*Hardware, model and infrastructure leaders join SGLang’s maintainers to advance efficient inference for growing AI ecosystem*</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2026-11-12-sglang-consortium/</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Unified Memory in SGLang: One Arena for Every Token Lifetime</title>
       <link>https://lmsys.org/blog/2026-11-11-unified-memory/</link>
