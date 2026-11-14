@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 13 Nov 2026 05:59:19 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 05:47:36 +0000</lastBuildDate>
     <item>
       <title>The Future Worth Building Is HumanThinking MachinesJul 10, 2026</title>
       <link>https://thinkingmachines.ai/blog/the-future-worth-building-is-human/</link>
@@ -46,6 +46,14 @@
       <description>by Thinking Machines</description>
       <author>Thinking Machines</author>
       <guid isPermaLink="false">https://thinkingmachines.ai/blog/interaction-models/</guid>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>End‑to‑End 4‑Bit TrainingJack Cook in collaboration with others at Thinking MachinesNov 13, 2026</title>
+      <link>https://thinkingmachines.ai/blog/end-to-end-4-bit-training/</link>
+      <description>by Jack Cook in collaboration with others at Thinking Machines</description>
+      <author>Jack Cook in collaboration with others at Thinking Machines</author>
+      <guid isPermaLink="false">https://thinkingmachines.ai/blog/end-to-end-4-bit-training/</guid>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
     </item>
     <item>
