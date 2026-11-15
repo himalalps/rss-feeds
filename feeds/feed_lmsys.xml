@@ -7,7 +7,21 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 13 Nov 2026 05:58:47 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2026 05:48:10 +0000</lastBuildDate>
+    <item>
+      <title>SGLang and NVIDIA NIM: Advancing Enterprise Inference Together</title>
+      <link>https://lmsys.org/blog/2026-11-13-sglang-nvidia-nim/</link>
+      <description>SGLang now powers [NVIDIA NIM Certified](https://docs.nvidia.com/nim/large-language-models/latest/about-nim-llm/nim-offerings.html#nim-certified) microservices. The open-source inference engine brings together high performance, broad model support, and a developer community that continues to push inference forward. It is already proven in large-scale production deployments.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2026-11-13-sglang-nvidia-nim/</guid>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>RadixArk Miles runs agentic RL training on NVIDIA Vera CPUs: faster sandboxes, faster training</title>
+      <link>https://lmsys.org/blog/2026-11-13-miles-vera-sandboxes/</link>
+      <description>In agentic RL, the model does more than write text: it runs commands in a sandbox, compiles code and runs tests, and decides its next step from the results. A training run can keep hundreds of sandboxes or more open at once, and the CPUs that run them can affect the speed and scale of training.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2026-11-13-miles-vera-sandboxes/</guid>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>SGLang-Neuron v0.1.0: SGLang's Serving Stack on AWS Trainium</title>
       <link>https://lmsys.org/blog/2026-11-12-sglang-neuron-v0.1.0/</link>
