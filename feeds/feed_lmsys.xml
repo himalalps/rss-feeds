@@ -7,7 +7,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Nov 2026 07:25:27 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 06:50:14 +0000</lastBuildDate>
+    <item>
+      <title>SGLang Summit 2026 Recap: Building Open AI Infrastructure Together</title>
+      <link>https://lmsys.org/blog/2026-11-17-sglang-summit-recap/</link>
+      <description>More than 2,000 developers, researchers, and industry leaders gathered at Fort Mason in San Francisco on November 12–13 for the first SGLang Summit. The event brought together the people building SGLang and Miles, the teams running them in production, and the hardware partners helping them reach new platforms. Across the main stage, technical sessions, hands-on workshops, and expo floor, the community shared what is working today and what needs to come next.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2026-11-17-sglang-summit-recap/</guid>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>SGLang and NVIDIA NIM: Advancing Enterprise Inference Together</title>
       <link>https://lmsys.org/blog/2026-11-13-sglang-nvidia-nim/</link>
@@ -49,6 +56,13 @@
       <description>In this post, we explain why SGLang (and ML infra in general) is moving towards larger GPU kernels, called **megakernels**, and what makes one different from a normal kernel. We built one for [Muse Spark Open](https://www.lmsys.org/blog/2026-10-15-meta-muse-spark-open), from scratch in CUDA C++ and PTX, and it takes decoding **517 → 1,109 tok/s** on Blackwell GPUs.</description>
       <guid isPermaLink="false">https://lmsys.org/blog/2026-11-05-muse-spark-open-ultrafast/</guid>
       <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Optimizing DeepSeek-V4.1 on H200 with SGLang PD Disaggregation</title>
+      <link>https://lmsys.org/blog/2026-11-05-deepseek-v41-h200-pd-optimization/</link>
+      <description>We optimized DeepSeek-V4.1-Flash on an eight-GPU H200 SGLang deployment with a 1P1D configuration: four GPUs for Prefill and four for Decode. The work followed the bottlenecks found in profiling: shape-sensitive Indexer GEMMs, unnecessary late-layer token computation, MoE output communication, full-context scoring in candidate consumers, and repeated score-epilogue memory traffic.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2026-11-05-deepseek-v41-h200-pd-optimization/</guid>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>XM-Sparse: Pushing the Throughput Frontier of Sparse Attention with Netpreme X-Mem™</title>

@@ -7,7 +7,16 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Nov 2026 07:25:08 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 06:49:51 +0000</lastBuildDate>
+    <item>
+      <title>Initial Pre-Training Checkpoints for Marin “Mochi” 535B-A23B</title>
+      <link>https://openathena.ai/blog/marin-mochi-pretraining-checkpoints/</link>
+      <description>Marin “Mochi” 535B-A23B has finished its main phase of pre-training. We’re still running evals and figuring out post-training, but we’re ready to share all the checkpoints we have so far.</description>
+      <author>David Hall</author>
+      <guid isPermaLink="false">https://openathena.ai/blog/marin-mochi-pretraining-checkpoints/</guid>
+      <category>ANNOUNCEMENT</category>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Architecture Decisions for Marin 535B-A23B</title>
       <link>https://openathena.ai/blog/marin-535b-architecture/</link>
