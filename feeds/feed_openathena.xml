@@ -7,14 +7,13 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 18 Nov 2026 06:49:51 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 06:52:09 +0000</lastBuildDate>
     <item>
       <title>Initial Pre-Training Checkpoints for Marin “Mochi” 535B-A23B</title>
       <link>https://openathena.ai/blog/marin-mochi-pretraining-checkpoints/</link>
       <description>Marin “Mochi” 535B-A23B has finished its main phase of pre-training. We’re still running evals and figuring out post-training, but we’re ready to share all the checkpoints we have so far.</description>
       <author>David Hall</author>
       <guid isPermaLink="false">https://openathena.ai/blog/marin-mochi-pretraining-checkpoints/</guid>
-      <category>ANNOUNCEMENT</category>
       <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -23,7 +22,6 @@
       <description>The goals, experiments, and judgment calls behind the architecture of Marin 535B-A23B, from model sizing and EP token dropping to each notable component.</description>
       <author>Larry Dial</author>
       <guid isPermaLink="false">https://openathena.ai/blog/marin-535b-architecture/</guid>
-      <category>MOCHI</category>
       <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -32,8 +30,7 @@
       <description>At Open Athena's first community meetup, Will Held walked us through Marin's pre-training process, particularly the hero training run, which wrapped up this week.</description>
       <author>Will Held</author>
       <guid isPermaLink="false">https://openathena.ai/blog/scaling-marins-open-llm-pre-training/</guid>
-      <category>MARIN</category>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Post-Training in the Open</title>
@@ -41,7 +38,6 @@
       <description>We’re excited to share more about our progress post-training our mixture of experts models. Our latest milestone is the release of Marin 67B-A2B “Snowball” v0.1, a mixture of experts model trained on ten trillion tokens. We’ve built a fully open post-training stack, code, and data, and post-trained a model to GPT-OSS-level quality, putting Snowball nine to fifteen months behind the open-weights frontier for similarly sized models.</description>
       <author>Ben Feuer</author>
       <guid isPermaLink="false">https://openathena.ai/blog/post-training-in-the-open/</guid>
-      <category>DEEP DIVE</category>
       <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -50,7 +46,6 @@
       <description>The LLM revolution ran on a pre-training commons that humanity built for other reasons. Post-training consumes tasks, not documents, and no such commons exists. If the open models community wants one, it will have to be built deliberately.</description>
       <author>David Hall</author>
       <guid isPermaLink="false">https://openathena.ai/blog/there-is-no-posttraining-data-commons/</guid>
-      <category>EXPLAINER</category>
       <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -59,7 +54,6 @@
       <description>In this Q&amp;A, Tim O’Donnell reveals his most memorable AI turning point, explains how Open Athena acts as a “third place,” and shares his favorite town for peaceful bike rides.</description>
       <author>Sophie Bushwick</author>
       <guid isPermaLink="false">https://openathena.ai/blog/meet-our-team-tim-odonnell/</guid>
-      <category>BEHIND THE SCENES</category>
       <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -68,7 +62,6 @@
       <description>Expert Parallelism made a 535B-A23B model practical to train. We compare FSDP, fixed-capacity EP, and results from a scaling ladder.</description>
       <author>Rafal Wojdyla</author>
       <guid isPermaLink="false">https://openathena.ai/blog/expert-parallelism/</guid>
-      <category>MARIN</category>
       <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -85,7 +78,6 @@
       <description>In this Q&amp;A, Jesse Rusak talks about the evolution of AI, the ambition of OA's mission, and how elephant seals are helping climate research.</description>
       <author>Sophie Bushwick</author>
       <guid isPermaLink="false">https://openathena.ai/blog/meet-our-team-jesse-rusak/</guid>
-      <category>BEHIND THE SCENES</category>
       <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -94,7 +86,6 @@
       <description>How Marin deduplicates and decontaminates permissively licensed data, scores quality, tags topics, and learns how often to sample each data bucket.</description>
       <author>Will Held</author>
       <guid isPermaLink="false">https://openathena.ai/blog/marin-data-pipeline-overview/</guid>
-      <category>MARIN</category>
       <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -103,7 +94,6 @@
       <description>A look back at Marin's first year at Open Athena and forward at the 535B-A23B hero run, the largest model the team has ever trained.</description>
       <author>David Hall</author>
       <guid isPermaLink="false">https://openathena.ai/blog/marin-535b-launch-note/</guid>
-      <category>MARIN</category>
       <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -112,7 +102,6 @@
       <description>Open Athena announces the launch of Marin's largest training run yet—a 535B parameter large language model—with a generous gift of compute from The Jen-Hsun and Lori Huang Foundation.</description>
       <author>Open Athena</author>
       <guid isPermaLink="false">https://openathena.ai/blog/huang-foundation-marin-535b-training-run/</guid>
-      <category>MARIN</category>
       <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -121,7 +110,6 @@
       <description>In this Q&amp;A, Alex Merose lays out the machine learning project that changed his career, the value of doing basic research in the open using tools at the frontier of AI, what Open Athena has in common with Bell Labs, and why we should think like mapmakers rather than soldiers.</description>
       <author>Sophie Bushwick</author>
       <guid isPermaLink="false">https://openathena.ai/blog/meet-our-team-alex-merose/</guid>
-      <category>BEHIND THE SCENES</category>
       <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -130,7 +118,6 @@
       <description>In this Q&amp;A, Will Held discusses AI’s bitter lesson, why he thinks laptops are dead in the age of agents, and the linguistic history lesson hiding in the phrase “pardon my French.”</description>
       <author>Sophie Bushwick</author>
       <guid isPermaLink="false">https://openathena.ai/blog/meet-our-team-will-held/</guid>
-      <category>BEHIND THE SCENES</category>
       <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -139,7 +126,6 @@
       <description>How MarinDNA combined data curation, hyperparameter transfer, scaling, and data-mixture experiments to build an efficient 1B alignment-free genomic language model with balanced performance across genomic regions.</description>
       <author>Gonzalo Benegas &amp; Eric Czech</author>
       <guid isPermaLink="false">https://openathena.ai/blog/marin-dna/</guid>
-      <category>MARIN</category>
       <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -148,7 +134,6 @@
       <description>We scaled Samudra, our neural ocean emulator, to train on 16x more data on the same hardware — cutting training time from four days to four hours. We found out systems performance tuning is a humbling process.</description>
       <author>Alexander Merose</author>
       <guid isPermaLink="false">https://openathena.ai/blog/scaling-samudra/</guid>
-      <category>DEEP DIVE</category>
       <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -173,7 +158,6 @@
       <description>In this Q&amp;A, Betsy Cannon explains what drew her to this work, her cookie-related introduction to LLMs, and what a project on electron density can learn from one about ocean modeling.</description>
       <author>Sophie Bushwick</author>
       <guid isPermaLink="false">https://openathena.ai/blog/meet-our-team-betsy-cannon/</guid>
-      <category>BEHIND THE SCENES</category>
       <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -182,7 +166,6 @@
       <description>Open development is key to making frontier-level artificial intelligence legible, reusable, and public.</description>
       <author>David Hall</author>
       <guid isPermaLink="false">https://openathena.ai/blog/open-development-of-frontier-ai/</guid>
-      <category>MARIN</category>
       <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -191,7 +174,6 @@
       <description>Training a frontier-level LLM requires significant resources across a variety of providers and accelerator types. Our Iris scheduling system has allowed us to effectively make use of these precious resources using a custom global scheduler; in the months since rollout, our sustained concurrent TPU usage has roughly doubled.</description>
       <author>Russell Power</author>
       <guid isPermaLink="false">https://openathena.ai/blog/cluster-scheduling-with-iris/</guid>
-      <category>MARIN</category>
       <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -208,7 +190,6 @@
       <description>How Marin pre-training became more efficient through Mixture of Experts, higher expert sparsity, MuonH, PKO, and routed expert normalization.</description>
       <author>Larry Dial</author>
       <guid isPermaLink="false">https://openathena.ai/blog/pretraining-speedup/</guid>
-      <category>MARIN</category>
       <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -217,7 +198,6 @@
       <description>Delphi is an open scaling suite ranging from 3e18 to 1e23 FLOPs. A pre-registered forecast from its scaling law predicted the loss of the largest run within 0.2%, extrapolating 300× past the largest run used in the fit.</description>
       <author>Will Held</author>
       <guid isPermaLink="false">https://openathena.ai/blog/delphi/</guid>
-      <category>MARIN</category>
       <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -226,7 +206,6 @@
       <description>Quantile Balancing (QB) is a hyperparameter-free load balancer for Mixture of Experts models, introduced by Jianlin Su. We validated it on a 32B-A5B (1e22 FLOPs) Marin run over 326B tokens: zero hyperparameters, zero loss spikes, and no need for leading dense layers, auxiliary losses, or capacity overload factors.</description>
       <author>Larry Dial</author>
       <guid isPermaLink="false">https://openathena.ai/blog/quantile-balancing/</guid>
-      <category>MARIN</category>
       <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>

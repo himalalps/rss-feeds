@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 18 Nov 2026 06:50:52 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 06:52:11 +0000</lastBuildDate>
     <item>
       <title>Approximating Solomonoff Induction</title>
       <link>https://qlabs.sh/research/</link>
@@ -18,30 +18,30 @@
     <item>
       <title>NanoGPT Slowrun</title>
       <link>https://qlabs.sh/slowrun/</link>
-      <description>Pretraining data efficiency: NanoGPT Slowrun</description>
+      <description>Data efficiency, scaling laws &amp; new scaling axes: NanoGPT Slowrun</description>
       <guid isPermaLink="false">https://qlabs.sh/slowrun/</guid>
-      <category>Pretraining data efficiency</category>
+      <category>Data efficiency, scaling laws &amp; new scaling axes</category>
     </item>
     <item>
       <title>13x data efficiency with hyper-epoch pretraining</title>
       <link>https://arxiv.org/abs/2606.03938</link>
-      <description>Pretraining data efficiency: 13x data efficiency with hyper-epoch pretraining</description>
+      <description>Data efficiency, scaling laws &amp; new scaling axes: 13x data efficiency with hyper-epoch pretraining</description>
       <guid isPermaLink="false">https://arxiv.org/abs/2606.03938</guid>
-      <category>Pretraining data efficiency</category>
+      <category>Data efficiency, scaling laws &amp; new scaling axes</category>
     </item>
     <item>
-      <title>Quadrillion-parameter transformers and how to train them</title>
+      <title>Quadrillion-parameter transformers</title>
       <link>https://qlabs.sh/research/parameters/</link>
-      <description>Pretraining data efficiency: Quadrillion-parameter transformers and how to train them</description>
+      <description>Data efficiency, scaling laws &amp; new scaling axes: Quadrillion-parameter transformers</description>
       <guid isPermaLink="false">https://qlabs.sh/research/parameters/</guid>
-      <category>Pretraining data efficiency</category>
+      <category>Data efficiency, scaling laws &amp; new scaling axes</category>
     </item>
     <item>
       <title>Computational depth is all you need: towards 10^7-layer neural nets</title>
       <link>https://qlabs.sh/research/depth/</link>
-      <description>Scaling laws and new scaling axes: Computational depth is all you need: towards 10^7-layer neural nets</description>
+      <description>Data efficiency, scaling laws &amp; new scaling axes: Computational depth is all you need: towards 10^7-layer neural nets</description>
       <guid isPermaLink="false">https://qlabs.sh/research/depth/</guid>
-      <category>Scaling laws and new scaling axes</category>
+      <category>Data efficiency, scaling laws &amp; new scaling axes</category>
     </item>
     <item>
       <title>Dust: Pretraining transformers without backpropagation</title>
@@ -56,6 +56,13 @@
       <description>Replacing backprop/gradient descent: Noise: Speedrun for zero-order optimization</description>
       <guid isPermaLink="false">https://qlabs.sh/noise/</guid>
       <category>Replacing backprop/gradient descent</category>
+    </item>
+    <item>
+      <title>Towards universal data-efficient pretraining</title>
+      <link>https://qlabs.sh/research/applications/</link>
+      <description>Applications: Towards universal data-efficient pretraining</description>
+      <guid isPermaLink="false">https://qlabs.sh/research/applications/</guid>
+      <category>Applications</category>
     </item>
   </channel>
 </rss>
