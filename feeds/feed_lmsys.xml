@@ -7,7 +7,21 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 18 Nov 2026 06:50:14 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 06:40:07 +0000</lastBuildDate>
+    <item>
+      <title>Optimizing DeepSeek-V4.1-Flash PD &amp; Colocate Serving on H20-3e</title>
+      <link>https://lmsys.org/blog/2026-11-19-deepseek-v41-h20/</link>
+      <description>We optimized disaggregated DeepSeek-V4.1-Flash serving on H20-3e by tuning prefill and decode parallelism, supporting BCG with prefill CP and bounded SWA replay, and speeding up Indexer kernels. Compared with TP4, the final configuration cut mean end-to-end latency by **65.5%** and delivered **2.91×** the output throughput.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2026-11-19-deepseek-v41-h20/</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Humming in SGLang: Flexible Low-Bit Kernels for Efficient MoE Serving</title>
+      <link>https://lmsys.org/blog/2026-11-18-humming-sglang/</link>
+      <description>[Humming](https://github.com/vllm-project/humming/tree/v0.1.18) is a lightweight, JIT-compiled kernel library for quantized dense and mixture-of-experts (MoE) inference. Its SGLang integration connects low-bit checkpoints to specialized kernels while preserving the framework’s routing, scheduling, and distributed execution.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2026-11-18-humming-sglang/</guid>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>SGLang Summit 2026 Recap: Building Open AI Infrastructure Together</title>
       <link>https://lmsys.org/blog/2026-11-17-sglang-summit-recap/</link>
