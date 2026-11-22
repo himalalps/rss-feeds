@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 21 Nov 2026 06:32:32 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 06:00:26 +0000</lastBuildDate>
     <item>
       <title>Optimizing DeepSeek-V4.1-Flash PD &amp; Colocate Serving on H20-3e</title>
       <link>https://lmsys.org/blog/2026-11-19-deepseek-v41-h20/</link>
