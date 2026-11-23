@@ -23,6 +23,7 @@ RSS feeds in newest first order when publication dates are available.
 | [Chunyuan Deng](https://charlesdddd.github.io/blog/archive.html) | [feed_chunyuan_deng.xml](https://raw.githubusercontent.com/himalalps/rss-feeds/main/feeds/feed_chunyuan_deng.xml) |
 | [Q Research](https://qlabs.sh/) | [feed_qlabs.xml](https://raw.githubusercontent.com/himalalps/rss-feeds/main/feeds/feed_qlabs.xml) |
 | [Open Athena Blog](https://openathena.ai/blog/) | [feed_openathena.xml](https://raw.githubusercontent.com/himalalps/rss-feeds/main/feeds/feed_openathena.xml) |
+| [Goodfire Research](https://www.goodfire.com/research) | [feed_goodfire_research.xml](https://raw.githubusercontent.com/himalalps/rss-feeds/main/feeds/feed_goodfire_research.xml) |
 
 ## RSS Feed Generator
 
@@ -38,6 +39,13 @@ Open Athena's blog ships no feed of its own. Every listing card ends with a
 `November 9, 2026 · Larry Dial` meta line, so publication dates use midnight UTC
 on the listed day and the trailing name becomes the entry author. Cards carry
 zero or more project tags; the first tag becomes the entry category.
+
+Goodfire's research index moved from `goodfire.ai` to `goodfire.com`, which is
+why an earlier `goodfire.ai` generator was removed; this feed reads the `.com`
+listing. Each card carries an `<author> · <date>` byline and no summary, so the
+description is composed from the card's tags and byline. The site serves
+`text/html` without a charset, so the generator decodes the response as UTF-8
+explicitly instead of relying on `requests` guessing ISO-8859-1.
 
 The goal of this project is to generate rss (feed.xml) files from web pages (\*.html) that contain blogs or updates but do not provide a subscribe button or a default RSS feed.
 

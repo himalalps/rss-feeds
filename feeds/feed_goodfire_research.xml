@@ -1,0 +1,443 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Goodfire Research</title>
+    <link>https://www.goodfire.com/research</link>
+    <description>Interpretability research from Goodfire</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 23 Nov 2026 03:30:58 +0000</lastBuildDate>
+    <item>
+      <title>Interpreting Inkling 2 Mini</title>
+      <link>https://www.goodfire.com/research/interpreting-inkling-2-mini</link>
+      <description>Lee et al.</description>
+      <author>Lee et al.</author>
+      <guid isPermaLink="false">https://www.goodfire.com/research/interpreting-inkling-2-mini</guid>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Discovering Neuron Communities in Language Models</title>
+      <link>https://www.goodfire.com/research/neuron-communities</link>
+      <description>Fundamental Research, Neuron Interpretability — Shilov et al.</description>
+      <author>Shilov et al.</author>
+      <guid isPermaLink="false">https://www.goodfire.com/research/neuron-communities</guid>
+      <category>Fundamental Research</category>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Neuron Atlas - Qwen3.6</title>
+      <link>https://www.goodfire.com/research/public_neuron_atlas/all_labels</link>
+      <description>Fundamental Research, Neuron Interpretability — Tigges et al.</description>
+      <author>Tigges et al.</author>
+      <guid isPermaLink="false">https://www.goodfire.com/research/public_neuron_atlas/all_labels</guid>
+      <category>Fundamental Research</category>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Neurons as an Interpretable Basis</title>
+      <link>https://www.goodfire.com/research/neurons-as-an-interpretable-basis</link>
+      <description>Fundamental Research, Neuron Interpretability — Tigges et al.</description>
+      <author>Tigges et al.</author>
+      <guid isPermaLink="false">https://www.goodfire.com/research/neurons-as-an-interpretable-basis</guid>
+      <category>Fundamental Research</category>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Shaping and Monitoring Models Through Their Internal Representations</title>
+      <link>https://www.goodfire.com/research/mechanistic-shaping</link>
+      <description>Fundamental Research, Mechanistic Alignment — Fel et al.</description>
+      <author>Fel et al.</author>
+      <guid isPermaLink="false">https://www.goodfire.com/research/mechanistic-shaping</guid>
+      <category>Fundamental Research</category>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Neural Networks Are Already Clean</title>
+      <link>https://www.goodfire.com/research/already-clean</link>
+      <description>Fundamental Research, Neuron Interpretability — Nick Cammarata</description>
+      <author>Nick Cammarata</author>
+      <guid isPermaLink="false">https://www.goodfire.com/research/already-clean</guid>
+      <category>Fundamental Research</category>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Training and Deploying Production Cyber Monitors on Kimi K3</title>
+      <link>https://www.goodfire.com/research/production-cyber-monitors-on-kimi-k3</link>
+      <description>Applied Research — Lubana et al.</description>
+      <author>Lubana et al.</author>
+      <guid isPermaLink="false">https://www.goodfire.com/research/production-cyber-monitors-on-kimi-k3</guid>
+      <category>Applied Research</category>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Better biosecurity monitors for AI agents via protein embeddings</title>
+      <link>https://www.goodfire.com/research/better-biosecurity-monitors</link>
+      <description>Applied Research — Dooms et al.</description>
+      <author>Dooms et al.</author>
+      <guid isPermaLink="false">https://www.goodfire.com/research/better-biosecurity-monitors</guid>
+      <category>Applied Research</category>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Models know when they’re reward hacking — and we can catch them at scale</title>
+      <link>https://www.goodfire.com/research/reward-hacking-activation-monitors</link>
+      <description>Applied Research — Bergen et al.</description>
+      <author>Bergen et al.</author>
+      <guid isPermaLink="false">https://www.goodfire.com/research/reward-hacking-activation-monitors</guid>
+      <category>Applied Research</category>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Forking Fast: Efficiently Estimating Uncertainty Dynamics in Text Generation</title>
+      <link>https://www.goodfire.com/research/forking-fast</link>
+      <description>Fundamental Research — Bigelow et al.</description>
+      <author>Bigelow et al.</author>
+      <guid isPermaLink="false">https://www.goodfire.com/research/forking-fast</guid>
+      <category>Fundamental Research</category>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Uncovering Neural Geometry in Vision Models With Block-Sparse Featurizers</title>
+      <link>https://www.goodfire.com/research/bsf-vision</link>
+      <description>Fundamental Research, Neural Geometry — Fel et al.</description>
+      <author>Fel et al.</author>
+      <guid isPermaLink="false">https://www.goodfire.com/research/bsf-vision</guid>
+      <category>Fundamental Research</category>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Meandering on Manifolds: The Neural Geometry of Stories Over Time</title>
+      <link>https://www.goodfire.com/research/stories-in-space</link>
+      <description>Fundamental Research, Neural Geometry — Bigelow et al.</description>
+      <author>Bigelow et al.</author>
+      <guid isPermaLink="false">https://www.goodfire.com/research/stories-in-space</guid>
+      <category>Fundamental Research</category>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Predictive Data Debugging: Reveal and Shape What Your Model Learns, Before You Train</title>
+      <link>https://www.goodfire.com/research/predictive-data-debugging</link>
+      <description>Applied Research, Mechanistic Alignment — Bergen et al.</description>
+      <author>Bergen et al.</author>
+      <guid isPermaLink="false">https://www.goodfire.com/research/predictive-data-debugging</guid>
+      <category>Applied Research</category>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Logits as a new monitor for evaluation awareness</title>
+      <link>https://www.goodfire.com/research/logits-as-a-new-monitor-for-evaluation-awareness</link>
+      <description>Link post, Applied Research — Santiago Aranguri</description>
+      <author>Santiago Aranguri</author>
+      <guid isPermaLink="false">https://www.goodfire.com/research/logits-as-a-new-monitor-for-evaluation-awareness</guid>
+      <category>Link post</category>
+      <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why Larger Models Learn More: Effects of Capacity, Interference, and Rare-Task Retention</title>
+      <link>https://www.goodfire.com/research/why-larger-models-learn-more</link>
+      <description>Fundamental Research, Link post — Huang et al.</description>
+      <author>Huang et al.</author>
+      <guid isPermaLink="false">https://www.goodfire.com/research/why-larger-models-learn-more</guid>
+      <category>Fundamental Research</category>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can SAEs Capture Neural Geometry?</title>
+      <link>https://www.goodfire.com/research/can-saes-capture-neural-geometry</link>
+      <description>Fundamental Research, Neural Geometry — Bhalla et al.</description>
+      <author>Bhalla et al.</author>
+      <guid isPermaLink="false">https://www.goodfire.com/research/can-saes-capture-neural-geometry</guid>
+      <category>Fundamental Research</category>
+      <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>A Geometric Calculator Inside a Neural Network</title>
+      <link>https://www.goodfire.com/research/a-geometric-calculator</link>
+      <description>Fundamental Research, Neural Geometry — Feucht et al.</description>
+      <author>Feucht et al.</author>
+      <guid isPermaLink="false">https://www.goodfire.com/research/a-geometric-calculator</guid>
+      <category>Fundamental Research</category>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Predicting Rare LLM Failures with 30× Fewer Rollouts</title>
+      <link>https://www.goodfire.com/research/predicting-rare-llm-failures-with-30x-fewer-rollouts</link>
+      <description>Link post — Aranguri &amp; Pernice</description>
+      <author>Aranguri &amp; Pernice</author>
+      <guid isPermaLink="false">https://www.goodfire.com/research/predicting-rare-llm-failures-with-30x-fewer-rollouts</guid>
+      <category>Link post</category>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The World Inside Neural Networks</title>
+      <link>https://www.goodfire.com/research/the-world-inside-neural-networks</link>
+      <description>Fundamental Research, Neural Geometry — Geiger et al.</description>
+      <author>Geiger et al.</author>
+      <guid isPermaLink="false">https://www.goodfire.com/research/the-world-inside-neural-networks</guid>
+      <category>Fundamental Research</category>
+      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Steering Along Manifolds to Control Neural Networks</title>
+      <link>https://www.goodfire.com/research/manifold-steering</link>
+      <description>Fundamental Research, Neural Geometry — Wurgaft et al.</description>
+      <author>Wurgaft et al.</author>
+      <guid isPermaLink="false">https://www.goodfire.com/research/manifold-steering</guid>
+      <category>Fundamental Research</category>
+      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Paper Summary: Interpreting Language Model Parameters</title>
+      <link>https://www.goodfire.com/research/vpd-explainer</link>
+      <description>Fundamental Research — Bushnaq et al.</description>
+      <author>Bushnaq et al.</author>
+      <guid isPermaLink="false">https://www.goodfire.com/research/vpd-explainer</guid>
+      <category>Fundamental Research</category>
+      <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Interpreting Language Model Parameters</title>
+      <link>https://www.goodfire.com/research/interpreting-lm-parameters</link>
+      <description>Fundamental Research — Bushnaq et al.</description>
+      <author>Bushnaq et al.</author>
+      <guid isPermaLink="false">https://www.goodfire.com/research/interpreting-lm-parameters</guid>
+      <category>Fundamental Research</category>
+      <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Verbalized Eval Awareness Inflates Measured Safety</title>
+      <link>https://www.goodfire.com/research/verbalized-eval-awareness-inflates-measured-safety</link>
+      <description>Applied Research — Aranguri and Bloom</description>
+      <author>Aranguri and Bloom</author>
+      <guid isPermaLink="false">https://www.goodfire.com/research/verbalized-eval-awareness-inflates-measured-safety</guid>
+      <category>Applied Research</category>
+      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Probe-Based Data Attribution: Surfacing and Mitigating Undesirable Behaviors in LLM Post-Training</title>
+      <link>https://www.goodfire.com/research/probe-based-data-attribution</link>
+      <description>Applied Research — Xiao and Aranguri</description>
+      <author>Xiao and Aranguri</author>
+      <guid isPermaLink="false">https://www.goodfire.com/research/probe-based-data-attribution</guid>
+      <category>Applied Research</category>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Explaining 4.2 million genetic variants with state-of-the-art, interpretable predictions</title>
+      <link>https://www.goodfire.com/research/evee-explaining-genetic-variants</link>
+      <description>Applied Research — Pearce et al.</description>
+      <author>Pearce et al.</author>
+      <guid isPermaLink="false">https://www.goodfire.com/research/evee-explaining-genetic-variants</guid>
+      <category>Applied Research</category>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Covariance-based Sequence Pooling</title>
+      <link>https://www.goodfire.com/research/covariance-pooling</link>
+      <description>Fundamental Research — Dooms et al.</description>
+      <author>Dooms et al.</author>
+      <guid isPermaLink="false">https://www.goodfire.com/research/covariance-pooling</guid>
+      <category>Fundamental Research</category>
+      <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Using Self-Correcting Search to Accelerate Materials Discovery</title>
+      <link>https://www.goodfire.com/research/self-correcting-search</link>
+      <description>Applied Research — Hazra et al.</description>
+      <author>Hazra et al.</author>
+      <guid isPermaLink="false">https://www.goodfire.com/research/self-correcting-search</guid>
+      <category>Applied Research</category>
+      <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Reasoning Theater: Probing for Performative Chain-of-Thought</title>
+      <link>https://www.goodfire.com/research/reasoning-theater</link>
+      <description>Applied Research — Boppana et al.</description>
+      <author>Boppana et al.</author>
+      <guid isPermaLink="false">https://www.goodfire.com/research/reasoning-theater</guid>
+      <category>Applied Research</category>
+      <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Features as Rewards: Using Interpretability to Reduce Hallucinations</title>
+      <link>https://www.goodfire.com/research/rlfr</link>
+      <description>Fundamental Research, Mechanistic Alignment — Prasad et al.</description>
+      <author>Prasad et al.</author>
+      <guid isPermaLink="false">https://www.goodfire.com/research/rlfr</guid>
+      <category>Fundamental Research</category>
+      <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Using Interpretability to Identify a Novel Class of Alzheimer's Biomarkers</title>
+      <link>https://www.goodfire.com/research/interpretability-for-alzheimers-detection</link>
+      <description>Applied Research — Wang et al.</description>
+      <author>Wang et al.</author>
+      <guid isPermaLink="false">https://www.goodfire.com/research/interpretability-for-alzheimers-detection</guid>
+      <category>Applied Research</category>
+      <pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Understanding Memorization via Loss Curvature</title>
+      <link>https://www.goodfire.com/research/understanding-memorization-via-loss-curvature</link>
+      <description>Fundamental Research — Merullo et al.</description>
+      <author>Merullo et al.</author>
+      <guid isPermaLink="false">https://www.goodfire.com/research/understanding-memorization-via-loss-curvature</guid>
+      <category>Fundamental Research</category>
+      <pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Priors in Time: Missing Inductive Biases for Language Model Interpretability</title>
+      <link>https://www.goodfire.com/research/priors-in-time</link>
+      <description>Fundamental Research, Link post — Lubana et al.</description>
+      <author>Lubana et al.</author>
+      <guid isPermaLink="false">https://www.goodfire.com/research/priors-in-time</guid>
+      <category>Fundamental Research</category>
+      <pubDate>Mon, 03 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Belief Dynamics Reveal the Dual Nature of In-Context Learning and Activation Steering</title>
+      <link>https://www.goodfire.com/research/belief-dynamics-icl-steering</link>
+      <description>Fundamental Research, Link post — Bigelow et al.</description>
+      <author>Bigelow et al.</author>
+      <guid isPermaLink="false">https://www.goodfire.com/research/belief-dynamics-icl-steering</guid>
+      <category>Fundamental Research</category>
+      <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Deploying Interpretability to Production with Rakuten: SAE Probes for PII Detection</title>
+      <link>https://www.goodfire.com/research/rakuten-sae-probes-for-pii-detection</link>
+      <description>Applied Research — Nguyen et al.</description>
+      <author>Nguyen et al.</author>
+      <guid isPermaLink="false">https://www.goodfire.com/research/rakuten-sae-probes-for-pii-detection</guid>
+      <category>Applied Research</category>
+      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mixing Mechanisms: How Language Models Retrieve Bound Entities In-Context</title>
+      <link>https://www.goodfire.com/research/mixing-mechanisms</link>
+      <description>Fundamental Research, Link post — Gur-Arieh et al.</description>
+      <author>Gur-Arieh et al.</author>
+      <guid isPermaLink="false">https://www.goodfire.com/research/mixing-mechanisms</guid>
+      <category>Fundamental Research</category>
+      <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Understanding Sparse Autoencoder Scaling in the Presence of Feature Manifolds</title>
+      <link>https://www.goodfire.com/research/sae-scaling-with-feature-manifolds</link>
+      <description>Fundamental Research, Link post — Michaud et al.</description>
+      <author>Michaud et al.</author>
+      <guid isPermaLink="false">https://www.goodfire.com/research/sae-scaling-with-feature-manifolds</guid>
+      <category>Fundamental Research</category>
+      <pubDate>Thu, 04 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Finding the Tree of Life in Evo 2</title>
+      <link>https://www.goodfire.com/research/phylogeny-manifold</link>
+      <description>Applied Research — Pearce et al.</description>
+      <author>Pearce et al.</author>
+      <guid isPermaLink="false">https://www.goodfire.com/research/phylogeny-manifold</guid>
+      <category>Applied Research</category>
+      <pubDate>Thu, 28 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Adversarial Examples Are Not Bugs, They Are Superposition</title>
+      <link>https://www.goodfire.com/research/adversarial-examples-are-not-bugs-they-are-superposition</link>
+      <description>Fundamental Research, Link post — Gorton &amp; Lewis</description>
+      <author>Gorton &amp; Lewis</author>
+      <guid isPermaLink="false">https://www.goodfire.com/research/adversarial-examples-are-not-bugs-they-are-superposition</guid>
+      <category>Fundamental Research</category>
+      <pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Discovering Undesired Rare Behaviors via Model Diff Amplification</title>
+      <link>https://www.goodfire.com/research/model-diff-amplification</link>
+      <description>Applied Research — Aranguri &amp; McGrath</description>
+      <author>Aranguri &amp; McGrath</author>
+      <guid isPermaLink="false">https://www.goodfire.com/research/model-diff-amplification</guid>
+      <category>Applied Research</category>
+      <pubDate>Thu, 21 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Circuits Research Landscape: Results and Perspectives</title>
+      <link>https://www.goodfire.com/research/the-circuits-research-landscape</link>
+      <description>Fundamental Research, Link post — Lindsey et al.</description>
+      <author>Lindsey et al.</author>
+      <guid isPermaLink="false">https://www.goodfire.com/research/the-circuits-research-landscape</guid>
+      <category>Fundamental Research</category>
+      <pubDate>Tue, 05 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Towards Scalable Parameter Decomposition</title>
+      <link>https://www.goodfire.com/research/stochastic-param-decomp</link>
+      <description>Fundamental Research — Bushnaq et al.</description>
+      <author>Bushnaq et al.</author>
+      <guid isPermaLink="false">https://www.goodfire.com/research/stochastic-param-decomp</guid>
+      <category>Fundamental Research</category>
+      <pubDate>Sat, 28 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Replicating Circuit Tracing for a Simple Known Mechanism</title>
+      <link>https://www.goodfire.com/research/replicating-circuit-tracing-for-a-simple-mechanism</link>
+      <description>Fundamental Research — Loeffler et al.</description>
+      <author>Loeffler et al.</author>
+      <guid isPermaLink="false">https://www.goodfire.com/research/replicating-circuit-tracing-for-a-simple-mechanism</guid>
+      <category>Fundamental Research</category>
+      <pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Painting With Concepts Using Diffusion Model Latents</title>
+      <link>https://www.goodfire.com/research/painting-with-concepts</link>
+      <description>Applied Research — Cammarata et al.</description>
+      <author>Cammarata et al.</author>
+      <guid isPermaLink="false">https://www.goodfire.com/research/painting-with-concepts</guid>
+      <category>Applied Research</category>
+      <pubDate>Tue, 27 May 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Under the Hood of a Reasoning Model</title>
+      <link>https://www.goodfire.com/research/under-the-hood-of-a-reasoning-model</link>
+      <description>Fundamental Research — Hazra et al.</description>
+      <author>Hazra et al.</author>
+      <guid isPermaLink="false">https://www.goodfire.com/research/under-the-hood-of-a-reasoning-model</guid>
+      <category>Fundamental Research</category>
+      <pubDate>Tue, 15 Apr 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Interpreting Evo 2: Arc Institute's Next-Generation Genomic Foundation Model</title>
+      <link>https://www.goodfire.com/research/interpreting-evo-2</link>
+      <description>Applied Research — Gorton et al.</description>
+      <author>Gorton et al.</author>
+      <guid isPermaLink="false">https://www.goodfire.com/research/interpreting-evo-2</guid>
+      <category>Applied Research</category>
+      <pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Open Problems in Mechanistic Interpretability</title>
+      <link>https://www.goodfire.com/research/open-problems-in-mech-interp</link>
+      <description>Fundamental Research, Link post — Sharkey et al.</description>
+      <author>Sharkey et al.</author>
+      <guid isPermaLink="false">https://www.goodfire.com/research/open-problems-in-mech-interp</guid>
+      <category>Fundamental Research</category>
+      <pubDate>Mon, 27 Jan 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mapping the Latent Space of Llama 3.3 70B</title>
+      <link>https://www.goodfire.com/research/mapping-latent-spaces-llama</link>
+      <description>Applied Research — McGrath et al.</description>
+      <author>McGrath et al.</author>
+      <guid isPermaLink="false">https://www.goodfire.com/research/mapping-latent-spaces-llama</guid>
+      <category>Applied Research</category>
+      <pubDate>Mon, 23 Dec 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Understanding and Steering Llama 3 with Sparse Autoencoders</title>
+      <link>https://www.goodfire.com/research/understanding-and-steering-llama-3</link>
+      <description>Applied Research — McGrath et al.</description>
+      <author>McGrath et al.</author>
+      <guid isPermaLink="false">https://www.goodfire.com/research/understanding-and-steering-llama-3</guid>
+      <category>Applied Research</category>
+      <pubDate>Wed, 25 Sep 2024 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
