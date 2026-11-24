@@ -7,18 +7,18 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 23 Nov 2026 06:53:07 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 09:19:27 +0000</lastBuildDate>
     <item>
       <title>Using a "chaos loop" to harden the Claude Docs launch: 60 server errors across billions of requests</title>
       <link>https://claude.dev/blog/chaos-loop-claude-docs-launch/</link>
-      <description>How Claude spent two weeks load testing a staging cluster, breaking the Claude Docs service on purpose and fixing what fell over before launch, and what made the service legible enough for Claude to close the loop.</description>
+      <description>Todd Lohr, KPMG US Vice Chair and Head of Client Technology &amp; Innovation, on adopting frontier AI and building safeguards at the same time, and what that means for a firm that holds its clients' most sensitive data.</description>
       <guid isPermaLink="false">https://claude.dev/blog/chaos-loop-claude-docs-launch/</guid>
       <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>How the Claude Code team thinks about verification</title>
       <link>https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/</link>
-      <description>How Claude spent two weeks load testing a staging cluster, breaking the Claude Docs service on purpose and fixing what fell over before launch, and what made the service legible enough for Claude to close the loop.</description>
+      <description>Todd Lohr, KPMG US Vice Chair and Head of Client Technology &amp; Innovation, on adopting frontier AI and building safeguards at the same time, and what that means for a firm that holds its clients' most sensitive data.</description>
       <guid isPermaLink="false">https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/</guid>
       <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
     </item>
