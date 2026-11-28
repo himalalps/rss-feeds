@@ -7,7 +7,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 27 Nov 2026 07:43:41 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 07:11:42 +0000</lastBuildDate>
+    <item>
+      <title>SGLang on Intel Xeon CPUs and Intel GPUs as First-Class Platforms: Execution Paths and Low-Precision Inference</title>
+      <link>https://lmsys.org/blog/2026-11-27-sglang-intel/</link>
+      <description>Efficient LLM inference on Intel Xeon CPUs and Intel GPUs depends on optimizations tailored to each architecture. This post examines [RadixArk and Intel’s collaborative work](https://www.intc.com/news-events/press-releases/detail/1787/intel-radixark-collaborate-to-advance-open-ai-inference-on) on Intel Advanced Matrix Extensions (Intel AMX)-enabled computation, thread placement, and compiled execution on Intel Xeon, alongside attention and MoE kernels and graph execution on Intel GPUs. In particular, we take a closer look at the Xe2 MXFP4 path, which keeps expert weights compressed in device memory and converts weight tiles inside the compute kernel. We also describe the supported configurations and limitations of these paths.</description>
+      <guid isPermaLink="false">https://lmsys.org/blog/2026-11-27-sglang-intel/</guid>
+      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>True On-Policy RL: Bit-Exact Rollout and Training with SGLang and Miles</title>
       <link>https://lmsys.org/blog/2026-11-23-miles-true-on-policy/</link>
